@@ -1,7 +1,577 @@
 fileFormatVersion: 2
 guid: 925cfbc57687455409b6626fd977ddb5
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: -8022194081252537482
+    second: SMS_Ranger_Free_SpriteSheet_0
+  - first:
+      213: -3940541141132983241
+    second: SMS_Ranger_Free_SpriteSheet_1
+  - first:
+      213: -3812476928077334390
+    second: SMS_Ranger_Free_SpriteSheet_2
+  - first:
+      213: -6402658935361848532
+    second: SMS_Ranger_Free_SpriteSheet_3
+  - first:
+      213: -5631191286375835606
+    second: SMS_Ranger_Free_SpriteSheet_4
+  - first:
+      213: 6495173790558709312
+    second: SMS_Ranger_Free_SpriteSheet_5
+  - first:
+      213: 5398610089350151048
+    second: SMS_Ranger_Free_SpriteSheet_6
+  - first:
+      213: 4918856922459249265
+    second: SMS_Ranger_Free_SpriteSheet_7
+  - first:
+      213: 5192220423979881133
+    second: SMS_Ranger_Free_SpriteSheet_8
+  - first:
+      213: 8850231434879763190
+    second: SMS_Ranger_Free_SpriteSheet_9
+  - first:
+      213: -6044983974109954985
+    second: SMS_Ranger_Free_SpriteSheet_10
+  - first:
+      213: -4472326743069051959
+    second: SMS_Ranger_Free_SpriteSheet_11
+  - first:
+      213: 1530186333405375341
+    second: SMS_Ranger_Free_SpriteSheet_12
+  - first:
+      213: -2800898825062745710
+    second: SMS_Ranger_Free_SpriteSheet_13
+  - first:
+      213: 7569487642910084587
+    second: SMS_Ranger_Free_SpriteSheet_14
+  - first:
+      213: -8164932075034632549
+    second: SMS_Ranger_Free_SpriteSheet_15
+  - first:
+      213: -2523570079229416476
+    second: SMS_Ranger_Free_SpriteSheet_16
+  - first:
+      213: 2208738166715117383
+    second: SMS_Ranger_Free_SpriteSheet_17
+  - first:
+      213: -8471019609216860509
+    second: SMS_Ranger_Free_SpriteSheet_18
+  - first:
+      213: -1657986381058518460
+    second: SMS_Ranger_Free_SpriteSheet_19
+  - first:
+      213: 719479015177625261
+    second: SMS_Ranger_Free_SpriteSheet_20
+  - first:
+      213: 3956884407098313736
+    second: SMS_Ranger_Free_SpriteSheet_21
+  - first:
+      213: -5646242259373791010
+    second: SMS_Ranger_Free_SpriteSheet_22
+  - first:
+      213: 8261566567388124554
+    second: SMS_Ranger_Free_SpriteSheet_23
+  - first:
+      213: 6445707481905492995
+    second: SMS_Ranger_Free_SpriteSheet_24
+  - first:
+      213: 6991986272077136180
+    second: SMS_Ranger_Free_SpriteSheet_25
+  - first:
+      213: -9149884462597822274
+    second: SMS_Ranger_Free_SpriteSheet_26
+  - first:
+      213: 2222261041419467343
+    second: SMS_Ranger_Free_SpriteSheet_27
+  - first:
+      213: -7966512170467953393
+    second: SMS_Ranger_Free_SpriteSheet_28
+  - first:
+      213: -5470535950038115267
+    second: SMS_Ranger_Free_SpriteSheet_29
+  - first:
+      213: -1234311266172615948
+    second: SMS_Ranger_Free_SpriteSheet_30
+  - first:
+      213: 7852718283076965212
+    second: SMS_Ranger_Free_SpriteSheet_31
+  - first:
+      213: -4486735537571245369
+    second: SMS_Ranger_Free_SpriteSheet_32
+  - first:
+      213: -6500740553326186285
+    second: SMS_Ranger_Free_SpriteSheet_33
+  - first:
+      213: 2473386977503588436
+    second: SMS_Ranger_Free_SpriteSheet_34
+  - first:
+      213: -6412842984593402491
+    second: SMS_Ranger_Free_SpriteSheet_35
+  - first:
+      213: 1514795441188608619
+    second: SMS_Ranger_Free_SpriteSheet_36
+  - first:
+      213: -3960336417571950132
+    second: SMS_Ranger_Free_SpriteSheet_37
+  - first:
+      213: 7965442940710703234
+    second: SMS_Ranger_Free_SpriteSheet_38
+  - first:
+      213: 9148051257654273369
+    second: SMS_Ranger_Free_SpriteSheet_39
+  - first:
+      213: -4176694192482371059
+    second: SMS_Ranger_Free_SpriteSheet_40
+  - first:
+      213: -1566566264963688640
+    second: SMS_Ranger_Free_SpriteSheet_41
+  - first:
+      213: 6584277101539896566
+    second: SMS_Ranger_Free_SpriteSheet_42
+  - first:
+      213: 8263980206247604994
+    second: SMS_Ranger_Free_SpriteSheet_43
+  - first:
+      213: -618352812639628729
+    second: SMS_Ranger_Free_SpriteSheet_44
+  - first:
+      213: -6050407786413773369
+    second: SMS_Ranger_Free_SpriteSheet_45
+  - first:
+      213: 247787346478731934
+    second: SMS_Ranger_Free_SpriteSheet_46
+  - first:
+      213: 1794110259099594923
+    second: SMS_Ranger_Free_SpriteSheet_47
+  - first:
+      213: 9036911370458719874
+    second: SMS_Ranger_Free_SpriteSheet_48
+  - first:
+      213: 2511100849474775664
+    second: SMS_Ranger_Free_SpriteSheet_49
+  - first:
+      213: 7653678085223916459
+    second: SMS_Ranger_Free_SpriteSheet_50
+  - first:
+      213: 8961611471073281935
+    second: SMS_Ranger_Free_SpriteSheet_51
+  - first:
+      213: -4179635270428508766
+    second: SMS_Ranger_Free_SpriteSheet_52
+  - first:
+      213: 9182587398273201764
+    second: SMS_Ranger_Free_SpriteSheet_53
+  - first:
+      213: 14583323918219960
+    second: SMS_Ranger_Free_SpriteSheet_54
+  - first:
+      213: 9022758351309180010
+    second: SMS_Ranger_Free_SpriteSheet_55
+  - first:
+      213: 8489349723683410458
+    second: SMS_Ranger_Free_SpriteSheet_56
+  - first:
+      213: -1019820792793811310
+    second: SMS_Ranger_Free_SpriteSheet_57
+  - first:
+      213: -1929337053423366524
+    second: SMS_Ranger_Free_SpriteSheet_58
+  - first:
+      213: 1040655442898114893
+    second: SMS_Ranger_Free_SpriteSheet_59
+  - first:
+      213: -8632280605001833105
+    second: SMS_Ranger_Free_SpriteSheet_60
+  - first:
+      213: -7425854148006556871
+    second: SMS_Ranger_Free_SpriteSheet_61
+  - first:
+      213: 3878992865524847492
+    second: SMS_Ranger_Free_SpriteSheet_62
+  - first:
+      213: -1708823918393681979
+    second: SMS_Ranger_Free_SpriteSheet_63
+  - first:
+      213: 6341972816779719372
+    second: SMS_Ranger_Free_SpriteSheet_64
+  - first:
+      213: 662802796514237262
+    second: SMS_Ranger_Free_SpriteSheet_65
+  - first:
+      213: 8325065894491278953
+    second: SMS_Ranger_Free_SpriteSheet_66
+  - first:
+      213: 4318375144296935513
+    second: SMS_Ranger_Free_SpriteSheet_67
+  - first:
+      213: -4008128115756170545
+    second: SMS_Ranger_Free_SpriteSheet_68
+  - first:
+      213: 2883736141205503423
+    second: SMS_Ranger_Free_SpriteSheet_69
+  - first:
+      213: -250368023565001870
+    second: SMS_Ranger_Free_SpriteSheet_70
+  - first:
+      213: 8360480959483204429
+    second: SMS_Ranger_Free_SpriteSheet_71
+  - first:
+      213: 3522935116329582576
+    second: SMS_Ranger_Free_SpriteSheet_72
+  - first:
+      213: -630032133565629133
+    second: SMS_Ranger_Free_SpriteSheet_73
+  - first:
+      213: 7585666590263760375
+    second: SMS_Ranger_Free_SpriteSheet_74
+  - first:
+      213: 877959482769786000
+    second: SMS_Ranger_Free_SpriteSheet_75
+  - first:
+      213: -1321973180088492207
+    second: SMS_Ranger_Free_SpriteSheet_76
+  - first:
+      213: -2934687987784848059
+    second: SMS_Ranger_Free_SpriteSheet_77
+  - first:
+      213: -517891494319129208
+    second: SMS_Ranger_Free_SpriteSheet_78
+  - first:
+      213: -8495902590046865146
+    second: SMS_Ranger_Free_SpriteSheet_79
+  - first:
+      213: 2167002486461384963
+    second: SMS_Ranger_Free_SpriteSheet_80
+  - first:
+      213: -3943649920996808720
+    second: SMS_Ranger_Free_SpriteSheet_81
+  - first:
+      213: 9222762494466363511
+    second: SMS_Ranger_Free_SpriteSheet_82
+  - first:
+      213: -3861870607324777668
+    second: SMS_Ranger_Free_SpriteSheet_83
+  - first:
+      213: 8293267383807122070
+    second: SMS_Ranger_Free_SpriteSheet_84
+  - first:
+      213: 8471212513233042215
+    second: SMS_Ranger_Free_SpriteSheet_85
+  - first:
+      213: 2267740515480686233
+    second: SMS_Ranger_Free_SpriteSheet_86
+  - first:
+      213: -9187346383360833088
+    second: SMS_Ranger_Free_SpriteSheet_87
+  - first:
+      213: 5443423511817680721
+    second: SMS_Ranger_Free_SpriteSheet_88
+  - first:
+      213: 4949865707675098708
+    second: SMS_Ranger_Free_SpriteSheet_89
+  - first:
+      213: -4718727960071004904
+    second: SMS_Ranger_Free_SpriteSheet_90
+  - first:
+      213: 8825257123853771642
+    second: SMS_Ranger_Free_SpriteSheet_91
+  - first:
+      213: -1813243516665208485
+    second: SMS_Ranger_Free_SpriteSheet_92
+  - first:
+      213: -2049167970023346085
+    second: SMS_Ranger_Free_SpriteSheet_93
+  - first:
+      213: 5702665322191346299
+    second: SMS_Ranger_Free_SpriteSheet_94
+  - first:
+      213: 6397782363761666837
+    second: SMS_Ranger_Free_SpriteSheet_95
+  - first:
+      213: -8275026437650214066
+    second: SMS_Ranger_Free_SpriteSheet_96
+  - first:
+      213: -6129108633094665511
+    second: SMS_Ranger_Free_SpriteSheet_97
+  - first:
+      213: -6180440952452654736
+    second: SMS_Ranger_Free_SpriteSheet_98
+  - first:
+      213: -700517762148706825
+    second: SMS_Ranger_Free_SpriteSheet_99
+  - first:
+      213: -8794507296415931192
+    second: SMS_Ranger_Free_SpriteSheet_100
+  - first:
+      213: 2246355759125998008
+    second: SMS_Ranger_Free_SpriteSheet_101
+  - first:
+      213: -1611587411992415544
+    second: SMS_Ranger_Free_SpriteSheet_102
+  - first:
+      213: 8483870744300934644
+    second: SMS_Ranger_Free_SpriteSheet_103
+  - first:
+      213: 1073296423860836560
+    second: SMS_Ranger_Free_SpriteSheet_104
+  - first:
+      213: -4125265719993217596
+    second: SMS_Ranger_Free_SpriteSheet_105
+  - first:
+      213: -1688997222365847489
+    second: SMS_Ranger_Free_SpriteSheet_106
+  - first:
+      213: -19150584492408642
+    second: SMS_Ranger_Free_SpriteSheet_107
+  - first:
+      213: 707220276312123446
+    second: SMS_Ranger_Free_SpriteSheet_108
+  - first:
+      213: -7048099531300748143
+    second: SMS_Ranger_Free_SpriteSheet_109
+  - first:
+      213: 8289460982646895432
+    second: SMS_Ranger_Free_SpriteSheet_110
+  - first:
+      213: -6889679363744856191
+    second: SMS_Ranger_Free_SpriteSheet_111
+  - first:
+      213: 8318491936827019160
+    second: SMS_Ranger_Free_SpriteSheet_112
+  - first:
+      213: 6372460081808202795
+    second: SMS_Ranger_Free_SpriteSheet_113
+  - first:
+      213: -945285096871681689
+    second: SMS_Ranger_Free_SpriteSheet_114
+  - first:
+      213: 6322384025175693977
+    second: SMS_Ranger_Free_SpriteSheet_115
+  - first:
+      213: 4484467340449690771
+    second: SMS_Ranger_Free_SpriteSheet_116
+  - first:
+      213: 4107938426566852393
+    second: SMS_Ranger_Free_SpriteSheet_117
+  - first:
+      213: -7842828186493179836
+    second: SMS_Ranger_Free_SpriteSheet_118
+  - first:
+      213: -882021863684621368
+    second: SMS_Ranger_Free_SpriteSheet_119
+  - first:
+      213: 2846303979461936780
+    second: SMS_Ranger_Free_SpriteSheet_120
+  - first:
+      213: -8362891671237992043
+    second: SMS_Ranger_Free_SpriteSheet_121
+  - first:
+      213: 4716469222575213246
+    second: SMS_Ranger_Free_SpriteSheet_122
+  - first:
+      213: -7867776997006551925
+    second: SMS_Ranger_Free_SpriteSheet_123
+  - first:
+      213: 4867652176516631957
+    second: SMS_Ranger_Free_SpriteSheet_124
+  - first:
+      213: -2100886243693203833
+    second: SMS_Ranger_Free_SpriteSheet_125
+  - first:
+      213: -4228357399369922423
+    second: SMS_Ranger_Free_SpriteSheet_126
+  - first:
+      213: 2611604881510642057
+    second: SMS_Ranger_Free_SpriteSheet_127
+  - first:
+      213: 5222793415292963302
+    second: SMS_Ranger_Free_SpriteSheet_128
+  - first:
+      213: 5784211084915300993
+    second: SMS_Ranger_Free_SpriteSheet_129
+  - first:
+      213: -5541801542619511372
+    second: SMS_Ranger_Free_SpriteSheet_130
+  - first:
+      213: 1521929824996783025
+    second: SMS_Ranger_Free_SpriteSheet_131
+  - first:
+      213: -7629149197464927228
+    second: SMS_Ranger_Free_SpriteSheet_132
+  - first:
+      213: -1335346460274112583
+    second: SMS_Ranger_Free_SpriteSheet_133
+  - first:
+      213: -2418611433684620510
+    second: SMS_Ranger_Free_SpriteSheet_134
+  - first:
+      213: 2706591039114472464
+    second: SMS_Ranger_Free_SpriteSheet_135
+  - first:
+      213: -3301682427077347018
+    second: SMS_Ranger_Free_SpriteSheet_136
+  - first:
+      213: -2821745626803247529
+    second: SMS_Ranger_Free_SpriteSheet_137
+  - first:
+      213: 1211013688719146539
+    second: SMS_Ranger_Free_SpriteSheet_138
+  - first:
+      213: -8851277980570796876
+    second: SMS_Ranger_Free_SpriteSheet_139
+  - first:
+      213: 8779370704414962457
+    second: SMS_Ranger_Free_SpriteSheet_140
+  - first:
+      213: 7269486709680663835
+    second: SMS_Ranger_Free_SpriteSheet_141
+  - first:
+      213: -3950263558161799500
+    second: SMS_Ranger_Free_SpriteSheet_142
+  - first:
+      213: -3642593909379262855
+    second: SMS_Ranger_Free_SpriteSheet_143
+  - first:
+      213: -2208785743133234585
+    second: SMS_Ranger_Free_SpriteSheet_144
+  - first:
+      213: -7167071073663986310
+    second: SMS_Ranger_Free_SpriteSheet_145
+  - first:
+      213: -1970361487857637818
+    second: SMS_Ranger_Free_SpriteSheet_146
+  - first:
+      213: 932437133703981405
+    second: SMS_Ranger_Free_SpriteSheet_147
+  - first:
+      213: -6144990324673555274
+    second: SMS_Ranger_Free_SpriteSheet_148
+  - first:
+      213: 4531077921952588115
+    second: SMS_Ranger_Free_SpriteSheet_149
+  - first:
+      213: 5631811227541678053
+    second: SMS_Ranger_Free_SpriteSheet_150
+  - first:
+      213: -5214774780353163172
+    second: SMS_Ranger_Free_SpriteSheet_151
+  - first:
+      213: 2955068022835950823
+    second: SMS_Ranger_Free_SpriteSheet_152
+  - first:
+      213: 3252455288146281789
+    second: SMS_Ranger_Free_SpriteSheet_153
+  - first:
+      213: 278790977459548372
+    second: SMS_Ranger_Free_SpriteSheet_154
+  - first:
+      213: 4128655304921741518
+    second: SMS_Ranger_Free_SpriteSheet_155
+  - first:
+      213: 8787680739017015531
+    second: SMS_Ranger_Free_SpriteSheet_156
+  - first:
+      213: -7963155805355770727
+    second: SMS_Ranger_Free_SpriteSheet_157
+  - first:
+      213: -5781064990311649860
+    second: SMS_Ranger_Free_SpriteSheet_158
+  - first:
+      213: 6365306316599691142
+    second: SMS_Ranger_Free_SpriteSheet_159
+  - first:
+      213: -2873198082627421660
+    second: SMS_Ranger_Free_SpriteSheet_160
+  - first:
+      213: 807543819138576817
+    second: SMS_Ranger_Free_SpriteSheet_161
+  - first:
+      213: 4421123608058630823
+    second: SMS_Ranger_Free_SpriteSheet_162
+  - first:
+      213: -5875679310205215274
+    second: SMS_Ranger_Free_SpriteSheet_163
+  - first:
+      213: 2656988856543851788
+    second: SMS_Ranger_Free_SpriteSheet_164
+  - first:
+      213: 6964550178548637976
+    second: SMS_Ranger_Free_SpriteSheet_165
+  - first:
+      213: -6343783616267797644
+    second: SMS_Ranger_Free_SpriteSheet_166
+  - first:
+      213: -295370657697831786
+    second: SMS_Ranger_Free_SpriteSheet_167
+  - first:
+      213: -3373976082066817172
+    second: SMS_Ranger_Free_SpriteSheet_168
+  - first:
+      213: 289244842922486415
+    second: SMS_Ranger_Free_SpriteSheet_169
+  - first:
+      213: -2818302549203214232
+    second: SMS_Ranger_Free_SpriteSheet_170
+  - first:
+      213: 1815209743143479435
+    second: SMS_Ranger_Free_SpriteSheet_171
+  - first:
+      213: -1011948758730036848
+    second: SMS_Ranger_Free_SpriteSheet_172
+  - first:
+      213: 4785295563002042897
+    second: SMS_Ranger_Free_SpriteSheet_173
+  - first:
+      213: 5628734237373365054
+    second: SMS_Ranger_Free_SpriteSheet_174
+  - first:
+      213: -5239607546864297697
+    second: SMS_Ranger_Free_SpriteSheet_175
+  - first:
+      213: -1182523334374920696
+    second: SMS_Ranger_Free_SpriteSheet_176
+  - first:
+      213: 8644725113413832275
+    second: SMS_Ranger_Free_SpriteSheet_177
+  - first:
+      213: 4738404544186337335
+    second: SMS_Ranger_Free_SpriteSheet_178
+  - first:
+      213: -3276913998621514911
+    second: SMS_Ranger_Free_SpriteSheet_179
+  - first:
+      213: 813078370521357022
+    second: SMS_Ranger_Free_SpriteSheet_180
+  - first:
+      213: -799568061852610504
+    second: SMS_Ranger_Free_SpriteSheet_181
+  - first:
+      213: -7276055866257631676
+    second: SMS_Ranger_Free_SpriteSheet_182
+  - first:
+      213: 2948937606953235963
+    second: SMS_Ranger_Free_SpriteSheet_183
+  - first:
+      213: -2983776167505794964
+    second: SMS_Ranger_Free_SpriteSheet_184
+  - first:
+      213: -3043131639878639970
+    second: SMS_Ranger_Free_SpriteSheet_185
+  - first:
+      213: -1798748690951471342
+    second: SMS_Ranger_Free_SpriteSheet_186
+  - first:
+      213: -4500721662246084074
+    second: SMS_Ranger_Free_SpriteSheet_187
+  - first:
+      213: 4587937571830538065
+    second: SMS_Ranger_Free_SpriteSheet_188
+  - first:
+      213: 3584868829388640495
+    second: SMS_Ranger_Free_SpriteSheet_189
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -40,7 +610,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -70,9 +640,4023 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: SMS_Ranger_Free_SpriteSheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 209
+        width: 54
+        height: 14
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c06690a371651d14f9aa3e2c499a465c
+      internalID: -8022194081252537482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_Ranger_Free_SpriteSheet_1
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 209
+        width: 34
+        height: 10
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0615edff437220f4498fedab4b8b70a9
+      internalID: -3940541141132983241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_Ranger_Free_SpriteSheet_2
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 209
+        width: 62
+        height: 10
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bb8e85e759b2d64e8078de13be9873a
+      internalID: -3812476928077334390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_Ranger_Free_SpriteSheet_3
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 209
+        width: 43
+        height: 10
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3098af6ba0ae8741a8b97b9639f1b65
+      internalID: -6402658935361848532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_Ranger_Free_SpriteSheet_4
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 35
+        width: 104
+        height: 187
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03d4f91b89b91a34dab91d29adde1168
+      internalID: -5631191286375835606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_Ranger_Free_SpriteSheet_5
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 182
+        width: 8
+        height: 4
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cb396907ccd86d4782a92e6ee86922d
+      internalID: 6495173790558709312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_Ranger_Free_SpriteSheet_6
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 161
+        width: 14
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fed107b659836645a116b176fbcdd02
+      internalID: 5398610089350151048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_Ranger_Free_SpriteSheet_7
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 161
+        width: 14
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc92770e877051141830d2f9de7f0ec1
+      internalID: 4918856922459249265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_Ranger_Free_SpriteSheet_8
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 161
+        width: 14
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 947356264df7c1948b9b54f2140a0167
+      internalID: 5192220423979881133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_Ranger_Free_SpriteSheet_9
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 161
+        width: 14
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91ed67e99c05347408cd09c8696fc561
+      internalID: 8850231434879763190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_Ranger_Free_SpriteSheet_10
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 185
+        width: 8
+        height: 6
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cc7c757b4529844d9191b799ac03687
+      internalID: -6044983974109954985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_Ranger_Free_SpriteSheet_11
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 162
+        width: 14
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95e2e5026712dea4fa25cce20631c4a9
+      internalID: -4472326743069051959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_Ranger_Free_SpriteSheet_12
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 161
+        width: 13
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39bd4bbce71084f449c9693382e6695d
+      internalID: 1530186333405375341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_Ranger_Free_SpriteSheet_13
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 161
+        width: 14
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4f3729ac2cd0c644850809855713eb5
+      internalID: -2800898825062745710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_Ranger_Free_SpriteSheet_14
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 161
+        width: 13
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df77eb00578836144a80480e47b00d95
+      internalID: 7569487642910084587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_Ranger_Free_SpriteSheet_15
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 185
+        width: 8
+        height: 5
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3d12524a600bfa48a641b3b9af18fbc
+      internalID: -8164932075034632549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_Ranger_Free_SpriteSheet_16
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 182
+        width: 8
+        height: 6
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c86ac79189e5ba41b17779ef55f2689
+      internalID: -2523570079229416476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_Ranger_Free_SpriteSheet_17
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 161
+        width: 14
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e6ec9f80a6a154429c965472e6a41d2
+      internalID: 2208738166715117383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_Ranger_Free_SpriteSheet_18
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 168
+        width: 20
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 985eec361430ea544862a774a68ca93c
+      internalID: -8471019609216860509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_Ranger_Free_SpriteSheet_19
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 176
+        width: 8
+        height: 5
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad262103b089d5d49b15cc2325f7e54c
+      internalID: -1657986381058518460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_Ranger_Free_SpriteSheet_20
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 179
+        width: 8
+        height: 5
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9b9adf051f6ac0469cd90241f0275ef
+      internalID: 719479015177625261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_Ranger_Free_SpriteSheet_21
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 175
+        width: 8
+        height: 8
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d74bc759d2658ac4188da05d4568b791
+      internalID: 3956884407098313736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_Ranger_Free_SpriteSheet_22
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 175
+        width: 8
+        height: 6
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8c3a695b53a4db4ca7f9ae8642eb630
+      internalID: -5646242259373791010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_Ranger_Free_SpriteSheet_23
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 161
+        width: 14
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32f4f3022f4c9654a9d67c79bd891f39
+      internalID: 8261566567388124554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_Ranger_Free_SpriteSheet_24
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 161
+        width: 14
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b72bdbc95b3c1464db1bfc4acddcfcdb
+      internalID: 6445707481905492995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_Ranger_Free_SpriteSheet_25
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 165
+        width: 8
+        height: 9
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48f95dfb4dd075242a79e28901b38e0c
+      internalID: 6991986272077136180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_Ranger_Free_SpriteSheet_26
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 171
+        width: 8
+        height: 7
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f482d3c527140349b17b2b7fc4bcdb3
+      internalID: -9149884462597822274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_Ranger_Free_SpriteSheet_27
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 162
+        width: 20
+        height: 11
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d27cb56f81d0f274a934e7060cdcaf6b
+      internalID: 2222261041419467343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_Ranger_Free_SpriteSheet_28
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 167
+        width: 8
+        height: 6
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2498bb31c58105b4fa448d4e1cd78148
+      internalID: -7966512170467953393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_Ranger_Free_SpriteSheet_29
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 161
+        width: 8
+        height: 10
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6de279347eb71434b891e50f239a80dc
+      internalID: -5470535950038115267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_Ranger_Free_SpriteSheet_30
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 150
+        width: 8
+        height: 4
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afc116665aedf9f41908aa2d2f3e0b52
+      internalID: -1234311266172615948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_Ranger_Free_SpriteSheet_31
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 129
+        width: 13
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82404d102e63e784ab7958f82c320a4d
+      internalID: 7852718283076965212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_Ranger_Free_SpriteSheet_32
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 129
+        width: 13
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fdad3acac5175e488520ce1e1b94268
+      internalID: -4486735537571245369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_Ranger_Free_SpriteSheet_33
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 129
+        width: 13
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26814f112e347dd4daf0bbd1e4c61b12
+      internalID: -6500740553326186285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_Ranger_Free_SpriteSheet_34
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 129
+        width: 13
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7da9cb1c341b4c441a3d1926c5b2f357
+      internalID: 2473386977503588436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_Ranger_Free_SpriteSheet_35
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 153
+        width: 8
+        height: 6
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df3e1fb871862b44196ab12ebb2d2c17
+      internalID: -6412842984593402491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_Ranger_Free_SpriteSheet_36
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 129
+        width: 13
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23fb8f4a311858f4abb81db8dd6cb5d8
+      internalID: 1514795441188608619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_Ranger_Free_SpriteSheet_37
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 130
+        width: 14
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2338f9592cd6ef64d8d28dcff2de9f9c
+      internalID: -3960336417571950132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_Ranger_Free_SpriteSheet_38
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 129
+        width: 13
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55f71ef7776bdbc4e8c29329e3ee50fb
+      internalID: 7965442940710703234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_Ranger_Free_SpriteSheet_39
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 129
+        width: 13
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9e09cab32cca2d49ae7a25997464b12
+      internalID: 9148051257654273369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_Ranger_Free_SpriteSheet_40
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 151
+        width: 8
+        height: 6
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ba8df71241434948bf5a087f3245c91
+      internalID: -4176694192482371059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_Ranger_Free_SpriteSheet_41
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 144
+        width: 8
+        height: 12
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91e9d015a91cd1344accc21fafffd6ab
+      internalID: -1566566264963688640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_Ranger_Free_SpriteSheet_42
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 129
+        width: 18
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93fa971ae7cafd640adb59e1759ed8e9
+      internalID: 6584277101539896566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_Ranger_Free_SpriteSheet_43
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 129
+        width: 15
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 749f2f078660cb64e9b2850d4ea1a3a2
+      internalID: 8263980206247604994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_Ranger_Free_SpriteSheet_44
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 151
+        width: 8
+        height: 5
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68b1a4629384cae4190fcba1c7e732d2
+      internalID: -618352812639628729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_Ranger_Free_SpriteSheet_45
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 129
+        width: 18
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56492ba283307634abec61490f0fabe3
+      internalID: -6050407786413773369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_Ranger_Free_SpriteSheet_46
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 144
+        width: 8
+        height: 5
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 319b46a98284c6f46a486d3dea32db98
+      internalID: 247787346478731934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_Ranger_Free_SpriteSheet_47
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 147
+        width: 8
+        height: 5
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 308cd5be498d62e4b959937bd99a5ee8
+      internalID: 1794110259099594923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_Ranger_Free_SpriteSheet_48
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 143
+        width: 8
+        height: 7
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae4e498685f45634aa0db8165de2167f
+      internalID: 9036911370458719874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_Ranger_Free_SpriteSheet_49
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 143
+        width: 8
+        height: 7
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d812816cf1f1a814a8d09c5d824c3cf1
+      internalID: 2511100849474775664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_Ranger_Free_SpriteSheet_50
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 133
+        width: 8
+        height: 9
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d01e00dd42a1ed240853856f10ee0a13
+      internalID: 7653678085223916459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_Ranger_Free_SpriteSheet_51
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 139
+        width: 8
+        height: 7
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da83c892a3c4112448dc625354b63142
+      internalID: 8961611471073281935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_Ranger_Free_SpriteSheet_52
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 138
+        width: 8
+        height: 4
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 843df14194860f245b1c931c2dc0f620
+      internalID: -4179635270428508766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_Ranger_Free_SpriteSheet_53
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 137
+        width: 8
+        height: 6
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 472f657638a394440817c78fcb4c7967
+      internalID: 9182587398273201764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_Ranger_Free_SpriteSheet_54
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 137
+        width: 8
+        height: 6
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fd4cf7270c0e264f9fb6c59d7b4550f
+      internalID: 14583323918219960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_Ranger_Free_SpriteSheet_55
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 124
+        width: 8
+        height: 15
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8942c467849e444095fcd6a046de13d
+      internalID: 9022758351309180010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_Ranger_Free_SpriteSheet_56
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 130
+        width: 8
+        height: 6
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a1ed7771a5f38a43a0e58b050c21181
+      internalID: 8489349723683410458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_Ranger_Free_SpriteSheet_57
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 130
+        width: 8
+        height: 5
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9224207860f365147945c832458fa86b
+      internalID: -1019820792793811310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_Ranger_Free_SpriteSheet_58
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 132
+        width: 8
+        height: 4
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2200c34997cddab448dfa2ec8b3faa5b
+      internalID: -1929337053423366524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_Ranger_Free_SpriteSheet_59
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 121
+        width: 8
+        height: 6
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 691e01d769e96cd4a897846be7933439
+      internalID: 1040655442898114893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_Ranger_Free_SpriteSheet_60
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 97
+        width: 15
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c008992369774f43b68566a011484f7
+      internalID: -8632280605001833105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_Ranger_Free_SpriteSheet_61
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 97
+        width: 13
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27b87ab947675634dbb8877855cb37fa
+      internalID: -7425854148006556871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_Ranger_Free_SpriteSheet_62
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 97
+        width: 14
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e26eded6f374f1d41843cf67fd47cb30
+      internalID: 3878992865524847492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_Ranger_Free_SpriteSheet_63
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 97
+        width: 13
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef7893e10803cfb43b73973a18de4299
+      internalID: -1708823918393681979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_Ranger_Free_SpriteSheet_64
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 112
+        width: 8
+        height: 11
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a56e4b048bba6ea40b3e6801ea1ccb87
+      internalID: 6341972816779719372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_Ranger_Free_SpriteSheet_65
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 97
+        width: 14
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3aac2829a15cadb4987664d6253e66e7
+      internalID: 662802796514237262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_Ranger_Free_SpriteSheet_66
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 97
+        width: 13
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 717013d07363dc040acbd8a03618c54f
+      internalID: 8325065894491278953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_Ranger_Free_SpriteSheet_67
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 97
+        width: 14
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7995084bfd9bf5045a507f2db5193cfa
+      internalID: 4318375144296935513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_Ranger_Free_SpriteSheet_68
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 97
+        width: 13
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9a8a8bbff5571f48ab15c9cd02ddfda
+      internalID: -4008128115756170545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_Ranger_Free_SpriteSheet_69
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 122
+        width: 8
+        height: 5
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92de2409488b3f14cbd8fa6a2d4c83d0
+      internalID: 2883736141205503423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_Ranger_Free_SpriteSheet_70
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 97
+        width: 17
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65557d44636d5a84e96a9b6a062ac942
+      internalID: -250368023565001870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_Ranger_Free_SpriteSheet_71
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 117
+        width: 8
+        height: 6
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68526a32cdc2de54988d9ba65ad54707
+      internalID: 8360480959483204429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_Ranger_Free_SpriteSheet_72
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 98
+        width: 21
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83037868675de9b47898de3ac377d259
+      internalID: 3522935116329582576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_Ranger_Free_SpriteSheet_73
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 115
+        width: 8
+        height: 5
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddcb391c960b2024e8ec09521463345e
+      internalID: -630032133565629133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_Ranger_Free_SpriteSheet_74
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 116
+        width: 8
+        height: 5
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efa87d5bae88a3043a98da6cc5ae8678
+      internalID: 7585666590263760375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_Ranger_Free_SpriteSheet_75
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 107
+        width: 8
+        height: 7
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3c5c80d97a2ef844ab373e710ddfb64
+      internalID: 877959482769786000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_Ranger_Free_SpriteSheet_76
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 107
+        width: 8
+        height: 4
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef81d2242c5332f42a98affb862a6050
+      internalID: -1321973180088492207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_Ranger_Free_SpriteSheet_77
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 109
+        width: 8
+        height: 6
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 894ebc42d4bb6fb4cb8e885c89d0a49c
+      internalID: -2934687987784848059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_Ranger_Free_SpriteSheet_78
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 110
+        width: 8
+        height: 6
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9058fd3806295447b77bffd5952532f
+      internalID: -517891494319129208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_Ranger_Free_SpriteSheet_79
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 97
+        width: 8
+        height: 10
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37c07b2b561998c45a92d1681ab5abd9
+      internalID: -8495902590046865146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_Ranger_Free_SpriteSheet_80
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 102
+        width: 8
+        height: 4
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3f014d228a1675418b5ed9138254be5
+      internalID: 2167002486461384963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_Ranger_Free_SpriteSheet_81
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 103
+        width: 8
+        height: 5
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f0194eaa124d6b4d8180f60feacc27c
+      internalID: -3943649920996808720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_Ranger_Free_SpriteSheet_82
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 100
+        width: 8
+        height: 8
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36122813317758944863964d2323bf87
+      internalID: 9222762494466363511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_Ranger_Free_SpriteSheet_83
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 92
+        width: 8
+        height: 9
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5a1b67b56956f84db2bad90d2b34a6b
+      internalID: -3861870607324777668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_Ranger_Free_SpriteSheet_84
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 97
+        width: 8
+        height: 5
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f95a2a84921c1544ab7be254125c650
+      internalID: 8293267383807122070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_Ranger_Free_SpriteSheet_85
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 89
+        width: 8
+        height: 6
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62881ea1a82be3c489049389780aa21e
+      internalID: 8471212513233042215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_Ranger_Free_SpriteSheet_86
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 65
+        width: 13
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75b066eb8dc868c48ac3396f10184917
+      internalID: 2267740515480686233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_Ranger_Free_SpriteSheet_87
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 65
+        width: 13
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f471297acd2f48e4f9c48758139946a4
+      internalID: -9187346383360833088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_Ranger_Free_SpriteSheet_88
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 65
+        width: 14
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09d81e18b15869f4ebbdfa7229b9d0c8
+      internalID: 5443423511817680721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_Ranger_Free_SpriteSheet_89
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 65
+        width: 13
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c23b93362b05a8e43ad67bd56d506e0e
+      internalID: 4949865707675098708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_Ranger_Free_SpriteSheet_90
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 80
+        width: 8
+        height: 11
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1a3ab300b4ad04428fe943cc1f7d1c5
+      internalID: -4718727960071004904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_Ranger_Free_SpriteSheet_91
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 65
+        width: 14
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2268c3cef1bfc004d8026cb3e51dab91
+      internalID: 8825257123853771642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_Ranger_Free_SpriteSheet_92
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 65
+        width: 13
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 230644ebfdb6db243b28e8cf07fd2f53
+      internalID: -1813243516665208485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_Ranger_Free_SpriteSheet_93
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 65
+        width: 14
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12ec3e21271d20e419367959d8ad3026
+      internalID: -2049167970023346085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_Ranger_Free_SpriteSheet_94
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 65
+        width: 13
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 304888cc4c9df684c888af00d1d085e1
+      internalID: 5702665322191346299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_Ranger_Free_SpriteSheet_95
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 90
+        width: 8
+        height: 5
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f17980927864a8b4999d4de59e731278
+      internalID: 6397782363761666837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_Ranger_Free_SpriteSheet_96
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 65
+        width: 18
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eefbd6ab7da00ac46a31b28d1c530674
+      internalID: -8275026437650214066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_Ranger_Free_SpriteSheet_97
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 85
+        width: 8
+        height: 6
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1289a2dc98d204140b7245f717a5918d
+      internalID: -6129108633094665511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_Ranger_Free_SpriteSheet_98
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 65
+        width: 21
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3620be0332cf0841b59076e4613a1df
+      internalID: -6180440952452654736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_Ranger_Free_SpriteSheet_99
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 84
+        width: 8
+        height: 4
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d178e4ae4861ba41854ad12c0d91da6
+      internalID: -700517762148706825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_Ranger_Free_SpriteSheet_100
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 84
+        width: 8
+        height: 5
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53339a2acfe81074ea1d9676a016bbf3
+      internalID: -8794507296415931192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_Ranger_Free_SpriteSheet_101
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 79
+        width: 8
+        height: 4
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac7d7859059658f4bab1db0c8bc48261
+      internalID: 2246355759125998008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_Ranger_Free_SpriteSheet_102
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 77
+        width: 8
+        height: 6
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10cf894507d31ac449cd01c475117754
+      internalID: -1611587411992415544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_Ranger_Free_SpriteSheet_103
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 78
+        width: 8
+        height: 6
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a18d6e58f96bf9448584e28966832ad
+      internalID: 8483870744300934644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_Ranger_Free_SpriteSheet_104
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 70
+        width: 8
+        height: 7
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fea09e7f40e3f94f85ecc98fc531f00
+      internalID: 1073296423860836560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_Ranger_Free_SpriteSheet_105
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 75
+        width: 8
+        height: 4
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21ce36a48b2ccc34dbf3af813ebbde82
+      internalID: -4125265719993217596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_Ranger_Free_SpriteSheet_106
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 71
+        width: 8
+        height: 5
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b61673c56226d744dbcef44e36a610d8
+      internalID: -1688997222365847489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_Ranger_Free_SpriteSheet_107
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 68
+        width: 8
+        height: 8
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a803198046a77442ac86d97e29d3c54
+      internalID: -19150584492408642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_Ranger_Free_SpriteSheet_108
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 70
+        width: 8
+        height: 4
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5059b6da9de231141ad032c9c5e4f902
+      internalID: 707220276312123446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_Ranger_Free_SpriteSheet_109
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 65
+        width: 8
+        height: 5
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85c2222d3b2a72b40b9e69fdeb25ae81
+      internalID: -7048099531300748143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_Ranger_Free_SpriteSheet_110
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 65
+        width: 8
+        height: 4
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4204dc7e33c84ca428042ca78ac460bb
+      internalID: 8289460982646895432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_Ranger_Free_SpriteSheet_111
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 65
+        width: 8
+        height: 5
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88688717513b8504eae5e9e11324d99d
+      internalID: -6889679363744856191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_Ranger_Free_SpriteSheet_112
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 33
+        width: 12
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2882fc4ca217ea43a9b56c4893d74c4
+      internalID: 8318491936827019160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_Ranger_Free_SpriteSheet_113
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 33
+        width: 16
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecf0c06948a35d84aa1d0a6cd4f83aef
+      internalID: 6372460081808202795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_Ranger_Free_SpriteSheet_114
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 34
+        width: 13
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 359e8c660e398cb4394ac62bdd1edcd0
+      internalID: -945285096871681689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_Ranger_Free_SpriteSheet_115
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 34
+        width: 15
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15a2e7a6305683643af9e8fb8da96220
+      internalID: 6322384025175693977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_Ranger_Free_SpriteSheet_116
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 54
+        width: 7
+        height: 6
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eadcf8aa17e0e444da1393e3fe66078d
+      internalID: 4484467340449690771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_Ranger_Free_SpriteSheet_117
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 56
+        width: 8
+        height: 6
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f521c5c2cb596a946b03b62086efa363
+      internalID: 4107938426566852393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_Ranger_Free_SpriteSheet_118
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 33
+        width: 13
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fdbd5af5f334f24392f0ec66c2e7a39
+      internalID: -7842828186493179836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_Ranger_Free_SpriteSheet_119
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 58
+        width: 7
+        height: 5
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5085da8c3534fb241bd15ff8f13caeb2
+      internalID: -882021863684621368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_Ranger_Free_SpriteSheet_120
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 56
+        width: 7
+        height: 6
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffb8afd565784c945827c7baceb2b796
+      internalID: 2846303979461936780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_Ranger_Free_SpriteSheet_121
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 57
+        width: 7
+        height: 5
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 632a76d7185ab1d40b1103fed1f8bf6f
+      internalID: -8362891671237992043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_Ranger_Free_SpriteSheet_122
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 52
+        width: 8
+        height: 6
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 592e92730fa049e4c9265e4d62bd9356
+      internalID: 4716469222575213246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_Ranger_Free_SpriteSheet_123
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 49
+        width: 7
+        height: 5
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c760a6759c8da0545bb82dfa09012af2
+      internalID: -7867776997006551925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_Ranger_Free_SpriteSheet_124
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 33
+        width: 14
+        height: 21
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dafce5d5bf8409a4d93a87def901c660
+      internalID: 4867652176516631957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_Ranger_Free_SpriteSheet_125
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 50
+        width: 8
+        height: 5
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 831600cc8d341e6478f4f47f861fcd5e
+      internalID: -2100886243693203833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_Ranger_Free_SpriteSheet_126
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 53
+        width: 7
+        height: 4
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a2119642449f994399906a9834da2bb
+      internalID: -4228357399369922423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_Ranger_Free_SpriteSheet_127
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 51
+        width: 7
+        height: 5
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f45bf2c15ec14654dbc61e06cee952f9
+      internalID: 2611604881510642057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_Ranger_Free_SpriteSheet_128
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 37
+        width: 21
+        height: 19
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 095d188636e15b445b69303df108556c
+      internalID: 5222793415292963302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_Ranger_Free_SpriteSheet_129
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 39
+        width: 7
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49103f3969913af4fa00743e9186e8aa
+      internalID: 5784211084915300993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_Ranger_Free_SpriteSheet_130
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 51
+        width: 7
+        height: 5
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebab3449ff03a0346b1a527715a54262
+      internalID: -5541801542619511372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_Ranger_Free_SpriteSheet_131
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 44
+        width: 8
+        height: 6
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40029b317bde79a408268bd0887ed172
+      internalID: 1521929824996783025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_Ranger_Free_SpriteSheet_132
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 47
+        width: 7
+        height: 6
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1348c83e5afce3a47ab3e3d361532fe0
+      internalID: -7629149197464927228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_Ranger_Free_SpriteSheet_133
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 42
+        width: 8
+        height: 6
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46df3f47921b9b54e9f8e9f97fc0f6db
+      internalID: -1335346460274112583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_Ranger_Free_SpriteSheet_134
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 46
+        width: 7
+        height: 6
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8ed8a061a4c2ca4a9b8bae74f1b1d62
+      internalID: -2418611433684620510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_Ranger_Free_SpriteSheet_135
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 45
+        width: 7
+        height: 5
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d57096014fd335042978e5f753c37f7c
+      internalID: 2706591039114472464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_Ranger_Free_SpriteSheet_136
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 44
+        width: 7
+        height: 7
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6143257c3608f7429f0c936d0730786
+      internalID: -3301682427077347018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_Ranger_Free_SpriteSheet_137
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 37
+        width: 8
+        height: 5
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 662a4509519ed794ea1faee86a1bbbc0
+      internalID: -2821745626803247529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_Ranger_Free_SpriteSheet_138
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 37
+        width: 7
+        height: 5
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 010c61ae5b7fe724e9b2ec39eb71b516
+      internalID: 1211013688719146539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_Ranger_Free_SpriteSheet_139
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 41
+        width: 15
+        height: 6
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a650e789d6e24f745811c0315350f681
+      internalID: -8851277980570796876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_Ranger_Free_SpriteSheet_140
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 39
+        width: 7
+        height: 6
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f5de46e0e35c6647b93855634009257
+      internalID: 8779370704414962457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_Ranger_Free_SpriteSheet_141
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 38
+        width: 7
+        height: 6
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e783fc8f47a6c144ab69298f53318699
+      internalID: 7269486709680663835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_Ranger_Free_SpriteSheet_142
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 39
+        width: 7
+        height: 4
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e2b0f4a9425acf4f98fbc1f54e56967
+      internalID: -3950263558161799500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_Ranger_Free_SpriteSheet_143
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 32
+        width: 29
+        height: 11
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abea219746d00d64c8f4ce40bfc1deea
+      internalID: -3642593909379262855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_Ranger_Free_SpriteSheet_144
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 34
+        width: 8
+        height: 6
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 390a66cc90b2fe741bd2823bce621976
+      internalID: -2208785743133234585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_Ranger_Free_SpriteSheet_145
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 33
+        width: 7
+        height: 5
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4f5dd11c7a79f6438f7185b3ee32163
+      internalID: -7167071073663986310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_Ranger_Free_SpriteSheet_146
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 33
+        width: 7
+        height: 5
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79d0caad36e04fc41a5531b5bbce2b27
+      internalID: -1970361487857637818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_Ranger_Free_SpriteSheet_147
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 33
+        width: 7
+        height: 5
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9be3252f62652474a87d96833cda85fb
+      internalID: 932437133703981405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_Ranger_Free_SpriteSheet_148
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 25
+        width: 8
+        height: 5
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1763475194dca034ab561aa9f10a96b8
+      internalID: -6144990324673555274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_Ranger_Free_SpriteSheet_149
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 5
+        width: 14
+        height: 27
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee6e762e009022147a58c2bf9df5694d
+      internalID: 4531077921952588115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_Ranger_Free_SpriteSheet_150
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 3
+        width: 13
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e9407f78d924a141841ca3edbdd0eb8
+      internalID: 5631811227541678053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_Ranger_Free_SpriteSheet_151
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 5
+        width: 14
+        height: 27
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5421bd90b8be5b49a299024798780db
+      internalID: -5214774780353163172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_Ranger_Free_SpriteSheet_152
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 3
+        width: 13
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6098766796ce1a844a659d1027f979c0
+      internalID: 2955068022835950823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_Ranger_Free_SpriteSheet_153
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 24
+        width: 8
+        height: 4
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 978b1a375d4586242bcad473db662765
+      internalID: 3252455288146281789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_Ranger_Free_SpriteSheet_154
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 1
+        width: 12
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da5192dc5afa6804883f3d7d13b88e6e
+      internalID: 278790977459548372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_Ranger_Free_SpriteSheet_155
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 1
+        width: 12
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1350de2ca847c944ba8eed3b2718a551
+      internalID: 4128655304921741518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_Ranger_Free_SpriteSheet_156
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 1
+        width: 12
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d13ff80cc0209f41b401ccb683d6dbc
+      internalID: 8787680739017015531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_Ranger_Free_SpriteSheet_157
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 1
+        width: 12
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 695e43baafa27124c955437311a07a41
+      internalID: -7963155805355770727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_Ranger_Free_SpriteSheet_158
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 24
+        width: 8
+        height: 5
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef3f6b7affc3bf74893e6eebc000b3a9
+      internalID: -5781064990311649860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_Ranger_Free_SpriteSheet_159
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 23
+        width: 8
+        height: 8
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09cf4f017dda3e54b8be5cfba6a5dc34
+      internalID: 6365306316599691142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_Ranger_Free_SpriteSheet_160
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 21
+        width: 7
+        height: 6
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 093b1f9673af3e74d956d98c1a3236f8
+      internalID: -2873198082627421660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_Ranger_Free_SpriteSheet_161
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 0
+        width: 64
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62b1417f1ccb09546a2086f9e25ad3c0
+      internalID: 807543819138576817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_Ranger_Free_SpriteSheet_162
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 18
+        width: 10
+        height: 12
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37b19426e3a4dd943bcb263ce0b01c68
+      internalID: 4421123608058630823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_Ranger_Free_SpriteSheet_163
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 16
+        width: 8
+        height: 8
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20c8a9b3938dfd648b34498c7d17d935
+      internalID: -5875679310205215274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_Ranger_Free_SpriteSheet_164
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 10
+        width: 8
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b198ac29479cf944fa310b3f8bf8bbd7
+      internalID: 2656988856543851788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_Ranger_Free_SpriteSheet_165
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 18
+        width: 8
+        height: 4
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: baa268ecc1cebd04799ec2b695b20f61
+      internalID: 6964550178548637976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_Ranger_Free_SpriteSheet_166
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 17
+        width: 8
+        height: 5
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af69803eebc62454fad5aab6f119e4e1
+      internalID: -6343783616267797644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_Ranger_Free_SpriteSheet_167
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 1
+        width: 14
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00986d31724dc464dac8a4afc1914ae8
+      internalID: -295370657697831786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_Ranger_Free_SpriteSheet_168
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 1
+        width: 20
+        height: 19
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bca92e279d1d63a48b6aeedc402d1299
+      internalID: -3373976082066817172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_Ranger_Free_SpriteSheet_169
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 19
+        width: 7
+        height: 6
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a6ba15315c28fe4896e7fab38ec96c1
+      internalID: 289244842922486415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_Ranger_Free_SpriteSheet_170
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 17
+        width: 6
+        height: 5
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2315dd0904ea93645b8b5479ff57c85d
+      internalID: -2818302549203214232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_Ranger_Free_SpriteSheet_171
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 1
+        width: 13
+        height: 21
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7cae7ebb0b25954d8b0c3ed1f84fdbd
+      internalID: 1815209743143479435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_Ranger_Free_SpriteSheet_172
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 14
+        width: 7
+        height: 6
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9922638f95b6e9641abb601d2844580e
+      internalID: -1011948758730036848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_Ranger_Free_SpriteSheet_173
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 16
+        width: 7
+        height: 5
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c89335a00fb55a942be498acd8f9898b
+      internalID: 4785295563002042897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_Ranger_Free_SpriteSheet_174
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 1
+        width: 15
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 129612ffd5c22684c9a7fc061399eb83
+      internalID: 5628734237373365054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_Ranger_Free_SpriteSheet_175
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 8
+        width: 8
+        height: 7
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12e125fb00836114ea487938a1cd977e
+      internalID: -5239607546864297697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_Ranger_Free_SpriteSheet_176
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 10
+        width: 8
+        height: 7
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 584ba36ded7a5a848b2d08dedf3d5f5d
+      internalID: -1182523334374920696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_Ranger_Free_SpriteSheet_177
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 12
+        width: 8
+        height: 4
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71a5745d2c718d94da6c48e9d699e058
+      internalID: 8644725113413832275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_Ranger_Free_SpriteSheet_178
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 14
+        width: 7
+        height: 4
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a57f2cbf295ade44f9c0996ab9d55c12
+      internalID: 4738404544186337335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_Ranger_Free_SpriteSheet_179
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 9
+        width: 6
+        height: 6
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30fef9e665c76314788ea1603a2073ff
+      internalID: -3276913998621514911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_Ranger_Free_SpriteSheet_180
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 3
+        width: 8
+        height: 6
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe90fa313069556449eea205bcf09923
+      internalID: 813078370521357022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_Ranger_Free_SpriteSheet_181
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 3
+        width: 8
+        height: 6
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fa9a91e928edc04aa5762bf9eeb672c
+      internalID: -799568061852610504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_Ranger_Free_SpriteSheet_182
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 7
+        width: 8
+        height: 4
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac29aaa60803a2249a311d724b7b5314
+      internalID: -7276055866257631676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_Ranger_Free_SpriteSheet_183
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 6
+        width: 7
+        height: 6
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b3be0b9ca11b93438c3c79c6817c693
+      internalID: 2948937606953235963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_Ranger_Free_SpriteSheet_184
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 4
+        width: 7
+        height: 5
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0b7ce3d2671e6e4bae4a35a548fc5c4
+      internalID: -2983776167505794964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_Ranger_Free_SpriteSheet_185
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 8
+        width: 15
+        height: 6
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b49308a667e89254abc376c47b7fcb91
+      internalID: -3043131639878639970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_Ranger_Free_SpriteSheet_186
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 2
+        width: 8
+        height: 5
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f155c435b535724daf76f03cde4185e
+      internalID: -1798748690951471342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_Ranger_Free_SpriteSheet_187
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 1
+        width: 8
+        height: 5
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92de720540fd45f48a50fd63f7870947
+      internalID: -4500721662246084074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_Ranger_Free_SpriteSheet_188
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 0
+        width: 4
+        height: 8
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f7d88f5ca0217240b22b24bb6a6c196
+      internalID: 4587937571830538065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_Ranger_Free_SpriteSheet_189
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 0
+        width: 8
+        height: 8
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abdc8878a25e67149bbf3836359979f0
+      internalID: 3584868829388640495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []

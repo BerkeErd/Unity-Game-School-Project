@@ -1,7 +1,40 @@
 fileFormatVersion: 2
 guid: 07fa85bb0171f6d4d9c2eec634616bea
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 6866096769205761604
+    second: ennemy_streetboy-one_spritesheet_0
+  - first:
+      213: 5692903037450350679
+    second: ennemy_streetboy-one_spritesheet_1
+  - first:
+      213: -3889839099790271860
+    second: ennemy_streetboy-one_spritesheet_2
+  - first:
+      213: 7328834854382685324
+    second: ennemy_streetboy-one_spritesheet_3
+  - first:
+      213: 8023823357029452015
+    second: ennemy_streetboy-one_spritesheet_4
+  - first:
+      213: 5646498718927974089
+    second: ennemy_streetboy-one_spritesheet_5
+  - first:
+      213: -170523909990211920
+    second: ennemy_streetboy-one_spritesheet_6
+  - first:
+      213: 8448025608585056353
+    second: ennemy_streetboy-one_spritesheet_7
+  - first:
+      213: 6321870376079443081
+    second: ennemy_streetboy-one_spritesheet_8
+  - first:
+      213: 5792738171804503637
+    second: ennemy_streetboy-one_spritesheet_9
+  - first:
+      213: -86305932394346661
+    second: ennemy_streetboy-one_spritesheet_10
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -40,7 +73,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -70,9 +103,264 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: ennemy_streetboy-one_spritesheet_0
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 103
+        width: 13
+        height: 34
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b257b463155732498eadc07b1961e98
+      internalID: 6866096769205761604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_streetboy-one_spritesheet_1
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 103
+        width: 13
+        height: 35
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4778f16869414f141b0040261fd70414
+      internalID: 5692903037450350679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_streetboy-one_spritesheet_2
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 103
+        width: 13
+        height: 36
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ea84b5ce80be894bbee5843144d21ca
+      internalID: -3889839099790271860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_streetboy-one_spritesheet_3
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 103
+        width: 13
+        height: 36
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f35c84b493de074da1fcc9b1fe692b2
+      internalID: 7328834854382685324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_streetboy-one_spritesheet_4
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 53
+        width: 13
+        height: 34
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e26b4410c8d0e9b4a91dc84fef99d4ea
+      internalID: 8023823357029452015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_streetboy-one_spritesheet_5
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 53
+        width: 13
+        height: 34
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13cc9f57d1095ae4c8475c2ba2674219
+      internalID: 5646498718927974089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_streetboy-one_spritesheet_6
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 53
+        width: 19
+        height: 34
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a1795965e213c64688d9175781153ad
+      internalID: -170523909990211920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_streetboy-one_spritesheet_7
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 3
+        width: 21
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd244c5eedf7db344b2e5a389da2e4b3
+      internalID: 8448025608585056353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_streetboy-one_spritesheet_8
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 3
+        width: 14
+        height: 34
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81ffa9733525e8448a9c1a0517f72eaa
+      internalID: 6321870376079443081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_streetboy-one_spritesheet_9
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 9
+        width: 31
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3aaa56db35375424b8beb39d93d6721d
+      internalID: 5792738171804503637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_streetboy-one_spritesheet_10
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 3
+        width: 36
+        height: 8
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fcce5349b3bc7b4fabe60011758bc3c
+      internalID: -86305932394346661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
