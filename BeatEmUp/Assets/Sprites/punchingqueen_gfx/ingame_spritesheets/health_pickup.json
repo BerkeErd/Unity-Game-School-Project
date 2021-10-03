@@ -1,0 +1,107 @@
+{ "frames": {
+   "Health 0.ase": {
+    "frame": { "x": 0, "y": 0, "w": 19, "h": 35 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 19, "h": 35 },
+    "sourceSize": { "w": 19, "h": 35 },
+    "duration": 100
+   },
+   "Health 1.ase": {
+    "frame": { "x": 19, "y": 0, "w": 19, "h": 35 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 19, "h": 35 },
+    "sourceSize": { "w": 19, "h": 35 },
+    "duration": 100
+   },
+   "Health 2.ase": {
+    "frame": { "x": 38, "y": 0, "w": 19, "h": 35 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 19, "h": 35 },
+    "sourceSize": { "w": 19, "h": 35 },
+    "duration": 100
+   },
+   "Health 3.ase": {
+    "frame": { "x": 57, "y": 0, "w": 19, "h": 35 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 19, "h": 35 },
+    "sourceSize": { "w": 19, "h": 35 },
+    "duration": 100
+   },
+   "Health 4.ase": {
+    "frame": { "x": 76, "y": 0, "w": 19, "h": 35 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 19, "h": 35 },
+    "sourceSize": { "w": 19, "h": 35 },
+    "duration": 100
+   },
+   "Health 5.ase": {
+    "frame": { "x": 95, "y": 0, "w": 19, "h": 35 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 19, "h": 35 },
+    "sourceSize": { "w": 19, "h": 35 },
+    "duration": 100
+   },
+   "Health 6.ase": {
+    "frame": { "x": 114, "y": 0, "w": 19, "h": 35 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 19, "h": 35 },
+    "sourceSize": { "w": 19, "h": 35 },
+    "duration": 100
+   },
+   "Health 7.ase": {
+    "frame": { "x": 133, "y": 0, "w": 19, "h": 35 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 19, "h": 35 },
+    "sourceSize": { "w": 19, "h": 35 },
+    "duration": 100
+   },
+   "Health 8.ase": {
+    "frame": { "x": 152, "y": 0, "w": 19, "h": 35 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 19, "h": 35 },
+    "sourceSize": { "w": 19, "h": 35 },
+    "duration": 100
+   },
+   "Health 9.ase": {
+    "frame": { "x": 171, "y": 0, "w": 19, "h": 35 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 19, "h": 35 },
+    "sourceSize": { "w": 19, "h": 35 },
+    "duration": 100
+   },
+   "Health 10.ase": {
+    "frame": { "x": 190, "y": 0, "w": 19, "h": 35 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 19, "h": 35 },
+    "sourceSize": { "w": 19, "h": 35 },
+    "duration": 100
+   },
+   "Health 11.ase": {
+    "frame": { "x": 209, "y": 0, "w": 19, "h": 35 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 19, "h": 35 },
+    "sourceSize": { "w": 19, "h": 35 },
+    "duration": 100
+   }
+ },
+ "meta": {
+  "app": "http://www.aseprite.org/",
+  "version": "1.2.8-x64",
+  "image": "D:\\BACKUP\\MINIPROJECTS\\GAME JAMS\\MINIBEANSJAM PRODUKTION\\health_pickup.png",
+  "format": "RGBA8888",
+  "size": { "w": 228, "h": 35 },
+  "scale": "1"
+ }
+}

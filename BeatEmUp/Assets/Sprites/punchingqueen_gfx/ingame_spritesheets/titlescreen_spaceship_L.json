@@ -1,0 +1,27 @@
+{ "frames": {
+   "Titelbild_Artwork 0.ase": {
+    "frame": { "x": 0, "y": 0, "w": 90, "h": 124 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 90, "h": 124 },
+    "sourceSize": { "w": 90, "h": 124 },
+    "duration": 100
+   },
+   "Titelbild_Artwork 1.ase": {
+    "frame": { "x": 90, "y": 0, "w": 90, "h": 124 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 90, "h": 124 },
+    "sourceSize": { "w": 90, "h": 124 },
+    "duration": 100
+   }
+ },
+ "meta": {
+  "app": "http://www.aseprite.org/",
+  "version": "1.2.8-x64",
+  "image": "D:\\BACKUP\\MINIPROJECTS\\GAME JAMS\\MINIBEANSJAM PRODUKTION\\titlescreen_spaceship_L.png",
+  "format": "RGBA8888",
+  "size": { "w": 180, "h": 124 },
+  "scale": "1"
+ }
+}

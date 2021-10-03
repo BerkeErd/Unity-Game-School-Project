@@ -41,3 +41,21 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: Background
+    uniqueID: 2447256401
+    locked: 0
+  - name: Level
+    uniqueID: 1474701261
+    locked: 0
+  - name: Enemies
+    uniqueID: 312889063
+    locked: 0
+  - name: Characters
+    uniqueID: 3976846489
+    locked: 0
+  - name: Objects
+    uniqueID: 873813177
+    locked: 0
+  - name: Canvas
+    uniqueID: 116693327
+    locked: 0

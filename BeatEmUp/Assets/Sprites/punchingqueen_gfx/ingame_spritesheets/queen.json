@@ -1,0 +1,265 @@
+{ "frames": {
+   "Queen 0.ase": {
+    "frame": { "x": 0, "y": 0, "w": 74, "h": 75 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 74, "h": 75 },
+    "sourceSize": { "w": 74, "h": 75 },
+    "duration": 100
+   },
+   "Queen 1.ase": {
+    "frame": { "x": 74, "y": 0, "w": 74, "h": 75 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 74, "h": 75 },
+    "sourceSize": { "w": 74, "h": 75 },
+    "duration": 100
+   },
+   "Queen 2.ase": {
+    "frame": { "x": 148, "y": 0, "w": 74, "h": 75 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 74, "h": 75 },
+    "sourceSize": { "w": 74, "h": 75 },
+    "duration": 100
+   },
+   "Queen 3.ase": {
+    "frame": { "x": 222, "y": 0, "w": 74, "h": 75 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 74, "h": 75 },
+    "sourceSize": { "w": 74, "h": 75 },
+    "duration": 100
+   },
+   "Queen 4.ase": {
+    "frame": { "x": 296, "y": 0, "w": 74, "h": 75 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 74, "h": 75 },
+    "sourceSize": { "w": 74, "h": 75 },
+    "duration": 100
+   },
+   "Queen 5.ase": {
+    "frame": { "x": 370, "y": 0, "w": 74, "h": 75 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 74, "h": 75 },
+    "sourceSize": { "w": 74, "h": 75 },
+    "duration": 100
+   },
+   "Queen 6.ase": {
+    "frame": { "x": 444, "y": 0, "w": 74, "h": 75 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 74, "h": 75 },
+    "sourceSize": { "w": 74, "h": 75 },
+    "duration": 100
+   },
+   "Queen 7.ase": {
+    "frame": { "x": 518, "y": 0, "w": 74, "h": 75 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 74, "h": 75 },
+    "sourceSize": { "w": 74, "h": 75 },
+    "duration": 100
+   },
+   "Queen 8.ase": {
+    "frame": { "x": 592, "y": 0, "w": 74, "h": 75 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 74, "h": 75 },
+    "sourceSize": { "w": 74, "h": 75 },
+    "duration": 100
+   },
+   "Queen 9.ase": {
+    "frame": { "x": 666, "y": 0, "w": 74, "h": 75 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 74, "h": 75 },
+    "sourceSize": { "w": 74, "h": 75 },
+    "duration": 100
+   },
+   "Queen 10.ase": {
+    "frame": { "x": 740, "y": 0, "w": 74, "h": 75 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 74, "h": 75 },
+    "sourceSize": { "w": 74, "h": 75 },
+    "duration": 100
+   },
+   "Queen 11.ase": {
+    "frame": { "x": 814, "y": 0, "w": 74, "h": 75 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 74, "h": 75 },
+    "sourceSize": { "w": 74, "h": 75 },
+    "duration": 100
+   },
+   "Queen 12.ase": {
+    "frame": { "x": 888, "y": 0, "w": 74, "h": 75 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 74, "h": 75 },
+    "sourceSize": { "w": 74, "h": 75 },
+    "duration": 100
+   },
+   "Queen 13.ase": {
+    "frame": { "x": 962, "y": 0, "w": 74, "h": 75 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 74, "h": 75 },
+    "sourceSize": { "w": 74, "h": 75 },
+    "duration": 100
+   },
+   "Queen 14.ase": {
+    "frame": { "x": 1036, "y": 0, "w": 74, "h": 75 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 74, "h": 75 },
+    "sourceSize": { "w": 74, "h": 75 },
+    "duration": 100
+   },
+   "Queen 15.ase": {
+    "frame": { "x": 1110, "y": 0, "w": 74, "h": 75 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 74, "h": 75 },
+    "sourceSize": { "w": 74, "h": 75 },
+    "duration": 100
+   },
+   "Queen 16.ase": {
+    "frame": { "x": 1184, "y": 0, "w": 74, "h": 75 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 74, "h": 75 },
+    "sourceSize": { "w": 74, "h": 75 },
+    "duration": 100
+   },
+   "Queen 17.ase": {
+    "frame": { "x": 1258, "y": 0, "w": 74, "h": 75 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 74, "h": 75 },
+    "sourceSize": { "w": 74, "h": 75 },
+    "duration": 100
+   },
+   "Queen 18.ase": {
+    "frame": { "x": 1332, "y": 0, "w": 74, "h": 75 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 74, "h": 75 },
+    "sourceSize": { "w": 74, "h": 75 },
+    "duration": 100
+   },
+   "Queen 19.ase": {
+    "frame": { "x": 1406, "y": 0, "w": 74, "h": 75 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 74, "h": 75 },
+    "sourceSize": { "w": 74, "h": 75 },
+    "duration": 100
+   },
+   "Queen 20.ase": {
+    "frame": { "x": 1480, "y": 0, "w": 74, "h": 75 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 74, "h": 75 },
+    "sourceSize": { "w": 74, "h": 75 },
+    "duration": 100
+   },
+   "Queen 21.ase": {
+    "frame": { "x": 1554, "y": 0, "w": 74, "h": 75 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 74, "h": 75 },
+    "sourceSize": { "w": 74, "h": 75 },
+    "duration": 100
+   },
+   "Queen 22.ase": {
+    "frame": { "x": 1628, "y": 0, "w": 74, "h": 75 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 74, "h": 75 },
+    "sourceSize": { "w": 74, "h": 75 },
+    "duration": 100
+   },
+   "Queen 23.ase": {
+    "frame": { "x": 1702, "y": 0, "w": 74, "h": 75 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 74, "h": 75 },
+    "sourceSize": { "w": 74, "h": 75 },
+    "duration": 100
+   },
+   "Queen 24.ase": {
+    "frame": { "x": 1776, "y": 0, "w": 74, "h": 75 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 74, "h": 75 },
+    "sourceSize": { "w": 74, "h": 75 },
+    "duration": 100
+   },
+   "Queen 25.ase": {
+    "frame": { "x": 1850, "y": 0, "w": 74, "h": 75 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 74, "h": 75 },
+    "sourceSize": { "w": 74, "h": 75 },
+    "duration": 100
+   },
+   "Queen 26.ase": {
+    "frame": { "x": 1924, "y": 0, "w": 74, "h": 75 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 74, "h": 75 },
+    "sourceSize": { "w": 74, "h": 75 },
+    "duration": 100
+   },
+   "Queen 27.ase": {
+    "frame": { "x": 1998, "y": 0, "w": 74, "h": 75 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 74, "h": 75 },
+    "sourceSize": { "w": 74, "h": 75 },
+    "duration": 100
+   },
+   "Queen 28.ase": {
+    "frame": { "x": 2072, "y": 0, "w": 74, "h": 75 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 74, "h": 75 },
+    "sourceSize": { "w": 74, "h": 75 },
+    "duration": 100
+   }
+ },
+ "meta": {
+  "app": "http://www.aseprite.org/",
+  "version": "1.2.8-x64",
+  "image": "D:\\BACKUP\\MINIPROJECTS\\GAME JAMS\\MINIBEANSJAM PRODUKTION\\queen.png",
+  "format": "RGBA8888",
+  "size": { "w": 2146, "h": 75 },
+  "scale": "1",
+  "frameTags": [
+   { "name": "Walk", "from": 0, "to": 2, "direction": "forward" },
+   { "name": "Death", "from": 3, "to": 8, "direction": "forward" },
+   { "name": "Hit", "from": 3, "to": 3, "direction": "forward" },
+   { "name": "Jab", "from": 9, "to": 9, "direction": "forward" },
+   { "name": "Hook", "from": 10, "to": 10, "direction": "forward" },
+   { "name": "Uppercut", "from": 11, "to": 11, "direction": "forward" },
+   { "name": "Jump", "from": 12, "to": 12, "direction": "forward" },
+   { "name": "Jump_Attack", "from": 13, "to": 13, "direction": "forward" },
+   { "name": "Throw", "from": 14, "to": 14, "direction": "forward" },
+   { "name": "Walk+Knuckles", "from": 15, "to": 17, "direction": "forward" },
+   { "name": "Hit+Knuckles", "from": 18, "to": 18, "direction": "forward" },
+   { "name": "Jab+Knuckles", "from": 19, "to": 19, "direction": "forward" },
+   { "name": "Hook+Knuckles", "from": 20, "to": 20, "direction": "forward" },
+   { "name": "Uppercut+Knuckles", "from": 21, "to": 21, "direction": "forward" },
+   { "name": "Jump+Knuckles", "from": 22, "to": 22, "direction": "forward" },
+   { "name": "Jump_Attack+Knuckles", "from": 23, "to": 23, "direction": "forward" },
+   { "name": "KnuckleBuster_Charge", "from": 24, "to": 24, "direction": "forward" },
+   { "name": "KnuckleBuster_Punch", "from": 25, "to": 25, "direction": "forward" },
+   { "name": "Win", "from": 26, "to": 27, "direction": "forward" },
+   { "name": "Win_Jump", "from": 28, "to": 28, "direction": "forward" }
+  ]
+ }
+}

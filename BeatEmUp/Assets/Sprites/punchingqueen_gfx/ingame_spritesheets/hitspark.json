@@ -1,0 +1,27 @@
+{ "frames": {
+   "SpecialFX 0.ase": {
+    "frame": { "x": 0, "y": 0, "w": 40, "h": 39 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 40, "h": 39 },
+    "sourceSize": { "w": 40, "h": 39 },
+    "duration": 100
+   },
+   "SpecialFX 1.ase": {
+    "frame": { "x": 40, "y": 0, "w": 40, "h": 39 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 40, "h": 39 },
+    "sourceSize": { "w": 40, "h": 39 },
+    "duration": 100
+   }
+ },
+ "meta": {
+  "app": "http://www.aseprite.org/",
+  "version": "1.2.8-x64",
+  "image": "D:\\BACKUP\\MINIPROJECTS\\GAME JAMS\\MINIBEANSJAM PRODUKTION\\hitspark.png",
+  "format": "RGBA8888",
+  "size": { "w": 80, "h": 39 },
+  "scale": "1"
+ }
+}

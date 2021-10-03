@@ -1,0 +1,35 @@
+{ "frames": {
+   "SpecialFX 0.ase": {
+    "frame": { "x": 0, "y": 0, "w": 106, "h": 60 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 106, "h": 60 },
+    "sourceSize": { "w": 106, "h": 60 },
+    "duration": 100
+   },
+   "SpecialFX 1.ase": {
+    "frame": { "x": 106, "y": 0, "w": 106, "h": 60 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 106, "h": 60 },
+    "sourceSize": { "w": 106, "h": 60 },
+    "duration": 100
+   },
+   "SpecialFX 2.ase": {
+    "frame": { "x": 212, "y": 0, "w": 106, "h": 60 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 106, "h": 60 },
+    "sourceSize": { "w": 106, "h": 60 },
+    "duration": 100
+   }
+ },
+ "meta": {
+  "app": "http://www.aseprite.org/",
+  "version": "1.2.8-x64",
+  "image": "D:\\BACKUP\\MINIPROJECTS\\GAME JAMS\\MINIBEANSJAM PRODUKTION\\knucklebuster_boost.png",
+  "format": "RGBA8888",
+  "size": { "w": 318, "h": 60 },
+  "scale": "1"
+ }
+}

@@ -1,0 +1,56 @@
+{ "frames": {
+   "Fist-Bot 0.ase": {
+    "frame": { "x": 0, "y": 0, "w": 76, "h": 58 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 76, "h": 58 },
+    "sourceSize": { "w": 76, "h": 58 },
+    "duration": 100
+   },
+   "Fist-Bot 1.ase": {
+    "frame": { "x": 76, "y": 0, "w": 76, "h": 58 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 76, "h": 58 },
+    "sourceSize": { "w": 76, "h": 58 },
+    "duration": 100
+   },
+   "Fist-Bot 2.ase": {
+    "frame": { "x": 152, "y": 0, "w": 76, "h": 58 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 76, "h": 58 },
+    "sourceSize": { "w": 76, "h": 58 },
+    "duration": 100
+   },
+   "Fist-Bot 3.ase": {
+    "frame": { "x": 228, "y": 0, "w": 76, "h": 58 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 76, "h": 58 },
+    "sourceSize": { "w": 76, "h": 58 },
+    "duration": 100
+   },
+   "Fist-Bot 4.ase": {
+    "frame": { "x": 304, "y": 0, "w": 76, "h": 58 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 76, "h": 58 },
+    "sourceSize": { "w": 76, "h": 58 },
+    "duration": 100
+   }
+ },
+ "meta": {
+  "app": "http://www.aseprite.org/",
+  "version": "1.2.8-x64",
+  "image": "D:\\BACKUP\\MINIPROJECTS\\GAME JAMS\\MINIBEANSJAM PRODUKTION\\fistbot.png",
+  "format": "RGBA8888",
+  "size": { "w": 380, "h": 58 },
+  "scale": "1",
+  "frameTags": [
+   { "name": "Walk", "from": 0, "to": 2, "direction": "forward" },
+   { "name": "Hit", "from": 3, "to": 3, "direction": "forward" },
+   { "name": "Jab", "from": 4, "to": 4, "direction": "forward" }
+  ]
+ }
+}

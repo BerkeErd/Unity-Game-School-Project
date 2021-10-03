@@ -1,0 +1,43 @@
+{ "frames": {
+   "SpecialFX 0.ase": {
+    "frame": { "x": 0, "y": 0, "w": 129, "h": 117 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 129, "h": 117 },
+    "sourceSize": { "w": 129, "h": 117 },
+    "duration": 100
+   },
+   "SpecialFX 1.ase": {
+    "frame": { "x": 129, "y": 0, "w": 129, "h": 117 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 129, "h": 117 },
+    "sourceSize": { "w": 129, "h": 117 },
+    "duration": 100
+   },
+   "SpecialFX 2.ase": {
+    "frame": { "x": 258, "y": 0, "w": 129, "h": 117 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 129, "h": 117 },
+    "sourceSize": { "w": 129, "h": 117 },
+    "duration": 100
+   },
+   "SpecialFX 3.ase": {
+    "frame": { "x": 387, "y": 0, "w": 129, "h": 117 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 129, "h": 117 },
+    "sourceSize": { "w": 129, "h": 117 },
+    "duration": 100
+   }
+ },
+ "meta": {
+  "app": "http://www.aseprite.org/",
+  "version": "1.2.8-x64",
+  "image": "D:\\BACKUP\\MINIPROJECTS\\GAME JAMS\\MINIBEANSJAM PRODUKTION\\fistbot_explosion.png",
+  "format": "RGBA8888",
+  "size": { "w": 516, "h": 117 },
+  "scale": "1"
+ }
+}

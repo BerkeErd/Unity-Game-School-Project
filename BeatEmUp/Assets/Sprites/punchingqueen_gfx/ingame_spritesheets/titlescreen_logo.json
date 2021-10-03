@@ -1,0 +1,83 @@
+{ "frames": {
+   "titlescreen_logo 0.ase": {
+    "frame": { "x": 0, "y": 0, "w": 120, "h": 68 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 120, "h": 68 },
+    "sourceSize": { "w": 120, "h": 68 },
+    "duration": 3000
+   },
+   "titlescreen_logo 1.ase": {
+    "frame": { "x": 120, "y": 0, "w": 120, "h": 68 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 120, "h": 68 },
+    "sourceSize": { "w": 120, "h": 68 },
+    "duration": 60
+   },
+   "titlescreen_logo 2.ase": {
+    "frame": { "x": 240, "y": 0, "w": 120, "h": 68 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 120, "h": 68 },
+    "sourceSize": { "w": 120, "h": 68 },
+    "duration": 60
+   },
+   "titlescreen_logo 3.ase": {
+    "frame": { "x": 360, "y": 0, "w": 120, "h": 68 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 120, "h": 68 },
+    "sourceSize": { "w": 120, "h": 68 },
+    "duration": 60
+   },
+   "titlescreen_logo 4.ase": {
+    "frame": { "x": 480, "y": 0, "w": 120, "h": 68 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 120, "h": 68 },
+    "sourceSize": { "w": 120, "h": 68 },
+    "duration": 60
+   },
+   "titlescreen_logo 5.ase": {
+    "frame": { "x": 600, "y": 0, "w": 120, "h": 68 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 120, "h": 68 },
+    "sourceSize": { "w": 120, "h": 68 },
+    "duration": 60
+   },
+   "titlescreen_logo 6.ase": {
+    "frame": { "x": 720, "y": 0, "w": 120, "h": 68 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 120, "h": 68 },
+    "sourceSize": { "w": 120, "h": 68 },
+    "duration": 60
+   },
+   "titlescreen_logo 7.ase": {
+    "frame": { "x": 840, "y": 0, "w": 120, "h": 68 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 120, "h": 68 },
+    "sourceSize": { "w": 120, "h": 68 },
+    "duration": 60
+   },
+   "titlescreen_logo 8.ase": {
+    "frame": { "x": 960, "y": 0, "w": 120, "h": 68 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 120, "h": 68 },
+    "sourceSize": { "w": 120, "h": 68 },
+    "duration": 60
+   }
+ },
+ "meta": {
+  "app": "http://www.aseprite.org/",
+  "version": "1.2.8-x64",
+  "image": "D:\\BACKUP\\MINIPROJECTS\\GAME JAMS\\MINIBEANSJAM PRODUKTION\\titlescreen_logo.png",
+  "format": "RGBA8888",
+  "size": { "w": 1080, "h": 68 },
+  "scale": "1"
+ }
+}
