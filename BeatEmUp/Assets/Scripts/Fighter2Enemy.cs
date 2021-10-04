@@ -7,12 +7,14 @@ public class Fighter2Enemy : MonoBehaviour
 {
     public float speed;
     public float chaseDistance;
-    public float stopDistance;
+    public float stopDistanceX;
+    public float stopDistanceY;
     public GameObject target;
 
     Animator animator;
 
-    public float targetDistance;
+    public float targetDistanceX;
+    public float targetDistanceY;
 
     void Start()
     {
@@ -23,8 +25,10 @@ public class Fighter2Enemy : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        targetDistance = Vector3.Distance(transform.position, target.transform.position);
-        if (targetDistance < chaseDistance && targetDistance > stopDistance)
+        targetDistanceX = Mathf.Abs(transform.position.x - target.transform.position.x);
+        targetDistanceY = Mathf.Abs(transform.position.y - target.transform.position.y);
+
+        if (targetDistanceX < chaseDistance && targetDistanceX > stopDistanceX || targetDistanceY < chaseDistance && targetDistanceY > stopDistanceY)
             ChasePlayer();
         else
             StopChasePlayer();

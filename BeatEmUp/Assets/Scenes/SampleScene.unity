@@ -1200,6 +1200,18 @@ PrefabInstance:
       propertyPath: target
       value: 
       objectReference: {fileID: 1324386080}
+    - target: {fileID: 1273430094, guid: 4e03ad10f68326b4aa0ae24df64850bf, type: 3}
+      propertyPath: stopDistance
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1273430094, guid: 4e03ad10f68326b4aa0ae24df64850bf, type: 3}
+      propertyPath: stopDistanceX
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1273430094, guid: 4e03ad10f68326b4aa0ae24df64850bf, type: 3}
+      propertyPath: stopDistanceY
+      value: 0.5
+      objectReference: {fileID: 0}
     - target: {fileID: 160337512378115204, guid: 4e03ad10f68326b4aa0ae24df64850bf,
         type: 3}
       propertyPath: m_LocalPosition.x
