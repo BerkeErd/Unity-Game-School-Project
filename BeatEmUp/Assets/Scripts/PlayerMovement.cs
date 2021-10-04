@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
 
-public class PlayerMovement : MonoBehaviour, IPointerDownHandler, IPointerUpHandler
+public class PlayerMovement : MonoBehaviour
 {
     public int runSpeed;
 
@@ -15,6 +15,8 @@ public class PlayerMovement : MonoBehaviour, IPointerDownHandler, IPointerUpHand
 
     bool isPunching;
 
+    bool leftPunch = true;
+
     Button punchButton;
     public float maxYpos = -2.21f;
     public float minYpos = -4.90f;
@@ -24,7 +26,7 @@ public class PlayerMovement : MonoBehaviour, IPointerDownHandler, IPointerUpHand
         animator = GetComponent<Animator>();
         punchButton = GameObject.Find("PunchButton").GetComponent<Button>();
 
-        punchButton.onClick.AddListener(delegate { Punch(); });
+        //punchButton.onClick.AddListener(delegate { Punch(); });
     }
 
     // Update is called once per frame
@@ -56,18 +58,30 @@ public class PlayerMovement : MonoBehaviour, IPointerDownHandler, IPointerUpHand
 
 
 
-    void Punch()
+    public void Punch()
     {
-        isPunching = true;
-        if (vertical != 0 || horizontal != 0)
+        if(!isPunching)
         {
-            vertical = 0;
-            horizontal = 0;
-            animator.SetFloat("Speed", 0);         
+            isPunching = true;
+            if (vertical != 0 || horizontal != 0)
+            {
+                vertical = 0;
+                horizontal = 0;
+                animator.SetFloat("Speed", 0);
+            }
+
+            if (leftPunch)
+            {
+                animator.SetTrigger("PunchLeft");
+                leftPunch = false;
+            }
+            else
+            {
+                animator.SetTrigger("PunchRight");
+                leftPunch = true;
+            }
         }
-
-        animator.SetTrigger("Punch");
-
+      
     }
 
     void FixedUpdate()
