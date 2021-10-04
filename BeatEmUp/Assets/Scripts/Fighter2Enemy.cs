@@ -17,6 +17,7 @@ public class Fighter2Enemy : MonoBehaviour
     void Start()
     {
         animator = GetComponent<Animator>();
+        target = GameObject.Find("Fighter");
     }
 
     // Update is called once per frame
