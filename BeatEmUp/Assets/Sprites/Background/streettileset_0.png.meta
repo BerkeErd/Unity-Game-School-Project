@@ -1,7 +1,169 @@
 fileFormatVersion: 2
 guid: d1254daae059d1d4f94d05a02ed1ec6c
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 5483600770598739510
+    second: streettileset_0_0
+  - first:
+      213: 7275612331404829599
+    second: streettileset_0_1
+  - first:
+      213: 2548913473495491785
+    second: streettileset_0_2
+  - first:
+      213: -9065279203037355859
+    second: streettileset_0_3
+  - first:
+      213: -6873433394521118549
+    second: streettileset_0_4
+  - first:
+      213: 5294485738739984486
+    second: streettileset_0_5
+  - first:
+      213: -3870625159179821594
+    second: streettileset_0_6
+  - first:
+      213: -14590195900594721
+    second: streettileset_0_7
+  - first:
+      213: 1736438624524212947
+    second: streettileset_0_8
+  - first:
+      213: -1778954700003072905
+    second: streettileset_0_9
+  - first:
+      213: -5059842036384054398
+    second: streettileset_0_10
+  - first:
+      213: 7399155868967641338
+    second: streettileset_0_11
+  - first:
+      213: -4579737656466656363
+    second: streettileset_0_12
+  - first:
+      213: -4670335925243542528
+    second: streettileset_0_13
+  - first:
+      213: -5866005950117046315
+    second: streettileset_0_14
+  - first:
+      213: 416584417597597764
+    second: streettileset_0_15
+  - first:
+      213: -3973603686304814387
+    second: streettileset_0_16
+  - first:
+      213: 701909616366979825
+    second: streettileset_0_17
+  - first:
+      213: 796267373856343664
+    second: streettileset_0_18
+  - first:
+      213: -4069838069268255967
+    second: streettileset_0_19
+  - first:
+      213: 748022106283317728
+    second: streettileset_0_20
+  - first:
+      213: -2307035520725311627
+    second: streettileset_0_21
+  - first:
+      213: -3439484422220684729
+    second: streettileset_0_22
+  - first:
+      213: 4217340573541591383
+    second: streettileset_0_23
+  - first:
+      213: 1971159176113057847
+    second: streettileset_0_24
+  - first:
+      213: -5276114819975801455
+    second: streettileset_0_25
+  - first:
+      213: -7522744478209033103
+    second: streettileset_0_26
+  - first:
+      213: -915811042909537945
+    second: streettileset_0_27
+  - first:
+      213: -1328490341698977232
+    second: streettileset_0_28
+  - first:
+      213: 6321511052810876025
+    second: streettileset_0_29
+  - first:
+      213: -5064663193174167558
+    second: streettileset_0_30
+  - first:
+      213: 7540436878310079951
+    second: streettileset_0_31
+  - first:
+      213: 7182413496958898369
+    second: streettileset_0_32
+  - first:
+      213: -2181923896157401652
+    second: streettileset_0_33
+  - first:
+      213: -5535043285035838392
+    second: streettileset_0_34
+  - first:
+      213: -6228357728511324123
+    second: streettileset_0_35
+  - first:
+      213: 4520993245196939020
+    second: streettileset_0_36
+  - first:
+      213: -6445581841909883686
+    second: streettileset_0_37
+  - first:
+      213: 4780687179223043417
+    second: streettileset_0_38
+  - first:
+      213: -6694582074449871089
+    second: streettileset_0_39
+  - first:
+      213: -627456405572743699
+    second: streettileset_0_40
+  - first:
+      213: -6159993411531815062
+    second: streettileset_0_41
+  - first:
+      213: -487160812806053853
+    second: streettileset_0_42
+  - first:
+      213: -4491403427140518009
+    second: streettileset_0_43
+  - first:
+      213: -267555505707726389
+    second: streettileset_0_44
+  - first:
+      213: -2822085457153688554
+    second: streettileset_0_45
+  - first:
+      213: 1734543771869428257
+    second: streettileset_0_46
+  - first:
+      213: -551520325768960201
+    second: streettileset_0_47
+  - first:
+      213: 5021560969052093240
+    second: streettileset_0_48
+  - first:
+      213: -7491349949619100532
+    second: streettileset_0_49
+  - first:
+      213: 1134404215142433161
+    second: streettileset_0_50
+  - first:
+      213: 2504120728052241267
+    second: streettileset_0_51
+  - first:
+      213: -3269629990034912734
+    second: streettileset_0_52
+  - first:
+      213: 8195305394482890884
+    second: streettileset_0_53
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -40,7 +202,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -70,9 +232,1167 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: streettileset_0_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 332
+        width: 48
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a714290c545e384b85e3291cea6ecd1
+      internalID: 5483600770598739510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: streettileset_0_1
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 308
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c080c29ce1a08e4e8ab2dcdb2bcd36e
+      internalID: 7275612331404829599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: streettileset_0_2
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 308
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8988583aa4e31ae4da0fa8e7db6c8e4c
+      internalID: 2548913473495491785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: streettileset_0_3
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 308
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6661837406a7f444aa0aff7da5feefb
+      internalID: -9065279203037355859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: streettileset_0_4
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 308
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c4425be918d5954eac7d257a7631b9b
+      internalID: -6873433394521118549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: streettileset_0_5
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 308
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae6c1217ef357d44684ceb532f624b17
+      internalID: 5294485738739984486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: streettileset_0_6
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 308
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc91a1c75af9d28428aa2d24aaae6359
+      internalID: -3870625159179821594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: streettileset_0_7
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 215
+        width: 75
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cf50c86b8c6124439b0217216a2ff39
+      internalID: -14590195900594721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: streettileset_0_8
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 257
+        width: 42
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95082fa7dca74f5488de8bb5a9dd1d03
+      internalID: 1736438624524212947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: streettileset_0_9
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 257
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: caa49e00fcbc3c24183f61c3656f2aeb
+      internalID: -1778954700003072905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: streettileset_0_10
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 257
+        width: 42
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5342857d57de814282512ed44ae3d04
+      internalID: -5059842036384054398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: streettileset_0_11
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 257
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ba12b63250e3c14bbc35fd6066f9a4f
+      internalID: 7399155868967641338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: streettileset_0_12
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 257
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 900df28101c74a743bab966b6fee9394
+      internalID: -4579737656466656363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: streettileset_0_13
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 257
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fee95d23c3d1d5f42961089b45695f57
+      internalID: -4670335925243542528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: streettileset_0_14
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 257
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 222b3d3c6bc5c4a4e9db5693e32575eb
+      internalID: -5866005950117046315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: streettileset_0_15
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 206
+        width: 42
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82a8fe268864a3640a00fcbb4291f51a
+      internalID: 416584417597597764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: streettileset_0_16
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 206
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4919d132f5c034f4ab731526a59e5906
+      internalID: -3973603686304814387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: streettileset_0_17
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 206
+        width: 42
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c42f13857b4408b4ca84b9e03df2047b
+      internalID: 701909616366979825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: streettileset_0_18
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 206
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f34ff01d4bfaf242a5548a60fcdfd28
+      internalID: 796267373856343664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: streettileset_0_19
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 206
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23d9278a9e2fe4c4aafaa98ddfe4688c
+      internalID: -4069838069268255967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: streettileset_0_20
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 206
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 765531db49fafa84783faf7bca1bec75
+      internalID: 748022106283317728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: streettileset_0_21
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 206
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12ae00b2f2502854a8a04260d61952be
+      internalID: -2307035520725311627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: streettileset_0_22
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 0
+        width: 120
+        height: 212
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1db2b6dd3f9c9134eaffb933d0fe3e46
+      internalID: -3439484422220684729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: streettileset_0_23
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 155
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb33bf9bd95fabe48af03e8545c4f4f5
+      internalID: 4217340573541591383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: streettileset_0_24
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 155
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39575381b61e01a429ad58308b993c2a
+      internalID: 1971159176113057847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: streettileset_0_25
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 155
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d03db9c7331d9a42b36f304abec7cbe
+      internalID: -5276114819975801455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: streettileset_0_26
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 155
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e8d878fe8e9ad648ae174e36afbe847
+      internalID: -7522744478209033103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: streettileset_0_27
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 155
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 699599a0c94e48e4999f0cdaed68cf1e
+      internalID: -915811042909537945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: streettileset_0_28
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 155
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a89454c3fa9b45145ac128b4e8e9a3a9
+      internalID: -1328490341698977232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: streettileset_0_29
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 155
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c18156bd3de6594a81122f3ec157d37
+      internalID: 6321511052810876025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: streettileset_0_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 104
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a7902a7fc4b11649a6418939fb01121
+      internalID: -5064663193174167558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: streettileset_0_31
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 104
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0d813f30af2b8043849bd061847f824
+      internalID: 7540436878310079951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: streettileset_0_32
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 104
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9285886f341005f4c93c1bf43f2b4818
+      internalID: 7182413496958898369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: streettileset_0_33
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 104
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09aa9ea65f6241c41a1c312657bb39f9
+      internalID: -2181923896157401652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: streettileset_0_34
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 104
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31ec731b459f31c448817bd883f2b707
+      internalID: -5535043285035838392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: streettileset_0_35
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 104
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ffcdb32d9750e345a512a56ecd7dc37
+      internalID: -6228357728511324123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: streettileset_0_36
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 104
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0e5c86a25fe14b49986ef0c580a995c
+      internalID: 4520993245196939020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: streettileset_0_37
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 104
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8104df397d489f1409c173f581e3fe8e
+      internalID: -6445581841909883686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: streettileset_0_38
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 53
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04a01f2a231442e4aa168c90fb798dc9
+      internalID: 4780687179223043417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: streettileset_0_39
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 53
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd0509bb046bcdd42aabeabbb55d7c74
+      internalID: -6694582074449871089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: streettileset_0_40
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 53
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc4e6debbdc63b6468177634d7134b23
+      internalID: -627456405572743699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: streettileset_0_41
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 53
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9afa2a5c593bce442badd23dfddc6e03
+      internalID: -6159993411531815062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: streettileset_0_42
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 53
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5fbbe84a4637a64db9e73f327ef1716
+      internalID: -487160812806053853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: streettileset_0_43
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 53
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 417fa931684ad29469bdf12acf47e3eb
+      internalID: -4491403427140518009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: streettileset_0_44
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 53
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a840cd0f3a255f045902b3dc97c588ee
+      internalID: -267555505707726389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: streettileset_0_45
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 53
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc35ee96d519fee4d87bc7bfde07dc18
+      internalID: -2822085457153688554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: streettileset_0_46
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fef183fdd91b8554e837ce5d873f56fc
+      internalID: 1734543771869428257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: streettileset_0_47
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 2
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5761c838b498fd649a1e24d1a7d0ca10
+      internalID: -551520325768960201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: streettileset_0_48
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 2
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c07ac46a2d6f8c1429a70fac1b2f4fca
+      internalID: 5021560969052093240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: streettileset_0_49
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 2
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29a019c58768fcd4190da41e82f67f6e
+      internalID: -7491349949619100532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: streettileset_0_50
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 2
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2480af48f4e7bbe4cbe79dbd25058670
+      internalID: 1134404215142433161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: streettileset_0_51
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 2
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f35db71b6a36fea428cbdf04de767811
+      internalID: 2504120728052241267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: streettileset_0_52
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 2
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce43e9d823438ac4d8f73aa454259f5b
+      internalID: -3269629990034912734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: streettileset_0_53
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 2
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71ebd1e48a1d4ec4cb4cfa8de67e982f
+      internalID: 8195305394482890884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
