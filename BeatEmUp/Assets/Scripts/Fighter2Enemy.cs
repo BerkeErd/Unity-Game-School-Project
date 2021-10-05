@@ -13,7 +13,7 @@ public class Fighter2Enemy : MonoBehaviour
     public bool isAttacking = false;
     public GameObject target;
 
-    bool targetClose = false;
+    public bool targetClose = false;
 
     Animator animator;
 
@@ -36,6 +36,9 @@ public class Fighter2Enemy : MonoBehaviour
             ChasePlayer();
         else
             StopChasePlayer();
+
+        if (targetDistanceX < stopDistanceX && targetDistanceY < stopDistanceY)
+            targetClose = true;
     }
 
     private IEnumerator AttackPlayer()
@@ -67,7 +70,7 @@ public class Fighter2Enemy : MonoBehaviour
 
     private void StopChasePlayer()
     {
-        targetClose = true;
+        
         animator.SetBool("IsWalking", false);
 
         if(!isAttacking)
