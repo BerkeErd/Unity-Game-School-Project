@@ -25,8 +25,6 @@ public class PlayerMovement : MonoBehaviour
     {
         animator = GetComponent<Animator>();
         punchButton = GameObject.Find("PunchButton").GetComponent<Button>();
-
-        //punchButton.onClick.AddListener(delegate { Punch(); });
     }
 
     // Update is called once per frame
@@ -37,27 +35,6 @@ public class PlayerMovement : MonoBehaviour
         
 
     }
-
-
-
-    public void OnPointerDown(PointerEventData eventData)
-    {
-        Debug.Log(this.gameObject.name + " Was Clicked.");
-    }
-
-    public void OnPointerUp(PointerEventData eventData)
-    {
-        Debug.Log(this.gameObject.name + " Was Released.");
-    }
-
-
-
-
-
-
-
-
-
     public void Punch()
     {
         if(!isPunching)
