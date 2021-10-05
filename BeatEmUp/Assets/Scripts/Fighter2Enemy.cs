@@ -6,14 +6,21 @@ using Random = UnityEngine.Random;
 
 public class Fighter2Enemy : MonoBehaviour
 {
+
+    public int maxHealth = 100;
+    int currentHealth;
+
+    bool isKnockedUp;
     public float speed;
     public float chaseDistance;
     public float stopDistanceX;
     public float stopDistanceY;
     public bool isAttacking = false;
+    public bool tookDamage = false;
     public GameObject target;
 
     public bool targetClose = false;
+ 
 
     Animator animator;
 
@@ -22,50 +29,100 @@ public class Fighter2Enemy : MonoBehaviour
 
     void Start()
     {
+        currentHealth = maxHealth;
         animator = GetComponent<Animator>();
         target = GameObject.Find("Fighter");
     }
 
+    public void TakeDamage(int damage)
+    {
+        currentHealth -= damage;
+        tookDamage = true;
+        isAttacking = false;
+        animator.SetTrigger("Hit");
+        if(currentHealth <= 0 )
+        {
+            Die();
+        }
+
+    }
+
+    public void KnockUp()
+    {
+        
+        animator.SetTrigger("KnockDown");
+        isKnockedUp = true;
+
+        
+    }
+
+
+
+    void Die()
+    {
+        Debug.Log("Enemy died");
+        GetComponent<Collider2D>().enabled = false;
+        this.enabled = false;
+    }
     // Update is called once per frame
     void Update()
     {
         targetDistanceX = Mathf.Abs(transform.position.x - target.transform.position.x);
         targetDistanceY = Mathf.Abs(transform.position.y - target.transform.position.y);
 
-        if (targetDistanceX < chaseDistance && targetDistanceX > stopDistanceX || targetDistanceY < chaseDistance && targetDistanceY > stopDistanceY)
+        if (targetDistanceX < chaseDistance && targetDistanceX > stopDistanceX || targetDistanceY < chaseDistance && targetDistanceY > stopDistanceY && !isKnockedUp)
             ChasePlayer();
         else
             StopChasePlayer();
 
         if (targetDistanceX < stopDistanceX && targetDistanceY < stopDistanceY)
             targetClose = true;
+
+        
     }
 
     private IEnumerator AttackPlayer()
     {
-        yield return new WaitForSeconds(2);
-        if(targetClose)
-        {
-            isAttacking = true;
-            int AttackNo = Random.Range(0, 3);
-            switch (AttackNo)
+
+
+         isAttacking = true;
+         yield return new WaitForSeconds(2);
+
+            if (targetClose && !tookDamage)
             {
-                case 0:
-                    animator.SetTrigger("Attack1");
-                    break;
+                
 
-                case 1:
-                    animator.SetTrigger("Attack2");
-                    break;
-                case 2:
-                    animator.SetTrigger("Attack3");
-                    break;
+                int AttackNo = Random.Range(0, 3);
+                switch (AttackNo)
+                {
+                    case 0:
+                        animator.SetTrigger("Attack1");
+                        Debug.Log("Attack 1");
+                        break;
 
-                default:
-                    break;
+                    case 1:
+                        animator.SetTrigger("Attack2");
+                        Debug.Log("Attack 2");
+                        break;
+                    case 2:
+                        animator.SetTrigger("Attack3");
+                        Debug.Log("Attack 3");
+                        break;
+
+                    default:
+                        break;
+
+
+                }
             }
-        }
-      
+            else
+            {
+                isAttacking = false;
+            }
+
+
+        tookDamage = false;
+        StopAllCoroutines();
     }
 
     private void StopChasePlayer()
@@ -99,4 +156,6 @@ public class Fighter2Enemy : MonoBehaviour
         transform.position = Vector2.MoveTowards(transform.position, target.transform.position, speed * Time.deltaTime);
         animator.SetBool("IsWalking", true);
     }
+
+
 }

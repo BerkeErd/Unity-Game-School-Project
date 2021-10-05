@@ -37,6 +37,17 @@ public class PlayerMovement : MonoBehaviour
     public float maxYpos = -2.21f;
     public float minYpos = -4.90f;
 
+    public Transform PunchPoint;
+    public float punchRange = 0.5f;
+
+    public Transform KickPoint;
+    public float kickRange = 0.5f;
+
+    public LayerMask enemyLayers;
+
+    public int punchDamage = 10;
+    public int kickDamage = 20;
+
     private void Awake()
     {
         animator = GetComponent<Animator>();
@@ -98,6 +109,14 @@ public class PlayerMovement : MonoBehaviour
         {
             animator.SetTrigger("KickRight");
         }
+
+        Collider2D[] hitEnemies = Physics2D.OverlapCircleAll(KickPoint.position, kickRange, enemyLayers);
+
+        foreach (Collider2D enemy in hitEnemies)
+        {
+            enemy.GetComponent<Fighter2Enemy>().TakeDamage(kickDamage);
+            enemy.GetComponent<Fighter2Enemy>().KnockUp();
+        }
     }
 
     public void Punch()
@@ -121,8 +140,22 @@ public class PlayerMovement : MonoBehaviour
         if (currentComboState == ComboState.PUNCH_2)
         {
             animator.SetTrigger("PunchRight");
+        }   
+
+      Collider2D[] hitEnemies =  Physics2D.OverlapCircleAll(PunchPoint.position,punchRange,enemyLayers);
+
+        foreach (Collider2D enemy in hitEnemies)
+        {
+            enemy.GetComponent<Fighter2Enemy>().TakeDamage(punchDamage);
         }
 
+    }
+
+    private void OnDrawGizmosSelected()
+    {
+        if (PunchPoint == null)
+            return;
+        Gizmos.DrawWireSphere(PunchPoint.position, punchRange);
     }
 
     void ResetComboState()
