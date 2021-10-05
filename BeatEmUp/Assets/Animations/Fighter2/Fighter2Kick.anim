@@ -6,7 +6,7 @@ AnimationClip:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: FighterHeadbutt
+  m_Name: Fighter2Kick
   serializedVersion: 6
   m_Legacy: 0
   m_Compressed: 0
@@ -19,17 +19,14 @@ AnimationClip:
   m_FloatCurves: []
   m_PPtrCurves:
   - curve:
-    - time: 0.033333335
-      value: {fileID: -7129766873993064653, guid: c23f10f2687c64244965e2c8fbe98061,
+    - time: 0
+      value: {fileID: 5398610089350151048, guid: 925cfbc57687455409b6626fd977ddb5,
+        type: 3}
+    - time: 0.083333336
+      value: {fileID: -6180440952452654736, guid: 925cfbc57687455409b6626fd977ddb5,
         type: 3}
     - time: 0.16666667
-      value: {fileID: 7596248419250399783, guid: c23f10f2687c64244965e2c8fbe98061,
-        type: 3}
-    - time: 0.5
-      value: {fileID: 7046789539836085500, guid: c23f10f2687c64244965e2c8fbe98061,
-        type: 3}
-    - time: 0.6666667
-      value: {fileID: -7129766873993064653, guid: c23f10f2687c64244965e2c8fbe98061,
+      value: {fileID: 5398610089350151048, guid: 925cfbc57687455409b6626fd977ddb5,
         type: 3}
     attribute: m_Sprite
     path: 
@@ -50,16 +47,15 @@ AnimationClip:
       customType: 23
       isPPtrCurve: 1
     pptrCurveMapping:
-    - {fileID: -7129766873993064653, guid: c23f10f2687c64244965e2c8fbe98061, type: 3}
-    - {fileID: 7596248419250399783, guid: c23f10f2687c64244965e2c8fbe98061, type: 3}
-    - {fileID: 7046789539836085500, guid: c23f10f2687c64244965e2c8fbe98061, type: 3}
-    - {fileID: -7129766873993064653, guid: c23f10f2687c64244965e2c8fbe98061, type: 3}
+    - {fileID: 5398610089350151048, guid: 925cfbc57687455409b6626fd977ddb5, type: 3}
+    - {fileID: -6180440952452654736, guid: 925cfbc57687455409b6626fd977ddb5, type: 3}
+    - {fileID: 5398610089350151048, guid: 925cfbc57687455409b6626fd977ddb5, type: 3}
   m_AnimationClipSettings:
     serializedVersion: 2
     m_AdditiveReferencePoseClip: {fileID: 0}
     m_AdditiveReferencePoseTime: 0
     m_StartTime: 0
-    m_StopTime: 0.68333334
+    m_StopTime: 0.18333334
     m_OrientationOffsetY: 0
     m_Level: 0
     m_CycleOffset: 0
@@ -78,4 +74,11 @@ AnimationClip:
   m_EulerEditorCurves: []
   m_HasGenericRootTransform: 0
   m_HasMotionFloatCurves: 0
-  m_Events: []
+  m_Events:
+  - time: 0.16666667
+    functionName: AlertObservers
+    data: AttackEnded
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
