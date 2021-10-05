@@ -6,9 +6,11 @@ public class CameraFollow : MonoBehaviour
 {
     public Transform player;
     public Vector3 offset;
+    
     private void Start()
     {
         player = GameObject.Find("Fighter").GetComponent<Transform>();
+       
     }
     void Update()
     {
