@@ -4,9 +4,25 @@ using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
 
+public enum ComboState
+{
+    NONE,
+    PUNCH_1,
+    PUNCH_2,
+    KICK_1,
+    KICK_2
+
+}
+
 public class PlayerMovement : MonoBehaviour
 {
     public int runSpeed;
+
+    private bool activateTimerToReset;
+    public float defaultComboTimer = 0.4f;
+    private float currentComboTimer;
+
+    private ComboState currentComboState;
 
     public float horizontal;
     public float vertical;
@@ -27,38 +43,100 @@ public class PlayerMovement : MonoBehaviour
         punchButton = GameObject.Find("PunchButton").GetComponent<Button>();
     }
 
+    private void Start()
+    {
+        currentComboTimer = defaultComboTimer;
+        currentComboState = ComboState.NONE;
+    }
     // Update is called once per frame
     void Update()
     {
         animator.SetFloat("Speed", Mathf.Abs(horizontal != 0 ? horizontal : vertical));
 
-        
+        ResetComboState();
 
     }
+
+    void ComboAttacks()
+    {
+
+
+    }
+
+    public void Kick()
+    {
+        if (currentComboState == ComboState.KICK_2 || currentComboState == ComboState.PUNCH_1)
+        {
+            return;
+        }
+
+        if (currentComboState == ComboState.PUNCH_2)
+        {
+            currentComboState = ComboState.KICK_2;
+            activateTimerToReset = true;
+            currentComboTimer = defaultComboTimer;
+        }
+        if (currentComboState == ComboState.NONE)
+        {
+            currentComboState = ComboState.KICK_1;
+            activateTimerToReset = true;
+            currentComboTimer = defaultComboTimer;
+        }
+        else if (currentComboState == ComboState.KICK_1)
+        {
+            currentComboState = ComboState.KICK_2;
+            activateTimerToReset = true;
+            currentComboTimer = defaultComboTimer;
+        }
+
+
+        if (currentComboState == ComboState.KICK_1)
+        {
+            animator.SetTrigger("KickLeft");
+        }
+        if (currentComboState == ComboState.KICK_2)
+        {
+            animator.SetTrigger("KickRight");
+        }
+    }
+
     public void Punch()
     {
-        if(!isPunching)
+        if (currentComboState == ComboState.PUNCH_2 || currentComboState == ComboState.KICK_1 || currentComboState == ComboState.KICK_2)
         {
-            isPunching = true;
-            if (vertical != 0 || horizontal != 0)
-            {
-                vertical = 0;
-                horizontal = 0;
-                animator.SetFloat("Speed", 0);
-            }
+            return;
+        }
 
-            if (leftPunch)
+        
+            currentComboState++;
+            activateTimerToReset = true;
+            currentComboTimer = defaultComboTimer;
+        
+       
+
+        if(currentComboState == ComboState.PUNCH_1)
+        {
+            animator.SetTrigger("PunchLeft");
+        }
+        if (currentComboState == ComboState.PUNCH_2)
+        {
+            animator.SetTrigger("PunchRight");
+        }
+
+    }
+
+    void ResetComboState()
+    {
+        if (activateTimerToReset)
+        {
+            currentComboTimer -= Time.deltaTime;
+            if(currentComboTimer <= 0f)
             {
-                animator.SetTrigger("PunchLeft");
-                leftPunch = false;
-            }
-            else
-            {
-                animator.SetTrigger("PunchRight");
-                leftPunch = true;
+                currentComboState = ComboState.NONE;
+                activateTimerToReset = false;
+                currentComboTimer = defaultComboTimer;
             }
         }
-      
     }
 
     void FixedUpdate()
