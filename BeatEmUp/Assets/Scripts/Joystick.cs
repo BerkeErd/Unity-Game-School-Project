@@ -21,7 +21,7 @@ public class Joystick : MonoBehaviour
         if (Input.GetMouseButtonDown(0) && Input.mousePosition.x <= Screen.width / 2)
         {
             touchStart = true;
-            pointA = new Vector2( Input.mousePosition.x ,  Input.mousePosition.y);
+            pointA = new Vector2(Input.mousePosition.x ,  Input.mousePosition.y);
 
             pointA2 =Camera.main.ScreenToWorldPoint(new Vector2(Input.mousePosition.x, Input.mousePosition.y));
 
@@ -50,7 +50,7 @@ public class Joystick : MonoBehaviour
         {
             Vector2 offset = pointB - pointA;
             
-            Vector2 direction = Vector2.ClampMagnitude(offset, 1.0f);
+            Vector2 direction = Vector2.ClampMagnitude(offset/50, 1.0f);
             Debug.Log(pointB);
             circle.transform.position = new Vector2(outerCircle.transform.position.x + direction.x, outerCircle.transform.position.y + direction.y);
 

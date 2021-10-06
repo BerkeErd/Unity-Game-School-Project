@@ -10,6 +10,7 @@ public class Fighter2Enemy : MonoBehaviour
     public int maxHealth = 100;
     int currentHealth;
 
+    bool isDead = false;
     bool isKnockedUp;
     public float speed;
     public float chaseDistance;
@@ -57,12 +58,14 @@ public class Fighter2Enemy : MonoBehaviour
     }
 
 
+    
 
     void Die()
     {
-        Debug.Log("Enemy died");
-        GetComponent<Collider2D>().enabled = false;
-        this.enabled = false;
+        isDead = true;
+        animator.SetBool("IsDead", isDead);
+       
+       
     }
     // Update is called once per frame
     void Update()
@@ -70,13 +73,20 @@ public class Fighter2Enemy : MonoBehaviour
         targetDistanceX = Mathf.Abs(transform.position.x - target.transform.position.x);
         targetDistanceY = Mathf.Abs(transform.position.y - target.transform.position.y);
 
-        if (targetDistanceX < chaseDistance && targetDistanceX > stopDistanceX || targetDistanceY < chaseDistance && targetDistanceY > stopDistanceY && !isKnockedUp)
-            ChasePlayer();
-        else
-            StopChasePlayer();
+        if(!isDead)
+        {
+            if (targetDistanceX < chaseDistance && targetDistanceX > stopDistanceX || targetDistanceY < chaseDistance && targetDistanceY > stopDistanceY && !isKnockedUp)
+                ChasePlayer();
+            else
+                StopChasePlayer();
 
-        if (targetDistanceX < stopDistanceX && targetDistanceY < stopDistanceY)
-            targetClose = true;
+            if (targetDistanceX < stopDistanceX && targetDistanceY < stopDistanceY)
+                targetClose = true;
+        }
+        else
+        {
+            //Bi şey yapma
+        }
 
         
     }
