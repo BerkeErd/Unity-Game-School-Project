@@ -9,6 +9,9 @@ public class Joystick : MonoBehaviour
     private Vector2 pointA;
     private Vector2 pointB;
 
+    private Vector2 pointA2;
+    
+
     public Transform circle;
     public Transform outerCircle;
 
@@ -18,10 +21,12 @@ public class Joystick : MonoBehaviour
         if (Input.GetMouseButtonDown(0) && Input.mousePosition.x <= Screen.width / 2)
         {
             touchStart = true;
-            pointA = Camera.main.ScreenToWorldPoint(new Vector3(Input.mousePosition.x, Input.mousePosition.y, Camera.main.transform.position.z));
+            pointA = new Vector2( Input.mousePosition.x ,  Input.mousePosition.y);
 
-            circle.transform.position = pointA;
-            outerCircle.transform.position = pointA;
+            pointA2 =Camera.main.ScreenToWorldPoint(new Vector2(Input.mousePosition.x, Input.mousePosition.y));
+
+            circle.transform.position = pointA2;
+            outerCircle.transform.position = pointA2;
             circle.GetComponent<SpriteRenderer>().enabled = true;
             outerCircle.GetComponent<SpriteRenderer>().enabled = true;
         }
@@ -29,8 +34,8 @@ public class Joystick : MonoBehaviour
         {
             
                 
-                pointB = Camera.main.ScreenToWorldPoint(new Vector3(Input.mousePosition.x, Input.mousePosition.y, Camera.main.transform.position.z));
-                  
+                pointB = new Vector2(Input.mousePosition.x,  Input.mousePosition.y);
+                
         }
        
         else
@@ -44,13 +49,14 @@ public class Joystick : MonoBehaviour
         if (touchStart && Input.mousePosition.x <= Screen.width / 2)
         {
             Vector2 offset = pointB - pointA;
+            
             Vector2 direction = Vector2.ClampMagnitude(offset, 1.0f);
-
+            Debug.Log(pointB);
             circle.transform.position = new Vector2(outerCircle.transform.position.x + direction.x, outerCircle.transform.position.y + direction.y);
 
             //Player'a yön bilgilerini gönder
-            player.GetComponent<PlayerMovement>().horizontal = direction.x;
-            player.GetComponent<PlayerMovement>().vertical = direction.y;
+            player.GetComponent<PlayerMovement>().horizontal =  direction.x;
+            player.GetComponent<PlayerMovement>().vertical =  direction.y;
         }
         else
         {
