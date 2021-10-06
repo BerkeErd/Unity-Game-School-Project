@@ -42,7 +42,16 @@ public class Fighter2Enemy : MonoBehaviour
         tookDamage = true;
         isAttacking = false;
 
-        if(!isKnockedUp)
+        if (GetComponent<SpriteRenderer>().flipX == false)
+        {
+            transform.position = new Vector2(transform.position.x - 0.5f, transform.position.y);
+        }
+        if (GetComponent<SpriteRenderer>().flipX == true)
+        {
+            transform.position = new Vector2(transform.position.x + 0.5f, transform.position.y);
+        }
+
+        if (!isKnockedUp)
         animator.SetTrigger("Hit");
 
         if(currentHealth <= 0 )
