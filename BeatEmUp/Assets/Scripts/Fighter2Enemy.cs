@@ -12,6 +12,7 @@ public class Fighter2Enemy : MonoBehaviour
 
     public bool isDead = false;
     bool isKnockedUp;
+
     public float speed;
     public float chaseDistance;
     public float stopDistanceX;
@@ -40,7 +41,10 @@ public class Fighter2Enemy : MonoBehaviour
         currentHealth -= damage;
         tookDamage = true;
         isAttacking = false;
+
+        if(!isKnockedUp)
         animator.SetTrigger("Hit");
+
         if(currentHealth <= 0 )
         {
             Die();
@@ -50,10 +54,13 @@ public class Fighter2Enemy : MonoBehaviour
 
     public void KnockUp()
     {
+
+        if(!isKnockedUp)
+        {
+            animator.SetTrigger("KnockDown");
+            isKnockedUp = true;
+        }
         
-        
-        animator.SetTrigger("KnockDown");
-        isKnockedUp = true;
 
         
     }
@@ -150,6 +157,11 @@ public class Fighter2Enemy : MonoBehaviour
         if (message == "AttackEnded")
         {
             isAttacking = false;
+        }
+
+        if (message == "StandUp")
+        {
+            isKnockedUp = false;
         }
 
     }
