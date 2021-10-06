@@ -10,7 +10,7 @@ public class Fighter2Enemy : MonoBehaviour
     public int maxHealth = 100;
     int currentHealth;
 
-    bool isDead = false;
+    public bool isDead = false;
     bool isKnockedUp;
     public float speed;
     public float chaseDistance;
@@ -50,6 +50,7 @@ public class Fighter2Enemy : MonoBehaviour
 
     public void KnockUp()
     {
+        
         
         animator.SetTrigger("KnockDown");
         isKnockedUp = true;

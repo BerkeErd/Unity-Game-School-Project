@@ -114,8 +114,12 @@ public class PlayerMovement : MonoBehaviour
 
         foreach (Collider2D enemy in hitEnemies)
         {
-            enemy.GetComponent<Fighter2Enemy>().TakeDamage(kickDamage);
-            enemy.GetComponent<Fighter2Enemy>().KnockUp();
+            if(!enemy.GetComponent<Fighter2Enemy>().isDead)
+            {
+                enemy.GetComponent<Fighter2Enemy>().TakeDamage(kickDamage);
+                enemy.GetComponent<Fighter2Enemy>().KnockUp();
+            }
+         
         }
     }
 
@@ -146,7 +150,11 @@ public class PlayerMovement : MonoBehaviour
 
         foreach (Collider2D enemy in hitEnemies)
         {
-            enemy.GetComponent<Fighter2Enemy>().TakeDamage(punchDamage);
+            if (!enemy.GetComponent<Fighter2Enemy>().isDead)
+            {
+                enemy.GetComponent<Fighter2Enemy>().TakeDamage(punchDamage);
+            }
+            
         }
 
     }
