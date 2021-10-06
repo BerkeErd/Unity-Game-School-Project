@@ -21,6 +21,8 @@ public class Fighter2Enemy : MonoBehaviour
     public float stopDistanceY;
     public bool isAttacking = false;
     public bool tookDamage = false;
+    public bool isWalking = false;
+    
     public GameObject target;
 
     public bool targetClose = false;
@@ -159,8 +161,8 @@ public class Fighter2Enemy : MonoBehaviour
 
     private void StopChasePlayer()
     {
-        
-        animator.SetBool("IsWalking", false);
+        isWalking = false;
+        animator.SetBool("IsWalking", isWalking);
 
         if(!isAttacking)
         StartCoroutine(AttackPlayer());
@@ -178,6 +180,11 @@ public class Fighter2Enemy : MonoBehaviour
             isKnockedUp = false;
         }
 
+        if (message == "HitEnded")
+        {
+            tookDamage = false;
+        }
+
     }
 
     private void ChasePlayer()
@@ -192,7 +199,8 @@ public class Fighter2Enemy : MonoBehaviour
 
         transform.position = Vector2.MoveTowards(transform.position, target.transform.position, speed * Time.deltaTime);
         healthBar.transform.position = new Vector2(transform.position.x,transform.position.y+3.2f);
-        animator.SetBool("IsWalking", true);
+        isWalking = true;
+        animator.SetBool("IsWalking", isWalking);
     }
 
 
