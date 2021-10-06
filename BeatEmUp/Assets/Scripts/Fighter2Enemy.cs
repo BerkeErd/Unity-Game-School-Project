@@ -44,11 +44,11 @@ public class Fighter2Enemy : MonoBehaviour
 
         if (GetComponent<SpriteRenderer>().flipX == false)
         {
-            transform.position = new Vector2(transform.position.x - 0.5f, transform.position.y);
+            transform.position = new Vector2(transform.position.x - 0.3f, transform.position.y);
         }
         if (GetComponent<SpriteRenderer>().flipX == true)
         {
-            transform.position = new Vector2(transform.position.x + 0.5f, transform.position.y);
+            transform.position = new Vector2(transform.position.x + 0.3f, transform.position.y);
         }
 
         if (!isKnockedUp)
@@ -90,7 +90,7 @@ public class Fighter2Enemy : MonoBehaviour
         targetDistanceX = Mathf.Abs(transform.position.x - target.transform.position.x);
         targetDistanceY = Mathf.Abs(transform.position.y - target.transform.position.y);
 
-        if(!isDead)
+        if(!isDead && !isKnockedUp && !tookDamage)
         {
             if (targetDistanceX < chaseDistance && targetDistanceX > stopDistanceX || targetDistanceY < chaseDistance && targetDistanceY > stopDistanceY && !isKnockedUp)
                 ChasePlayer();
