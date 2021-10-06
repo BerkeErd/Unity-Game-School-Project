@@ -25,7 +25,7 @@ AnimationClip:
     - time: 0.1
       value: {fileID: 3276177568268589631, guid: c23f10f2687c64244965e2c8fbe98061,
         type: 3}
-    - time: 0.2
+    - time: 0.25
       value: {fileID: 9107336956773633914, guid: c23f10f2687c64244965e2c8fbe98061,
         type: 3}
     attribute: m_Sprite
@@ -55,7 +55,7 @@ AnimationClip:
     m_AdditiveReferencePoseClip: {fileID: 0}
     m_AdditiveReferencePoseTime: 0
     m_StartTime: 0
-    m_StopTime: 0.21666667
+    m_StopTime: 0.26666668
     m_OrientationOffsetY: 0
     m_Level: 0
     m_CycleOffset: 0
@@ -75,7 +75,7 @@ AnimationClip:
   m_HasGenericRootTransform: 0
   m_HasMotionFloatCurves: 0
   m_Events:
-  - time: 0.2
+  - time: 0.25
     functionName: AlertObservers
     data: PunchEnded
     objectReferenceParameter: {fileID: 0}

@@ -130,12 +130,16 @@ public class PlayerMovement : MonoBehaviour
 
     public void Punch()
     {
+        if (!isPunching)
+        {
+
+        
         if (currentComboState == ComboState.PUNCH_2 || currentComboState == ComboState.KICK_1 || currentComboState == ComboState.KICK_2)
         {
             return;
         }
 
-        
+      
             currentComboState++;
             activateTimerToReset = true;
             currentComboTimer = defaultComboTimer;
@@ -144,12 +148,14 @@ public class PlayerMovement : MonoBehaviour
 
         if(currentComboState == ComboState.PUNCH_1)
         {
+                isPunching = true;
             animator.SetTrigger("PunchLeft");
             currentAttackSound = soundmanager.Punch1;
         }
         if (currentComboState == ComboState.PUNCH_2)
         {
-            animator.SetTrigger("PunchRight");
+                isPunching = true;
+                animator.SetTrigger("PunchRight");
             currentAttackSound = soundmanager.Punch2;
         }   
 
@@ -169,7 +175,7 @@ public class PlayerMovement : MonoBehaviour
             }
             
         }
-
+        }
     }
 
     private void OnDrawGizmosSelected()
