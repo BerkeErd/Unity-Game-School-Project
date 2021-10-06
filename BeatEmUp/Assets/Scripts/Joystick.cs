@@ -50,8 +50,8 @@ public class Joystick : MonoBehaviour
         {
             Vector2 offset = pointB - pointA;
             
-            Vector2 direction = Vector2.ClampMagnitude(offset/50, 1.0f);
-            Debug.Log(pointB);
+            Vector2 direction = Vector2.ClampMagnitude(offset/(Screen.width/23), 1.0f);
+            Debug.Log((Screen.width / 24));
             circle.transform.position = new Vector2(outerCircle.transform.position.x + direction.x, outerCircle.transform.position.y + direction.y);
 
             //Player'a yön bilgilerini gönder
