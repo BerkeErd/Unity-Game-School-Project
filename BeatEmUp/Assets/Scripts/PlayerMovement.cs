@@ -113,7 +113,7 @@ public class PlayerMovement : MonoBehaviour
         }
 
         Collider2D[] hitEnemies = Physics2D.OverlapCircleAll(KickPoint.position, kickRange, enemyLayers);
-        if (hitEnemies != null)
+        if (hitEnemies.Length > 0)
         {
             AudioSource.clip = currentAttackSound;
             AudioSource.Play();
@@ -161,7 +161,7 @@ public class PlayerMovement : MonoBehaviour
 
       Collider2D[] hitEnemies =  Physics2D.OverlapCircleAll(PunchPoint.position,punchRange,enemyLayers);
 
-        if(hitEnemies != null)
+        if(hitEnemies.Length > 0)
         {
             AudioSource.clip = currentAttackSound;
             AudioSource.Play();

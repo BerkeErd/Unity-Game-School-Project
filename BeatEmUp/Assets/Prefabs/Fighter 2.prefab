@@ -12,7 +12,8 @@ GameObject:
   - component: {fileID: 160337512378115205}
   - component: {fileID: 1273430093}
   - component: {fileID: 1273430094}
-  m_Layer: 0
+  - component: {fileID: 281741045}
+  m_Layer: 8
   m_Name: Fighter 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -68,8 +69,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -318120807
-  m_SortingLayer: 4
+  m_SortingLayerID: 312889063
+  m_SortingLayer: 3
   m_SortingOrder: 0
   m_Sprite: {fileID: 5398610089350151048, guid: 925cfbc57687455409b6626fd977ddb5,
     type: 3}
@@ -114,8 +115,44 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 94b7c8f2c94ee504ba7cb150d452ef86, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  maxHealth: 100
+  currentHealth: 0
+  healthBar: {fileID: 0}
+  isDead: 0
   speed: 3
   chaseDistance: 8
-  stopDistance: 1.5
+  stopDistanceX: 1.5
+  stopDistanceY: 0.5
+  isAttacking: 0
+  tookDamage: 0
+  isWalking: 0
   target: {fileID: 0}
-  targetDistance: 0
+  targetClose: 0
+  targetDistanceX: 0
+  targetDistanceY: 0
+--- !u!61 &281741045
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 160337512378115206}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0.15}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0}
+    oldSize: {x: 0.14, y: 0.3}
+    newSize: {x: 0.14, y: 0.29}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.14, y: 0.3}
+  m_EdgeRadius: 0
