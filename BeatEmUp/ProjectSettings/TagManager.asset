@@ -59,3 +59,6 @@ TagManager:
   - name: Canvas
     uniqueID: 116693327
     locked: 0
+  - name: Analog
+    uniqueID: 3549919761
+    locked: 0
