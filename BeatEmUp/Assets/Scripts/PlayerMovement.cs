@@ -16,7 +16,10 @@ public enum ComboState
 
 public class PlayerMovement : MonoBehaviour
 {
+    public SoundManager soundmanager;
     public int runSpeed;
+    private  AudioSource AudioSource;
+    private AudioClip currentAttackSound;
 
     private bool activateTimerToReset;
     public float defaultComboTimer = 0.4f;
@@ -56,6 +59,8 @@ public class PlayerMovement : MonoBehaviour
 
     private void Start()
     {
+        AudioSource = GetComponent<AudioSource>();
+        soundmanager = GameObject.Find("SoundManager").GetComponent<SoundManager>();
         currentComboTimer = defaultComboTimer;
         currentComboState = ComboState.NONE;
     }
@@ -68,12 +73,7 @@ public class PlayerMovement : MonoBehaviour
 
     }
 
-    void ComboAttacks()
-    {
-
-
-    }
-
+    
     public void Kick()
     {
         if (currentComboState == ComboState.KICK_2 || currentComboState == ComboState.PUNCH_1)
@@ -104,22 +104,27 @@ public class PlayerMovement : MonoBehaviour
         if (currentComboState == ComboState.KICK_1)
         {
             animator.SetTrigger("KickLeft");
+            currentAttackSound = soundmanager.Kick;
         }
         if (currentComboState == ComboState.KICK_2)
         {
             animator.SetTrigger("KickRight");
+            currentAttackSound = soundmanager.Kick2;
         }
 
         Collider2D[] hitEnemies = Physics2D.OverlapCircleAll(KickPoint.position, kickRange, enemyLayers);
-
+        if (hitEnemies != null)
+        {
+            AudioSource.clip = currentAttackSound;
+            AudioSource.Play();
+        }
         foreach (Collider2D enemy in hitEnemies)
         {
             if(!enemy.GetComponent<Fighter2Enemy>().isDead)
             {
                 enemy.GetComponent<Fighter2Enemy>().TakeDamage(kickDamage);
                 enemy.GetComponent<Fighter2Enemy>().KnockUp();
-            }
-         
+            }        
         }
     }
 
@@ -140,13 +145,21 @@ public class PlayerMovement : MonoBehaviour
         if(currentComboState == ComboState.PUNCH_1)
         {
             animator.SetTrigger("PunchLeft");
+            currentAttackSound = soundmanager.Punch1;
         }
         if (currentComboState == ComboState.PUNCH_2)
         {
             animator.SetTrigger("PunchRight");
+            currentAttackSound = soundmanager.Punch2;
         }   
 
       Collider2D[] hitEnemies =  Physics2D.OverlapCircleAll(PunchPoint.position,punchRange,enemyLayers);
+
+        if(hitEnemies != null)
+        {
+            AudioSource.clip = currentAttackSound;
+            AudioSource.Play();
+        }
 
         foreach (Collider2D enemy in hitEnemies)
         {

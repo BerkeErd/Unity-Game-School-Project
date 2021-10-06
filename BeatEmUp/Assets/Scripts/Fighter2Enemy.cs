@@ -9,7 +9,7 @@ public class Fighter2Enemy : MonoBehaviour
 
     public int maxHealth = 100;
     int currentHealth;
-
+    private AudioSource AudioSource;
     public bool isDead = false;
     bool isKnockedUp;
 
@@ -31,6 +31,7 @@ public class Fighter2Enemy : MonoBehaviour
 
     void Start()
     {
+        AudioSource = GetComponent<AudioSource>();
         currentHealth = maxHealth;
         animator = GetComponent<Animator>();
         target = GameObject.Find("Fighter");
