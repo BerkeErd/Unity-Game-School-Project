@@ -8,7 +8,9 @@ public class Fighter2Enemy : MonoBehaviour
 {
 
     public int maxHealth = 100;
-    int currentHealth;
+    public int currentHealth;
+    public HealthBar healthBar;
+
     private AudioSource AudioSource;
     public bool isDead = false;
     bool isKnockedUp;
@@ -35,6 +37,7 @@ public class Fighter2Enemy : MonoBehaviour
         currentHealth = maxHealth;
         animator = GetComponent<Animator>();
         target = GameObject.Find("Fighter");
+        healthBar.SetMaxHealth(maxHealth);
     }
 
     public void TakeDamage(int damage)
@@ -59,6 +62,7 @@ public class Fighter2Enemy : MonoBehaviour
         {
             Die();
         }
+        healthBar.SetHealth(currentHealth);
 
     }
 
@@ -187,6 +191,7 @@ public class Fighter2Enemy : MonoBehaviour
             GetComponent<SpriteRenderer>().flipX = true;
 
         transform.position = Vector2.MoveTowards(transform.position, target.transform.position, speed * Time.deltaTime);
+        healthBar.transform.position = new Vector2(transform.position.x,transform.position.y+3.2f);
         animator.SetBool("IsWalking", true);
     }
 
