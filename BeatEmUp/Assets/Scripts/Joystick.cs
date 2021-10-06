@@ -46,7 +46,7 @@ public class Joystick : MonoBehaviour
             Vector2 offset = pointB - pointA;
             Vector2 direction = Vector2.ClampMagnitude(offset, 1.0f);
 
-            circle.transform.position = new Vector2(pointA.x + direction.x, pointA.y + direction.y);
+            circle.transform.position = new Vector2(outerCircle.transform.position.x + direction.x, outerCircle.transform.position.y + direction.y);
 
             //Player'a yön bilgilerini gönder
             player.GetComponent<PlayerMovement>().horizontal = direction.x;
