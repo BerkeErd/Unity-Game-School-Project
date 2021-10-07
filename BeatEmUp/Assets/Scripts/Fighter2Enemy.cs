@@ -10,6 +10,7 @@ public class Fighter2Enemy : MonoBehaviour
     public int maxHealth = 100;
     public int currentHealth;
     public HealthBar healthBar;
+    public GameObject HealthBarObject;
 
     private AudioSource AudioSource;
     public bool isDead = false;
@@ -33,13 +34,22 @@ public class Fighter2Enemy : MonoBehaviour
     public float targetDistanceX;
     public float targetDistanceY;
 
+    private void Awake()
+    {
+        
+        HealthBarObject = Instantiate(Resources.Load("Prefabs/HealthBar")) as GameObject;
+        HealthBarObject.transform.parent = GameObject.Find("Canvas").GetComponent<Canvas>().transform;
+        HealthBarObject.transform.localScale =new Vector3(1,1,1);
+        healthBar = HealthBarObject.GetComponent<HealthBar>();
+        healthBar.SetMaxHealth(maxHealth);
+    }
     void Start()
     {
         AudioSource = GetComponent<AudioSource>();
         currentHealth = maxHealth;
         animator = GetComponent<Animator>();
         target = GameObject.Find("Fighter");
-        healthBar.SetMaxHealth(maxHealth);
+        
     }
 
     public void TakeDamage(int damage)
@@ -81,14 +91,18 @@ public class Fighter2Enemy : MonoBehaviour
         
     }
 
+    public void Destroy()
+    {
+        Destroy(HealthBarObject);
+        Destroy(gameObject);
+    }
 
-    
 
     void Die()
     {
         isDead = true;
         animator.SetBool("IsDead", isDead);
-       
+        
        
     }
     // Update is called once per frame
