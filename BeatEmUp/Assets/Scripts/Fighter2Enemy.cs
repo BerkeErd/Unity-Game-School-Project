@@ -94,6 +94,7 @@ public class Fighter2Enemy : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        healthBar.transform.position = new Vector2(transform.position.x, transform.position.y + 3.2f);
         targetDistanceX = Mathf.Abs(transform.position.x - target.transform.position.x);
         targetDistanceY = Mathf.Abs(transform.position.y - target.transform.position.y);
 
@@ -198,7 +199,7 @@ public class Fighter2Enemy : MonoBehaviour
             GetComponent<SpriteRenderer>().flipX = true;
 
         transform.position = Vector2.MoveTowards(transform.position, target.transform.position, speed * Time.deltaTime);
-        healthBar.transform.position = new Vector2(transform.position.x,transform.position.y+3.2f);
+        
         isWalking = true;
         animator.SetBool("IsWalking", isWalking);
     }
