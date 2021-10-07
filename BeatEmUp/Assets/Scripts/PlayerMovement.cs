@@ -33,8 +33,9 @@ public class PlayerMovement : MonoBehaviour
     bool facingRight;
 
     bool isPunching;
+    bool isKicking;
 
-    bool leftPunch = true;
+
 
     Button punchButton;
     public float maxYpos = -2.21f;
@@ -76,6 +77,11 @@ public class PlayerMovement : MonoBehaviour
     
     public void Kick()
     {
+        if(!isKicking)
+
+        {
+
+        
         if (currentComboState == ComboState.KICK_2 || currentComboState == ComboState.PUNCH_1)
         {
             return;
@@ -103,12 +109,14 @@ public class PlayerMovement : MonoBehaviour
 
         if (currentComboState == ComboState.KICK_1)
         {
+                isKicking = true;
             animator.SetTrigger("KickLeft");
             currentAttackSound = soundmanager.Kick;
         }
         if (currentComboState == ComboState.KICK_2)
         {
-            animator.SetTrigger("KickRight");
+                isKicking = true;
+                animator.SetTrigger("KickRight");
             currentAttackSound = soundmanager.Kick2;
         }
 
@@ -125,6 +133,7 @@ public class PlayerMovement : MonoBehaviour
                 enemy.GetComponent<Fighter2Enemy>().TakeDamage(kickDamage);
                 enemy.GetComponent<Fighter2Enemy>().KnockUp();
             }        
+        }
         }
     }
 
@@ -201,7 +210,7 @@ public class PlayerMovement : MonoBehaviour
 
     void FixedUpdate()
     {
-        if((horizontal != 0 || vertical != 0) && !isPunching)
+        if((horizontal != 0 || vertical != 0) && !isPunching && !isKicking)
         {
 
             Vector3 movement = new Vector3(horizontal * runSpeed, vertical * runSpeed, 0.0f);
@@ -247,6 +256,11 @@ public class PlayerMovement : MonoBehaviour
         {
             isPunching = false;
         }
+        if(message == "KickEnded")
+        {
+            isKicking = false;
+        }
+        
     }
 
     private void Flip(float horizontal)
