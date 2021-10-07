@@ -234,9 +234,7 @@ public class PlayerMovement : MonoBehaviour
          }
          
 
-        Debug.Log(Camera.main.WorldToViewportPoint(transform.position).x);
-        //Debug.Log(Camera.main.ScreenToWorldPoint(transform.position));
-        //Debug.Log(Camera.main.WorldToScreenPoint(transform.position));
+       
 
 
         Flip(horizontal);
