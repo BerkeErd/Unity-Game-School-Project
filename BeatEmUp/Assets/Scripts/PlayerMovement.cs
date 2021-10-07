@@ -131,7 +131,11 @@ public class PlayerMovement : MonoBehaviour
             if(!enemy.GetComponent<Fighter2Enemy>().isDead)
             {
                 enemy.GetComponent<Fighter2Enemy>().TakeDamage(kickDamage);
-                enemy.GetComponent<Fighter2Enemy>().KnockUp();
+                    if(currentComboState == ComboState.KICK_2)
+                    {
+                        enemy.GetComponent<Fighter2Enemy>().KnockUp();
+                    }
+                
             }        
         }
         }
