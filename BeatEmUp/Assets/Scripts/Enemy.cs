@@ -70,11 +70,11 @@ public class Enemy : MonoBehaviour
         tookDamage = true;
         isAttacking = false;
 
-        if (GetComponent<SpriteRenderer>().flipX == false)
+        if (GetComponent<SpriteRenderer>().flipX == false && !isKnockedUp)
         {
             transform.position = new Vector2(transform.position.x - 0.3f, transform.position.y);
         }
-        if (GetComponent<SpriteRenderer>().flipX == true)
+        if (GetComponent<SpriteRenderer>().flipX == true && !isKnockedUp)
         {
             transform.position = new Vector2(transform.position.x + 0.3f, transform.position.y);
         }
