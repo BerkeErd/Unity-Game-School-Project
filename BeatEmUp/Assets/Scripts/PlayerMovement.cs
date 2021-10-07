@@ -203,6 +203,7 @@ public class PlayerMovement : MonoBehaviour
     {
         if((horizontal != 0 || vertical != 0) && !isPunching)
         {
+
             Vector3 movement = new Vector3(horizontal * runSpeed, vertical * runSpeed, 0.0f);
             transform.position = transform.position + movement * Time.deltaTime;
         }
@@ -220,6 +221,22 @@ public class PlayerMovement : MonoBehaviour
 
 
 
+        if (Camera.main.WorldToViewportPoint(transform.position).x <= 0)
+         {
+            
+             transform.position = new Vector2(transform.position.x+0.2f, transform.position.y);
+         }
+
+         else if (Camera.main.WorldToViewportPoint(transform.position).x >= 1)
+         {
+           
+            transform.position = new Vector2(transform.position.x+0.2f, transform.position.y);
+         }
+         
+
+        Debug.Log(Camera.main.WorldToViewportPoint(transform.position).x);
+        //Debug.Log(Camera.main.ScreenToWorldPoint(transform.position));
+        //Debug.Log(Camera.main.WorldToScreenPoint(transform.position));
 
 
         Flip(horizontal);
