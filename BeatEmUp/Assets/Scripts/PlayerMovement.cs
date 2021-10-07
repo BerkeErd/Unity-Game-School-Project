@@ -77,7 +77,7 @@ public class PlayerMovement : MonoBehaviour
     
     public void Kick()
     {
-        if(!isKicking)
+        if(!isKicking && !isPunching)
 
         {
 
@@ -128,12 +128,12 @@ public class PlayerMovement : MonoBehaviour
         }
         foreach (Collider2D enemy in hitEnemies)
         {
-            if(!enemy.GetComponent<Fighter2Enemy>().isDead)
+            if(!enemy.GetComponent<Enemy>().isDead)
             {
-                enemy.GetComponent<Fighter2Enemy>().TakeDamage(kickDamage);
+                enemy.GetComponent<Enemy>().TakeDamage(kickDamage);
                     if(currentComboState == ComboState.KICK_2)
                     {
-                        enemy.GetComponent<Fighter2Enemy>().KnockUp();
+                        enemy.GetComponent<Enemy>().KnockUp();
                     }
                 
             }        
@@ -143,7 +143,7 @@ public class PlayerMovement : MonoBehaviour
 
     public void Punch()
     {
-        if (!isPunching)
+        if (!isPunching && !isKicking)
         {
 
         
@@ -182,9 +182,9 @@ public class PlayerMovement : MonoBehaviour
 
         foreach (Collider2D enemy in hitEnemies)
         {
-            if (!enemy.GetComponent<Fighter2Enemy>().isDead)
+            if (!enemy.GetComponent<Enemy>().isDead)
             {
-                enemy.GetComponent<Fighter2Enemy>().TakeDamage(punchDamage);
+                enemy.GetComponent<Enemy>().TakeDamage(punchDamage);
             }
             
         }
