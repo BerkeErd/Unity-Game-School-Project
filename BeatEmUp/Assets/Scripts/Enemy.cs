@@ -120,6 +120,12 @@ public class Enemy : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+
+        if (isDead) // Bazen bug oluyor ölse de ölme animasyonuna girmiyor bu onu engellemek için
+        {
+            Die();
+        }
+           
         healthBar.transform.position = new Vector2(transform.position.x, transform.position.y + 3.2f);
         targetDistanceX = Mathf.Abs(transform.position.x - target.transform.position.x);
         targetDistanceY = Mathf.Abs(transform.position.y - target.transform.position.y);
