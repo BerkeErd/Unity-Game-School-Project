@@ -6,9 +6,18 @@ using Random = UnityEngine.Random;
 
 public class Enemy : MonoBehaviour
 {
+    
 
     public int maxHealth = 100;
     public int currentHealth;
+
+    public Transform PunchPoint;
+    public float punchRange = 0.5f;
+
+    public Transform KickPoint;
+    public float kickRange = 0.5f;
+
+    public SoundManager soundmanager;
     public HealthBar healthBar;
     public GameObject HealthBarObject;
 
@@ -27,7 +36,8 @@ public class Enemy : MonoBehaviour
     public GameObject target;
 
     public bool targetClose = false;
- 
+
+    public LayerMask playerLayer;
 
     Animator animator;
 
@@ -49,7 +59,9 @@ public class Enemy : MonoBehaviour
         currentHealth = maxHealth;
         animator = GetComponent<Animator>();
         target = GameObject.Find("Fighter");
-        
+        AudioSource = GetComponent<AudioSource>();
+        soundmanager = GameObject.Find("SoundManager").GetComponent<SoundManager>();
+
     }
 
     public void TakeDamage(int damage)
@@ -130,6 +142,67 @@ public class Enemy : MonoBehaviour
         
     }
 
+    private void Attack1()
+    {
+        animator.SetTrigger("Attack1");
+        Collider2D[] hitEnemies = Physics2D.OverlapCircleAll(KickPoint.position, kickRange, playerLayer);
+        if (hitEnemies.Length > 0)
+        {
+            AudioSource.clip = soundmanager.Punch2;
+            AudioSource.Play();
+        }
+        foreach (Collider2D player in hitEnemies)
+        {
+            if (!player.GetComponent<PlayerMovement>().isDead)
+            {
+                // player.GetComponent<PlayerMovement>().TakeDamage(10);
+                // player.GetComponent<PlayerMovement>().KnockUp();
+
+            }
+        }
+    }
+
+    private void Attack2()
+    {
+        animator.SetTrigger("Attack2");
+        Collider2D[] hitEnemies = Physics2D.OverlapCircleAll(KickPoint.position, kickRange, playerLayer);
+        if (hitEnemies.Length > 0)
+        {
+            AudioSource.clip = soundmanager.Kick2;
+            AudioSource.Play();
+        }
+        foreach (Collider2D player in hitEnemies)
+        {
+            if (!player.GetComponent<PlayerMovement>().isDead)
+            {
+                // player.GetComponent<PlayerMovement>().TakeDamage(10);
+                // player.GetComponent<PlayerMovement>().KnockUp();
+
+            }
+        }
+    }
+
+    private void Attack3()
+    {
+        animator.SetTrigger("Attack3");
+        Collider2D[] hitEnemies = Physics2D.OverlapCircleAll(KickPoint.position, kickRange, playerLayer);
+        if (hitEnemies.Length > 0)
+        {
+            AudioSource.clip = soundmanager.Punch1;
+            AudioSource.Play();
+        }
+        foreach (Collider2D player in hitEnemies)
+        {
+            if (!player.GetComponent<PlayerMovement>().isDead)
+            {
+                // player.GetComponent<PlayerMovement>().TakeDamage(10);
+                // player.GetComponent<PlayerMovement>().KnockUp();
+
+            }
+        }
+
+    }
+
     private IEnumerator AttackPlayer()
     {
 
@@ -145,17 +218,17 @@ public class Enemy : MonoBehaviour
                 switch (AttackNo)
                 {
                     case 0:
-                        animator.SetTrigger("Attack1");
-                        Debug.Log("Attack 1");
+                        Attack1();
+                  
                         break;
 
                     case 1:
-                        animator.SetTrigger("Attack2");
-                        Debug.Log("Attack 2");
+                        Attack2();
+    
                         break;
+
                     case 2:
-                        animator.SetTrigger("Attack3");
-                        Debug.Log("Attack 3");
+                        Attack3();
                         break;
 
                     default:

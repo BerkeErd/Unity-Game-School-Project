@@ -16,6 +16,12 @@ public enum ComboState
 
 public class PlayerMovement : MonoBehaviour
 {
+    public bool TestMode = false;
+    public int maxHealth = 100;
+    public int currentHealth;
+
+
+
     public SoundManager soundmanager;
     public int runSpeed;
     private  AudioSource AudioSource;
@@ -34,7 +40,8 @@ public class PlayerMovement : MonoBehaviour
 
     bool isPunching;
     bool isKicking;
-
+    public bool isDead = false;
+     
 
 
     Button punchButton;
