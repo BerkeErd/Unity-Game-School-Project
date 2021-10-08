@@ -161,9 +161,7 @@ public class Enemy : MonoBehaviour
         {
             if (!player.GetComponent<PlayerMovement>().isDead)
             {
-                // player.GetComponent<PlayerMovement>().TakeDamage(10);
-                // player.GetComponent<PlayerMovement>().KnockUp();
-
+                player.GetComponent<PlayerMovement>().TakeDamage(10);            
             }
         }
     }
@@ -181,9 +179,7 @@ public class Enemy : MonoBehaviour
         {
             if (!player.GetComponent<PlayerMovement>().isDead)
             {
-                // player.GetComponent<PlayerMovement>().TakeDamage(10);
-                // player.GetComponent<PlayerMovement>().KnockUp();
-
+                player.GetComponent<PlayerMovement>().TakeDamage(15);
             }
         }
     }
@@ -201,8 +197,7 @@ public class Enemy : MonoBehaviour
         {
             if (!player.GetComponent<PlayerMovement>().isDead)
             {
-                // player.GetComponent<PlayerMovement>().TakeDamage(10);
-                // player.GetComponent<PlayerMovement>().KnockUp();
+                player.GetComponent<PlayerMovement>().TakeDamage(15);
 
             }
         }
