@@ -665,6 +665,8 @@ MonoBehaviour:
     m_NumColorKeys: 3
     m_NumAlphaKeys: 3
   fill: {fileID: 512803575}
+  changeSpeed: 3
+  health: 0
 --- !u!114 &868891473
 MonoBehaviour:
   m_ObjectHideFlags: 0
