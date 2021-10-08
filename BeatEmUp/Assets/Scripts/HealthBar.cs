@@ -38,7 +38,7 @@ public class HealthBar : MonoBehaviour
 
     }
 
-    public void Update()
+    public void FixedUpdate()
     {
         slider.value = Mathf.MoveTowards(slider.value, Health, changeSpeed * Time.deltaTime);
     }
