@@ -134,7 +134,8 @@ public class Enemy : MonoBehaviour
 
         if(!isDead && !isKnockedUp && !tookDamage)
         {
-            if (targetDistanceX < chaseDistance && targetDistanceX > stopDistanceX || targetDistanceY < chaseDistance && targetDistanceY > stopDistanceY && !isKnockedUp)
+                    
+            if (targetDistanceX < chaseDistance && targetDistanceX > stopDistanceX || (targetDistanceY < chaseDistance && targetDistanceY > stopDistanceY && !isKnockedUp && targetDistanceX < chaseDistance && targetDistanceX > stopDistanceX))
                 ChasePlayer();
             else
                 StopChasePlayer();
