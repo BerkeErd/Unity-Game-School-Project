@@ -278,3 +278,5 @@ MonoBehaviour:
     m_NumColorKeys: 2
     m_NumAlphaKeys: 2
   fill: {fileID: 0}
+  changeSpeed: 50
+  Health: 0

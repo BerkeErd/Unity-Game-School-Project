@@ -1820,7 +1820,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1329940829, guid: 914b56196d42bab46a4049a3ade73f8f, type: 3}
       propertyPath: maxHealth
-      value: 100
+      value: 300
       objectReference: {fileID: 0}
     - target: {fileID: 1329940829, guid: 914b56196d42bab46a4049a3ade73f8f, type: 3}
       propertyPath: AttackRange
@@ -1835,6 +1835,21 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Layer
       value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4439657257801122233, guid: 914b56196d42bab46a4049a3ade73f8f,
+        type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4439657257801122233, guid: 914b56196d42bab46a4049a3ade73f8f,
+        type: 3}
+      propertyPath: m_Size.x
+      value: 0.44
+      objectReference: {fileID: 0}
+    - target: {fileID: 4439657257801122233, guid: 914b56196d42bab46a4049a3ade73f8f,
+        type: 3}
+      propertyPath: m_Size.y
+      value: 0.39
       objectReference: {fileID: 0}
     - target: {fileID: 5821877709373451719, guid: 914b56196d42bab46a4049a3ade73f8f,
         type: 3}

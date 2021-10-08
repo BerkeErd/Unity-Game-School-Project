@@ -244,16 +244,19 @@ public class PlayerMovement : MonoBehaviour
     public void TakeDamage(int damage)
     {
         currentHealth -= damage;
-      //  tookDamage = true;
-      //  isAttacking = false;
-
+        //  tookDamage = true;
+        //  isAttacking = false;
+        float pushPower = (float)damage / 200 * 7;
         if (!facingRight)
         {
-            transform.position = new Vector2(transform.position.x - 0.3f, transform.position.y);
+           
+           transform.position = new Vector2(transform.position.x - pushPower, transform.position.y);
+            
+            
         }
         else if (facingRight)
         {
-            transform.position = new Vector2(transform.position.x + 0.3f, transform.position.y);
+            transform.position = new Vector2(transform.position.x + pushPower, transform.position.y);
         }
         
       //  animator.SetTrigger("Hit");

@@ -22,19 +22,19 @@ public class EnemyBoss : MonoBehaviour
 
     private AudioSource AudioSource;
     public bool isDead = false;
-    bool isKnockedUp;
+    
 
     public float speed;
     public float chaseDistance;
-    public float stopDistanceX;
-    public float stopDistanceY;
+
+   
     public bool isAttacking = false;
     
     public bool IsRunning = false;
 
     public GameObject target;
 
-    public bool targetClose = false;
+    
 
     public LayerMask playerLayer;
 
@@ -59,10 +59,9 @@ public class EnemyBoss : MonoBehaviour
         target = GameObject.Find("Fighter");
         AudioSource = GetComponent<AudioSource>();
         soundmanager = GameObject.Find("SoundManager").GetComponent<SoundManager>();
-        stopDistanceX = Random.Range(stopDistanceX - 0.3f, stopDistanceX + 0.3f);
-        stopDistanceY = Random.Range(stopDistanceY - 0.1f, stopDistanceY + 0.1f);
+       
         StartCoroutine(AttackPlayer());
-
+        healthBar.BossHealth();
     }
     
     public void TakeDamage(int damage)
@@ -71,17 +70,19 @@ public class EnemyBoss : MonoBehaviour
      
         isAttacking = false;
 
-        if (facingRight && !isKnockedUp)
+        float pushPower = (float)damage / 200;
+
+        if (facingRight)
         {
-            transform.position = new Vector2(transform.position.x - 0.3f, transform.position.y);
+            transform.position = new Vector2(transform.position.x - pushPower, transform.position.y);
         }
-        if (!facingRight && !isKnockedUp)
+        if (!facingRight)
         {
-            transform.position = new Vector2(transform.position.x + 0.3f, transform.position.y);
+            transform.position = new Vector2(transform.position.x + pushPower, transform.position.y);
         }
 
-        if (!isKnockedUp)
-            animator.SetTrigger("Hit");
+        
+            //animator.SetTrigger("Hit");
 
         if (currentHealth <= 0)
         {
@@ -110,13 +111,25 @@ public class EnemyBoss : MonoBehaviour
     {
         isDead = true;
         animator.SetBool("IsDead", isDead);
+        StopAllCoroutines();
 
 
     }
     // Update is called once per frame
     void Update()
     {
-        
+        if (!IsRunning && !isAttacking)
+        {
+            if (transform.position.x < target.transform.position.x && !facingRight)
+            {
+                Flip();
+            }
+            else if (transform.position.x > target.transform.position.x && facingRight)
+            {
+                Flip();
+            }
+        }
+       
 
         if (IsRunning)
         {
@@ -141,7 +154,7 @@ public class EnemyBoss : MonoBehaviour
             Die();
         }
 
-        healthBar.transform.position = new Vector2(transform.position.x, transform.position.y + 3.2f);
+        healthBar.transform.position = new Vector2(transform.position.x, transform.position.y + 4.0f);
         targetDistanceX = Mathf.Abs(transform.position.x - target.transform.position.x);
         targetDistanceY = Mathf.Abs(transform.position.y - target.transform.position.y);
 

@@ -38,6 +38,12 @@ public class HealthBar : MonoBehaviour
 
     }
 
+    public void BossHealth()
+    {
+        transform.localScale *= 3;
+        
+    }
+
     public void FixedUpdate()
     {
         slider.value = Mathf.MoveTowards(slider.value, Health, changeSpeed * Time.deltaTime);

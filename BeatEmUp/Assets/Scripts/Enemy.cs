@@ -72,13 +72,15 @@ public class Enemy : MonoBehaviour
         tookDamage = true;
         isAttacking = false;
 
+        float pushPower = (float)damage / 200 * 7;
+
         if (facingRight && !isKnockedUp)
         {
-            transform.position = new Vector2(transform.position.x - 0.3f, transform.position.y);
+            transform.position = new Vector2(transform.position.x - pushPower, transform.position.y);
         }
         if (!facingRight && !isKnockedUp)
         {
-            transform.position = new Vector2(transform.position.x + 0.3f, transform.position.y);
+            transform.position = new Vector2(transform.position.x + pushPower, transform.position.y);
         }
 
         if (!isKnockedUp)
