@@ -82,6 +82,7 @@ public class Enemy : MonoBehaviour
         if (!isKnockedUp)
         animator.SetTrigger("Hit");
 
+        if(currentHealth <= 0 )
         {
             Die();
         }
