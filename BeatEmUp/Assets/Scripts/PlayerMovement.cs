@@ -21,7 +21,7 @@ public class PlayerMovement : MonoBehaviour
     public int currentHealth;
 
 
-
+    public HealthBar healthBar;
     public SoundManager soundmanager;
     public int runSpeed;
     private  AudioSource AudioSource;
@@ -219,6 +219,37 @@ public class PlayerMovement : MonoBehaviour
         }
     }
 
+    public void TakeDamage(int damage)
+    {
+        currentHealth -= damage;
+      //  tookDamage = true;
+      //  isAttacking = false;
+
+        if (GetComponent<SpriteRenderer>().flipX == false)
+        {
+            transform.position = new Vector2(transform.position.x - 0.3f, transform.position.y);
+        }
+        if (GetComponent<SpriteRenderer>().flipX == true)
+        {
+            transform.position = new Vector2(transform.position.x + 0.3f, transform.position.y);
+        }
+        
+      //  animator.SetTrigger("Hit");
+
+        if (currentHealth <= 0)
+        {
+            Die();
+        }
+        healthBar.SetHealth(currentHealth);
+
+    }
+    void Die()
+    {
+        isDead = true;
+       // animator.SetBool("IsDead", isDead);
+
+
+    }
     void FixedUpdate()
     {
         if((horizontal != 0 || vertical != 0) && !isPunching && !isKicking)
