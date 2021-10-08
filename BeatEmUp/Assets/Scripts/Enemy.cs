@@ -17,9 +17,9 @@ public class Enemy : MonoBehaviour
     public Transform KickPoint;
     public float kickRange = 0.5f;
 
-    public SoundManager soundmanager;
-    public HealthBar healthBar;
-    public GameObject HealthBarObject;
+    private SoundManager soundmanager;
+    private HealthBar healthBar;
+    private GameObject HealthBarObject;
 
     private AudioSource AudioSource;
     public bool isDead = false;

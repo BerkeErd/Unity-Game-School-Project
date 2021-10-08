@@ -200,12 +200,7 @@ public class PlayerMovement : MonoBehaviour
         }
     }
 
-    private void OnDrawGizmosSelected()
-    {
-        if (PunchPoint == null)
-            return;
-        Gizmos.DrawWireSphere(PunchPoint.position, punchRange);
-    }
+  
 
     void ResetComboState()
     {
