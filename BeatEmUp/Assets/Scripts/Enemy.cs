@@ -6,7 +6,7 @@ using Random = UnityEngine.Random;
 
 public class Enemy : MonoBehaviour
 {
-    
+    bool facingRight;
 
     public int maxHealth = 100;
     public int currentHealth;
@@ -70,11 +70,11 @@ public class Enemy : MonoBehaviour
         tookDamage = true;
         isAttacking = false;
 
-        if (GetComponent<SpriteRenderer>().flipX == false && !isKnockedUp)
+        if (facingRight && !isKnockedUp)
         {
             transform.position = new Vector2(transform.position.x - 0.3f, transform.position.y);
         }
-        if (GetComponent<SpriteRenderer>().flipX == true && !isKnockedUp)
+        if (!facingRight && !isKnockedUp)
         {
             transform.position = new Vector2(transform.position.x + 0.3f, transform.position.y);
         }
@@ -279,12 +279,15 @@ public class Enemy : MonoBehaviour
     private void ChasePlayer()
     {
         targetClose = false;
-        if (transform.position.x < target.transform.position.x)
+        if (transform.position.x < target.transform.position.x && !facingRight)
         {
-            GetComponent<SpriteRenderer>().flipX = false;
+            Flip();
         }
-        else
-            GetComponent<SpriteRenderer>().flipX = true;
+        else if (transform.position.x > target.transform.position.x && facingRight)
+        {
+            Flip();
+        }
+           
 
         transform.position = Vector2.MoveTowards(transform.position, target.transform.position, speed * Time.deltaTime);
         
@@ -292,5 +295,15 @@ public class Enemy : MonoBehaviour
         animator.SetBool("IsWalking", isWalking);
     }
 
+    private void Flip()
+    {
+        
+            facingRight = !facingRight;
+
+            Vector3 scale = transform.localScale;
+            scale.x *= -1;
+            transform.localScale = scale;
+       
+    }
 
 }
