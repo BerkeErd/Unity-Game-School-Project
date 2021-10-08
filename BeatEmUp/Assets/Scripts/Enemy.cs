@@ -61,6 +61,8 @@ public class Enemy : MonoBehaviour
         target = GameObject.Find("Fighter");
         AudioSource = GetComponent<AudioSource>();
         soundmanager = GameObject.Find("SoundManager").GetComponent<SoundManager>();
+        stopDistanceX = Random.Range(stopDistanceX - 0.3f, stopDistanceX + 0.3f);
+        stopDistanceY = Random.Range(stopDistanceY - 0.1f, stopDistanceY + 0.1f);
 
     }
 
