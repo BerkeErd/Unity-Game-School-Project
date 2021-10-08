@@ -8,7 +8,7 @@ public class EnemyBoss : MonoBehaviour
 
 {
     bool facingRight;
-
+    public int Damage = 40;
     public int maxHealth = 1000;
     public int currentHealth;
 
@@ -154,6 +154,13 @@ public class EnemyBoss : MonoBehaviour
     private void Attack1()
     {
         animator.SetTrigger("Attack");
+
+
+       
+    }
+    
+    public void Attack1Damage()
+    {
         Collider2D[] hitEnemies = Physics2D.OverlapCircleAll(AttackPoint.position, AttackRange, playerLayer);
         if (hitEnemies.Length > 0)
         {
@@ -166,14 +173,14 @@ public class EnemyBoss : MonoBehaviour
             {
                 if (!player.GetComponent<PlayerMovement>().isDead)
                 {
-                    player.GetComponent<PlayerMovement>().TakeDamage(50);
+                    player.GetComponent<PlayerMovement>().TakeDamage(Damage);
                 }
             }
             else if (player.GetComponent<Enemy>())
             {
                 if (!player.GetComponent<Enemy>().isDead)
                 {
-                    player.GetComponent<Enemy>().TakeDamage(50);
+                    player.GetComponent<Enemy>().TakeDamage(Damage);
                     player.GetComponent<Enemy>().KnockUp();
                 }
 
@@ -183,7 +190,6 @@ public class EnemyBoss : MonoBehaviour
             }
         }
     }
-    
 
     private IEnumerator AttackPlayer()
     {
@@ -206,9 +212,9 @@ public class EnemyBoss : MonoBehaviour
         Attack1();
         // VURMA BİTİNCE IDLE A GERİ DÖN 2 SANİYE DUR
 
-        yield return new WaitForSeconds(1f);
+        yield return new WaitUntil(() => !isAttacking);
         animator.SetBool("IsRunning", IsRunning);
-        yield return new WaitForSeconds(1f);
+        yield return new WaitForSeconds(3f);
         // SONRA BAŞA DÖN
 
         StartCoroutine(AttackPlayer());

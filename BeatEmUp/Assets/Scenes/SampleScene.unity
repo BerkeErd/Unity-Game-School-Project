@@ -1818,10 +1818,23 @@ PrefabInstance:
       propertyPath: speed
       value: 10
       objectReference: {fileID: 0}
+    - target: {fileID: 1329940829, guid: 914b56196d42bab46a4049a3ade73f8f, type: 3}
+      propertyPath: maxHealth
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 1329940829, guid: 914b56196d42bab46a4049a3ade73f8f, type: 3}
+      propertyPath: AttackRange
+      value: 1.86
+      objectReference: {fileID: 0}
     - target: {fileID: 1179569180309312622, guid: 914b56196d42bab46a4049a3ade73f8f,
         type: 3}
       propertyPath: m_Name
       value: Samurai 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1179569180309312622, guid: 914b56196d42bab46a4049a3ade73f8f,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 5821877709373451719, guid: 914b56196d42bab46a4049a3ade73f8f,
         type: 3}

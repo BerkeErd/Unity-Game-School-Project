@@ -137,15 +137,28 @@ public class PlayerMovement : MonoBehaviour
         }
         foreach (Collider2D enemy in hitEnemies)
         {
-            if(!enemy.GetComponent<Enemy>().isDead)
-            {
-                enemy.GetComponent<Enemy>().TakeDamage(kickDamage);
-                    if(currentComboState == ComboState.KICK_2)
+                if(enemy.GetComponent<Enemy>())
+                {
+                    if (!enemy.GetComponent<Enemy>().isDead)
                     {
-                        enemy.GetComponent<Enemy>().KnockUp();
+                        enemy.GetComponent<Enemy>().TakeDamage(kickDamage);
+                        if (currentComboState == ComboState.KICK_2)
+                        {
+                            enemy.GetComponent<Enemy>().KnockUp();
+                        }
+
                     }
-                
-            }        
+                }
+                else if(enemy.GetComponent<EnemyBoss>())
+                {
+                    if (!enemy.GetComponent<EnemyBoss>().isDead)
+                    {
+                        enemy.GetComponent<EnemyBoss>().TakeDamage(kickDamage);
+                       
+
+                    }
+                }
+            
         }
         }
     }
@@ -191,12 +204,24 @@ public class PlayerMovement : MonoBehaviour
 
         foreach (Collider2D enemy in hitEnemies)
         {
-            if (!enemy.GetComponent<Enemy>().isDead)
-            {
-                enemy.GetComponent<Enemy>().TakeDamage(punchDamage);
+
+                if (enemy.GetComponent<Enemy>())
+                {
+                    if (!enemy.GetComponent<Enemy>().isDead)
+                    {
+                        enemy.GetComponent<Enemy>().TakeDamage(punchDamage);
+                    }
+                }
+           
+                else if (enemy.GetComponent<EnemyBoss>())
+                {
+                    if (!enemy.GetComponent<EnemyBoss>().isDead)
+                    {
+                        enemy.GetComponent<EnemyBoss>().TakeDamage(kickDamage);
+
+                    }
+                }
             }
-            
-        }
         }
     }
 
