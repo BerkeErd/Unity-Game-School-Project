@@ -69,6 +69,7 @@ public class PlayerMovement : MonoBehaviour
     {
         AudioSource = GetComponent<AudioSource>();
         soundmanager = GameObject.Find("SoundManager").GetComponent<SoundManager>();
+        currentHealth = maxHealth;
         currentComboTimer = defaultComboTimer;
         currentComboState = ComboState.NONE;
     }
