@@ -227,11 +227,11 @@ public class PlayerMovement : MonoBehaviour
       //  tookDamage = true;
       //  isAttacking = false;
 
-        if (GetComponent<SpriteRenderer>().flipX == false)
+        if (!facingRight)
         {
             transform.position = new Vector2(transform.position.x - 0.3f, transform.position.y);
         }
-        if (GetComponent<SpriteRenderer>().flipX == true)
+        else if (facingRight)
         {
             transform.position = new Vector2(transform.position.x + 0.3f, transform.position.y);
         }
