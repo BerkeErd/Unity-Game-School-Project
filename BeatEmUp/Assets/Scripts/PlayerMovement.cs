@@ -283,7 +283,7 @@ public class PlayerMovement : MonoBehaviour
          else if (Camera.main.WorldToViewportPoint(transform.position).x >= 1)
          {
            
-            transform.position = new Vector2(transform.position.x+0.2f, transform.position.y);
+            transform.position = new Vector2(transform.position.x-0.2f, transform.position.y);
          }
          
 
