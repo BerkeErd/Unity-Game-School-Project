@@ -22,7 +22,8 @@ public class EnemyBoss : MonoBehaviour
 
     private AudioSource AudioSource;
     public bool isDead = false;
-    
+    public bool isAwaken = false; 
+    public bool attackStarted = false;
 
     public float speed;
     public float chaseDistance;
@@ -45,6 +46,7 @@ public class EnemyBoss : MonoBehaviour
 
     private void Awake()
     {
+        target = GameObject.Find("Fighter");
         HealthBarObject = Instantiate(Resources.Load("Prefabs/HealthBar")) as GameObject;
         HealthBarObject.transform.parent = GameObject.Find("Canvas").GetComponent<Canvas>().transform;
         HealthBarObject.transform.localScale = new Vector3(1, 1, 1);
@@ -56,11 +58,10 @@ public class EnemyBoss : MonoBehaviour
         AudioSource = GetComponent<AudioSource>();
         currentHealth = maxHealth;
         animator = GetComponent<Animator>();
-        target = GameObject.Find("Fighter");
+        
         AudioSource = GetComponent<AudioSource>();
         soundmanager = GameObject.Find("SoundManager").GetComponent<SoundManager>();
        
-        StartCoroutine(AttackPlayer());
         healthBar.BossHealth();
     }
     
@@ -68,9 +69,9 @@ public class EnemyBoss : MonoBehaviour
     {
         currentHealth -= damage;
      
-        isAttacking = false;
+        //isAttacking = false;
 
-        float pushPower = (float)damage / 200;
+        float pushPower = 0;
 
         if (facingRight)
         {
@@ -118,6 +119,18 @@ public class EnemyBoss : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        
+        if (targetDistanceX < chaseDistance && targetDistanceX > 0)
+        {
+            Debug.Log(targetDistanceX);
+            isAwaken = true;
+        }
+
+        if(isAwaken && !attackStarted)
+        {
+            attackStarted = true;
+            StartCoroutine(AttackPlayer());
+        }
         if (!IsRunning && !isAttacking)
         {
             if (transform.position.x < target.transform.position.x && !facingRight)
