@@ -1,7 +1,682 @@
 fileFormatVersion: 2
 guid: 0a2798ba0f2b27241914c22ba6ce1a4c
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 4720742276555461928
+    second: SMS_C_Street_8x8_128_x128_0
+  - first:
+      213: -8176670058616466638
+    second: SMS_C_Street_8x8_128_x128_1
+  - first:
+      213: 337923838166643036
+    second: SMS_C_Street_8x8_128_x128_2
+  - first:
+      213: -1489048401137506805
+    second: SMS_C_Street_8x8_128_x128_3
+  - first:
+      213: 3269548495207306680
+    second: SMS_C_Street_8x8_128_x128_4
+  - first:
+      213: 4718224597085838808
+    second: SMS_C_Street_8x8_128_x128_5
+  - first:
+      213: 9155449458247532311
+    second: SMS_C_Street_8x8_128_x128_6
+  - first:
+      213: -68078017919798482
+    second: SMS_C_Street_8x8_128_x128_7
+  - first:
+      213: -753971094484681705
+    second: SMS_C_Street_8x8_128_x128_8
+  - first:
+      213: -7326134599569861308
+    second: SMS_C_Street_8x8_128_x128_9
+  - first:
+      213: -3279598750686628784
+    second: SMS_C_Street_8x8_128_x128_10
+  - first:
+      213: -4394779965865815983
+    second: SMS_C_Street_8x8_128_x128_11
+  - first:
+      213: -1577750256865330210
+    second: SMS_C_Street_8x8_128_x128_12
+  - first:
+      213: 3469563810139133192
+    second: SMS_C_Street_8x8_128_x128_13
+  - first:
+      213: -1892686480361086565
+    second: SMS_C_Street_8x8_128_x128_14
+  - first:
+      213: 2493706838550470963
+    second: SMS_C_Street_8x8_128_x128_15
+  - first:
+      213: 1803506800653135200
+    second: SMS_C_Street_8x8_128_x128_16
+  - first:
+      213: -658027137467197192
+    second: SMS_C_Street_8x8_128_x128_17
+  - first:
+      213: 7921291506705590699
+    second: SMS_C_Street_8x8_128_x128_18
+  - first:
+      213: 4954780607974345055
+    second: SMS_C_Street_8x8_128_x128_19
+  - first:
+      213: -2541534070042424928
+    second: SMS_C_Street_8x8_128_x128_20
+  - first:
+      213: -6599841976524685488
+    second: SMS_C_Street_8x8_128_x128_21
+  - first:
+      213: -2222506970282202713
+    second: SMS_C_Street_8x8_128_x128_22
+  - first:
+      213: -172785661185126021
+    second: SMS_C_Street_8x8_128_x128_23
+  - first:
+      213: -5484212813518058978
+    second: SMS_C_Street_8x8_128_x128_24
+  - first:
+      213: 271527743005338099
+    second: SMS_C_Street_8x8_128_x128_25
+  - first:
+      213: -4034689928539691772
+    second: SMS_C_Street_8x8_128_x128_26
+  - first:
+      213: -7406548521662538481
+    second: SMS_C_Street_8x8_128_x128_27
+  - first:
+      213: 822924330688162484
+    second: SMS_C_Street_8x8_128_x128_28
+  - first:
+      213: 4997164739882853889
+    second: SMS_C_Street_8x8_128_x128_29
+  - first:
+      213: 1725591062495322203
+    second: SMS_C_Street_8x8_128_x128_30
+  - first:
+      213: -2326849059664255859
+    second: SMS_C_Street_8x8_128_x128_31
+  - first:
+      213: 3598996353690665431
+    second: SMS_C_Street_8x8_128_x128_32
+  - first:
+      213: -7281519474408016374
+    second: SMS_C_Street_8x8_128_x128_33
+  - first:
+      213: 8127716967037779794
+    second: SMS_C_Street_8x8_128_x128_34
+  - first:
+      213: 6417413900759224404
+    second: SMS_C_Street_8x8_128_x128_35
+  - first:
+      213: -2162339551009435191
+    second: SMS_C_Street_8x8_128_x128_36
+  - first:
+      213: 7760402183716540004
+    second: SMS_C_Street_8x8_128_x128_37
+  - first:
+      213: -5127265470385862865
+    second: SMS_C_Street_8x8_128_x128_38
+  - first:
+      213: 7324384916275918795
+    second: SMS_C_Street_8x8_128_x128_39
+  - first:
+      213: -1883897272646677214
+    second: SMS_C_Street_8x8_128_x128_40
+  - first:
+      213: -1951070167793551248
+    second: SMS_C_Street_8x8_128_x128_41
+  - first:
+      213: -9151428709059479483
+    second: SMS_C_Street_8x8_128_x128_42
+  - first:
+      213: -6592150119680516740
+    second: SMS_C_Street_8x8_128_x128_43
+  - first:
+      213: 6697528500918566367
+    second: SMS_C_Street_8x8_128_x128_44
+  - first:
+      213: -277335330812775710
+    second: SMS_C_Street_8x8_128_x128_45
+  - first:
+      213: -4782667546834167233
+    second: SMS_C_Street_8x8_128_x128_46
+  - first:
+      213: 8234300848985162642
+    second: SMS_C_Street_8x8_128_x128_47
+  - first:
+      213: -4093090346924979945
+    second: SMS_C_Street_8x8_128_x128_48
+  - first:
+      213: 2337553297427782333
+    second: SMS_C_Street_8x8_128_x128_49
+  - first:
+      213: -6052171963494865141
+    second: SMS_C_Street_8x8_128_x128_50
+  - first:
+      213: 1485488672601851503
+    second: SMS_C_Street_8x8_128_x128_51
+  - first:
+      213: 8094325477365069449
+    second: SMS_C_Street_8x8_128_x128_52
+  - first:
+      213: -3586214151079886588
+    second: SMS_C_Street_8x8_128_x128_53
+  - first:
+      213: 287015341089236126
+    second: SMS_C_Street_8x8_128_x128_54
+  - first:
+      213: -3623243895364780636
+    second: SMS_C_Street_8x8_128_x128_55
+  - first:
+      213: -767840582994861103
+    second: SMS_C_Street_8x8_128_x128_56
+  - first:
+      213: 1451860528497646126
+    second: SMS_C_Street_8x8_128_x128_57
+  - first:
+      213: 1667825901868866788
+    second: SMS_C_Street_8x8_128_x128_58
+  - first:
+      213: -1790718786435796979
+    second: SMS_C_Street_8x8_128_x128_59
+  - first:
+      213: -8311543435675122946
+    second: SMS_C_Street_8x8_128_x128_60
+  - first:
+      213: -274688136348756291
+    second: SMS_C_Street_8x8_128_x128_61
+  - first:
+      213: -1401411603259287097
+    second: SMS_C_Street_8x8_128_x128_62
+  - first:
+      213: 3607380356516131277
+    second: SMS_C_Street_8x8_128_x128_63
+  - first:
+      213: -2177081951315543452
+    second: SMS_C_Street_8x8_128_x128_64
+  - first:
+      213: -5838808873305862485
+    second: SMS_C_Street_8x8_128_x128_65
+  - first:
+      213: 3724434879116756045
+    second: SMS_C_Street_8x8_128_x128_66
+  - first:
+      213: 8881563798748153122
+    second: SMS_C_Street_8x8_128_x128_67
+  - first:
+      213: 5713841715655724457
+    second: SMS_C_Street_8x8_128_x128_68
+  - first:
+      213: -7701401186002208398
+    second: SMS_C_Street_8x8_128_x128_69
+  - first:
+      213: 1012782273850581778
+    second: SMS_C_Street_8x8_128_x128_70
+  - first:
+      213: -7893237245459282067
+    second: SMS_C_Street_8x8_128_x128_71
+  - first:
+      213: -3361081102558534943
+    second: SMS_C_Street_8x8_128_x128_72
+  - first:
+      213: 2542376770605267255
+    second: SMS_C_Street_8x8_128_x128_73
+  - first:
+      213: -4576199602497260941
+    second: SMS_C_Street_8x8_128_x128_74
+  - first:
+      213: -555541388514876459
+    second: SMS_C_Street_8x8_128_x128_75
+  - first:
+      213: -5281484890749993456
+    second: SMS_C_Street_8x8_128_x128_76
+  - first:
+      213: -5007127792947206195
+    second: SMS_C_Street_8x8_128_x128_77
+  - first:
+      213: 2238523091270676270
+    second: SMS_C_Street_8x8_128_x128_78
+  - first:
+      213: -1870852425917360202
+    second: SMS_C_Street_8x8_128_x128_79
+  - first:
+      213: 4216491127047358135
+    second: SMS_C_Street_8x8_128_x128_80
+  - first:
+      213: 2196940387108684971
+    second: SMS_C_Street_8x8_128_x128_81
+  - first:
+      213: -918478309712539263
+    second: SMS_C_Street_8x8_128_x128_82
+  - first:
+      213: 8071870620158473253
+    second: SMS_C_Street_8x8_128_x128_83
+  - first:
+      213: 510468138271466750
+    second: SMS_C_Street_8x8_128_x128_84
+  - first:
+      213: 8089248225086377611
+    second: SMS_C_Street_8x8_128_x128_85
+  - first:
+      213: -2280026895110369477
+    second: SMS_C_Street_8x8_128_x128_86
+  - first:
+      213: -55044103527121020
+    second: SMS_C_Street_8x8_128_x128_87
+  - first:
+      213: 9204590717266043291
+    second: SMS_C_Street_8x8_128_x128_88
+  - first:
+      213: 2194396031510109074
+    second: SMS_C_Street_8x8_128_x128_89
+  - first:
+      213: 1619832442556604072
+    second: SMS_C_Street_8x8_128_x128_90
+  - first:
+      213: 2016820866110859096
+    second: SMS_C_Street_8x8_128_x128_91
+  - first:
+      213: -7393687326826262937
+    second: SMS_C_Street_8x8_128_x128_92
+  - first:
+      213: 4761983195330525442
+    second: SMS_C_Street_8x8_128_x128_93
+  - first:
+      213: 3233444805935406724
+    second: SMS_C_Street_8x8_128_x128_94
+  - first:
+      213: -3275963181778346761
+    second: SMS_C_Street_8x8_128_x128_95
+  - first:
+      213: 6423853496641109776
+    second: SMS_C_Street_8x8_128_x128_96
+  - first:
+      213: 5843084567286023060
+    second: SMS_C_Street_8x8_128_x128_97
+  - first:
+      213: -6636437186352651130
+    second: SMS_C_Street_8x8_128_x128_98
+  - first:
+      213: 4436883974278610728
+    second: SMS_C_Street_8x8_128_x128_99
+  - first:
+      213: -5450282825850507632
+    second: SMS_C_Street_8x8_128_x128_100
+  - first:
+      213: 6628717935719003220
+    second: SMS_C_Street_8x8_128_x128_101
+  - first:
+      213: -3692134897505726986
+    second: SMS_C_Street_8x8_128_x128_102
+  - first:
+      213: -5999803752287463708
+    second: SMS_C_Street_8x8_128_x128_103
+  - first:
+      213: -1570118000701209608
+    second: SMS_C_Street_8x8_128_x128_104
+  - first:
+      213: 3612485140395753247
+    second: SMS_C_Street_8x8_128_x128_105
+  - first:
+      213: -6081236352506603311
+    second: SMS_C_Street_8x8_128_x128_106
+  - first:
+      213: -1985013724588938858
+    second: SMS_C_Street_8x8_128_x128_107
+  - first:
+      213: 866323440806797973
+    second: SMS_C_Street_8x8_128_x128_108
+  - first:
+      213: 7541470547799056043
+    second: SMS_C_Street_8x8_128_x128_109
+  - first:
+      213: 407030786297158112
+    second: SMS_C_Street_8x8_128_x128_110
+  - first:
+      213: 3894580874849934502
+    second: SMS_C_Street_8x8_128_x128_111
+  - first:
+      213: 4540031842834983712
+    second: SMS_C_Street_8x8_128_x128_112
+  - first:
+      213: -5729394444704531626
+    second: SMS_C_Street_8x8_128_x128_113
+  - first:
+      213: 8232504790426670229
+    second: SMS_C_Street_8x8_128_x128_114
+  - first:
+      213: -2813101739673742342
+    second: SMS_C_Street_8x8_128_x128_115
+  - first:
+      213: 4052632919178939656
+    second: SMS_C_Street_8x8_128_x128_116
+  - first:
+      213: -1229970595084824220
+    second: SMS_C_Street_8x8_128_x128_117
+  - first:
+      213: -4173494340926988413
+    second: SMS_C_Street_8x8_128_x128_118
+  - first:
+      213: -5613511276157549358
+    second: SMS_C_Street_8x8_128_x128_119
+  - first:
+      213: 4511974689806620537
+    second: SMS_C_Street_8x8_128_x128_120
+  - first:
+      213: -470668806388487638
+    second: SMS_C_Street_8x8_128_x128_121
+  - first:
+      213: -290590540886250624
+    second: SMS_C_Street_8x8_128_x128_122
+  - first:
+      213: 751692101078782139
+    second: SMS_C_Street_8x8_128_x128_123
+  - first:
+      213: 862457776631254443
+    second: SMS_C_Street_8x8_128_x128_124
+  - first:
+      213: -8208152537508768186
+    second: SMS_C_Street_8x8_128_x128_125
+  - first:
+      213: 8385950652733229245
+    second: SMS_C_Street_8x8_128_x128_126
+  - first:
+      213: -7623022546392883706
+    second: SMS_C_Street_8x8_128_x128_127
+  - first:
+      213: 7101327144558281969
+    second: SMS_C_Street_8x8_128_x128_128
+  - first:
+      213: -4873309541456304762
+    second: SMS_C_Street_8x8_128_x128_129
+  - first:
+      213: 8865618230433611120
+    second: SMS_C_Street_8x8_128_x128_130
+  - first:
+      213: 5821183306806007948
+    second: SMS_C_Street_8x8_128_x128_131
+  - first:
+      213: -24247720064041385
+    second: SMS_C_Street_8x8_128_x128_132
+  - first:
+      213: -964837167368972832
+    second: SMS_C_Street_8x8_128_x128_133
+  - first:
+      213: -3164821562831759134
+    second: SMS_C_Street_8x8_128_x128_134
+  - first:
+      213: -6780631664263316795
+    second: SMS_C_Street_8x8_128_x128_135
+  - first:
+      213: 2584522159733621562
+    second: SMS_C_Street_8x8_128_x128_136
+  - first:
+      213: -3796092320520907043
+    second: SMS_C_Street_8x8_128_x128_137
+  - first:
+      213: -3836411239781432231
+    second: SMS_C_Street_8x8_128_x128_138
+  - first:
+      213: -121826147095957477
+    second: SMS_C_Street_8x8_128_x128_139
+  - first:
+      213: -6438328698672073456
+    second: SMS_C_Street_8x8_128_x128_140
+  - first:
+      213: -398024397234135683
+    second: SMS_C_Street_8x8_128_x128_141
+  - first:
+      213: -3114010246471170245
+    second: SMS_C_Street_8x8_128_x128_142
+  - first:
+      213: -6981861216829497061
+    second: SMS_C_Street_8x8_128_x128_143
+  - first:
+      213: -6725638773326984313
+    second: SMS_C_Street_8x8_128_x128_144
+  - first:
+      213: -8480830494684379268
+    second: SMS_C_Street_8x8_128_x128_145
+  - first:
+      213: -3588986629251419499
+    second: SMS_C_Street_8x8_128_x128_146
+  - first:
+      213: 5317870104763587200
+    second: SMS_C_Street_8x8_128_x128_147
+  - first:
+      213: 335427660465450387
+    second: SMS_C_Street_8x8_128_x128_148
+  - first:
+      213: -8872422369653222517
+    second: SMS_C_Street_8x8_128_x128_149
+  - first:
+      213: -5914267965325359469
+    second: SMS_C_Street_8x8_128_x128_150
+  - first:
+      213: -4931239562034865078
+    second: SMS_C_Street_8x8_128_x128_151
+  - first:
+      213: 5162926900950427642
+    second: SMS_C_Street_8x8_128_x128_152
+  - first:
+      213: -2718326880716444458
+    second: SMS_C_Street_8x8_128_x128_153
+  - first:
+      213: -2817714384632189492
+    second: SMS_C_Street_8x8_128_x128_154
+  - first:
+      213: -4027309593750684572
+    second: SMS_C_Street_8x8_128_x128_155
+  - first:
+      213: -4247365491028622667
+    second: SMS_C_Street_8x8_128_x128_156
+  - first:
+      213: 4307046986079848265
+    second: SMS_C_Street_8x8_128_x128_157
+  - first:
+      213: -227506731502115852
+    second: SMS_C_Street_8x8_128_x128_158
+  - first:
+      213: -1234061713351069481
+    second: SMS_C_Street_8x8_128_x128_159
+  - first:
+      213: 6757892901360667163
+    second: SMS_C_Street_8x8_128_x128_160
+  - first:
+      213: 2329677745459950437
+    second: SMS_C_Street_8x8_128_x128_161
+  - first:
+      213: 8965673085546774207
+    second: SMS_C_Street_8x8_128_x128_162
+  - first:
+      213: -876616953159992016
+    second: SMS_C_Street_8x8_128_x128_163
+  - first:
+      213: -4226152812965324379
+    second: SMS_C_Street_8x8_128_x128_164
+  - first:
+      213: 2273009178583275402
+    second: SMS_C_Street_8x8_128_x128_165
+  - first:
+      213: 1809987243838566190
+    second: SMS_C_Street_8x8_128_x128_166
+  - first:
+      213: -2591187829045614131
+    second: SMS_C_Street_8x8_128_x128_167
+  - first:
+      213: -7035633502499838204
+    second: SMS_C_Street_8x8_128_x128_168
+  - first:
+      213: -861355347256380659
+    second: SMS_C_Street_8x8_128_x128_169
+  - first:
+      213: 5555216693338785556
+    second: SMS_C_Street_8x8_128_x128_170
+  - first:
+      213: 8941444677606728448
+    second: SMS_C_Street_8x8_128_x128_171
+  - first:
+      213: 8248095620360252148
+    second: SMS_C_Street_8x8_128_x128_172
+  - first:
+      213: -3168974701849267915
+    second: SMS_C_Street_8x8_128_x128_173
+  - first:
+      213: -2031304512204837270
+    second: SMS_C_Street_8x8_128_x128_174
+  - first:
+      213: -8250310760050438340
+    second: SMS_C_Street_8x8_128_x128_175
+  - first:
+      213: -2759825154258465197
+    second: SMS_C_Street_8x8_128_x128_176
+  - first:
+      213: -2428211515191848321
+    second: SMS_C_Street_8x8_128_x128_177
+  - first:
+      213: 834271013185374938
+    second: SMS_C_Street_8x8_128_x128_178
+  - first:
+      213: -7210935969634166162
+    second: SMS_C_Street_8x8_128_x128_179
+  - first:
+      213: -890613179818495801
+    second: SMS_C_Street_8x8_128_x128_180
+  - first:
+      213: -8462144204387070450
+    second: SMS_C_Street_8x8_128_x128_181
+  - first:
+      213: 1253291399575331761
+    second: SMS_C_Street_8x8_128_x128_182
+  - first:
+      213: -8648446782824684147
+    second: SMS_C_Street_8x8_128_x128_183
+  - first:
+      213: 8136365927729884428
+    second: SMS_C_Street_8x8_128_x128_184
+  - first:
+      213: -1007759062121792453
+    second: SMS_C_Street_8x8_128_x128_185
+  - first:
+      213: -4867114970643371579
+    second: SMS_C_Street_8x8_128_x128_186
+  - first:
+      213: 8247977693896309614
+    second: SMS_C_Street_8x8_128_x128_187
+  - first:
+      213: -3252144988500242969
+    second: SMS_C_Street_8x8_128_x128_188
+  - first:
+      213: -2658514745675900500
+    second: SMS_C_Street_8x8_128_x128_189
+  - first:
+      213: -8959378725017971274
+    second: SMS_C_Street_8x8_128_x128_190
+  - first:
+      213: 2295050223802031993
+    second: SMS_C_Street_8x8_128_x128_191
+  - first:
+      213: 5309200992044018490
+    second: SMS_C_Street_8x8_128_x128_192
+  - first:
+      213: 3187541425154049729
+    second: SMS_C_Street_8x8_128_x128_193
+  - first:
+      213: 4471951870473442207
+    second: SMS_C_Street_8x8_128_x128_194
+  - first:
+      213: -5080349836987841479
+    second: SMS_C_Street_8x8_128_x128_195
+  - first:
+      213: -6483222382375103282
+    second: SMS_C_Street_8x8_128_x128_196
+  - first:
+      213: 3508304778262978192
+    second: SMS_C_Street_8x8_128_x128_197
+  - first:
+      213: 2946942105076451064
+    second: SMS_C_Street_8x8_128_x128_198
+  - first:
+      213: 8903688264400493115
+    second: SMS_C_Street_8x8_128_x128_199
+  - first:
+      213: -7064206090410527231
+    second: SMS_C_Street_8x8_128_x128_200
+  - first:
+      213: -2290908167929340678
+    second: SMS_C_Street_8x8_128_x128_201
+  - first:
+      213: -6807795821571649384
+    second: SMS_C_Street_8x8_128_x128_202
+  - first:
+      213: -7779235494249634003
+    second: SMS_C_Street_8x8_128_x128_203
+  - first:
+      213: 2953334571995877832
+    second: SMS_C_Street_8x8_128_x128_204
+  - first:
+      213: -5112587977361666918
+    second: SMS_C_Street_8x8_128_x128_205
+  - first:
+      213: 8568864198349019716
+    second: SMS_C_Street_8x8_128_x128_206
+  - first:
+      213: -3532951306615860215
+    second: SMS_C_Street_8x8_128_x128_207
+  - first:
+      213: -5360810284688523954
+    second: SMS_C_Street_8x8_128_x128_208
+  - first:
+      213: 3339710150447713799
+    second: SMS_C_Street_8x8_128_x128_209
+  - first:
+      213: -3506947375398083754
+    second: SMS_C_Street_8x8_128_x128_210
+  - first:
+      213: 329288801867662860
+    second: SMS_C_Street_8x8_128_x128_211
+  - first:
+      213: 2344879610794970841
+    second: SMS_C_Street_8x8_128_x128_212
+  - first:
+      213: -3343764269020959676
+    second: SMS_C_Street_8x8_128_x128_213
+  - first:
+      213: 4301888015253381369
+    second: SMS_C_Street_8x8_128_x128_214
+  - first:
+      213: -1060964778383344699
+    second: SMS_C_Street_8x8_128_x128_215
+  - first:
+      213: 354749690616326902
+    second: SMS_C_Street_8x8_128_x128_216
+  - first:
+      213: 2241667136825857781
+    second: SMS_C_Street_8x8_128_x128_217
+  - first:
+      213: 6877401487870788526
+    second: SMS_C_Street_8x8_128_x128_218
+  - first:
+      213: 8400186706205879224
+    second: SMS_C_Street_8x8_128_x128_219
+  - first:
+      213: 8174488560924348360
+    second: SMS_C_Street_8x8_128_x128_220
+  - first:
+      213: 157710549653766823
+    second: SMS_C_Street_8x8_128_x128_221
+  - first:
+      213: -3064249594697738416
+    second: SMS_C_Street_8x8_128_x128_222
+  - first:
+      213: -2412389148333811375
+    second: SMS_C_Street_8x8_128_x128_223
+  - first:
+      213: -5869271555300773218
+    second: SMS_C_Street_8x8_128_x128_224
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -40,12 +715,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -70,9 +745,4758 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: SMS_C_Street_8x8_128_x128_0
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 120
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83ba5d120f956fa49b304f2c15b11c9e
+      internalID: 4720742276555461928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_C_Street_8x8_128_x128_1
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 120
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a00c4307c9870d04b92b1b5884ecd6b2
+      internalID: -8176670058616466638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_C_Street_8x8_128_x128_2
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 120
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86f0f62a8434b53469494190b4e03aa6
+      internalID: 337923838166643036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_C_Street_8x8_128_x128_3
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 120
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04bb0ba77792a2445b6c1aafa2e1ee83
+      internalID: -1489048401137506805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_C_Street_8x8_128_x128_4
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 120
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7bfcd574a4da284f8f38be2d1717b88
+      internalID: 3269548495207306680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_C_Street_8x8_128_x128_5
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 120
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abd747fa7e5edfd44b1cfab483c766ba
+      internalID: 4718224597085838808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_C_Street_8x8_128_x128_6
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 120
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6a37a2518e4f654ea25adb9b2476807
+      internalID: 9155449458247532311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_C_Street_8x8_128_x128_7
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 120
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbaf91a69e739594da7652692726feb9
+      internalID: -68078017919798482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_C_Street_8x8_128_x128_8
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 120
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de06f8a8a266b154a83603c774e1d8bd
+      internalID: -753971094484681705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_C_Street_8x8_128_x128_9
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 120
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00db3ad6596f7e14ea8fec06fae81baa
+      internalID: -7326134599569861308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_C_Street_8x8_128_x128_10
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 120
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7af6aab795f929e4b88f3fafa8f09aec
+      internalID: -3279598750686628784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_C_Street_8x8_128_x128_11
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 120
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 118bffd8f23a55f48a83923ba3a82d7e
+      internalID: -4394779965865815983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_C_Street_8x8_128_x128_12
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 120
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4b0fbf0e7fd0c4478cc4b45c1f7005b
+      internalID: -1577750256865330210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_C_Street_8x8_128_x128_13
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 120
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 460a0e4ea8f61694194a1aa4eec03461
+      internalID: 3469563810139133192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_C_Street_8x8_128_x128_14
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 120
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1caa753dae952648a6b872e13b63160
+      internalID: -1892686480361086565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_C_Street_8x8_128_x128_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 112
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 746e9952afff52f498755dac3c2b517a
+      internalID: 2493706838550470963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_C_Street_8x8_128_x128_16
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 112
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfd4ac4c99295fb43b2987ea4b719f93
+      internalID: 1803506800653135200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_C_Street_8x8_128_x128_17
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 112
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fbf7624a87885542bdd8e2f14627e25
+      internalID: -658027137467197192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_C_Street_8x8_128_x128_18
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 112
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79842da7b5ff44a4487cc774a22fe50d
+      internalID: 7921291506705590699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_C_Street_8x8_128_x128_19
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 112
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6acf830968d5d5041837341297242ec1
+      internalID: 4954780607974345055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_C_Street_8x8_128_x128_20
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 112
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b8740cdc53f4ae41b2545bf68d0e221
+      internalID: -2541534070042424928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_C_Street_8x8_128_x128_21
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 112
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43458fb43f734d142b547ea2735f2bba
+      internalID: -6599841976524685488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_C_Street_8x8_128_x128_22
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 112
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ee9b60a9c061564abef3e4da463a317
+      internalID: -2222506970282202713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_C_Street_8x8_128_x128_23
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 112
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fd40766028ea8749b0332b695e371bf
+      internalID: -172785661185126021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_C_Street_8x8_128_x128_24
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 112
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50e48e970bdfe4f49a38ba46235ca2cf
+      internalID: -5484212813518058978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_C_Street_8x8_128_x128_25
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 112
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e60a6ca1b49dc4a4eac729b606611fee
+      internalID: 271527743005338099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_C_Street_8x8_128_x128_26
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 112
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7895ddc04acac64db763e4b7c2765c7
+      internalID: -4034689928539691772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_C_Street_8x8_128_x128_27
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 112
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: baac95d46ee5c6943abbdf1607afa6e3
+      internalID: -7406548521662538481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_C_Street_8x8_128_x128_28
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 112
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cb7adaa02a0c2340a7f88e1f0e7b9d3
+      internalID: 822924330688162484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_C_Street_8x8_128_x128_29
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 112
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b7f8e8cec4083a48a06e38be2f42580
+      internalID: 4997164739882853889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_C_Street_8x8_128_x128_30
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 112
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e2bdad8be97bf24a95f3e8191ac88bf
+      internalID: 1725591062495322203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_C_Street_8x8_128_x128_31
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 104
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e124cac01cddf64581d6b4180203f40
+      internalID: -2326849059664255859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_C_Street_8x8_128_x128_32
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 104
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3d16493b1416514cb6986ec824ba588
+      internalID: 3598996353690665431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_C_Street_8x8_128_x128_33
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 104
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d6c705b9187ea04fa1f35a38536ba30
+      internalID: -7281519474408016374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_C_Street_8x8_128_x128_34
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 104
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef5aa6e27ea9c084fa3f374001ac82cb
+      internalID: 8127716967037779794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_C_Street_8x8_128_x128_35
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 104
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d73db872394619d4c8695f9e5b8cfb75
+      internalID: 6417413900759224404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_C_Street_8x8_128_x128_36
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 104
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc802c90208e1c34f9b4fb991425cc6e
+      internalID: -2162339551009435191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_C_Street_8x8_128_x128_37
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 104
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8671df7dbbfb7dd4086dc78fc5085a48
+      internalID: 7760402183716540004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_C_Street_8x8_128_x128_38
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 104
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1d489e441e31074e888ac0bf2ea626d
+      internalID: -5127265470385862865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_C_Street_8x8_128_x128_39
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 104
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37ee37cc640b0d743857d092aa8391b8
+      internalID: 7324384916275918795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_C_Street_8x8_128_x128_40
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 104
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f41fcdfda149820438b67e5ffdc2fc3b
+      internalID: -1883897272646677214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_C_Street_8x8_128_x128_41
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 104
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c1bffe64203e984cad535c9605a97ca
+      internalID: -1951070167793551248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_C_Street_8x8_128_x128_42
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 104
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10f35e9a48826b2458e722d629aca487
+      internalID: -9151428709059479483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_C_Street_8x8_128_x128_43
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 104
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9cf04dc744725347b168361eec3cce5
+      internalID: -6592150119680516740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_C_Street_8x8_128_x128_44
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 104
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3aa0520a784f6244b327e1a70a5802a
+      internalID: 6697528500918566367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_C_Street_8x8_128_x128_45
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 104
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d059de8872b5e6c4b8e87b2fd99096fb
+      internalID: -277335330812775710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_C_Street_8x8_128_x128_46
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 104
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f2d6caf2d854474ab511ba06cf1371d
+      internalID: -4782667546834167233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_C_Street_8x8_128_x128_47
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 96
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29201265b3690f04cbf5d7c845e853c9
+      internalID: 8234300848985162642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_C_Street_8x8_128_x128_48
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 96
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a677eed7a08f24409e5046cb3c6ff4f
+      internalID: -4093090346924979945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_C_Street_8x8_128_x128_49
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 96
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be6ddd488aecd134c8b0e5d3d7ed4c12
+      internalID: 2337553297427782333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_C_Street_8x8_128_x128_50
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 96
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 472ca6b1aad3c7b4190ebf2802735385
+      internalID: -6052171963494865141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_C_Street_8x8_128_x128_51
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 96
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c1a74fb326b20f4cacbaf6785c13453
+      internalID: 1485488672601851503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_C_Street_8x8_128_x128_52
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 96
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cea7033238ad704c84a841dfff92b71
+      internalID: 8094325477365069449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_C_Street_8x8_128_x128_53
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 96
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ad9edd3c91dc4a4c89f362518daf98f
+      internalID: -3586214151079886588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_C_Street_8x8_128_x128_54
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 96
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a89cbc1eb157b124e80f417a072023d6
+      internalID: 287015341089236126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_C_Street_8x8_128_x128_55
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 96
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31e2896d08040b44f93fc5fa0867812f
+      internalID: -3623243895364780636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_C_Street_8x8_128_x128_56
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 96
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c367bcaa5d99754d9817e815646e956
+      internalID: -767840582994861103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_C_Street_8x8_128_x128_57
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 96
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2195f5569e916d54da684925a3a6611b
+      internalID: 1451860528497646126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_C_Street_8x8_128_x128_58
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 96
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3218cd50ae934194fb92a8c8e2b08ef6
+      internalID: 1667825901868866788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_C_Street_8x8_128_x128_59
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 96
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2305d6e45cbf04443a5f66e343befb12
+      internalID: -1790718786435796979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_C_Street_8x8_128_x128_60
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 96
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 406633b076091ca4ebbf79c2911c4693
+      internalID: -8311543435675122946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_C_Street_8x8_128_x128_61
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 96
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 496eb8b457b80314495d977d3a4a059e
+      internalID: -274688136348756291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_C_Street_8x8_128_x128_62
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 96
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 025f99815064a6946839f25e2b98b3d2
+      internalID: -1401411603259287097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_C_Street_8x8_128_x128_63
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 88
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5b82430788fb1146a09f731fa79d68c
+      internalID: 3607380356516131277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_C_Street_8x8_128_x128_64
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 88
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbe6decf92936e240823171238573676
+      internalID: -2177081951315543452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_C_Street_8x8_128_x128_65
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 88
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83edeca7efb445c46bd6732788115fcc
+      internalID: -5838808873305862485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_C_Street_8x8_128_x128_66
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 88
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d904001aa7f5e5428f7e1b027f01440
+      internalID: 3724434879116756045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_C_Street_8x8_128_x128_67
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 88
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7b0de58a1d3a2a47b9e31ee7d71945c
+      internalID: 8881563798748153122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_C_Street_8x8_128_x128_68
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 88
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbfb566595df77841ae82701cee1fb49
+      internalID: 5713841715655724457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_C_Street_8x8_128_x128_69
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 88
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a97cd4595fa1e24790550c757549f55
+      internalID: -7701401186002208398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_C_Street_8x8_128_x128_70
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 88
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51a42b736eff72e41a9d5dfa1dfc77a2
+      internalID: 1012782273850581778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_C_Street_8x8_128_x128_71
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 88
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42632b93a184422449ee8afe38405341
+      internalID: -7893237245459282067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_C_Street_8x8_128_x128_72
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 88
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ecc3390238a27c41ba10a251e88dfd3
+      internalID: -3361081102558534943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_C_Street_8x8_128_x128_73
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 88
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37d4b168538ba2247981974e3dad9c80
+      internalID: 2542376770605267255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_C_Street_8x8_128_x128_74
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 88
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5689cca74920a14f97b1a74b35aecf1
+      internalID: -4576199602497260941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_C_Street_8x8_128_x128_75
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 88
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2525fc8febc2bd24e81d630385e230f2
+      internalID: -555541388514876459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_C_Street_8x8_128_x128_76
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 88
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb5e5884a1d08844db9fd41e0a5712d8
+      internalID: -5281484890749993456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_C_Street_8x8_128_x128_77
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 88
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eab09df3a6410ce409a717f391a460ac
+      internalID: -5007127792947206195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_C_Street_8x8_128_x128_78
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 88
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54126ca85816e4d4597808853c7c3c12
+      internalID: 2238523091270676270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_C_Street_8x8_128_x128_79
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 80
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ea732ab0d8a98941a2137e63a355081
+      internalID: -1870852425917360202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_C_Street_8x8_128_x128_80
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 80
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 566da6f9e5f7cb14ab23e4908f3b17b1
+      internalID: 4216491127047358135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_C_Street_8x8_128_x128_81
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 80
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42d44c8fe4b731a4890007bb01ab65fd
+      internalID: 2196940387108684971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_C_Street_8x8_128_x128_82
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 80
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d30e3a95b5ea1b4192b1bb8834712a9
+      internalID: -918478309712539263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_C_Street_8x8_128_x128_83
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 80
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b21a23619aa9a5428a08b146a3d3723
+      internalID: 8071870620158473253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_C_Street_8x8_128_x128_84
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 80
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd672992d668c934b99fcd80618baf87
+      internalID: 510468138271466750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_C_Street_8x8_128_x128_85
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 80
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 827f19db51a39034fa35b56a53e33689
+      internalID: 8089248225086377611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_C_Street_8x8_128_x128_86
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 80
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bd95f336c003e646a7ccef8b88b7154
+      internalID: -2280026895110369477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_C_Street_8x8_128_x128_87
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 80
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51b8cd041cb3d58478c063c63cba9013
+      internalID: -55044103527121020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_C_Street_8x8_128_x128_88
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 80
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd7162688060e6741a8911a01247452b
+      internalID: 9204590717266043291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_C_Street_8x8_128_x128_89
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 80
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab6af50dcbfbf8c409e4e8d9f866ea9e
+      internalID: 2194396031510109074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_C_Street_8x8_128_x128_90
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 80
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5a14cb77c7d0d546836631c18cc7932
+      internalID: 1619832442556604072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_C_Street_8x8_128_x128_91
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 80
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4dfa66e929edc2949adca147ae8cdd7a
+      internalID: 2016820866110859096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_C_Street_8x8_128_x128_92
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 80
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29381aae5f6a0f641bc35f63c09cdd4a
+      internalID: -7393687326826262937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_C_Street_8x8_128_x128_93
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 80
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cd56c5bbe70c5440944ba3335b2ce2c
+      internalID: 4761983195330525442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_C_Street_8x8_128_x128_94
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 80
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8258cee59658f44e921755d26cc1583
+      internalID: 3233444805935406724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_C_Street_8x8_128_x128_95
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 72
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57771cbba7aec974e838926d5edda627
+      internalID: -3275963181778346761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_C_Street_8x8_128_x128_96
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 72
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 709c9b29822acb54ca61645cc3771853
+      internalID: 6423853496641109776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_C_Street_8x8_128_x128_97
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 72
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60e791d74486abc41bb3b3d4f5dd2017
+      internalID: 5843084567286023060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_C_Street_8x8_128_x128_98
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 72
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed70338d22275eb438870bb29bf255da
+      internalID: -6636437186352651130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_C_Street_8x8_128_x128_99
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 72
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00e07589385dccb43a85dc62e9d3d4bd
+      internalID: 4436883974278610728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_C_Street_8x8_128_x128_100
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 72
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c45d7e2f4b47ae47a7655189415f6b2
+      internalID: -5450282825850507632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_C_Street_8x8_128_x128_101
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 72
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35f1c7e25d7dd6449bd0b4c4fb131619
+      internalID: 6628717935719003220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_C_Street_8x8_128_x128_102
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 72
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ec89081b20187c429dda1eab1602c8c
+      internalID: -3692134897505726986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_C_Street_8x8_128_x128_103
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 72
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db915c27611315c418aba8539fdf73df
+      internalID: -5999803752287463708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_C_Street_8x8_128_x128_104
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 72
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd353012d9e4a0e48bd8e529b358d6a7
+      internalID: -1570118000701209608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_C_Street_8x8_128_x128_105
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 72
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b7a5532ca7de8c44827297bea50be7a
+      internalID: 3612485140395753247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_C_Street_8x8_128_x128_106
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 72
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd4d370b7de79aa45b0131012ec8bdd9
+      internalID: -6081236352506603311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_C_Street_8x8_128_x128_107
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 72
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 538b8c97ce1b88a46a2200f38ecf1dbd
+      internalID: -1985013724588938858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_C_Street_8x8_128_x128_108
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 72
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5ae82cd8e8cdc540a8ed6d798e36a13
+      internalID: 866323440806797973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_C_Street_8x8_128_x128_109
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 72
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e689b3bb896383e4987c81d4180e70d5
+      internalID: 7541470547799056043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_C_Street_8x8_128_x128_110
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 72
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3f580d9b0437684e93b197fce8997bb
+      internalID: 407030786297158112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_C_Street_8x8_128_x128_111
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f09dc4291afb540448544b2a66d28ceb
+      internalID: 3894580874849934502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_C_Street_8x8_128_x128_112
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 64
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fbd01f8b245e7e4d9490e9ddb84335c
+      internalID: 4540031842834983712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_C_Street_8x8_128_x128_113
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 64
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b6ce7ecceee95c4c933b56efd3fd0cf
+      internalID: -5729394444704531626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_C_Street_8x8_128_x128_114
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 64
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfd46317f98af774bb5fbd4baf1f1a95
+      internalID: 8232504790426670229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_C_Street_8x8_128_x128_115
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 64
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97182344639e47c418491e5795b07cdb
+      internalID: -2813101739673742342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_C_Street_8x8_128_x128_116
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 64
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2517cbba2729a946ab046c4c40949bc
+      internalID: 4052632919178939656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_C_Street_8x8_128_x128_117
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 64
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6616164fc364a8742a7deb40a572a9ff
+      internalID: -1229970595084824220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_C_Street_8x8_128_x128_118
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 64
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ff290a6d725330448e2c3011d34da9a
+      internalID: -4173494340926988413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_C_Street_8x8_128_x128_119
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 64
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18b831e3778152c498e70b2e150ece9a
+      internalID: -5613511276157549358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_C_Street_8x8_128_x128_120
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 64
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa4d1f292b0ae48489bb8cfeeac1ae62
+      internalID: 4511974689806620537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_C_Street_8x8_128_x128_121
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 64
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02fa752827b0dfa4c8d703ac8752f5ba
+      internalID: -470668806388487638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_C_Street_8x8_128_x128_122
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 64
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf406d7c43fb0d74cb410db5e822245b
+      internalID: -290590540886250624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_C_Street_8x8_128_x128_123
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 64
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a80ec50e8d71bc46b70bf63281e2b36
+      internalID: 751692101078782139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_C_Street_8x8_128_x128_124
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 64
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cac5b5c21faac445bc5a125594b08b3
+      internalID: 862457776631254443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_C_Street_8x8_128_x128_125
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 64
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f9ac246337eb014fba7f46ba2494516
+      internalID: -8208152537508768186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_C_Street_8x8_128_x128_126
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 64
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e549a4b5ff9b1c948ae54281afa1fadd
+      internalID: 8385950652733229245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_C_Street_8x8_128_x128_127
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 56
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20aec6e126f4af940a203c8fe98565bf
+      internalID: -7623022546392883706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_C_Street_8x8_128_x128_128
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 56
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9626f9e84075d24781da0511d57a08e
+      internalID: 7101327144558281969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_C_Street_8x8_128_x128_129
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 56
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 794f148514db5674f884242876b3621a
+      internalID: -4873309541456304762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_C_Street_8x8_128_x128_130
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 56
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3c2eba44b97b8f44bdf55c54d72b942
+      internalID: 8865618230433611120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_C_Street_8x8_128_x128_131
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 56
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebb4a87a8ecc80f47b8196f921f0b916
+      internalID: 5821183306806007948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_C_Street_8x8_128_x128_132
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 56
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d170bc9fafaf9ce408009fe773855611
+      internalID: -24247720064041385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_C_Street_8x8_128_x128_133
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 56
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef2c3b8fe74823441bb6ea0c8ae77214
+      internalID: -964837167368972832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_C_Street_8x8_128_x128_134
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 56
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe44a81a4b8e3fc46b4f27907dc2d7c4
+      internalID: -3164821562831759134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_C_Street_8x8_128_x128_135
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 56
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31932ad6478b70b49ad6bf0b0096fcd9
+      internalID: -6780631664263316795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_C_Street_8x8_128_x128_136
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 56
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06db645767dee7f4da3bdcd4c3e651f2
+      internalID: 2584522159733621562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_C_Street_8x8_128_x128_137
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 56
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 846721a593b9a4544818469a6c1de51f
+      internalID: -3796092320520907043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_C_Street_8x8_128_x128_138
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 56
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb3358e88398ee044aeb0434de7ea546
+      internalID: -3836411239781432231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_C_Street_8x8_128_x128_139
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 56
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d5c918136e6fa34196ce14983697ba3
+      internalID: -121826147095957477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_C_Street_8x8_128_x128_140
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 56
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0c0bcf9fcca4b14daa7fbd595b7737d
+      internalID: -6438328698672073456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_C_Street_8x8_128_x128_141
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 56
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4434f9cceec652349be0c3473d7076ef
+      internalID: -398024397234135683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_C_Street_8x8_128_x128_142
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 56
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 588058ff5ed22bf4d99ec54bc63d378f
+      internalID: -3114010246471170245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_C_Street_8x8_128_x128_143
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 48
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecdb1bf32df7e7d46954711d92a6ae0b
+      internalID: -6981861216829497061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_C_Street_8x8_128_x128_144
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 48
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c521a7331ac8ec4bbc5314e925dd974
+      internalID: -6725638773326984313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_C_Street_8x8_128_x128_145
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 48
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d3dc0c446035634e8831e2ed39add5f
+      internalID: -8480830494684379268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_C_Street_8x8_128_x128_146
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 48
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7aa2b3c65aa398448646bb78873b745
+      internalID: -3588986629251419499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_C_Street_8x8_128_x128_147
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 48
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af1827e514c00244db5e831f65e90781
+      internalID: 5317870104763587200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_C_Street_8x8_128_x128_148
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 48
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4dcf4d9b79ac4a247a4f363b5d5554f1
+      internalID: 335427660465450387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_C_Street_8x8_128_x128_149
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 48
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69d3ee82c633b5d4a9b528fa49aaedca
+      internalID: -8872422369653222517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_C_Street_8x8_128_x128_150
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 48
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e5f6bd8e26795e4b8fa4b65a2ff7362
+      internalID: -5914267965325359469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_C_Street_8x8_128_x128_151
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 48
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fb3188a00203764593ba0df2c17fb32
+      internalID: -4931239562034865078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_C_Street_8x8_128_x128_152
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 48
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cd7b335115a3244b802d2eeaf251bc2
+      internalID: 5162926900950427642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_C_Street_8x8_128_x128_153
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 48
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c10de1aee0d1f14c85dc12652146508
+      internalID: -2718326880716444458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_C_Street_8x8_128_x128_154
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 48
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83b3a708812a6384a8594dea565dddcb
+      internalID: -2817714384632189492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_C_Street_8x8_128_x128_155
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 48
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 070f08b3997898f44b71806dbc8fe051
+      internalID: -4027309593750684572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_C_Street_8x8_128_x128_156
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 48
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6986484ff886924ba392814f8bea3b8
+      internalID: -4247365491028622667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_C_Street_8x8_128_x128_157
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 48
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7a533eae01b406448f7b3c68c09e61e
+      internalID: 4307046986079848265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_C_Street_8x8_128_x128_158
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 48
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7792f605fef750941a3058f800e17263
+      internalID: -227506731502115852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_C_Street_8x8_128_x128_159
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 40
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f17a6e47870130e4d924b9ca6042e7b8
+      internalID: -1234061713351069481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_C_Street_8x8_128_x128_160
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 40
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 481bcd641585b294cb15d3cb29b7788c
+      internalID: 6757892901360667163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_C_Street_8x8_128_x128_161
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 40
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a338ffabfbcc82946ad9c663f0c5f8b4
+      internalID: 2329677745459950437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_C_Street_8x8_128_x128_162
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 40
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 498fd7caf685b7742bfdd386d26d18a1
+      internalID: 8965673085546774207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_C_Street_8x8_128_x128_163
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 40
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f47cc119c3058a4e864261927279deb
+      internalID: -876616953159992016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_C_Street_8x8_128_x128_164
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 40
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5aed602791677b4db1040258509c6d6
+      internalID: -4226152812965324379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_C_Street_8x8_128_x128_165
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 40
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 734b1fbb906254046bb93d3ecd260790
+      internalID: 2273009178583275402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_C_Street_8x8_128_x128_166
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 40
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f45dcb62f68b528489f46ea66425fe5e
+      internalID: 1809987243838566190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_C_Street_8x8_128_x128_167
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 40
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ea866479f7773f49930c08e2e80cebf
+      internalID: -2591187829045614131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_C_Street_8x8_128_x128_168
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 40
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4ec57d58118fbc4f9309ce9ca85fd6d
+      internalID: -7035633502499838204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_C_Street_8x8_128_x128_169
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 40
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb88e93f667f48d429dd9252cafc7752
+      internalID: -861355347256380659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_C_Street_8x8_128_x128_170
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 40
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b564421ffa5a5604baaa32a342da88da
+      internalID: 5555216693338785556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_C_Street_8x8_128_x128_171
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 40
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59ab50e9c62d934498160a97f9d13900
+      internalID: 8941444677606728448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_C_Street_8x8_128_x128_172
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 40
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abb0af5fc229ea940b998a48e15c30d2
+      internalID: 8248095620360252148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_C_Street_8x8_128_x128_173
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 40
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36dbb9968b06c6a4290e60d4d7759a65
+      internalID: -3168974701849267915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_C_Street_8x8_128_x128_174
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 40
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0abfddb3c00f2a247807854575ec2d62
+      internalID: -2031304512204837270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_C_Street_8x8_128_x128_175
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 32
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27b257201558ba3499047d400a3fa796
+      internalID: -8250310760050438340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_C_Street_8x8_128_x128_176
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 32
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b955f92ac3e28c4c8fe9baa8c84320b
+      internalID: -2759825154258465197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_C_Street_8x8_128_x128_177
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 32
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b30bf1a265dda0a4e8ec21431e5524e3
+      internalID: -2428211515191848321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_C_Street_8x8_128_x128_178
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 32
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edcb798a527dfc04e8cdd2fa89ac19d5
+      internalID: 834271013185374938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_C_Street_8x8_128_x128_179
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 32
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3314e1f63461fe04986ef2a1cefc306d
+      internalID: -7210935969634166162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_C_Street_8x8_128_x128_180
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 32
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3ad11373d6fe7141a25f77d32a936fe
+      internalID: -890613179818495801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_C_Street_8x8_128_x128_181
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 32
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e03cf864625cb64ba6d963770e543b8
+      internalID: -8462144204387070450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_C_Street_8x8_128_x128_182
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 32
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a41a28b79f5ec04db144ef663f07ad7
+      internalID: 1253291399575331761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_C_Street_8x8_128_x128_183
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 32
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2bf556c06ec4094382c87e40fb84404
+      internalID: -8648446782824684147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_C_Street_8x8_128_x128_184
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 32
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9b8b66600286f546b4a34fe5a49a973
+      internalID: 8136365927729884428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_C_Street_8x8_128_x128_185
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 32
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 153a9fb9804177b4797db11e95e09994
+      internalID: -1007759062121792453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_C_Street_8x8_128_x128_186
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 32
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b657a58492f869c4ca2b973fdd18addf
+      internalID: -4867114970643371579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_C_Street_8x8_128_x128_187
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 32
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f92bc2079ffce084dad2e5a9db92eda9
+      internalID: 8247977693896309614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_C_Street_8x8_128_x128_188
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 32
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d255025c49aacf44a52f860d6b6dd78
+      internalID: -3252144988500242969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_C_Street_8x8_128_x128_189
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 32
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b731687ab25aaf409ec75af643f8a7a
+      internalID: -2658514745675900500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_C_Street_8x8_128_x128_190
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 32
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f63604aaead30344898b587a8d1650ae
+      internalID: -8959378725017971274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_C_Street_8x8_128_x128_191
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 24
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6db3e863630024d438727fbc1fef8ff8
+      internalID: 2295050223802031993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_C_Street_8x8_128_x128_192
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 24
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2894ba56b3e7463439d9e5b5e7e1ab63
+      internalID: 5309200992044018490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_C_Street_8x8_128_x128_193
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 24
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 012c04a3eeefd364aabac123027da277
+      internalID: 3187541425154049729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_C_Street_8x8_128_x128_194
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 24
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3440e3f0793d27499cb2c75f117932a
+      internalID: 4471951870473442207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_C_Street_8x8_128_x128_195
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 24
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f35548da5b076b4394795b9bc06a7b1
+      internalID: -5080349836987841479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_C_Street_8x8_128_x128_196
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 24
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d95c35b95f2e77548bef77ce297a91ee
+      internalID: -6483222382375103282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_C_Street_8x8_128_x128_197
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 24
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e736218ed3335f46bf4972755305e89
+      internalID: 3508304778262978192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_C_Street_8x8_128_x128_198
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 24
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13a600cb83d170541af35253a91d80b8
+      internalID: 2946942105076451064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_C_Street_8x8_128_x128_199
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 24
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5f380c27c25946498e2fc4f896a9f86
+      internalID: 8903688264400493115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_C_Street_8x8_128_x128_200
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 24
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00655d9cfc7a4a2408946668da077138
+      internalID: -7064206090410527231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_C_Street_8x8_128_x128_201
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 16
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f6b475f903afad4ba9a68f9cf7162f0
+      internalID: -2290908167929340678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_C_Street_8x8_128_x128_202
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 16
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d95cdb1cf2253134e99f19d9dcec94cd
+      internalID: -6807795821571649384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_C_Street_8x8_128_x128_203
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 16
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01671c5be8ec3f9498959ada5727fd3d
+      internalID: -7779235494249634003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_C_Street_8x8_128_x128_204
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 16
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18cc3dc769d9b3d4392846d4fe1aceaa
+      internalID: 2953334571995877832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_C_Street_8x8_128_x128_205
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 16
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4b3249698954974085e8dce1dd2283e
+      internalID: -5112587977361666918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_C_Street_8x8_128_x128_206
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 16
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 914601c1c4950384a862b6b8bf02b4bb
+      internalID: 8568864198349019716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_C_Street_8x8_128_x128_207
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 16
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99930b49e2e16e349bc32c604f7f0629
+      internalID: -3532951306615860215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_C_Street_8x8_128_x128_208
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 16
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e947b2b233519046886169c244a5efd
+      internalID: -5360810284688523954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_C_Street_8x8_128_x128_209
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 8
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3069c1c6fab377d40a23a437d7af5cac
+      internalID: 3339710150447713799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_C_Street_8x8_128_x128_210
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 8
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1aa053cd26ee3b4488742664bb3b669
+      internalID: -3506947375398083754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_C_Street_8x8_128_x128_211
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 8
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b13b397b17ec57e418f7743fe67459b5
+      internalID: 329288801867662860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_C_Street_8x8_128_x128_212
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 8
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfb239be9a144254f8f7d08b5696e102
+      internalID: 2344879610794970841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_C_Street_8x8_128_x128_213
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 8
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9dfb65cf02688448ac08061eb6cfb7e
+      internalID: -3343764269020959676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_C_Street_8x8_128_x128_214
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 8
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 720e57b63fc1caa4296c482b58574f0d
+      internalID: 4301888015253381369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_C_Street_8x8_128_x128_215
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 8
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ea973eb4c7cccb4190ae1ef7a04e406
+      internalID: -1060964778383344699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_C_Street_8x8_128_x128_216
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 8
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41f676115b7277b40b421afa20c584dc
+      internalID: 354749690616326902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_C_Street_8x8_128_x128_217
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1196b7552c2ab8047ade385c83800647
+      internalID: 2241667136825857781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_C_Street_8x8_128_x128_218
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 0
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0a4f9be73d75be459a236471ca7b36a
+      internalID: 6877401487870788526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_C_Street_8x8_128_x128_219
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 0
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f19642bb0683aad419e6de5201724082
+      internalID: 8400186706205879224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_C_Street_8x8_128_x128_220
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 0
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f185bd6214901c14fb9fb0d5fec34ff0
+      internalID: 8174488560924348360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_C_Street_8x8_128_x128_221
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb4c637076b88324ca77ec82f6153677
+      internalID: 157710549653766823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_C_Street_8x8_128_x128_222
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 0
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1aa52e7839aed2c43a2bb00e143116e7
+      internalID: -3064249594697738416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_C_Street_8x8_128_x128_223
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 0
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e3b628489bfe5b4f8e8e87bdd88ab2d
+      internalID: -2412389148333811375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_C_Street_8x8_128_x128_224
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 0
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f2ef9a845b355049b8aca2b928e0b54
+      internalID: -5869271555300773218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
