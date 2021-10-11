@@ -44,7 +44,7 @@ public class PlayerMovement : MonoBehaviour
      
 
 
-    Button punchButton;
+    
     public float maxYpos = -2.21f;
     public float minYpos = -4.90f;
 
@@ -62,7 +62,7 @@ public class PlayerMovement : MonoBehaviour
     private void Awake()
     {
         animator = GetComponent<Animator>();
-        punchButton = GameObject.Find("PunchButton").GetComponent<Button>();
+      
     }
 
     private void Start()
