@@ -73,6 +73,7 @@ GameObject:
   - component: {fileID: 1324386085}
   - component: {fileID: 1324386081}
   - component: {fileID: 1324386084}
+  - component: {fileID: 1324386086}
   m_Layer: 9
   m_Name: Player
   m_TagString: Untagged
@@ -276,6 +277,7 @@ MonoBehaviour:
   TestMode: 0
   maxHealth: 100
   currentHealth: 0
+  healthBar: {fileID: 0}
   soundmanager: {fileID: 0}
   runSpeed: 7
   defaultComboTimer: 0.4
@@ -293,3 +295,29 @@ MonoBehaviour:
     m_Bits: 256
   punchDamage: 10
   kickDamage: 20
+--- !u!61 &1324386086
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1783236127326492775}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0.15}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0}
+    oldSize: {x: 0.15, y: 0.3}
+    newSize: {x: 0.15, y: 0.3}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.15, y: 0.3}
+  m_EdgeRadius: 0

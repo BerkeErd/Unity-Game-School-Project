@@ -67,12 +67,14 @@ public class PlayerMovement : MonoBehaviour
 
     private void Start()
     {
+        healthBar = GameObject.Find("FighterHealtbar").GetComponent<HealthBar>();
         AudioSource = GetComponent<AudioSource>();
         soundmanager = GameObject.Find("SoundManager").GetComponent<SoundManager>();
         currentHealth = maxHealth;
         healthBar.SetHealth(currentHealth);
         currentComboTimer = defaultComboTimer;
         currentComboState = ComboState.NONE;
+        
     }
     // Update is called once per frame
     void Update()

@@ -15,6 +15,10 @@ public class Joystick : MonoBehaviour
     public Transform circle;
     public Transform outerCircle;
 
+    private void Start()
+    {
+        player = GameObject.Find("Fighter").transform;
+    }
     // Update is called once per frame
     void Update()
     {
