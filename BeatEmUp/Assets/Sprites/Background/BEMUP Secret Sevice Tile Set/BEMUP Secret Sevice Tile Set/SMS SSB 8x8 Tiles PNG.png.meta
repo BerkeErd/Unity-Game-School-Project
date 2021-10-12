@@ -1,7 +1,745 @@
 fileFormatVersion: 2
 guid: 6d26ffc6e63231e4095668163c2cfe90
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 2151421773691140069
+    second: SMS SSB 8x8 Tiles PNG_0
+  - first:
+      213: -3388834182907125132
+    second: SMS SSB 8x8 Tiles PNG_1
+  - first:
+      213: 1173988652357595680
+    second: SMS SSB 8x8 Tiles PNG_2
+  - first:
+      213: 6793816961096058531
+    second: SMS SSB 8x8 Tiles PNG_3
+  - first:
+      213: -219383003962952719
+    second: SMS SSB 8x8 Tiles PNG_4
+  - first:
+      213: -3548834106546752411
+    second: SMS SSB 8x8 Tiles PNG_5
+  - first:
+      213: 4768738593466618216
+    second: SMS SSB 8x8 Tiles PNG_6
+  - first:
+      213: 2807291223395769970
+    second: SMS SSB 8x8 Tiles PNG_7
+  - first:
+      213: -5050647141559332000
+    second: SMS SSB 8x8 Tiles PNG_8
+  - first:
+      213: 3191874407377702567
+    second: SMS SSB 8x8 Tiles PNG_9
+  - first:
+      213: 3698438282318537516
+    second: SMS SSB 8x8 Tiles PNG_10
+  - first:
+      213: -916794080555714721
+    second: SMS SSB 8x8 Tiles PNG_11
+  - first:
+      213: 4124193337361759415
+    second: SMS SSB 8x8 Tiles PNG_12
+  - first:
+      213: -5606160170797341849
+    second: SMS SSB 8x8 Tiles PNG_13
+  - first:
+      213: -2280625721081250933
+    second: SMS SSB 8x8 Tiles PNG_14
+  - first:
+      213: 673019841868333192
+    second: SMS SSB 8x8 Tiles PNG_15
+  - first:
+      213: 6709379100371256590
+    second: SMS SSB 8x8 Tiles PNG_16
+  - first:
+      213: 174356155281050083
+    second: SMS SSB 8x8 Tiles PNG_17
+  - first:
+      213: -3705771683269379351
+    second: SMS SSB 8x8 Tiles PNG_18
+  - first:
+      213: -741315172799695692
+    second: SMS SSB 8x8 Tiles PNG_19
+  - first:
+      213: -6468154210995933477
+    second: SMS SSB 8x8 Tiles PNG_20
+  - first:
+      213: -3347452565754511523
+    second: SMS SSB 8x8 Tiles PNG_21
+  - first:
+      213: 58120962948157081
+    second: SMS SSB 8x8 Tiles PNG_22
+  - first:
+      213: 4992044922346527843
+    second: SMS SSB 8x8 Tiles PNG_23
+  - first:
+      213: -361733940575704356
+    second: SMS SSB 8x8 Tiles PNG_24
+  - first:
+      213: 3674794102213686432
+    second: SMS SSB 8x8 Tiles PNG_25
+  - first:
+      213: 3584902399355207151
+    second: SMS SSB 8x8 Tiles PNG_26
+  - first:
+      213: -2658552455331837395
+    second: SMS SSB 8x8 Tiles PNG_27
+  - first:
+      213: -7668836314718130165
+    second: SMS SSB 8x8 Tiles PNG_28
+  - first:
+      213: -352491479031291438
+    second: SMS SSB 8x8 Tiles PNG_29
+  - first:
+      213: -4972572535638439373
+    second: SMS SSB 8x8 Tiles PNG_30
+  - first:
+      213: 4983398759961201871
+    second: SMS SSB 8x8 Tiles PNG_31
+  - first:
+      213: -4091189368616625321
+    second: SMS SSB 8x8 Tiles PNG_32
+  - first:
+      213: -3085134695052768363
+    second: SMS SSB 8x8 Tiles PNG_33
+  - first:
+      213: 6393060453704193155
+    second: SMS SSB 8x8 Tiles PNG_34
+  - first:
+      213: -6621007872567042922
+    second: SMS SSB 8x8 Tiles PNG_35
+  - first:
+      213: -5364305595090712064
+    second: SMS SSB 8x8 Tiles PNG_36
+  - first:
+      213: 7365541834089726094
+    second: SMS SSB 8x8 Tiles PNG_37
+  - first:
+      213: 2855699643070765282
+    second: SMS SSB 8x8 Tiles PNG_38
+  - first:
+      213: -1992971410098613133
+    second: SMS SSB 8x8 Tiles PNG_39
+  - first:
+      213: -189243335080671639
+    second: SMS SSB 8x8 Tiles PNG_40
+  - first:
+      213: -7263716391422120555
+    second: SMS SSB 8x8 Tiles PNG_41
+  - first:
+      213: 4546158120244497171
+    second: SMS SSB 8x8 Tiles PNG_42
+  - first:
+      213: 6395657578986054984
+    second: SMS SSB 8x8 Tiles PNG_43
+  - first:
+      213: -5654104000262543680
+    second: SMS SSB 8x8 Tiles PNG_44
+  - first:
+      213: 3875552561306110392
+    second: SMS SSB 8x8 Tiles PNG_45
+  - first:
+      213: 2484447650593526369
+    second: SMS SSB 8x8 Tiles PNG_46
+  - first:
+      213: -8990893508112905889
+    second: SMS SSB 8x8 Tiles PNG_47
+  - first:
+      213: 3902922565715572813
+    second: SMS SSB 8x8 Tiles PNG_48
+  - first:
+      213: -7043339551273477507
+    second: SMS SSB 8x8 Tiles PNG_49
+  - first:
+      213: 4121355740276365667
+    second: SMS SSB 8x8 Tiles PNG_50
+  - first:
+      213: -8275479203993235838
+    second: SMS SSB 8x8 Tiles PNG_51
+  - first:
+      213: -9167134387856404130
+    second: SMS SSB 8x8 Tiles PNG_52
+  - first:
+      213: 6761362315606505844
+    second: SMS SSB 8x8 Tiles PNG_53
+  - first:
+      213: 6992096733253699156
+    second: SMS SSB 8x8 Tiles PNG_54
+  - first:
+      213: 2389292827620109503
+    second: SMS SSB 8x8 Tiles PNG_55
+  - first:
+      213: 2361472383698459475
+    second: SMS SSB 8x8 Tiles PNG_56
+  - first:
+      213: -3998784183714014958
+    second: SMS SSB 8x8 Tiles PNG_57
+  - first:
+      213: 5374596025603793132
+    second: SMS SSB 8x8 Tiles PNG_58
+  - first:
+      213: 8880608743119744340
+    second: SMS SSB 8x8 Tiles PNG_59
+  - first:
+      213: -2393617402383097682
+    second: SMS SSB 8x8 Tiles PNG_60
+  - first:
+      213: -3648891243878295161
+    second: SMS SSB 8x8 Tiles PNG_61
+  - first:
+      213: -3932383680620672411
+    second: SMS SSB 8x8 Tiles PNG_62
+  - first:
+      213: -2043672041262356118
+    second: SMS SSB 8x8 Tiles PNG_63
+  - first:
+      213: -6723108459554855612
+    second: SMS SSB 8x8 Tiles PNG_64
+  - first:
+      213: -3278769271315266753
+    second: SMS SSB 8x8 Tiles PNG_65
+  - first:
+      213: 3256433626174069949
+    second: SMS SSB 8x8 Tiles PNG_66
+  - first:
+      213: -4740467869932366628
+    second: SMS SSB 8x8 Tiles PNG_67
+  - first:
+      213: 3711866657079415634
+    second: SMS SSB 8x8 Tiles PNG_68
+  - first:
+      213: 8375091615260054694
+    second: SMS SSB 8x8 Tiles PNG_69
+  - first:
+      213: -6947950408322460339
+    second: SMS SSB 8x8 Tiles PNG_70
+  - first:
+      213: 1914669729656922759
+    second: SMS SSB 8x8 Tiles PNG_71
+  - first:
+      213: 3984256200685867403
+    second: SMS SSB 8x8 Tiles PNG_72
+  - first:
+      213: -5791708477961918355
+    second: SMS SSB 8x8 Tiles PNG_73
+  - first:
+      213: -5219286339597220873
+    second: SMS SSB 8x8 Tiles PNG_74
+  - first:
+      213: 4359080295442872167
+    second: SMS SSB 8x8 Tiles PNG_75
+  - first:
+      213: -154444741278810233
+    second: SMS SSB 8x8 Tiles PNG_76
+  - first:
+      213: -5449661639783707648
+    second: SMS SSB 8x8 Tiles PNG_77
+  - first:
+      213: -8387540693034252444
+    second: SMS SSB 8x8 Tiles PNG_78
+  - first:
+      213: -209525800217353586
+    second: SMS SSB 8x8 Tiles PNG_79
+  - first:
+      213: -3577364367760727925
+    second: SMS SSB 8x8 Tiles PNG_80
+  - first:
+      213: -7735598384948918917
+    second: SMS SSB 8x8 Tiles PNG_81
+  - first:
+      213: -6474900691169254916
+    second: SMS SSB 8x8 Tiles PNG_82
+  - first:
+      213: 7096667240413680738
+    second: SMS SSB 8x8 Tiles PNG_83
+  - first:
+      213: 2935187402861359830
+    second: SMS SSB 8x8 Tiles PNG_84
+  - first:
+      213: -6150717045824255922
+    second: SMS SSB 8x8 Tiles PNG_85
+  - first:
+      213: 2888581736330932996
+    second: SMS SSB 8x8 Tiles PNG_86
+  - first:
+      213: 1407710676509918203
+    second: SMS SSB 8x8 Tiles PNG_87
+  - first:
+      213: 6635571053362627092
+    second: SMS SSB 8x8 Tiles PNG_88
+  - first:
+      213: -2635968575246072284
+    second: SMS SSB 8x8 Tiles PNG_89
+  - first:
+      213: -3288656945573610312
+    second: SMS SSB 8x8 Tiles PNG_90
+  - first:
+      213: 9072044899912773612
+    second: SMS SSB 8x8 Tiles PNG_91
+  - first:
+      213: -8511020913583372516
+    second: SMS SSB 8x8 Tiles PNG_92
+  - first:
+      213: 1034824303992300177
+    second: SMS SSB 8x8 Tiles PNG_93
+  - first:
+      213: 2918267300162964674
+    second: SMS SSB 8x8 Tiles PNG_94
+  - first:
+      213: 710865748281207135
+    second: SMS SSB 8x8 Tiles PNG_95
+  - first:
+      213: 6910908427843518053
+    second: SMS SSB 8x8 Tiles PNG_96
+  - first:
+      213: -9091373925496303815
+    second: SMS SSB 8x8 Tiles PNG_97
+  - first:
+      213: 326693840922994571
+    second: SMS SSB 8x8 Tiles PNG_98
+  - first:
+      213: 3273205197166374576
+    second: SMS SSB 8x8 Tiles PNG_99
+  - first:
+      213: -301810325071690773
+    second: SMS SSB 8x8 Tiles PNG_100
+  - first:
+      213: 1004474299079941673
+    second: SMS SSB 8x8 Tiles PNG_101
+  - first:
+      213: -4957330509225846613
+    second: SMS SSB 8x8 Tiles PNG_102
+  - first:
+      213: 5965371281156364980
+    second: SMS SSB 8x8 Tiles PNG_103
+  - first:
+      213: -2516663157542675254
+    second: SMS SSB 8x8 Tiles PNG_104
+  - first:
+      213: 4842118919639480350
+    second: SMS SSB 8x8 Tiles PNG_105
+  - first:
+      213: 4817432441577372270
+    second: SMS SSB 8x8 Tiles PNG_106
+  - first:
+      213: 1320197313317150316
+    second: SMS SSB 8x8 Tiles PNG_107
+  - first:
+      213: 5981610594231517543
+    second: SMS SSB 8x8 Tiles PNG_108
+  - first:
+      213: 7099173778957961886
+    second: SMS SSB 8x8 Tiles PNG_109
+  - first:
+      213: 8123553851423421667
+    second: SMS SSB 8x8 Tiles PNG_110
+  - first:
+      213: -5659082721039696039
+    second: SMS SSB 8x8 Tiles PNG_111
+  - first:
+      213: 4208553549450532645
+    second: SMS SSB 8x8 Tiles PNG_112
+  - first:
+      213: 402929932991319816
+    second: SMS SSB 8x8 Tiles PNG_113
+  - first:
+      213: -9848243794139060
+    second: SMS SSB 8x8 Tiles PNG_114
+  - first:
+      213: 306264762370329289
+    second: SMS SSB 8x8 Tiles PNG_115
+  - first:
+      213: 8527746098488923985
+    second: SMS SSB 8x8 Tiles PNG_116
+  - first:
+      213: 1943221304677285846
+    second: SMS SSB 8x8 Tiles PNG_117
+  - first:
+      213: -197003297116402448
+    second: SMS SSB 8x8 Tiles PNG_118
+  - first:
+      213: -7093437349612476118
+    second: SMS SSB 8x8 Tiles PNG_119
+  - first:
+      213: -2819434461498614886
+    second: SMS SSB 8x8 Tiles PNG_120
+  - first:
+      213: 6501566524246141609
+    second: SMS SSB 8x8 Tiles PNG_121
+  - first:
+      213: -3692202644695411731
+    second: SMS SSB 8x8 Tiles PNG_122
+  - first:
+      213: -3453111942674970546
+    second: SMS SSB 8x8 Tiles PNG_123
+  - first:
+      213: -9119167421812815482
+    second: SMS SSB 8x8 Tiles PNG_124
+  - first:
+      213: -1285023068334135203
+    second: SMS SSB 8x8 Tiles PNG_125
+  - first:
+      213: -4325757488389231665
+    second: SMS SSB 8x8 Tiles PNG_126
+  - first:
+      213: 2156418654023082365
+    second: SMS SSB 8x8 Tiles PNG_127
+  - first:
+      213: -3940546728507725229
+    second: SMS SSB 8x8 Tiles PNG_128
+  - first:
+      213: -4784820307069262415
+    second: SMS SSB 8x8 Tiles PNG_129
+  - first:
+      213: -549368955433714090
+    second: SMS SSB 8x8 Tiles PNG_130
+  - first:
+      213: -150951528050600883
+    second: SMS SSB 8x8 Tiles PNG_131
+  - first:
+      213: -7680298563747855855
+    second: SMS SSB 8x8 Tiles PNG_132
+  - first:
+      213: -8407249649403204148
+    second: SMS SSB 8x8 Tiles PNG_133
+  - first:
+      213: 8311630663622865700
+    second: SMS SSB 8x8 Tiles PNG_134
+  - first:
+      213: 3918851008071103825
+    second: SMS SSB 8x8 Tiles PNG_135
+  - first:
+      213: -4978910585400612777
+    second: SMS SSB 8x8 Tiles PNG_136
+  - first:
+      213: 4561282009995120573
+    second: SMS SSB 8x8 Tiles PNG_137
+  - first:
+      213: 1998177159468571080
+    second: SMS SSB 8x8 Tiles PNG_138
+  - first:
+      213: 4653941533951585846
+    second: SMS SSB 8x8 Tiles PNG_139
+  - first:
+      213: 1950998383188783403
+    second: SMS SSB 8x8 Tiles PNG_140
+  - first:
+      213: -3771073001851859225
+    second: SMS SSB 8x8 Tiles PNG_141
+  - first:
+      213: -4603533560921369677
+    second: SMS SSB 8x8 Tiles PNG_142
+  - first:
+      213: 6737332750483720361
+    second: SMS SSB 8x8 Tiles PNG_143
+  - first:
+      213: 4267797642251780026
+    second: SMS SSB 8x8 Tiles PNG_144
+  - first:
+      213: -6480866468810045329
+    second: SMS SSB 8x8 Tiles PNG_145
+  - first:
+      213: 1609339747935425285
+    second: SMS SSB 8x8 Tiles PNG_146
+  - first:
+      213: 395460849731018214
+    second: SMS SSB 8x8 Tiles PNG_147
+  - first:
+      213: -455323024235031631
+    second: SMS SSB 8x8 Tiles PNG_148
+  - first:
+      213: -3082535173150419570
+    second: SMS SSB 8x8 Tiles PNG_149
+  - first:
+      213: 4599709833461876905
+    second: SMS SSB 8x8 Tiles PNG_150
+  - first:
+      213: -9078894010632640124
+    second: SMS SSB 8x8 Tiles PNG_151
+  - first:
+      213: -8664817900926577076
+    second: SMS SSB 8x8 Tiles PNG_152
+  - first:
+      213: -5350651267614427365
+    second: SMS SSB 8x8 Tiles PNG_153
+  - first:
+      213: 3611214924931488918
+    second: SMS SSB 8x8 Tiles PNG_154
+  - first:
+      213: -6228137430164371287
+    second: SMS SSB 8x8 Tiles PNG_155
+  - first:
+      213: 180850642914317327
+    second: SMS SSB 8x8 Tiles PNG_156
+  - first:
+      213: 1133335887610022216
+    second: SMS SSB 8x8 Tiles PNG_157
+  - first:
+      213: 631648029692812203
+    second: SMS SSB 8x8 Tiles PNG_158
+  - first:
+      213: 1388281331411074724
+    second: SMS SSB 8x8 Tiles PNG_159
+  - first:
+      213: 4904244283134554887
+    second: SMS SSB 8x8 Tiles PNG_160
+  - first:
+      213: -5925109727065365430
+    second: SMS SSB 8x8 Tiles PNG_161
+  - first:
+      213: -6448305653685312998
+    second: SMS SSB 8x8 Tiles PNG_162
+  - first:
+      213: 7064568603829468442
+    second: SMS SSB 8x8 Tiles PNG_163
+  - first:
+      213: -3984613821583676755
+    second: SMS SSB 8x8 Tiles PNG_164
+  - first:
+      213: -7035887164982145437
+    second: SMS SSB 8x8 Tiles PNG_165
+  - first:
+      213: 3852430267246562592
+    second: SMS SSB 8x8 Tiles PNG_166
+  - first:
+      213: -3892976768170373083
+    second: SMS SSB 8x8 Tiles PNG_167
+  - first:
+      213: -888083811679112667
+    second: SMS SSB 8x8 Tiles PNG_168
+  - first:
+      213: 3820178895802791141
+    second: SMS SSB 8x8 Tiles PNG_169
+  - first:
+      213: -7185499958338419993
+    second: SMS SSB 8x8 Tiles PNG_170
+  - first:
+      213: 2235200050569741125
+    second: SMS SSB 8x8 Tiles PNG_171
+  - first:
+      213: 1571480877870214493
+    second: SMS SSB 8x8 Tiles PNG_172
+  - first:
+      213: 5133485443597002130
+    second: SMS SSB 8x8 Tiles PNG_173
+  - first:
+      213: 8522255461725941589
+    second: SMS SSB 8x8 Tiles PNG_174
+  - first:
+      213: -7626921239984944759
+    second: SMS SSB 8x8 Tiles PNG_175
+  - first:
+      213: 8233976351644518353
+    second: SMS SSB 8x8 Tiles PNG_176
+  - first:
+      213: 8359632560332444440
+    second: SMS SSB 8x8 Tiles PNG_177
+  - first:
+      213: -4268516776535124545
+    second: SMS SSB 8x8 Tiles PNG_178
+  - first:
+      213: -3322711481984936225
+    second: SMS SSB 8x8 Tiles PNG_179
+  - first:
+      213: -3878063382195856509
+    second: SMS SSB 8x8 Tiles PNG_180
+  - first:
+      213: 7686646657501392663
+    second: SMS SSB 8x8 Tiles PNG_181
+  - first:
+      213: -1831416606553003219
+    second: SMS SSB 8x8 Tiles PNG_182
+  - first:
+      213: -4498269099861620361
+    second: SMS SSB 8x8 Tiles PNG_183
+  - first:
+      213: 7141325301016838792
+    second: SMS SSB 8x8 Tiles PNG_184
+  - first:
+      213: -585196603087682823
+    second: SMS SSB 8x8 Tiles PNG_185
+  - first:
+      213: -2562003495041743552
+    second: SMS SSB 8x8 Tiles PNG_186
+  - first:
+      213: -2072427027793688933
+    second: SMS SSB 8x8 Tiles PNG_187
+  - first:
+      213: 2646610962825155468
+    second: SMS SSB 8x8 Tiles PNG_188
+  - first:
+      213: -8456026939216636517
+    second: SMS SSB 8x8 Tiles PNG_189
+  - first:
+      213: -5307888981394241608
+    second: SMS SSB 8x8 Tiles PNG_190
+  - first:
+      213: -7979782219962426727
+    second: SMS SSB 8x8 Tiles PNG_191
+  - first:
+      213: -7414012590144628399
+    second: SMS SSB 8x8 Tiles PNG_192
+  - first:
+      213: 8470024595809709248
+    second: SMS SSB 8x8 Tiles PNG_193
+  - first:
+      213: 8295634601446663772
+    second: SMS SSB 8x8 Tiles PNG_194
+  - first:
+      213: -875021964588598504
+    second: SMS SSB 8x8 Tiles PNG_195
+  - first:
+      213: -8152127990024608421
+    second: SMS SSB 8x8 Tiles PNG_196
+  - first:
+      213: 5672762101659309692
+    second: SMS SSB 8x8 Tiles PNG_197
+  - first:
+      213: -1245829501702274143
+    second: SMS SSB 8x8 Tiles PNG_198
+  - first:
+      213: -4690735322173269350
+    second: SMS SSB 8x8 Tiles PNG_199
+  - first:
+      213: -1335239626818060500
+    second: SMS SSB 8x8 Tiles PNG_200
+  - first:
+      213: -3924078933598298506
+    second: SMS SSB 8x8 Tiles PNG_201
+  - first:
+      213: -1607721722982291230
+    second: SMS SSB 8x8 Tiles PNG_202
+  - first:
+      213: 4853423767794525530
+    second: SMS SSB 8x8 Tiles PNG_203
+  - first:
+      213: -6086722764662501010
+    second: SMS SSB 8x8 Tiles PNG_204
+  - first:
+      213: -7490825758531463809
+    second: SMS SSB 8x8 Tiles PNG_205
+  - first:
+      213: 5901018268511407479
+    second: SMS SSB 8x8 Tiles PNG_206
+  - first:
+      213: -2939462420040241919
+    second: SMS SSB 8x8 Tiles PNG_207
+  - first:
+      213: 6990447595699133399
+    second: SMS SSB 8x8 Tiles PNG_208
+  - first:
+      213: -1140622055984664611
+    second: SMS SSB 8x8 Tiles PNG_209
+  - first:
+      213: -2192773240300908246
+    second: SMS SSB 8x8 Tiles PNG_210
+  - first:
+      213: 1635526463010241931
+    second: SMS SSB 8x8 Tiles PNG_211
+  - first:
+      213: -2452004525201139930
+    second: SMS SSB 8x8 Tiles PNG_212
+  - first:
+      213: -6816035122839964180
+    second: SMS SSB 8x8 Tiles PNG_213
+  - first:
+      213: -5328170894492796637
+    second: SMS SSB 8x8 Tiles PNG_214
+  - first:
+      213: 8502116939293644679
+    second: SMS SSB 8x8 Tiles PNG_215
+  - first:
+      213: -1247759366234894414
+    second: SMS SSB 8x8 Tiles PNG_216
+  - first:
+      213: 3256429958888072378
+    second: SMS SSB 8x8 Tiles PNG_217
+  - first:
+      213: -4841402230601323160
+    second: SMS SSB 8x8 Tiles PNG_218
+  - first:
+      213: -5906478455639531523
+    second: SMS SSB 8x8 Tiles PNG_219
+  - first:
+      213: 2804032295320342700
+    second: SMS SSB 8x8 Tiles PNG_220
+  - first:
+      213: 5477953614854158752
+    second: SMS SSB 8x8 Tiles PNG_221
+  - first:
+      213: 1647707206646756117
+    second: SMS SSB 8x8 Tiles PNG_222
+  - first:
+      213: -3751238613591269579
+    second: SMS SSB 8x8 Tiles PNG_223
+  - first:
+      213: 986054699113503407
+    second: SMS SSB 8x8 Tiles PNG_224
+  - first:
+      213: 2457740642033558238
+    second: SMS SSB 8x8 Tiles PNG_225
+  - first:
+      213: -5143658188956784547
+    second: SMS SSB 8x8 Tiles PNG_226
+  - first:
+      213: -1215039557515557459
+    second: SMS SSB 8x8 Tiles PNG_227
+  - first:
+      213: -3975968205396383432
+    second: SMS SSB 8x8 Tiles PNG_228
+  - first:
+      213: -5998888409965464079
+    second: SMS SSB 8x8 Tiles PNG_229
+  - first:
+      213: -5556043578986940619
+    second: SMS SSB 8x8 Tiles PNG_230
+  - first:
+      213: 713961157487093628
+    second: SMS SSB 8x8 Tiles PNG_231
+  - first:
+      213: -8048812967567934255
+    second: SMS SSB 8x8 Tiles PNG_232
+  - first:
+      213: -723807817244322901
+    second: SMS SSB 8x8 Tiles PNG_233
+  - first:
+      213: -1831125275846771700
+    second: SMS SSB 8x8 Tiles PNG_234
+  - first:
+      213: -6937386663312462690
+    second: SMS SSB 8x8 Tiles PNG_235
+  - first:
+      213: -901902077640918396
+    second: SMS SSB 8x8 Tiles PNG_236
+  - first:
+      213: -8589474899174340092
+    second: SMS SSB 8x8 Tiles PNG_237
+  - first:
+      213: 5405435261792956300
+    second: SMS SSB 8x8 Tiles PNG_238
+  - first:
+      213: -676884111027057163
+    second: SMS SSB 8x8 Tiles PNG_239
+  - first:
+      213: -631713803918168042
+    second: SMS SSB 8x8 Tiles PNG_240
+  - first:
+      213: -5824229456787607184
+    second: SMS SSB 8x8 Tiles PNG_241
+  - first:
+      213: 1894594826876974521
+    second: SMS SSB 8x8 Tiles PNG_242
+  - first:
+      213: 3135330906106865677
+    second: SMS SSB 8x8 Tiles PNG_243
+  - first:
+      213: -5238658873842519195
+    second: SMS SSB 8x8 Tiles PNG_244
+  - first:
+      213: -1213934143903710937
+    second: SMS SSB 8x8 Tiles PNG_245
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -40,12 +778,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 8
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -70,9 +808,5199 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: SMS SSB 8x8 Tiles PNG_0
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 120
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 218865b96ebdfba408b3da492358a205
+      internalID: 2151421773691140069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS SSB 8x8 Tiles PNG_1
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 120
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87102d0cd1e6af74ea5cb46ee61ecd40
+      internalID: -3388834182907125132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS SSB 8x8 Tiles PNG_2
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 120
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1c07eb36af6d7240adef2e0a3f0c0d3
+      internalID: 1173988652357595680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS SSB 8x8 Tiles PNG_3
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 120
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06e440d87d02f224395716020d9ed31a
+      internalID: 6793816961096058531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS SSB 8x8 Tiles PNG_4
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 120
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 795d6c66abfe71e428d787afecc28680
+      internalID: -219383003962952719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS SSB 8x8 Tiles PNG_5
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 120
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dda3e0d84a8e52548a69103a26d2704c
+      internalID: -3548834106546752411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS SSB 8x8 Tiles PNG_6
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 120
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68f3d10e92a3f4245983e5443f494782
+      internalID: 4768738593466618216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS SSB 8x8 Tiles PNG_7
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 120
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d57136ae4527a80439fc3eb4dae8633e
+      internalID: 2807291223395769970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS SSB 8x8 Tiles PNG_8
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 120
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a52fc4c73204304b8d13abd66412f1b
+      internalID: -5050647141559332000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS SSB 8x8 Tiles PNG_9
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 120
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9ab13f134e1a8e44add228b3de2cbac
+      internalID: 3191874407377702567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS SSB 8x8 Tiles PNG_10
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 120
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3717604057cb61443b2414e332b506dd
+      internalID: 3698438282318537516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS SSB 8x8 Tiles PNG_11
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 120
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c52225ce3a0b8e74693cbcff22a825ba
+      internalID: -916794080555714721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS SSB 8x8 Tiles PNG_12
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 120
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5cc90bb078d7a041a9c8cde5d23ea4d
+      internalID: 4124193337361759415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS SSB 8x8 Tiles PNG_13
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 120
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 723596f811bfd954bba74d176abd5952
+      internalID: -5606160170797341849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS SSB 8x8 Tiles PNG_14
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 120
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e57994948a5d364a8d0a868712ee6cd
+      internalID: -2280625721081250933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS SSB 8x8 Tiles PNG_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 112
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 554092a3714c33d42b220bbeacd1d313
+      internalID: 673019841868333192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS SSB 8x8 Tiles PNG_16
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 112
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b014faf43d56724a83376006a7eb450
+      internalID: 6709379100371256590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS SSB 8x8 Tiles PNG_17
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 112
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53d7b343318ee86408b6a0bcd40e4f1e
+      internalID: 174356155281050083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS SSB 8x8 Tiles PNG_18
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 112
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c418ea62f93913c4ab72eafd8a690961
+      internalID: -3705771683269379351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS SSB 8x8 Tiles PNG_19
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 112
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9ba1b1d2a868034682486ff5c7f6c1e
+      internalID: -741315172799695692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS SSB 8x8 Tiles PNG_20
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 112
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: facd8175fb1328447a66a39200d0c2d0
+      internalID: -6468154210995933477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS SSB 8x8 Tiles PNG_21
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 112
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 595f9d81002284c4991d7a79d65a219e
+      internalID: -3347452565754511523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS SSB 8x8 Tiles PNG_22
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 112
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1223e39dbcf7a5e4bac26a159614dda9
+      internalID: 58120962948157081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS SSB 8x8 Tiles PNG_23
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 112
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c220335669a96641a003cb0f5ca4e70
+      internalID: 4992044922346527843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS SSB 8x8 Tiles PNG_24
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 112
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f76dbfcd41250ea42a8621c7793f9b0e
+      internalID: -361733940575704356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS SSB 8x8 Tiles PNG_25
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 112
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f45ae66a46da0904b85268fb32f0a3fe
+      internalID: 3674794102213686432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS SSB 8x8 Tiles PNG_26
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 112
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd1d88e198e4d94409ddfd22d9a47425
+      internalID: 3584902399355207151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS SSB 8x8 Tiles PNG_27
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 112
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81dd34aba8ca2ae49813ec36b7c7b978
+      internalID: -2658552455331837395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS SSB 8x8 Tiles PNG_28
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 112
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 727f71120aac5f54f9545f6f0f9d45de
+      internalID: -7668836314718130165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS SSB 8x8 Tiles PNG_29
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 112
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c833a9d695d48e4091a08bb7998b045
+      internalID: -352491479031291438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS SSB 8x8 Tiles PNG_30
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 112
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff3a349f51ed1c946b455c1e1d4ef1a3
+      internalID: -4972572535638439373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS SSB 8x8 Tiles PNG_31
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 104
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f625d5763fe68da408b14d816100d76b
+      internalID: 4983398759961201871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS SSB 8x8 Tiles PNG_32
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 104
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb8d2f7251b00254f8eae30627a8f7c6
+      internalID: -4091189368616625321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS SSB 8x8 Tiles PNG_33
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 104
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ee936051d5a23e4c82f7689ca2693f9
+      internalID: -3085134695052768363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS SSB 8x8 Tiles PNG_34
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 104
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c48b79cebdce0a74cab4133f06006238
+      internalID: 6393060453704193155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS SSB 8x8 Tiles PNG_35
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 104
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77e8518cc5886bc44aad35b76a402f63
+      internalID: -6621007872567042922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS SSB 8x8 Tiles PNG_36
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 104
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75235167ca1ed1e408556e415a5d4e0a
+      internalID: -5364305595090712064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS SSB 8x8 Tiles PNG_37
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 104
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68ede0ddbb5c690478de64dde1ee2dd9
+      internalID: 7365541834089726094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS SSB 8x8 Tiles PNG_38
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 104
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0508f73f94cfc38408736eb8fe008dcb
+      internalID: 2855699643070765282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS SSB 8x8 Tiles PNG_39
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 104
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2fb0d24ce5401b44973d9625ff08330
+      internalID: -1992971410098613133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS SSB 8x8 Tiles PNG_40
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 104
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f9af0a34abe577439820f829b301baf
+      internalID: -189243335080671639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS SSB 8x8 Tiles PNG_41
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 104
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96a6c245c8839314097b8f933dbf8a76
+      internalID: -7263716391422120555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS SSB 8x8 Tiles PNG_42
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 104
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1aed220207fbfc44ab397b441610b370
+      internalID: 4546158120244497171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS SSB 8x8 Tiles PNG_43
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 104
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 935dbebb5e83bcc438f15caafa7fb8a1
+      internalID: 6395657578986054984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS SSB 8x8 Tiles PNG_44
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 104
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87556cf2d26e24a499f3de05425bbf3b
+      internalID: -5654104000262543680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS SSB 8x8 Tiles PNG_45
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 104
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6febc044ed4689047a51e6d308e5e994
+      internalID: 3875552561306110392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS SSB 8x8 Tiles PNG_46
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 104
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe8f430d4a2205143a10bd9c6d1168fd
+      internalID: 2484447650593526369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS SSB 8x8 Tiles PNG_47
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 96
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff78cddd9f4f37448953a2e31d17e3fc
+      internalID: -8990893508112905889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS SSB 8x8 Tiles PNG_48
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 96
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cd3258a381eff04b8e18a76bf677a4a
+      internalID: 3902922565715572813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS SSB 8x8 Tiles PNG_49
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 96
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b696e283e2893f4f9065ff6cfb73abe
+      internalID: -7043339551273477507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS SSB 8x8 Tiles PNG_50
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 96
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c08dd5f6c8cbcf649b4eeaea4d2a1fb4
+      internalID: 4121355740276365667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS SSB 8x8 Tiles PNG_51
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 96
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 896e670ec4dfc0845971bc4df85a19a6
+      internalID: -8275479203993235838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS SSB 8x8 Tiles PNG_52
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 96
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21427485d2777d24fbe58ee85df5404a
+      internalID: -9167134387856404130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS SSB 8x8 Tiles PNG_53
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 96
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 752e26239541cfa47b36ebecc20ad324
+      internalID: 6761362315606505844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS SSB 8x8 Tiles PNG_54
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 96
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d9e34f8395d47e4dbe0eb6b25075cf1
+      internalID: 6992096733253699156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS SSB 8x8 Tiles PNG_55
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 96
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bab0594c117209428bcd96075a9ede1
+      internalID: 2389292827620109503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS SSB 8x8 Tiles PNG_56
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 96
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb70a8d4fe19d6543af9a94830e52755
+      internalID: 2361472383698459475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS SSB 8x8 Tiles PNG_57
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 96
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81f9a9a68fd699345a02406c06c8aac5
+      internalID: -3998784183714014958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS SSB 8x8 Tiles PNG_58
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 96
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6816c106e06d61d4aab6b5013dabfb91
+      internalID: 5374596025603793132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS SSB 8x8 Tiles PNG_59
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 96
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c77b716c7839024cb79a114b2005d58
+      internalID: 8880608743119744340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS SSB 8x8 Tiles PNG_60
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 96
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60b58e8af0281bc4bb2b56bb607214c2
+      internalID: -2393617402383097682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS SSB 8x8 Tiles PNG_61
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 96
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 094eebe4210542e44a91f0893251c92b
+      internalID: -3648891243878295161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS SSB 8x8 Tiles PNG_62
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 96
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8f8a5b907e163c44b04ec10e8f6ccce
+      internalID: -3932383680620672411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS SSB 8x8 Tiles PNG_63
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 88
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e44dc03cfcf288a40b0eeade8ba06bd4
+      internalID: -2043672041262356118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS SSB 8x8 Tiles PNG_64
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 88
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b7b4666d1c94004d893bc55a7942d74
+      internalID: -6723108459554855612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS SSB 8x8 Tiles PNG_65
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 88
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55931c5cbe7bdc24ba881ebc3d5debc1
+      internalID: -3278769271315266753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS SSB 8x8 Tiles PNG_66
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 88
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 833cb979ea93034489d840397e68a8ab
+      internalID: 3256433626174069949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS SSB 8x8 Tiles PNG_67
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 88
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0733ab7fcee8284d94447508b8cdcf7
+      internalID: -4740467869932366628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS SSB 8x8 Tiles PNG_68
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 88
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6bff5d340ce3904583764cd0799990e
+      internalID: 3711866657079415634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS SSB 8x8 Tiles PNG_69
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 88
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61d49ccc1c8de964e845188bce68cebc
+      internalID: 8375091615260054694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS SSB 8x8 Tiles PNG_70
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 88
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04ce15c7ae1b20249bd2ff35a704a7b7
+      internalID: -6947950408322460339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS SSB 8x8 Tiles PNG_71
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 88
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65532868726230b499a994488d15f14b
+      internalID: 1914669729656922759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS SSB 8x8 Tiles PNG_72
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 88
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8dbf51c0d040e1143bcd29d6b25c8546
+      internalID: 3984256200685867403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS SSB 8x8 Tiles PNG_73
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 88
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22e9579f542e2984da21eaa09593b7a2
+      internalID: -5791708477961918355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS SSB 8x8 Tiles PNG_74
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 88
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9881ac0528e616241aeea5bb99cb6aed
+      internalID: -5219286339597220873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS SSB 8x8 Tiles PNG_75
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 88
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94db261b5f8f9324da4a6a41ae21cd58
+      internalID: 4359080295442872167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS SSB 8x8 Tiles PNG_76
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 88
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ceb2a5000e22c442a65f16ef53f91c0
+      internalID: -154444741278810233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS SSB 8x8 Tiles PNG_77
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 88
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b3a27629f6864644a1d9760454861ca
+      internalID: -5449661639783707648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS SSB 8x8 Tiles PNG_78
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 88
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 885fa24c865e6414d8db5e7f38362464
+      internalID: -8387540693034252444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS SSB 8x8 Tiles PNG_79
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 80
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f8cbd366adda864aa0529695a05b107
+      internalID: -209525800217353586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS SSB 8x8 Tiles PNG_80
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 80
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 360dd13e8edc379418e14618ad64a426
+      internalID: -3577364367760727925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS SSB 8x8 Tiles PNG_81
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 80
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2167639655f6bd44a023c443be21a1e
+      internalID: -7735598384948918917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS SSB 8x8 Tiles PNG_82
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 80
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67efc719a582bf54f8ff1d44855afd89
+      internalID: -6474900691169254916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS SSB 8x8 Tiles PNG_83
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 80
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0406ce3c2a6dd7945a6abe0fc698fe45
+      internalID: 7096667240413680738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS SSB 8x8 Tiles PNG_84
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 80
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b385567deb665b04ca0fe4ce2529aa6e
+      internalID: 2935187402861359830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS SSB 8x8 Tiles PNG_85
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 80
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b75745792ddde6c4fbc5e107121acf03
+      internalID: -6150717045824255922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS SSB 8x8 Tiles PNG_86
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 80
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4b01df05e62c52458a5b795fe18f5ac
+      internalID: 2888581736330932996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS SSB 8x8 Tiles PNG_87
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 80
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3be171dfee699b47a1830c60ec3dcf4
+      internalID: 1407710676509918203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS SSB 8x8 Tiles PNG_88
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 80
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52b3e59ce0b5b234fbd4900b6ca40917
+      internalID: 6635571053362627092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS SSB 8x8 Tiles PNG_89
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 80
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2820ae35532ba6b4093e8fcfac2e5082
+      internalID: -2635968575246072284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS SSB 8x8 Tiles PNG_90
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 80
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ef3f8f220aceb74da33f733e68fe8b7
+      internalID: -3288656945573610312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS SSB 8x8 Tiles PNG_91
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 80
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21235022071fc1d4299d4bb70f283032
+      internalID: 9072044899912773612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS SSB 8x8 Tiles PNG_92
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 80
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f5acbbb80f87744e833975bbcf0e7c5
+      internalID: -8511020913583372516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS SSB 8x8 Tiles PNG_93
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 80
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13921b640717c8c4bbbfa4d3a7f48eb6
+      internalID: 1034824303992300177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS SSB 8x8 Tiles PNG_94
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 80
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2531ff4336fc3944489345118c9402db
+      internalID: 2918267300162964674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS SSB 8x8 Tiles PNG_95
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 72
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 776d272a853b3354da96872ddab8e726
+      internalID: 710865748281207135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS SSB 8x8 Tiles PNG_96
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 72
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 466d7fdcf944c984cad5e1336613a29d
+      internalID: 6910908427843518053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS SSB 8x8 Tiles PNG_97
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 72
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b832cdf2aca3d3740b49997a8e9ed890
+      internalID: -9091373925496303815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS SSB 8x8 Tiles PNG_98
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 72
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1aec2ebf5bc9bf7408811a0b93fc230b
+      internalID: 326693840922994571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS SSB 8x8 Tiles PNG_99
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 72
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 202d57dc06bd3f945ab6f9f3060bb56b
+      internalID: 3273205197166374576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS SSB 8x8 Tiles PNG_100
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 72
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e246b49b815300544b93323b5d12931b
+      internalID: -301810325071690773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS SSB 8x8 Tiles PNG_101
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 72
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34b5c428e9c5bef40aa4a61b14a723c2
+      internalID: 1004474299079941673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS SSB 8x8 Tiles PNG_102
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 72
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce5ca019911ba2a4cb48773363fd1552
+      internalID: -4957330509225846613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS SSB 8x8 Tiles PNG_103
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 72
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0f18ef551b617943925869cf0c73fd0
+      internalID: 5965371281156364980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS SSB 8x8 Tiles PNG_104
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 72
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c735880c3b7d2e24983e234742a8e42e
+      internalID: -2516663157542675254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS SSB 8x8 Tiles PNG_105
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 72
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb714d6b6783b5a41916bd14dfee3324
+      internalID: 4842118919639480350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS SSB 8x8 Tiles PNG_106
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 72
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 534ea1d6a5159524aae5ccc296d32bd3
+      internalID: 4817432441577372270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS SSB 8x8 Tiles PNG_107
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 72
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41febee449786564aa44c73769dc0aa9
+      internalID: 1320197313317150316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS SSB 8x8 Tiles PNG_108
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 72
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d676606aefccad4438dab2f0c5a6038a
+      internalID: 5981610594231517543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS SSB 8x8 Tiles PNG_109
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 72
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7781b5a85ae5b554785b732c6d87cbc6
+      internalID: 7099173778957961886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS SSB 8x8 Tiles PNG_110
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 72
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01675c0533bc7b94a9450959336c1a7e
+      internalID: 8123553851423421667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS SSB 8x8 Tiles PNG_111
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 023f859ff327d2b42975c55f97bf726b
+      internalID: -5659082721039696039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS SSB 8x8 Tiles PNG_112
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 64
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b62eb70ee4762d54a8dfb69b93e3bd10
+      internalID: 4208553549450532645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS SSB 8x8 Tiles PNG_113
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 64
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b2e2ab32e8bf084383fa7853e971261
+      internalID: 402929932991319816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS SSB 8x8 Tiles PNG_114
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 64
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5dd38316e5cc3a499f3c80fe3cbc077
+      internalID: -9848243794139060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS SSB 8x8 Tiles PNG_115
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 64
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c767f903f956be449b076e274fedddb
+      internalID: 306264762370329289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS SSB 8x8 Tiles PNG_116
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 64
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebc1fc486bb91ee4bbe3fb35e78530e2
+      internalID: 8527746098488923985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS SSB 8x8 Tiles PNG_117
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 64
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d604e3022ad94f64aa9690ef519b2516
+      internalID: 1943221304677285846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS SSB 8x8 Tiles PNG_118
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 64
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42efcd3fba299b44b8f20fe9ad79fd9f
+      internalID: -197003297116402448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS SSB 8x8 Tiles PNG_119
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 64
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecb28a9f4fc25a84b9eef6b46c9e97c9
+      internalID: -7093437349612476118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS SSB 8x8 Tiles PNG_120
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 64
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f23f7d86fc97d134dbae039497c10a77
+      internalID: -2819434461498614886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS SSB 8x8 Tiles PNG_121
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 64
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3846dedd6366874fa40a102c9d0c79c
+      internalID: 6501566524246141609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS SSB 8x8 Tiles PNG_122
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 64
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ef5fffece2b5f2459552f70ff533be9
+      internalID: -3692202644695411731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS SSB 8x8 Tiles PNG_123
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 64
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e49a33649b2572448bd9bf28fb3e66e
+      internalID: -3453111942674970546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS SSB 8x8 Tiles PNG_124
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 64
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7322ca14902e1c4281265691dc15e00
+      internalID: -9119167421812815482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS SSB 8x8 Tiles PNG_125
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 64
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75e46722602f12f408c4d02f79cbf813
+      internalID: -1285023068334135203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS SSB 8x8 Tiles PNG_126
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 64
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af11dc0ef0143ab47867a9857de6da8b
+      internalID: -4325757488389231665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS SSB 8x8 Tiles PNG_127
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 56
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e981ec2425149664db67dfbca65ef56b
+      internalID: 2156418654023082365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS SSB 8x8 Tiles PNG_128
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 56
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66da12964848f6b44b53c21758b073c5
+      internalID: -3940546728507725229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS SSB 8x8 Tiles PNG_129
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 56
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3caaa5aa434fa264bb35dbc1c15d4b13
+      internalID: -4784820307069262415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS SSB 8x8 Tiles PNG_130
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 56
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56a8f5ab3ddd6ba42ae26645460de1ca
+      internalID: -549368955433714090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS SSB 8x8 Tiles PNG_131
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 56
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bc844609efc4754cbc3a8460ebd1338
+      internalID: -150951528050600883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS SSB 8x8 Tiles PNG_132
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 56
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08210f8b8e0c9ab44bee61a97511ee8b
+      internalID: -7680298563747855855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS SSB 8x8 Tiles PNG_133
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 56
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1aa5ae1a04143345818c18e3338e475
+      internalID: -8407249649403204148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS SSB 8x8 Tiles PNG_134
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 56
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fb539c4c72184d42b7080a08d73acda
+      internalID: 8311630663622865700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS SSB 8x8 Tiles PNG_135
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 56
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d999ae5318e8bed42a0582406962cd5b
+      internalID: 3918851008071103825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS SSB 8x8 Tiles PNG_136
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 56
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbc2fa5c054f0ca4d9f7bc829e15054b
+      internalID: -4978910585400612777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS SSB 8x8 Tiles PNG_137
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 56
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac74be7211be6c946b7eeb2f26396f0d
+      internalID: 4561282009995120573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS SSB 8x8 Tiles PNG_138
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 56
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02dc414355cd8e3429313b1aec130a0d
+      internalID: 1998177159468571080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS SSB 8x8 Tiles PNG_139
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 56
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d04624bbc889204ba40c0a4c2215d06
+      internalID: 4653941533951585846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS SSB 8x8 Tiles PNG_140
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 56
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66a7a1b01c43ee24c85754b2f47379f7
+      internalID: 1950998383188783403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS SSB 8x8 Tiles PNG_141
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 56
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ec2355160beef64a96b3fee9801755d
+      internalID: -3771073001851859225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS SSB 8x8 Tiles PNG_142
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 56
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a1d2622f464be24b9bd4573a355787a
+      internalID: -4603533560921369677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS SSB 8x8 Tiles PNG_143
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 48
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 977ae7355ab418f4b877ebea30194fed
+      internalID: 6737332750483720361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS SSB 8x8 Tiles PNG_144
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 48
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 762e150c0b666f1419924a65972585cc
+      internalID: 4267797642251780026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS SSB 8x8 Tiles PNG_145
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 48
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb4d95b7996524c42a0f34370c16d7a5
+      internalID: -6480866468810045329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS SSB 8x8 Tiles PNG_146
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 48
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9265ec0721792f54a94b3c17d9349b54
+      internalID: 1609339747935425285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS SSB 8x8 Tiles PNG_147
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 48
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3ef6c2dc9b733147bd32bd573e9ccbe
+      internalID: 395460849731018214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS SSB 8x8 Tiles PNG_148
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 48
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bfba99ea4531304bac792ea981e7df0
+      internalID: -455323024235031631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS SSB 8x8 Tiles PNG_149
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 48
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 709b956e7afe05149a9d866dc735dc75
+      internalID: -3082535173150419570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS SSB 8x8 Tiles PNG_150
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 48
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09a53d192b914cd448b330980cac85e8
+      internalID: 4599709833461876905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS SSB 8x8 Tiles PNG_151
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 48
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7ed7a486cd4ea24699205ea4e27f1bf
+      internalID: -9078894010632640124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS SSB 8x8 Tiles PNG_152
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 48
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eaf9ab8fdc5a79749b807dff1e334c61
+      internalID: -8664817900926577076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS SSB 8x8 Tiles PNG_153
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 48
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53dbee1250f5e5444afe70308780b18d
+      internalID: -5350651267614427365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS SSB 8x8 Tiles PNG_154
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 48
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09cb8d9c70dfec145bb1d57dc31ad597
+      internalID: 3611214924931488918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS SSB 8x8 Tiles PNG_155
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 48
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53b1b25130a9e1c4297817cf328a0387
+      internalID: -6228137430164371287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS SSB 8x8 Tiles PNG_156
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 48
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 279aecc13cbedfc4aa08f953803bdbbe
+      internalID: 180850642914317327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS SSB 8x8 Tiles PNG_157
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 48
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfdf85b6056ba0b4284b1b3f5dc6dc06
+      internalID: 1133335887610022216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS SSB 8x8 Tiles PNG_158
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 48
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95ee0715dfa2e294987385d66726ddbc
+      internalID: 631648029692812203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS SSB 8x8 Tiles PNG_159
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 40
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffb2d828414a87b4991daaa75d338012
+      internalID: 1388281331411074724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS SSB 8x8 Tiles PNG_160
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 40
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e195936cc87e5244a26564cbf3f78a5
+      internalID: 4904244283134554887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS SSB 8x8 Tiles PNG_161
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 40
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbad0d65ec27995448755852796e586f
+      internalID: -5925109727065365430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS SSB 8x8 Tiles PNG_162
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 40
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7dad61ff3bcd41f47935ba8d1f80dd5f
+      internalID: -6448305653685312998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS SSB 8x8 Tiles PNG_163
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 40
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34f3d359e27adea41811eddc44996ec2
+      internalID: 7064568603829468442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS SSB 8x8 Tiles PNG_164
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 40
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d425fd4f07bf22241b255764b9492564
+      internalID: -3984613821583676755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS SSB 8x8 Tiles PNG_165
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 40
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 233bc32869f6d6d46bdbf25ad8af4c48
+      internalID: -7035887164982145437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS SSB 8x8 Tiles PNG_166
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 40
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63f3f48240aed06418c9c1b1fdf2dc3b
+      internalID: 3852430267246562592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS SSB 8x8 Tiles PNG_167
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 40
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1454c10e4c79bd4da2804270b3f7253
+      internalID: -3892976768170373083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS SSB 8x8 Tiles PNG_168
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 40
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2901a00ccf8e2a9488c5c129e958006b
+      internalID: -888083811679112667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS SSB 8x8 Tiles PNG_169
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 40
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89a9faf9826d6364cadbae0d0354d623
+      internalID: 3820178895802791141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS SSB 8x8 Tiles PNG_170
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 40
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 626f2722cc958a9409c9e3a98bda3efc
+      internalID: -7185499958338419993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS SSB 8x8 Tiles PNG_171
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 40
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e993369a7750154b93696941ddac55a
+      internalID: 2235200050569741125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS SSB 8x8 Tiles PNG_172
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 40
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03f0c60732a6e444a826180ec8565857
+      internalID: 1571480877870214493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS SSB 8x8 Tiles PNG_173
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 40
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17ec08f0676d7c24498f6e71615de965
+      internalID: 5133485443597002130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS SSB 8x8 Tiles PNG_174
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 40
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61640239a988e174cb1436e4b77e32e2
+      internalID: 8522255461725941589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS SSB 8x8 Tiles PNG_175
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 32
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce5779f081a6f2a40bc63d99d3ed3748
+      internalID: -7626921239984944759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS SSB 8x8 Tiles PNG_176
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 32
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69b11e8410879cc4b83e49b0fb36ed48
+      internalID: 8233976351644518353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS SSB 8x8 Tiles PNG_177
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 32
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6466a988c4460894abeafb1966208bdc
+      internalID: 8359632560332444440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS SSB 8x8 Tiles PNG_178
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 32
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9001b435ab42c0447bb2bd8632005cc8
+      internalID: -4268516776535124545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS SSB 8x8 Tiles PNG_179
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 32
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d10b8934d4a4d5442b85909de4ae999d
+      internalID: -3322711481984936225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS SSB 8x8 Tiles PNG_180
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 32
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 272feca5d861406459affbf703b5fade
+      internalID: -3878063382195856509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS SSB 8x8 Tiles PNG_181
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 32
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7eea80e60fa6e2a4f89e58d8e76772fb
+      internalID: 7686646657501392663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS SSB 8x8 Tiles PNG_182
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 32
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2579774fe209714eaed5dfc5b5e751d
+      internalID: -1831416606553003219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS SSB 8x8 Tiles PNG_183
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 32
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f64c5e3a6b1a354fa83232b72c15ae3
+      internalID: -4498269099861620361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS SSB 8x8 Tiles PNG_184
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 32
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9258f4687d60afd4f86efa53c46d82b4
+      internalID: 7141325301016838792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS SSB 8x8 Tiles PNG_185
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 32
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1516cfdb50e00248a1e9acd1af5a8d9
+      internalID: -585196603087682823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS SSB 8x8 Tiles PNG_186
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 32
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e867b6e59cbecc64695ae0eb11a7688a
+      internalID: -2562003495041743552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS SSB 8x8 Tiles PNG_187
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 32
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b17402f6afdc44842a11b1317b0b9a60
+      internalID: -2072427027793688933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS SSB 8x8 Tiles PNG_188
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 32
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 156daa3e9965c8c4591f71b64349019d
+      internalID: 2646610962825155468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS SSB 8x8 Tiles PNG_189
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 32
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2e664ba676484d47b62c4b277375953
+      internalID: -8456026939216636517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS SSB 8x8 Tiles PNG_190
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 32
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe4dbff2da7bfd04496008263be92bba
+      internalID: -5307888981394241608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS SSB 8x8 Tiles PNG_191
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 24
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e44c475fd44d7649b5b43962f413462
+      internalID: -7979782219962426727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS SSB 8x8 Tiles PNG_192
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 24
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cc23c221b4ba72428fbb006c1b8fe91
+      internalID: -7414012590144628399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS SSB 8x8 Tiles PNG_193
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 24
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d164b99809bb41a4186cf88e6c0ccfbe
+      internalID: 8470024595809709248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS SSB 8x8 Tiles PNG_194
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 24
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a66945eb4e50d4d419dd49a8718237b0
+      internalID: 8295634601446663772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS SSB 8x8 Tiles PNG_195
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 24
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b9f4b6a5d5358a41af44cfa1ff2c02f
+      internalID: -875021964588598504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS SSB 8x8 Tiles PNG_196
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 24
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3dac40f5b8307441b40de288b374ebd
+      internalID: -8152127990024608421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS SSB 8x8 Tiles PNG_197
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 24
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07f4ca79ba99cd34995c278e45d13feb
+      internalID: 5672762101659309692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS SSB 8x8 Tiles PNG_198
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 24
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5402759f8aa36df499bce2c19cb8d942
+      internalID: -1245829501702274143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS SSB 8x8 Tiles PNG_199
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 24
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e10c76f5d97c774895c7acfcbc372bb
+      internalID: -4690735322173269350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS SSB 8x8 Tiles PNG_200
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 24
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4660c59bfd5f3848b09df532f13c298
+      internalID: -1335239626818060500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS SSB 8x8 Tiles PNG_201
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 24
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c861160a3c7d80942bff376e8f41593d
+      internalID: -3924078933598298506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS SSB 8x8 Tiles PNG_202
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 24
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4321de4234e0204c806ec7f19452e01
+      internalID: -1607721722982291230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS SSB 8x8 Tiles PNG_203
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 24
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c583d4c1e96ae544b1f0e1a3d3a311b
+      internalID: 4853423767794525530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS SSB 8x8 Tiles PNG_204
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 24
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7833161a1a66b1419852713e2a5e6be
+      internalID: -6086722764662501010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS SSB 8x8 Tiles PNG_205
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 24
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8b13cae7ad881043ab880ba13c97ace
+      internalID: -7490825758531463809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS SSB 8x8 Tiles PNG_206
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 24
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e066ab25e320f08438bdba295025a067
+      internalID: 5901018268511407479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS SSB 8x8 Tiles PNG_207
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 16
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db2abf8f13aada5488bc2380c8f3c7fd
+      internalID: -2939462420040241919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS SSB 8x8 Tiles PNG_208
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 16
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f2fe0c1d36927a4e96a135f8d787e02
+      internalID: 6990447595699133399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS SSB 8x8 Tiles PNG_209
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 16
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31eb2cbea90645d49b8f79db1ff08080
+      internalID: -1140622055984664611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS SSB 8x8 Tiles PNG_210
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 16
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f4f48bd6c63f584dbb909914e36fffb
+      internalID: -2192773240300908246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS SSB 8x8 Tiles PNG_211
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 16
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a22c7c0b9ed5a2046af694701946bb5c
+      internalID: 1635526463010241931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS SSB 8x8 Tiles PNG_212
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 16
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3272b53af097fff46b5981ef35066f35
+      internalID: -2452004525201139930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS SSB 8x8 Tiles PNG_213
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 16
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e39df5c41192de4bb9c6b79d49ab920
+      internalID: -6816035122839964180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS SSB 8x8 Tiles PNG_214
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 16
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e8f5a49d00f0f84ebdee973068c9fda
+      internalID: -5328170894492796637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS SSB 8x8 Tiles PNG_215
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 16
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 496b324827052d34f9b7c85e2cf8ffaf
+      internalID: 8502116939293644679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS SSB 8x8 Tiles PNG_216
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 16
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d997175f280a8ba44b341ab4a8c2c5ec
+      internalID: -1247759366234894414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS SSB 8x8 Tiles PNG_217
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 16
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ef0e7657d0c46e44810de7b5752cb7d
+      internalID: 3256429958888072378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS SSB 8x8 Tiles PNG_218
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 8
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 564567f65b08db84e86d8fe1241d03c5
+      internalID: -4841402230601323160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS SSB 8x8 Tiles PNG_219
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 8
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52a46bfb3bbdb224bb114774d5ab9cad
+      internalID: -5906478455639531523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS SSB 8x8 Tiles PNG_220
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 8
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 939093fc6311c7b43a2762566cf89648
+      internalID: 2804032295320342700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS SSB 8x8 Tiles PNG_221
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 8
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 198a6ae949d3af742b4997d7648dd969
+      internalID: 5477953614854158752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS SSB 8x8 Tiles PNG_222
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 8
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 939ff6ea52545dd41a8d7f825d034ddd
+      internalID: 1647707206646756117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS SSB 8x8 Tiles PNG_223
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 8
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4286bc476b5077d4c8a7422113fbe423
+      internalID: -3751238613591269579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS SSB 8x8 Tiles PNG_224
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 8
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7bede97d27591f4cb972f414b7d3d15
+      internalID: 986054699113503407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS SSB 8x8 Tiles PNG_225
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 8
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41741abe698977041be588d8eb349051
+      internalID: 2457740642033558238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS SSB 8x8 Tiles PNG_226
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 8
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24fefa638623b354493c83c429a8fd12
+      internalID: -5143658188956784547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS SSB 8x8 Tiles PNG_227
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 8
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20d718f3d4de64848b092d12c8c285f9
+      internalID: -1215039557515557459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS SSB 8x8 Tiles PNG_228
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 8
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34d517788dc9ed04b8821617e64c02f8
+      internalID: -3975968205396383432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS SSB 8x8 Tiles PNG_229
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 8
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d90396671d429e3468345129a608336e
+      internalID: -5998888409965464079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS SSB 8x8 Tiles PNG_230
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 8
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f40577f2eb72de4bb9f3b583d5cc7a0
+      internalID: -5556043578986940619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS SSB 8x8 Tiles PNG_231
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 8
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9925f5c6ba9075746a54b92c5161bb92
+      internalID: 713961157487093628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS SSB 8x8 Tiles PNG_232
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f685071d8e256041a0233f39f83576f
+      internalID: -8048812967567934255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS SSB 8x8 Tiles PNG_233
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 0
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3464ee1cb30068a43b0bdea2a2fee498
+      internalID: -723807817244322901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS SSB 8x8 Tiles PNG_234
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 0
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 072afaf0ff161ff4a8e04580d1b75c71
+      internalID: -1831125275846771700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS SSB 8x8 Tiles PNG_235
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 0
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac4f3dfc11d57244f93c57f3fac28920
+      internalID: -6937386663312462690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS SSB 8x8 Tiles PNG_236
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aeabee1c24a93594f820b51530a328ed
+      internalID: -901902077640918396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS SSB 8x8 Tiles PNG_237
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 0
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 486794e8206ea8040923fe592028eda5
+      internalID: -8589474899174340092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS SSB 8x8 Tiles PNG_238
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 0
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61ac599863eb3364389c56a2785279b6
+      internalID: 5405435261792956300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS SSB 8x8 Tiles PNG_239
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 0
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecf1ab2e32cdd554097eeb3b94aede6b
+      internalID: -676884111027057163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS SSB 8x8 Tiles PNG_240
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 0
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50deb5ea5132a8b49b53f3bb71745610
+      internalID: -631713803918168042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS SSB 8x8 Tiles PNG_241
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 0
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 860f30b44550dc848ad48819918b2d40
+      internalID: -5824229456787607184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS SSB 8x8 Tiles PNG_242
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6affacaba837c14a92a62a0aaa3e513
+      internalID: 1894594826876974521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS SSB 8x8 Tiles PNG_243
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 0
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b52393624152e544bb2def871a379380
+      internalID: 3135330906106865677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS SSB 8x8 Tiles PNG_244
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 0
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1fa2537652bccf4d84030b8b3efbb0f
+      internalID: -5238658873842519195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS SSB 8x8 Tiles PNG_245
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 0
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 074d74844a78440449fda9e64d6d1130
+      internalID: -1213934143903710937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []

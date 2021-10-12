@@ -1,7 +1,634 @@
 fileFormatVersion: 2
 guid: 155bde3874058a9458adf3c0d623b732
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 3015821059902112822
+    second: NES_Brawler_TileSet_8x8_128_0
+  - first:
+      213: -5665068318517164378
+    second: NES_Brawler_TileSet_8x8_128_1
+  - first:
+      213: -1091157522181109415
+    second: NES_Brawler_TileSet_8x8_128_2
+  - first:
+      213: -6125100081444166958
+    second: NES_Brawler_TileSet_8x8_128_3
+  - first:
+      213: -8394761502669863006
+    second: NES_Brawler_TileSet_8x8_128_4
+  - first:
+      213: -1877040741406083643
+    second: NES_Brawler_TileSet_8x8_128_5
+  - first:
+      213: -8730056541113925654
+    second: NES_Brawler_TileSet_8x8_128_6
+  - first:
+      213: -4387061204777126393
+    second: NES_Brawler_TileSet_8x8_128_7
+  - first:
+      213: 4627426647550367506
+    second: NES_Brawler_TileSet_8x8_128_8
+  - first:
+      213: 1637938312649575215
+    second: NES_Brawler_TileSet_8x8_128_9
+  - first:
+      213: 2207483928956327675
+    second: NES_Brawler_TileSet_8x8_128_10
+  - first:
+      213: 7947064576328800807
+    second: NES_Brawler_TileSet_8x8_128_11
+  - first:
+      213: 31410062559409358
+    second: NES_Brawler_TileSet_8x8_128_12
+  - first:
+      213: 3396066427371092560
+    second: NES_Brawler_TileSet_8x8_128_13
+  - first:
+      213: -335515902318832095
+    second: NES_Brawler_TileSet_8x8_128_14
+  - first:
+      213: 5325554788512623373
+    second: NES_Brawler_TileSet_8x8_128_15
+  - first:
+      213: -5428395447000471245
+    second: NES_Brawler_TileSet_8x8_128_16
+  - first:
+      213: 1953129185740710843
+    second: NES_Brawler_TileSet_8x8_128_17
+  - first:
+      213: -8964648151701065156
+    second: NES_Brawler_TileSet_8x8_128_18
+  - first:
+      213: 1371972045240326892
+    second: NES_Brawler_TileSet_8x8_128_19
+  - first:
+      213: 6499295581124413486
+    second: NES_Brawler_TileSet_8x8_128_20
+  - first:
+      213: 4289909940344357033
+    second: NES_Brawler_TileSet_8x8_128_21
+  - first:
+      213: -6151338618923893235
+    second: NES_Brawler_TileSet_8x8_128_22
+  - first:
+      213: -8648980148945545783
+    second: NES_Brawler_TileSet_8x8_128_23
+  - first:
+      213: 3876641384118602343
+    second: NES_Brawler_TileSet_8x8_128_24
+  - first:
+      213: 2241751425914755925
+    second: NES_Brawler_TileSet_8x8_128_25
+  - first:
+      213: 7695905548713607691
+    second: NES_Brawler_TileSet_8x8_128_26
+  - first:
+      213: 4854858438580999090
+    second: NES_Brawler_TileSet_8x8_128_27
+  - first:
+      213: 6814591469669909522
+    second: NES_Brawler_TileSet_8x8_128_28
+  - first:
+      213: -6664613611906226847
+    second: NES_Brawler_TileSet_8x8_128_29
+  - first:
+      213: 4819980249380257140
+    second: NES_Brawler_TileSet_8x8_128_30
+  - first:
+      213: -3054065829152608762
+    second: NES_Brawler_TileSet_8x8_128_31
+  - first:
+      213: -9058361099213787285
+    second: NES_Brawler_TileSet_8x8_128_32
+  - first:
+      213: 7012727456796685889
+    second: NES_Brawler_TileSet_8x8_128_33
+  - first:
+      213: -5885706962056885413
+    second: NES_Brawler_TileSet_8x8_128_34
+  - first:
+      213: -8819909337304699836
+    second: NES_Brawler_TileSet_8x8_128_35
+  - first:
+      213: -7230557497653071364
+    second: NES_Brawler_TileSet_8x8_128_36
+  - first:
+      213: 918326540184331978
+    second: NES_Brawler_TileSet_8x8_128_37
+  - first:
+      213: 3071904842340530549
+    second: NES_Brawler_TileSet_8x8_128_38
+  - first:
+      213: 8353462617891962383
+    second: NES_Brawler_TileSet_8x8_128_39
+  - first:
+      213: -647077320127360624
+    second: NES_Brawler_TileSet_8x8_128_40
+  - first:
+      213: -1955594065213466777
+    second: NES_Brawler_TileSet_8x8_128_41
+  - first:
+      213: -1263450055350422797
+    second: NES_Brawler_TileSet_8x8_128_42
+  - first:
+      213: -499517935426592523
+    second: NES_Brawler_TileSet_8x8_128_43
+  - first:
+      213: -3467599886202103735
+    second: NES_Brawler_TileSet_8x8_128_44
+  - first:
+      213: 7912464622056401202
+    second: NES_Brawler_TileSet_8x8_128_45
+  - first:
+      213: -9203680131992273671
+    second: NES_Brawler_TileSet_8x8_128_46
+  - first:
+      213: -7919553726251850131
+    second: NES_Brawler_TileSet_8x8_128_47
+  - first:
+      213: 6558666659653246231
+    second: NES_Brawler_TileSet_8x8_128_48
+  - first:
+      213: -3072923615323761326
+    second: NES_Brawler_TileSet_8x8_128_49
+  - first:
+      213: -7839588411887362382
+    second: NES_Brawler_TileSet_8x8_128_50
+  - first:
+      213: 8720748457685892863
+    second: NES_Brawler_TileSet_8x8_128_51
+  - first:
+      213: -8542855121058102718
+    second: NES_Brawler_TileSet_8x8_128_52
+  - first:
+      213: 5296969226430765059
+    second: NES_Brawler_TileSet_8x8_128_53
+  - first:
+      213: 4261743097859320823
+    second: NES_Brawler_TileSet_8x8_128_54
+  - first:
+      213: 4324294729354866829
+    second: NES_Brawler_TileSet_8x8_128_55
+  - first:
+      213: 295066551131208217
+    second: NES_Brawler_TileSet_8x8_128_56
+  - first:
+      213: 3226571455420184180
+    second: NES_Brawler_TileSet_8x8_128_57
+  - first:
+      213: -4588261501611914617
+    second: NES_Brawler_TileSet_8x8_128_58
+  - first:
+      213: -838208770117414587
+    second: NES_Brawler_TileSet_8x8_128_59
+  - first:
+      213: -4455426821083397232
+    second: NES_Brawler_TileSet_8x8_128_60
+  - first:
+      213: -6098784852788999967
+    second: NES_Brawler_TileSet_8x8_128_61
+  - first:
+      213: -451015634501278541
+    second: NES_Brawler_TileSet_8x8_128_62
+  - first:
+      213: 7369069055197461948
+    second: NES_Brawler_TileSet_8x8_128_63
+  - first:
+      213: 1160897586506178462
+    second: NES_Brawler_TileSet_8x8_128_64
+  - first:
+      213: 365838262127362864
+    second: NES_Brawler_TileSet_8x8_128_65
+  - first:
+      213: -162322765333416642
+    second: NES_Brawler_TileSet_8x8_128_66
+  - first:
+      213: 8739795578381536906
+    second: NES_Brawler_TileSet_8x8_128_67
+  - first:
+      213: 4761134374222833956
+    second: NES_Brawler_TileSet_8x8_128_68
+  - first:
+      213: -3539848390033708222
+    second: NES_Brawler_TileSet_8x8_128_69
+  - first:
+      213: -1676062447279327722
+    second: NES_Brawler_TileSet_8x8_128_70
+  - first:
+      213: -4284627868294079075
+    second: NES_Brawler_TileSet_8x8_128_71
+  - first:
+      213: 1464740611998766367
+    second: NES_Brawler_TileSet_8x8_128_72
+  - first:
+      213: -2836330374342001776
+    second: NES_Brawler_TileSet_8x8_128_73
+  - first:
+      213: -3460227076561409343
+    second: NES_Brawler_TileSet_8x8_128_74
+  - first:
+      213: 8853207310308201069
+    second: NES_Brawler_TileSet_8x8_128_75
+  - first:
+      213: 3079537756426899307
+    second: NES_Brawler_TileSet_8x8_128_76
+  - first:
+      213: -6619931845955900625
+    second: NES_Brawler_TileSet_8x8_128_77
+  - first:
+      213: -3293004227003898221
+    second: NES_Brawler_TileSet_8x8_128_78
+  - first:
+      213: -5764420446640507156
+    second: NES_Brawler_TileSet_8x8_128_79
+  - first:
+      213: 3279194052768969325
+    second: NES_Brawler_TileSet_8x8_128_80
+  - first:
+      213: 7854262829125675414
+    second: NES_Brawler_TileSet_8x8_128_81
+  - first:
+      213: 612843724861601780
+    second: NES_Brawler_TileSet_8x8_128_82
+  - first:
+      213: 1735686882259824197
+    second: NES_Brawler_TileSet_8x8_128_83
+  - first:
+      213: -5766904075655977627
+    second: NES_Brawler_TileSet_8x8_128_84
+  - first:
+      213: -6656454588947617951
+    second: NES_Brawler_TileSet_8x8_128_85
+  - first:
+      213: 3683541997868019338
+    second: NES_Brawler_TileSet_8x8_128_86
+  - first:
+      213: 5821102202012494354
+    second: NES_Brawler_TileSet_8x8_128_87
+  - first:
+      213: 16674219998881372
+    second: NES_Brawler_TileSet_8x8_128_88
+  - first:
+      213: -8167237874605532860
+    second: NES_Brawler_TileSet_8x8_128_89
+  - first:
+      213: -2452341076782758907
+    second: NES_Brawler_TileSet_8x8_128_90
+  - first:
+      213: -1637792957843474071
+    second: NES_Brawler_TileSet_8x8_128_91
+  - first:
+      213: 3153210383002172805
+    second: NES_Brawler_TileSet_8x8_128_92
+  - first:
+      213: 3163918231589129297
+    second: NES_Brawler_TileSet_8x8_128_93
+  - first:
+      213: -9143068027312810068
+    second: NES_Brawler_TileSet_8x8_128_94
+  - first:
+      213: 4408405298354329151
+    second: NES_Brawler_TileSet_8x8_128_95
+  - first:
+      213: -7978874400294187542
+    second: NES_Brawler_TileSet_8x8_128_96
+  - first:
+      213: 7572770500630795661
+    second: NES_Brawler_TileSet_8x8_128_97
+  - first:
+      213: -7372113293890328453
+    second: NES_Brawler_TileSet_8x8_128_98
+  - first:
+      213: -7465436763164424814
+    second: NES_Brawler_TileSet_8x8_128_99
+  - first:
+      213: -1260844847139640121
+    second: NES_Brawler_TileSet_8x8_128_100
+  - first:
+      213: -5986690541262404772
+    second: NES_Brawler_TileSet_8x8_128_101
+  - first:
+      213: 4883070674589520785
+    second: NES_Brawler_TileSet_8x8_128_102
+  - first:
+      213: 8597024608590711208
+    second: NES_Brawler_TileSet_8x8_128_103
+  - first:
+      213: -5808924264133778893
+    second: NES_Brawler_TileSet_8x8_128_104
+  - first:
+      213: -5192171584272269797
+    second: NES_Brawler_TileSet_8x8_128_105
+  - first:
+      213: -3375300309222700381
+    second: NES_Brawler_TileSet_8x8_128_106
+  - first:
+      213: 2144253942353887886
+    second: NES_Brawler_TileSet_8x8_128_107
+  - first:
+      213: -928950850348295208
+    second: NES_Brawler_TileSet_8x8_128_108
+  - first:
+      213: 961348224011085827
+    second: NES_Brawler_TileSet_8x8_128_109
+  - first:
+      213: -7601781488508072811
+    second: NES_Brawler_TileSet_8x8_128_110
+  - first:
+      213: -3812967218879770732
+    second: NES_Brawler_TileSet_8x8_128_111
+  - first:
+      213: -181784926410621598
+    second: NES_Brawler_TileSet_8x8_128_112
+  - first:
+      213: 6984558062601392200
+    second: NES_Brawler_TileSet_8x8_128_113
+  - first:
+      213: 1190365587867877843
+    second: NES_Brawler_TileSet_8x8_128_114
+  - first:
+      213: -458320766246149369
+    second: NES_Brawler_TileSet_8x8_128_115
+  - first:
+      213: 121837729909750817
+    second: NES_Brawler_TileSet_8x8_128_116
+  - first:
+      213: 8202447226780752488
+    second: NES_Brawler_TileSet_8x8_128_117
+  - first:
+      213: -7532959507544538729
+    second: NES_Brawler_TileSet_8x8_128_118
+  - first:
+      213: -6685134058219271380
+    second: NES_Brawler_TileSet_8x8_128_119
+  - first:
+      213: -809575732683452393
+    second: NES_Brawler_TileSet_8x8_128_120
+  - first:
+      213: 1539893338814739813
+    second: NES_Brawler_TileSet_8x8_128_121
+  - first:
+      213: -4221835383346474431
+    second: NES_Brawler_TileSet_8x8_128_122
+  - first:
+      213: -4079938289684454007
+    second: NES_Brawler_TileSet_8x8_128_123
+  - first:
+      213: -140962342922495366
+    second: NES_Brawler_TileSet_8x8_128_124
+  - first:
+      213: -8307058577160104339
+    second: NES_Brawler_TileSet_8x8_128_125
+  - first:
+      213: 919214807394923140
+    second: NES_Brawler_TileSet_8x8_128_126
+  - first:
+      213: -2228863977136820777
+    second: NES_Brawler_TileSet_8x8_128_127
+  - first:
+      213: 2011376040327858025
+    second: NES_Brawler_TileSet_8x8_128_128
+  - first:
+      213: 2825049840295415779
+    second: NES_Brawler_TileSet_8x8_128_129
+  - first:
+      213: 6346868974692657461
+    second: NES_Brawler_TileSet_8x8_128_130
+  - first:
+      213: 6218513836782189159
+    second: NES_Brawler_TileSet_8x8_128_131
+  - first:
+      213: 5526288233305963287
+    second: NES_Brawler_TileSet_8x8_128_132
+  - first:
+      213: 267209747410231083
+    second: NES_Brawler_TileSet_8x8_128_133
+  - first:
+      213: 8700742560983064799
+    second: NES_Brawler_TileSet_8x8_128_134
+  - first:
+      213: 1528810862470865099
+    second: NES_Brawler_TileSet_8x8_128_135
+  - first:
+      213: 3433250474872871776
+    second: NES_Brawler_TileSet_8x8_128_136
+  - first:
+      213: 1741083132021321751
+    second: NES_Brawler_TileSet_8x8_128_137
+  - first:
+      213: 4681267448854025038
+    second: NES_Brawler_TileSet_8x8_128_138
+  - first:
+      213: 2631337002731485632
+    second: NES_Brawler_TileSet_8x8_128_139
+  - first:
+      213: 5791347709567394051
+    second: NES_Brawler_TileSet_8x8_128_140
+  - first:
+      213: -6460201786702215806
+    second: NES_Brawler_TileSet_8x8_128_141
+  - first:
+      213: -2799584706731212944
+    second: NES_Brawler_TileSet_8x8_128_142
+  - first:
+      213: -7833053467327016488
+    second: NES_Brawler_TileSet_8x8_128_143
+  - first:
+      213: 8824233593364572711
+    second: NES_Brawler_TileSet_8x8_128_144
+  - first:
+      213: -3538894673608874498
+    second: NES_Brawler_TileSet_8x8_128_145
+  - first:
+      213: 8274095596799107273
+    second: NES_Brawler_TileSet_8x8_128_146
+  - first:
+      213: 136545070083899381
+    second: NES_Brawler_TileSet_8x8_128_147
+  - first:
+      213: 8000917638293578571
+    second: NES_Brawler_TileSet_8x8_128_148
+  - first:
+      213: -4509583121276947897
+    second: NES_Brawler_TileSet_8x8_128_149
+  - first:
+      213: -7970439429381283741
+    second: NES_Brawler_TileSet_8x8_128_150
+  - first:
+      213: 4852096518074314761
+    second: NES_Brawler_TileSet_8x8_128_151
+  - first:
+      213: 7284245049214996931
+    second: NES_Brawler_TileSet_8x8_128_152
+  - first:
+      213: 5195531376817434192
+    second: NES_Brawler_TileSet_8x8_128_153
+  - first:
+      213: 3319770809652436407
+    second: NES_Brawler_TileSet_8x8_128_154
+  - first:
+      213: -5391662349774118222
+    second: NES_Brawler_TileSet_8x8_128_155
+  - first:
+      213: -2812646630213472558
+    second: NES_Brawler_TileSet_8x8_128_156
+  - first:
+      213: 1403466528208144669
+    second: NES_Brawler_TileSet_8x8_128_157
+  - first:
+      213: -8028755723435013589
+    second: NES_Brawler_TileSet_8x8_128_158
+  - first:
+      213: -8022285808140111501
+    second: NES_Brawler_TileSet_8x8_128_159
+  - first:
+      213: -3547208179916890880
+    second: NES_Brawler_TileSet_8x8_128_160
+  - first:
+      213: 1527134007737230871
+    second: NES_Brawler_TileSet_8x8_128_161
+  - first:
+      213: 7224936625954653733
+    second: NES_Brawler_TileSet_8x8_128_162
+  - first:
+      213: 4459990450702587165
+    second: NES_Brawler_TileSet_8x8_128_163
+  - first:
+      213: 2188731642771286732
+    second: NES_Brawler_TileSet_8x8_128_164
+  - first:
+      213: 523783967607401774
+    second: NES_Brawler_TileSet_8x8_128_165
+  - first:
+      213: 8551606164937513067
+    second: NES_Brawler_TileSet_8x8_128_166
+  - first:
+      213: 893190112907786331
+    second: NES_Brawler_TileSet_8x8_128_167
+  - first:
+      213: -8634265194948560825
+    second: NES_Brawler_TileSet_8x8_128_168
+  - first:
+      213: 2076316097868146789
+    second: NES_Brawler_TileSet_8x8_128_169
+  - first:
+      213: -49719221240130081
+    second: NES_Brawler_TileSet_8x8_128_170
+  - first:
+      213: -871731458667656329
+    second: NES_Brawler_TileSet_8x8_128_171
+  - first:
+      213: 8423977001995143228
+    second: NES_Brawler_TileSet_8x8_128_172
+  - first:
+      213: 8634674270127350040
+    second: NES_Brawler_TileSet_8x8_128_173
+  - first:
+      213: 5337571646112299592
+    second: NES_Brawler_TileSet_8x8_128_174
+  - first:
+      213: -8878246803916210070
+    second: NES_Brawler_TileSet_8x8_128_175
+  - first:
+      213: -3982317006870849719
+    second: NES_Brawler_TileSet_8x8_128_176
+  - first:
+      213: -5189800374367045575
+    second: NES_Brawler_TileSet_8x8_128_177
+  - first:
+      213: -930557224191947185
+    second: NES_Brawler_TileSet_8x8_128_178
+  - first:
+      213: 2669998615584402400
+    second: NES_Brawler_TileSet_8x8_128_179
+  - first:
+      213: -6991511173218967037
+    second: NES_Brawler_TileSet_8x8_128_180
+  - first:
+      213: -6865656440030438493
+    second: NES_Brawler_TileSet_8x8_128_181
+  - first:
+      213: -4033107062711865361
+    second: NES_Brawler_TileSet_8x8_128_182
+  - first:
+      213: -1176671106723988430
+    second: NES_Brawler_TileSet_8x8_128_183
+  - first:
+      213: -254681225156786404
+    second: NES_Brawler_TileSet_8x8_128_184
+  - first:
+      213: -7137288550993290312
+    second: NES_Brawler_TileSet_8x8_128_185
+  - first:
+      213: 3780284471543463202
+    second: NES_Brawler_TileSet_8x8_128_186
+  - first:
+      213: -2627915304519345140
+    second: NES_Brawler_TileSet_8x8_128_187
+  - first:
+      213: 5104457679360103448
+    second: NES_Brawler_TileSet_8x8_128_188
+  - first:
+      213: 7517660708590917620
+    second: NES_Brawler_TileSet_8x8_128_189
+  - first:
+      213: -4840116292527046451
+    second: NES_Brawler_TileSet_8x8_128_190
+  - first:
+      213: -5573699181823996683
+    second: NES_Brawler_TileSet_8x8_128_191
+  - first:
+      213: -8678798554272504384
+    second: NES_Brawler_TileSet_8x8_128_192
+  - first:
+      213: -5769486002974717494
+    second: NES_Brawler_TileSet_8x8_128_193
+  - first:
+      213: 322535037057417560
+    second: NES_Brawler_TileSet_8x8_128_194
+  - first:
+      213: 7836135414740532488
+    second: NES_Brawler_TileSet_8x8_128_195
+  - first:
+      213: -7064074652027134303
+    second: NES_Brawler_TileSet_8x8_128_196
+  - first:
+      213: -3872794367712088388
+    second: NES_Brawler_TileSet_8x8_128_197
+  - first:
+      213: -2167241521383757696
+    second: NES_Brawler_TileSet_8x8_128_198
+  - first:
+      213: 219378676830478815
+    second: NES_Brawler_TileSet_8x8_128_199
+  - first:
+      213: 5557165192570189073
+    second: NES_Brawler_TileSet_8x8_128_200
+  - first:
+      213: 5222776935628714238
+    second: NES_Brawler_TileSet_8x8_128_201
+  - first:
+      213: -355653466325418476
+    second: NES_Brawler_TileSet_8x8_128_202
+  - first:
+      213: 1336845162872863742
+    second: NES_Brawler_TileSet_8x8_128_203
+  - first:
+      213: 8135186043519615318
+    second: NES_Brawler_TileSet_8x8_128_204
+  - first:
+      213: -8017388410843995825
+    second: NES_Brawler_TileSet_8x8_128_205
+  - first:
+      213: -5812122359127880263
+    second: NES_Brawler_TileSet_8x8_128_206
+  - first:
+      213: 2609264715367486155
+    second: NES_Brawler_TileSet_8x8_128_207
+  - first:
+      213: 115993244729918771
+    second: NES_Brawler_TileSet_8x8_128_208
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -40,12 +667,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 8
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -70,9 +697,4422 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: NES_Brawler_TileSet_8x8_128_0
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 120
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c387d76e8937f9409cb5089d247ddc0
+      internalID: 3015821059902112822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Brawler_TileSet_8x8_128_1
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 120
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7af3e64a904a8594388eacef655f461c
+      internalID: -5665068318517164378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Brawler_TileSet_8x8_128_2
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 120
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a4ee70b56c85e24e87d3774c54fe716
+      internalID: -1091157522181109415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Brawler_TileSet_8x8_128_3
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 120
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c44c31404c56b8f46ac295ab3c8a5fc8
+      internalID: -6125100081444166958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Brawler_TileSet_8x8_128_4
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 120
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c77b14bb0deb564d9bb74356cc68042
+      internalID: -8394761502669863006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Brawler_TileSet_8x8_128_5
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 120
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 525b2cfbb09ccd64d991bf6d52a16646
+      internalID: -1877040741406083643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Brawler_TileSet_8x8_128_6
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 120
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7ae518183405b5489fd88c859a8ae0e
+      internalID: -8730056541113925654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Brawler_TileSet_8x8_128_7
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 120
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 970f06f58a7a7294f8b5c540ff890bda
+      internalID: -4387061204777126393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Brawler_TileSet_8x8_128_8
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 120
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b132b404cc3c5514b974b28a03b235d7
+      internalID: 4627426647550367506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Brawler_TileSet_8x8_128_9
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 120
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d9d92c39a946ad4db7a7d568cd03430
+      internalID: 1637938312649575215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Brawler_TileSet_8x8_128_10
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 120
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a0ded2485fa77d4f84cbb6d31362fa9
+      internalID: 2207483928956327675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Brawler_TileSet_8x8_128_11
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 120
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b6b89f4979ed45449aa48d2d3fb4123
+      internalID: 7947064576328800807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Brawler_TileSet_8x8_128_12
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 120
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7c2404cfb566c8468410faa48e5067c
+      internalID: 31410062559409358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Brawler_TileSet_8x8_128_13
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 120
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d2535aceb1fe4344ba653f617e9ee53
+      internalID: 3396066427371092560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Brawler_TileSet_8x8_128_14
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 120
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 406139bc8f221d74790fa7bb73b78191
+      internalID: -335515902318832095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Brawler_TileSet_8x8_128_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 112
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17d1491c3b4972a4cbebda2b9e37e480
+      internalID: 5325554788512623373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Brawler_TileSet_8x8_128_16
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 112
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1cb658fa7626564b97663ba840c70a8
+      internalID: -5428395447000471245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Brawler_TileSet_8x8_128_17
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 112
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39776a0e1a35fd146aa1c1b90f2bab7a
+      internalID: 1953129185740710843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Brawler_TileSet_8x8_128_18
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 112
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd43d6f0dc617bd4ebef60d495aef682
+      internalID: -8964648151701065156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Brawler_TileSet_8x8_128_19
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 112
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91127eade3d5a624b897b2222c2ab087
+      internalID: 1371972045240326892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Brawler_TileSet_8x8_128_20
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 112
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b475ed2dad3e9f4090b552d92b56f46
+      internalID: 6499295581124413486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Brawler_TileSet_8x8_128_21
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 112
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ef8427d22520a442a68d1cb6e32874a
+      internalID: 4289909940344357033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Brawler_TileSet_8x8_128_22
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 112
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f879d13b71771f4eaddfeaff5b900d3
+      internalID: -6151338618923893235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Brawler_TileSet_8x8_128_23
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 112
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 400fbb8b39cc88e4281b55ba01d3a9c8
+      internalID: -8648980148945545783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Brawler_TileSet_8x8_128_24
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 112
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a943b1fa9260b94fb75eb16718b9458
+      internalID: 3876641384118602343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Brawler_TileSet_8x8_128_25
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 112
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59485f9aa8cc8f840ae293dcba79024e
+      internalID: 2241751425914755925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Brawler_TileSet_8x8_128_26
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 112
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23453b52aac1fbb479f46595d68494ab
+      internalID: 7695905548713607691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Brawler_TileSet_8x8_128_27
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 112
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9c9bb4ca246204408441d56f12f43b2
+      internalID: 4854858438580999090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Brawler_TileSet_8x8_128_28
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 112
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b2a0b7a4045f0041b65e3a0688f1d5e
+      internalID: 6814591469669909522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Brawler_TileSet_8x8_128_29
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 112
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c3658db6eb319d4fbfeffa388491e3b
+      internalID: -6664613611906226847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Brawler_TileSet_8x8_128_30
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 112
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 357688a3153311c4fbfbe2e590f5422c
+      internalID: 4819980249380257140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Brawler_TileSet_8x8_128_31
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 104
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc0b74880f7ea9649acf65d462b62f8b
+      internalID: -3054065829152608762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Brawler_TileSet_8x8_128_32
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 104
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c62f3b99d923a7545b8bcc6c8ba11627
+      internalID: -9058361099213787285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Brawler_TileSet_8x8_128_33
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 104
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58a8e5bf07683b6469b0075a31962dd4
+      internalID: 7012727456796685889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Brawler_TileSet_8x8_128_34
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 104
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2694bf866c8a3d947bf7c982a4640b6e
+      internalID: -5885706962056885413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Brawler_TileSet_8x8_128_35
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 104
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 461ea2e4b4cafc849b37c30ca4af53cf
+      internalID: -8819909337304699836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Brawler_TileSet_8x8_128_36
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 104
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47090b6966be8fa48ad2bc66b98ec6cd
+      internalID: -7230557497653071364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Brawler_TileSet_8x8_128_37
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 104
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0e1f7aa487aa6e4eb3ea6a1d33e003d
+      internalID: 918326540184331978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Brawler_TileSet_8x8_128_38
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 104
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7188558206318b14183b5be9dae3b439
+      internalID: 3071904842340530549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Brawler_TileSet_8x8_128_39
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 104
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a4b1f077af185d4bb8ed2a0850a887c
+      internalID: 8353462617891962383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Brawler_TileSet_8x8_128_40
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 104
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ba16d95bf2c6fc45ba587b714e933fc
+      internalID: -647077320127360624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Brawler_TileSet_8x8_128_41
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 104
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebca7171f0c3ab2438b821e1ced879de
+      internalID: -1955594065213466777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Brawler_TileSet_8x8_128_42
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 104
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6dc8813e4e68e7f4da87443c0dffb690
+      internalID: -1263450055350422797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Brawler_TileSet_8x8_128_43
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 104
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5d8503c805345340af262d1e70fd27f
+      internalID: -499517935426592523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Brawler_TileSet_8x8_128_44
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 104
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d40e80a93ae757d48943a5770a0453d8
+      internalID: -3467599886202103735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Brawler_TileSet_8x8_128_45
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 104
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ea9970a35786ae4ca77ea0c5c115244
+      internalID: 7912464622056401202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Brawler_TileSet_8x8_128_46
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 104
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bddd011b68b72d844b054425188ecb0d
+      internalID: -9203680131992273671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Brawler_TileSet_8x8_128_47
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 96
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5067f3c2f3c2474b80100d4cd29a874
+      internalID: -7919553726251850131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Brawler_TileSet_8x8_128_48
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 96
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 995a40a358dd6ab43aa5c5ada094b3a9
+      internalID: 6558666659653246231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Brawler_TileSet_8x8_128_49
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 96
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e3fc5e0e98fdd740814719b05b62bf0
+      internalID: -3072923615323761326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Brawler_TileSet_8x8_128_50
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 96
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c9e69f17fed7594395d3c232b334a86
+      internalID: -7839588411887362382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Brawler_TileSet_8x8_128_51
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 96
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e58d01fb87f13e4a8221004b5d32a56
+      internalID: 8720748457685892863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Brawler_TileSet_8x8_128_52
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 96
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cdeca2d21b7749498bda3d3d4e263cb
+      internalID: -8542855121058102718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Brawler_TileSet_8x8_128_53
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 96
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b476f06a2b4407b4eaa8926ca289c40e
+      internalID: 5296969226430765059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Brawler_TileSet_8x8_128_54
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 96
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 898a4b0e0d251c74da11f7187dfd89ee
+      internalID: 4261743097859320823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Brawler_TileSet_8x8_128_55
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 96
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afc9181678a8a2a43919b4990606a90e
+      internalID: 4324294729354866829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Brawler_TileSet_8x8_128_56
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 96
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fa899bd2fd35674c80544087a2e1fc5
+      internalID: 295066551131208217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Brawler_TileSet_8x8_128_57
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 96
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2102dcf406f6d547a75d0175e5f887e
+      internalID: 3226571455420184180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Brawler_TileSet_8x8_128_58
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 96
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41e00e715ed3e414cbf784835576fff8
+      internalID: -4588261501611914617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Brawler_TileSet_8x8_128_59
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 96
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e6b77198bf53a7468f05b6237ea13db
+      internalID: -838208770117414587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Brawler_TileSet_8x8_128_60
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 96
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0774a247a3293547bb5c29e70d7d13c
+      internalID: -4455426821083397232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Brawler_TileSet_8x8_128_61
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 96
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28078987a9cf93341855ee6edb477d6d
+      internalID: -6098784852788999967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Brawler_TileSet_8x8_128_62
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 96
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a45546afaeb3fd40b2a840a17b7d406
+      internalID: -451015634501278541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Brawler_TileSet_8x8_128_63
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 88
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5e158f144f35ae4f9877cb73f602767
+      internalID: 7369069055197461948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Brawler_TileSet_8x8_128_64
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 88
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: deb6a62640086344784afd82998aed1b
+      internalID: 1160897586506178462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Brawler_TileSet_8x8_128_65
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 88
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8f0a5b35ff685d44ab298baa76193c4
+      internalID: 365838262127362864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Brawler_TileSet_8x8_128_66
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 88
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d13f5d25dddefa4d81caba7e518569f
+      internalID: -162322765333416642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Brawler_TileSet_8x8_128_67
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 88
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdb323facfd7ff74a94f78c0ca48f288
+      internalID: 8739795578381536906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Brawler_TileSet_8x8_128_68
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 88
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e3b5d99ba09ffa45ac83315024eb61c
+      internalID: 4761134374222833956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Brawler_TileSet_8x8_128_69
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 88
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b394c0a40f6ae7e438c9cb3ec118c188
+      internalID: -3539848390033708222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Brawler_TileSet_8x8_128_70
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 88
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab953faa96fb8474cb2061adeb92aa11
+      internalID: -1676062447279327722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Brawler_TileSet_8x8_128_71
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 88
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66c75a5d71d57e045a97c07f61135a4e
+      internalID: -4284627868294079075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Brawler_TileSet_8x8_128_72
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 88
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8efc462d148ed7248b5c911ccc8f04bb
+      internalID: 1464740611998766367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Brawler_TileSet_8x8_128_73
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 88
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd0b15bdc35ce354e92df5b6b6f3cd0b
+      internalID: -2836330374342001776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Brawler_TileSet_8x8_128_74
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 88
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee6b3fcd6403f624da0f1cd77f11ecf8
+      internalID: -3460227076561409343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Brawler_TileSet_8x8_128_75
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 88
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 621be6331119aad44acd5ea9479e7ef6
+      internalID: 8853207310308201069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Brawler_TileSet_8x8_128_76
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 88
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc56cc77612693b42bce730d610b8fa3
+      internalID: 3079537756426899307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Brawler_TileSet_8x8_128_77
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 88
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a20e3174f594f4d44bb58fcd59c3b646
+      internalID: -6619931845955900625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Brawler_TileSet_8x8_128_78
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 88
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07795ba59a054424496190d7feadc01f
+      internalID: -3293004227003898221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Brawler_TileSet_8x8_128_79
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 80
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22a905fdf3c4ece4ab4ae35a4a89d26a
+      internalID: -5764420446640507156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Brawler_TileSet_8x8_128_80
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 80
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 544cd31e7b44fb74faab8f2eadeecfb2
+      internalID: 3279194052768969325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Brawler_TileSet_8x8_128_81
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 80
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e63e92b7424d39748b8fe6f555820c2a
+      internalID: 7854262829125675414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Brawler_TileSet_8x8_128_82
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 80
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7dfc41eabfd3d2b44b6a9c4a0c3d6e1a
+      internalID: 612843724861601780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Brawler_TileSet_8x8_128_83
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 80
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a3a8d8378a3779478475965db62856c
+      internalID: 1735686882259824197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Brawler_TileSet_8x8_128_84
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 80
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d2f2d85fec0bce408df5422b2bb5d31
+      internalID: -5766904075655977627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Brawler_TileSet_8x8_128_85
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 80
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17455f587526bd642828e19eb658fff8
+      internalID: -6656454588947617951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Brawler_TileSet_8x8_128_86
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 80
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e30a52b9e55e3b4bad8d4f9f52797e4
+      internalID: 3683541997868019338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Brawler_TileSet_8x8_128_87
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 80
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7461cccda6148d43aadebd7e6a8c541
+      internalID: 5821102202012494354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Brawler_TileSet_8x8_128_88
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 80
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0183a2d3c12ed4419f343bcdf0b1b1f
+      internalID: 16674219998881372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Brawler_TileSet_8x8_128_89
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 80
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a570a3db23dbdd46a34a9d5313a9466
+      internalID: -8167237874605532860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Brawler_TileSet_8x8_128_90
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 80
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0359bc284f1546141af65957084d5b5f
+      internalID: -2452341076782758907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Brawler_TileSet_8x8_128_91
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 80
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f2dfea7dfd36f840908263e4b2eac73
+      internalID: -1637792957843474071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Brawler_TileSet_8x8_128_92
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 80
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37d95596821a4e148b2298aebb8131b5
+      internalID: 3153210383002172805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Brawler_TileSet_8x8_128_93
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 80
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea5f9e201e9e53c4284865258cb35a0e
+      internalID: 3163918231589129297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Brawler_TileSet_8x8_128_94
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 80
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f83890eb9e33fd74cae98024bcc52c5a
+      internalID: -9143068027312810068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Brawler_TileSet_8x8_128_95
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 72
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da96dfe0d3e2b7d42bbe8b8fd83d1e44
+      internalID: 4408405298354329151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Brawler_TileSet_8x8_128_96
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 72
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75b08ea1e27151644a09ebfc20a56e27
+      internalID: -7978874400294187542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Brawler_TileSet_8x8_128_97
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 72
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 527d96d1acba3fd42bc083f80435b655
+      internalID: 7572770500630795661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Brawler_TileSet_8x8_128_98
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 72
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e0c3ed33555b4042a9f3140bba2d9f9
+      internalID: -7372113293890328453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Brawler_TileSet_8x8_128_99
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 72
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee45dc6c2e1e7334eaccc12bd5182cfc
+      internalID: -7465436763164424814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Brawler_TileSet_8x8_128_100
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 72
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eac7b503a7361fd4bb047a7028b050c2
+      internalID: -1260844847139640121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Brawler_TileSet_8x8_128_101
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 72
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64192a56ef685bf468e56825950ff7d1
+      internalID: -5986690541262404772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Brawler_TileSet_8x8_128_102
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 72
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 167cdf59b478805469d8a24800b426f0
+      internalID: 4883070674589520785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Brawler_TileSet_8x8_128_103
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 72
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35bf59ac09562e64693ad078485629c1
+      internalID: 8597024608590711208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Brawler_TileSet_8x8_128_104
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 72
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cef0008f2dca68b47beaded6d6a4ed3b
+      internalID: -5808924264133778893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Brawler_TileSet_8x8_128_105
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 72
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acd5ad93de08a944b90d33b395da7140
+      internalID: -5192171584272269797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Brawler_TileSet_8x8_128_106
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 72
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73f40785c3014294cb436422b94c7db7
+      internalID: -3375300309222700381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Brawler_TileSet_8x8_128_107
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 72
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ea5700ac2e0af64993a6595fdad7b89
+      internalID: 2144253942353887886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Brawler_TileSet_8x8_128_108
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 72
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27622c06f0836e2419cbd2fc23ee5ba1
+      internalID: -928950850348295208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Brawler_TileSet_8x8_128_109
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 72
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edb2577b3677a964d84a88f582b0862c
+      internalID: 961348224011085827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Brawler_TileSet_8x8_128_110
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 72
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14bdc6b5a6fef0c40a6a3172411539c5
+      internalID: -7601781488508072811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Brawler_TileSet_8x8_128_111
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 435955f4d7f517f4e8df4149f002d0a2
+      internalID: -3812967218879770732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Brawler_TileSet_8x8_128_112
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 64
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a5cd47c47b4a4240affd1ae88fdc4bd
+      internalID: -181784926410621598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Brawler_TileSet_8x8_128_113
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 64
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 807f8296ccfa22745a2cc26339871594
+      internalID: 6984558062601392200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Brawler_TileSet_8x8_128_114
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 64
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff23e3f1ce5daa74ebd2ebf1055042c9
+      internalID: 1190365587867877843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Brawler_TileSet_8x8_128_115
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 64
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9be8dda34193c224aa06ea9708cf5c63
+      internalID: -458320766246149369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Brawler_TileSet_8x8_128_116
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 64
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5ad8b6af7e3d1c499a5ae4c074cb7f4
+      internalID: 121837729909750817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Brawler_TileSet_8x8_128_117
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 64
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ecb1ce06d01fe949a016ee1f6c7c66b
+      internalID: 8202447226780752488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Brawler_TileSet_8x8_128_118
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 64
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8ca6b803b0d28e40b2639698a81e0c6
+      internalID: -7532959507544538729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Brawler_TileSet_8x8_128_119
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 64
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c722b711f180fe409c2de92540d6d93
+      internalID: -6685134058219271380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Brawler_TileSet_8x8_128_120
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 64
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae1ccccfc882bc748a9d434febf4f582
+      internalID: -809575732683452393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Brawler_TileSet_8x8_128_121
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 64
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3d343af97f6f4e429d287348da1a3c3
+      internalID: 1539893338814739813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Brawler_TileSet_8x8_128_122
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 64
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb02662dce8ee1e4eae7f0f80e3f8df7
+      internalID: -4221835383346474431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Brawler_TileSet_8x8_128_123
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 64
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba2bdd7b42bacb844930a5faf61e9834
+      internalID: -4079938289684454007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Brawler_TileSet_8x8_128_124
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 64
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d45a3695417de7c4f98ee5daff015164
+      internalID: -140962342922495366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Brawler_TileSet_8x8_128_125
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 64
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f84f765c95463064181e094602fc1eca
+      internalID: -8307058577160104339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Brawler_TileSet_8x8_128_126
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 64
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c30c570531e50bc43ad2e6e8901a3c93
+      internalID: 919214807394923140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Brawler_TileSet_8x8_128_127
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 56
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 435e930b3e9c77745b87a781b1d84547
+      internalID: -2228863977136820777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Brawler_TileSet_8x8_128_128
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 56
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a64897070b21fc54581f823380763760
+      internalID: 2011376040327858025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Brawler_TileSet_8x8_128_129
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 56
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd8bf064866d18c4c8b902fd113d785e
+      internalID: 2825049840295415779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Brawler_TileSet_8x8_128_130
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 56
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb2845d7cddd84c439fc5ff1743b605f
+      internalID: 6346868974692657461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Brawler_TileSet_8x8_128_131
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 56
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71af4300fa3848146812dcf1127f682a
+      internalID: 6218513836782189159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Brawler_TileSet_8x8_128_132
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 56
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 347e8006ff2802d4d8fc6573e6a8d58a
+      internalID: 5526288233305963287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Brawler_TileSet_8x8_128_133
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 56
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2df70e60c5f178944a94ef34e22272f0
+      internalID: 267209747410231083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Brawler_TileSet_8x8_128_134
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 56
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 716ca438dbe15e34e96f83f584a881a6
+      internalID: 8700742560983064799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Brawler_TileSet_8x8_128_135
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 56
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b8f3ae308b7a224ea440017f52ecd3f
+      internalID: 1528810862470865099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Brawler_TileSet_8x8_128_136
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 56
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5254837c2d2fddd4ba743b6cc61ae231
+      internalID: 3433250474872871776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Brawler_TileSet_8x8_128_137
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 56
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2474a7066655c0841bfd3e7932a769a5
+      internalID: 1741083132021321751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Brawler_TileSet_8x8_128_138
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 56
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bab4728ffc612c4890b57f1a80d4d29
+      internalID: 4681267448854025038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Brawler_TileSet_8x8_128_139
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 56
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa60400215c76254eb5e4f4dc267ce22
+      internalID: 2631337002731485632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Brawler_TileSet_8x8_128_140
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 56
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41dc9d241c31a8f45a0b4d94c727ac81
+      internalID: 5791347709567394051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Brawler_TileSet_8x8_128_141
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 56
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d146459a45cd376419435a6fdb9c2a66
+      internalID: -6460201786702215806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Brawler_TileSet_8x8_128_142
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 56
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29e7cb4ce3de52d46ab92365128ba7dd
+      internalID: -2799584706731212944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Brawler_TileSet_8x8_128_143
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 48
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd07df0935077204ca2fb25cfacf33ba
+      internalID: -7833053467327016488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Brawler_TileSet_8x8_128_144
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 48
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6f3149f48df6b5458515cd85ef702f3
+      internalID: 8824233593364572711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Brawler_TileSet_8x8_128_145
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 48
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8de5fec2d541d247a4d003a3d0c667c
+      internalID: -3538894673608874498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Brawler_TileSet_8x8_128_146
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 48
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88ef4e35e20d42f489137770469d4013
+      internalID: 8274095596799107273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Brawler_TileSet_8x8_128_147
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 48
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1671dda60d37a66449075821697cd99b
+      internalID: 136545070083899381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Brawler_TileSet_8x8_128_148
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 48
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 325ca4fe6d5d1e343934178ccff16398
+      internalID: 8000917638293578571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Brawler_TileSet_8x8_128_149
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 48
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78733ab325ecc3345aac6b221effae3f
+      internalID: -4509583121276947897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Brawler_TileSet_8x8_128_150
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 48
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3dae43d0b74046c418f4ab032a09f6e1
+      internalID: -7970439429381283741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Brawler_TileSet_8x8_128_151
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 48
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb3bccaac702e5348869a14f431838ca
+      internalID: 4852096518074314761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Brawler_TileSet_8x8_128_152
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 48
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92988680f98ec604e858edf13be57ec2
+      internalID: 7284245049214996931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Brawler_TileSet_8x8_128_153
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 48
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f41942092926b824aa6320fd07e45dfb
+      internalID: 5195531376817434192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Brawler_TileSet_8x8_128_154
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 48
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ee094a7d698712419bb7add967946a3
+      internalID: 3319770809652436407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Brawler_TileSet_8x8_128_155
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 48
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 224d055d5c35d794e8e219ca29fd0753
+      internalID: -5391662349774118222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Brawler_TileSet_8x8_128_156
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 48
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 462f9af9798cf1a40951f01b548ccd97
+      internalID: -2812646630213472558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Brawler_TileSet_8x8_128_157
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 48
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2484a525e0a09cc4fab430edfce65a9b
+      internalID: 1403466528208144669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Brawler_TileSet_8x8_128_158
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 48
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3347ba19e401434683038948b3754b5
+      internalID: -8028755723435013589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Brawler_TileSet_8x8_128_159
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 40
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25cff12923296c24cbe4ef37da744cc4
+      internalID: -8022285808140111501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Brawler_TileSet_8x8_128_160
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 40
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2edf2a42fc9671d44ad0182ff1ffe7b8
+      internalID: -3547208179916890880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Brawler_TileSet_8x8_128_161
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 40
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be6b559bdfa73a247a39ba85add90403
+      internalID: 1527134007737230871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Brawler_TileSet_8x8_128_162
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 40
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae10f30142c507f4a84c86de7b21432d
+      internalID: 7224936625954653733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Brawler_TileSet_8x8_128_163
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 40
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ec9289f396d21d439ada117ea710dc0
+      internalID: 4459990450702587165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Brawler_TileSet_8x8_128_164
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 40
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fba350423a1aa5a49b21d3b99a541868
+      internalID: 2188731642771286732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Brawler_TileSet_8x8_128_165
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 40
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e10b4d6d16691d48beb65131ad600d0
+      internalID: 523783967607401774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Brawler_TileSet_8x8_128_166
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 40
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0424bff2b09366c4f855566709d1d25c
+      internalID: 8551606164937513067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Brawler_TileSet_8x8_128_167
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 40
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddde207a3c4f2a34180ee57620c2f1a5
+      internalID: 893190112907786331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Brawler_TileSet_8x8_128_168
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 40
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13ea4c94eae3d364b87824923c7950e8
+      internalID: -8634265194948560825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Brawler_TileSet_8x8_128_169
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 32
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d28230d00d3d4142beb351dc7be262a
+      internalID: 2076316097868146789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Brawler_TileSet_8x8_128_170
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 32
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a9dda5cb55345e4d82093a115f67e84
+      internalID: -49719221240130081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Brawler_TileSet_8x8_128_171
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 32
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 332b570d179964a459be56cd2b124c7c
+      internalID: -871731458667656329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Brawler_TileSet_8x8_128_172
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 32
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f41d1cea174fab4ab8d566817ff6907
+      internalID: 8423977001995143228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Brawler_TileSet_8x8_128_173
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 32
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16b067fedc067a0418e18b4e063aa252
+      internalID: 8634674270127350040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Brawler_TileSet_8x8_128_174
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 32
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f17a99f1e308b24ea1bb1e1a8cc0e59
+      internalID: 5337571646112299592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Brawler_TileSet_8x8_128_175
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 32
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 519b424c177fce943982c91a8ed1b17a
+      internalID: -8878246803916210070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Brawler_TileSet_8x8_128_176
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 32
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2284777ba17392b4c80477e820528129
+      internalID: -3982317006870849719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Brawler_TileSet_8x8_128_177
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 24
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b559b32ebd4d904fb4a1e13dc1be85f
+      internalID: -5189800374367045575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Brawler_TileSet_8x8_128_178
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 24
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec84ac9dfca433647a11e173e2919919
+      internalID: -930557224191947185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Brawler_TileSet_8x8_128_179
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 24
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a547df6ee3bd5a4f95c668c7c57da41
+      internalID: 2669998615584402400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Brawler_TileSet_8x8_128_180
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 24
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f45dfdcf681a8a141bc58a317c7b9df0
+      internalID: -6991511173218967037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Brawler_TileSet_8x8_128_181
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 24
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38d7e9b8e32ad074f99cb00307fc9b0d
+      internalID: -6865656440030438493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Brawler_TileSet_8x8_128_182
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 24
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 886c78fcda15ecd43826eaf6d1d97d47
+      internalID: -4033107062711865361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Brawler_TileSet_8x8_128_183
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 24
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0b0545546a41054ca7a76b889711c30
+      internalID: -1176671106723988430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Brawler_TileSet_8x8_128_184
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 24
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68df0f1224faa8e4d880b22ba26cdbc6
+      internalID: -254681225156786404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Brawler_TileSet_8x8_128_185
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 16
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 455a2fc28135eb547b8a6cd75fdf3243
+      internalID: -7137288550993290312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Brawler_TileSet_8x8_128_186
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 16
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16b7cfd705963e74e837bfd147a1d920
+      internalID: 3780284471543463202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Brawler_TileSet_8x8_128_187
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 16
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b8499b3957093240a5fa71911e22f4c
+      internalID: -2627915304519345140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Brawler_TileSet_8x8_128_188
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 16
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad220f0253c8c984ab1cb795a60b6e2a
+      internalID: 5104457679360103448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Brawler_TileSet_8x8_128_189
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 16
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d5ab321865e57f48a87e11673f2edb2
+      internalID: 7517660708590917620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Brawler_TileSet_8x8_128_190
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 16
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 341d43d44fa31454aaa796229284993d
+      internalID: -4840116292527046451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Brawler_TileSet_8x8_128_191
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 16
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bee91d692700c1444b363abc7799972d
+      internalID: -5573699181823996683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Brawler_TileSet_8x8_128_192
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 16
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0d0aba4687080140b7744caa7238510
+      internalID: -8678798554272504384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Brawler_TileSet_8x8_128_193
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 8
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70e28594b1020534ebb3c16c7192d9d5
+      internalID: -5769486002974717494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Brawler_TileSet_8x8_128_194
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 8
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a269aa46b081c6745b6fe4298aa363ad
+      internalID: 322535037057417560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Brawler_TileSet_8x8_128_195
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 8
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 652836f96f0232840a13ed6bb31f4431
+      internalID: 7836135414740532488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Brawler_TileSet_8x8_128_196
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 8
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bfdc49186677b94e87737addb461c1f
+      internalID: -7064074652027134303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Brawler_TileSet_8x8_128_197
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 8
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45d9cf04db3e5dc4f964f140a4d54a6b
+      internalID: -3872794367712088388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Brawler_TileSet_8x8_128_198
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 8
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e7cd63efadca35488d2cd9ba73ed63f
+      internalID: -2167241521383757696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Brawler_TileSet_8x8_128_199
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 8
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a7a199388ae02540a3b1f79d03e6f26
+      internalID: 219378676830478815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Brawler_TileSet_8x8_128_200
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 8
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d0ec54370531574e99013f51faa8ff4
+      internalID: 5557165192570189073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Brawler_TileSet_8x8_128_201
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 866de46a819db794a9ec61608173d3b4
+      internalID: 5222776935628714238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Brawler_TileSet_8x8_128_202
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 0
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15a07846e9b5d0a49a121eb6623f0320
+      internalID: -355653466325418476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Brawler_TileSet_8x8_128_203
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 0
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 295f18030d92bc243af2d3c8222b888a
+      internalID: 1336845162872863742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Brawler_TileSet_8x8_128_204
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 0
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e205b8ea0b3e3141852595c7e281c86
+      internalID: 8135186043519615318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Brawler_TileSet_8x8_128_205
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f926d133a53de9458be8b75cf4642d8
+      internalID: -8017388410843995825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Brawler_TileSet_8x8_128_206
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 0
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bd3d0c410a01aa43983a81a21800d5b
+      internalID: -5812122359127880263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Brawler_TileSet_8x8_128_207
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 0
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c79f70a8c7d099489a6d31d86a7a0b7
+      internalID: 2609264715367486155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Brawler_TileSet_8x8_128_208
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 0
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ed027baf70e0fa46bf5ea88cdde215b
+      internalID: 115993244729918771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
