@@ -42,9 +42,10 @@ GameObject:
   - component: {fileID: 4439657257801122233}
   - component: {fileID: 1329940831}
   - component: {fileID: 1329940829}
-  m_Layer: 0
+  - component: {fileID: 1329940833}
+  m_Layer: 8
   m_Name: Samurai 2
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -145,22 +146,48 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1f91f35c31412174788e4cd07eab5188, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 1000
+  Damage: 40
+  maxHealth: 300
   currentHealth: 0
   AttackPoint: {fileID: 99967285}
-  AttackRange: 0.5
+  AttackRange: 1.86
   isDead: 0
-  speed: 3
+  isAwaken: 0
+  attackStarted: 0
+  speed: 10
   chaseDistance: 8
-  stopDistanceX: 1.5
-  stopDistanceY: 0.5
+  isFrozen: 0
   isAttacking: 0
-  tookDamage: 0
   IsRunning: 0
   target: {fileID: 0}
-  targetClose: 0
   playerLayer:
     serializedVersion: 2
     m_Bits: 768
   targetDistanceX: 0
   targetDistanceY: 0
+--- !u!61 &1329940833
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1179569180309312622}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0.195}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0}
+    oldSize: {x: 0.44, y: 0.39}
+    newSize: {x: 0.44, y: 0.39}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.44, y: 0.39}
+  m_EdgeRadius: 0

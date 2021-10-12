@@ -28,7 +28,7 @@ public class EnemyBoss : MonoBehaviour
     public float speed;
     public float chaseDistance;
 
-   
+    public bool isFrozen = false;
     public bool isAttacking = false;
     
     public bool IsRunning = false;
@@ -119,60 +119,63 @@ public class EnemyBoss : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
-        if (targetDistanceX < chaseDistance && targetDistanceX > 0)
-        {
-            Debug.Log(targetDistanceX);
-            isAwaken = true;
-        }
-
-        if(isAwaken && !attackStarted)
-        {
-            attackStarted = true;
-            StartCoroutine(AttackPlayer());
-        }
-        if (!IsRunning && !isAttacking)
-        {
-            if (transform.position.x < target.transform.position.x && !facingRight)
-            {
-                Flip();
-            }
-            else if (transform.position.x > target.transform.position.x && facingRight)
-            {
-                Flip();
-            }
-        }
-       
-
-        if (IsRunning)
-        {
-            
-            transform.position = Vector2.MoveTowards(transform.position, TargetOldPos, speed * Time.deltaTime);
-            if (transform.position.x < TargetOldPos.x && !facingRight)
-            {
-                Flip();
-            }
-            else if (transform.position.x > TargetOldPos.x && facingRight)
-            {
-                Flip();
-            }
-        }
-        else
-        {
-            
-        }
-
-        if (isDead) // Bazen bug oluyor ölse de ölme animasyonuna girmiyor bu onu engellemek için
-        {
-            Die();
-        }
-
         healthBar.transform.position = new Vector2(transform.position.x, transform.position.y + 4.0f);
-        targetDistanceX = Mathf.Abs(transform.position.x - target.transform.position.x);
-        targetDistanceY = Mathf.Abs(transform.position.y - target.transform.position.y);
 
-       
-      
+        if (!isFrozen)
+        {
+            if (targetDistanceX < chaseDistance && targetDistanceX > 0)
+            {
+                Debug.Log(targetDistanceX);
+                isAwaken = true;
+            }
+
+            if (isAwaken && !attackStarted)
+            {
+                attackStarted = true;
+                StartCoroutine(AttackPlayer());
+            }
+            if (!IsRunning && !isAttacking)
+            {
+                if (transform.position.x < target.transform.position.x && !facingRight)
+                {
+                    Flip();
+                }
+                else if (transform.position.x > target.transform.position.x && facingRight)
+                {
+                    Flip();
+                }
+            }
+
+
+            if (IsRunning)
+            {
+
+                transform.position = Vector2.MoveTowards(transform.position, TargetOldPos, speed * Time.deltaTime);
+                if (transform.position.x < TargetOldPos.x && !facingRight)
+                {
+                    Flip();
+                }
+                else if (transform.position.x > TargetOldPos.x && facingRight)
+                {
+                    Flip();
+                }
+            }
+            else
+            {
+
+            }
+
+            if (isDead) // Bazen bug oluyor ölse de ölme animasyonuna girmiyor bu onu engellemek için
+            {
+                Die();
+            }
+
+           
+            targetDistanceX = Mathf.Abs(transform.position.x - target.transform.position.x);
+            targetDistanceY = Mathf.Abs(transform.position.y - target.transform.position.y);
+
+
+        }
 
 
     }

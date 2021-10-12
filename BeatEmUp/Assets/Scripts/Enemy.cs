@@ -24,6 +24,7 @@ public class Enemy : MonoBehaviour
     private AudioSource AudioSource;
     public bool isDead = false;
     bool isKnockedUp;
+    public bool isFrozen = false;
 
     public float speed;
     public float chaseDistance;
@@ -124,30 +125,42 @@ public class Enemy : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
-        if (isDead) // Bazen bug oluyor ölse de ölme animasyonuna girmiyor bu onu engellemek için
-        {
-            Die();
-        }
-           
         healthBar.transform.position = new Vector2(transform.position.x, transform.position.y + 3.2f);
-        targetDistanceX = Mathf.Abs(transform.position.x - target.transform.position.x);
-        targetDistanceY = Mathf.Abs(transform.position.y - target.transform.position.y);
-
-        if(!isDead && !isKnockedUp && !tookDamage)
+        if (transform.position.x < target.transform.position.x && !facingRight)
         {
-                    
-            if (targetDistanceX < chaseDistance && targetDistanceX > stopDistanceX || (targetDistanceY < chaseDistance && targetDistanceY > stopDistanceY && !isKnockedUp && targetDistanceX < chaseDistance && targetDistanceX > stopDistanceX))
-                ChasePlayer();
-            else
-                StopChasePlayer();
-
-            if (targetDistanceX < stopDistanceX && targetDistanceY < stopDistanceY)
-                targetClose = true;
+            Flip();
         }
-        else
+        else if (transform.position.x > target.transform.position.x && facingRight)
         {
-            //Bi şey yapma
+            Flip();
+        }
+
+        if (!isFrozen)
+        {
+            if (isDead) // Bazen bug oluyor ölse de ölme animasyonuna girmiyor bu onu engellemek için
+            {
+                Die();
+            }
+
+           
+            targetDistanceX = Mathf.Abs(transform.position.x - target.transform.position.x);
+            targetDistanceY = Mathf.Abs(transform.position.y - target.transform.position.y);
+
+            if (!isDead && !isKnockedUp && !tookDamage)
+            {
+
+                if (targetDistanceX < chaseDistance && targetDistanceX > stopDistanceX || (targetDistanceY < chaseDistance && targetDistanceY > stopDistanceY && !isKnockedUp && targetDistanceX < chaseDistance && targetDistanceX > stopDistanceX))
+                    ChasePlayer();
+                else
+                    StopChasePlayer();
+
+                if (targetDistanceX < stopDistanceX && targetDistanceY < stopDistanceY)
+                    targetClose = true;
+            }
+            else
+            {
+                //Bi şey yapma
+            }
         }
 
         
@@ -284,14 +297,7 @@ public class Enemy : MonoBehaviour
     private void ChasePlayer()
     {
         targetClose = false;
-        if (transform.position.x < target.transform.position.x && !facingRight)
-        {
-            Flip();
-        }
-        else if (transform.position.x > target.transform.position.x && facingRight)
-        {
-            Flip();
-        }
+       
            
 
         transform.position = Vector2.MoveTowards(transform.position, target.transform.position, speed * Time.deltaTime);

@@ -41,6 +41,7 @@ public class PlayerMovement : MonoBehaviour
     bool isPunching;
     bool isKicking;
     public bool isDead = false;
+    public bool isFrozen = false;
      
 
 
