@@ -11,9 +11,14 @@ public class LevelManager : MonoBehaviour
 
     private void Start()
     {
+         
         LevelName = SceneManager.GetActiveScene().name;
-        if(LevelNameText)
-        LevelNameText.text = LevelName;
+        if(GameObject.Find("LevelName"))
+        {
+            LevelNameText = GameObject.Find("LevelName").GetComponent<Text>();
+            LevelNameText.text = LevelName;
+        }
+       
     }
     public void LoadNextLevel()
     {
