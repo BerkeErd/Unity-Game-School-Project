@@ -74,6 +74,7 @@ GameObject:
   - component: {fileID: 1324386081}
   - component: {fileID: 1324386084}
   - component: {fileID: 1324386086}
+  - component: {fileID: 2011666049}
   m_Layer: 9
   m_Name: Player
   m_TagString: Untagged
@@ -284,6 +285,7 @@ MonoBehaviour:
   horizontal: 0
   vertical: 0
   isDead: 0
+  isFrozen: 0
   maxYpos: -2.21
   minYpos: -4.9
   PunchPoint: {fileID: 61830506}
@@ -305,7 +307,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0.15}
@@ -321,3 +323,24 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.15, y: 0.3}
   m_EdgeRadius: 0
+--- !u!50 &2011666049
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1783236127326492775}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 4

@@ -125,7 +125,7 @@ public class EnemyBoss : MonoBehaviour
         {
             if (targetDistanceX < chaseDistance && targetDistanceX > 0)
             {
-                Debug.Log(targetDistanceX);
+
                 isAwaken = true;
             }
 
