@@ -42,6 +42,8 @@ public class PlayerMovement : MonoBehaviour
     bool isKicking;
     public bool isDead = false;
     public bool isFrozen = false;
+
+    public Skills skills;
      
 
 
@@ -71,10 +73,16 @@ public class PlayerMovement : MonoBehaviour
         healthBar = GameObject.Find("FighterHealtbar").GetComponent<HealthBar>();
         AudioSource = GetComponent<AudioSource>();
         soundmanager = GameObject.Find("SoundManager").GetComponent<SoundManager>();
+
+        //maxHealth += skills.sta * 10;
         currentHealth = maxHealth;
         healthBar.SetHealth(currentHealth);
+
         currentComboTimer = defaultComboTimer;
         currentComboState = ComboState.NONE;
+
+        punchDamage = punchDamage + skills.str + skills.str / 10;
+        kickDamage = kickDamage + skills.str + skills.str /10;
         
     }
     // Update is called once per frame
