@@ -65,7 +65,7 @@ public class PlayerMovement : MonoBehaviour
     private void Awake()
     {
         animator = GetComponent<Animator>();
-      
+        skills = GetComponent<Skills>();
     }
 
     private void Start()
