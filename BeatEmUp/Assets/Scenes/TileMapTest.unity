@@ -9951,7 +9951,7 @@ MonoBehaviour:
     type: 3}
   m_PrefabInstance: {fileID: 1307054340}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2011666047}
+  m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 189011b0421c50a4c9808261898bc3ea, type: 3}
@@ -10221,30 +10221,3 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!1 &2011666047 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1783236127326492775, guid: a8ea640fb899cdf44a99e9b4ad6fe8e4,
-    type: 3}
-  m_PrefabInstance: {fileID: 1307054340}
-  m_PrefabAsset: {fileID: 0}
---- !u!50 &2011666049
-Rigidbody2D:
-  serializedVersion: 4
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2011666047}
-  m_BodyType: 0
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: 0.05
-  m_GravityScale: 0
-  m_Material: {fileID: 0}
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 4
