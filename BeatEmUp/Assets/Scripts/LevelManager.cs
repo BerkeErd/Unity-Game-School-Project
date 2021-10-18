@@ -6,12 +6,16 @@ using UnityEngine.UI;
 
 public class LevelManager : MonoBehaviour
 {
+    public int Level;
     public string LevelName;
     public Text LevelNameText;
 
     private void Start()
     {
-         
+        Level = SceneManager.GetActiveScene().buildIndex;
+        // save dosyasından level çekilecek
+
+
         LevelName = SceneManager.GetActiveScene().name;
         if(GameObject.Find("LevelName"))
         {
@@ -20,6 +24,7 @@ public class LevelManager : MonoBehaviour
         }
        
     }
+
     public void LoadNextLevel()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);

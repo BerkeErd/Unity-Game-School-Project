@@ -8,6 +8,8 @@ public class Enemy : MonoBehaviour
 {
     bool facingRight;
 
+    public int Damage=10;
+
     public int maxHealth = 100;
     public int currentHealth;
 
@@ -45,9 +47,12 @@ public class Enemy : MonoBehaviour
     public float targetDistanceX;
     public float targetDistanceY;
 
+    public LevelManager levelManager;
+
+
     private void Awake()
     {
-        
+        levelManager = GameObject.Find("LevelManager").GetComponent<LevelManager>();
         HealthBarObject = Instantiate(Resources.Load("Prefabs/HealthBar")) as GameObject;
         HealthBarObject.transform.parent = GameObject.Find("LevelCanvas").GetComponent<Canvas>().transform;
         HealthBarObject.transform.localScale =new Vector3(1,1,1);
@@ -56,6 +61,8 @@ public class Enemy : MonoBehaviour
     }
     void Start()
     {
+        Damage += levelManager.Level;
+
         AudioSource = GetComponent<AudioSource>();
         currentHealth = maxHealth;
         animator = GetComponent<Animator>();
@@ -179,7 +186,7 @@ public class Enemy : MonoBehaviour
         {
             if (!player.GetComponent<PlayerMovement>().isDead)
             {
-                player.GetComponent<PlayerMovement>().TakeDamage(10);            
+                player.GetComponent<PlayerMovement>().TakeDamage(Damage);            
             }
         }
     }
@@ -197,7 +204,7 @@ public class Enemy : MonoBehaviour
         {
             if (!player.GetComponent<PlayerMovement>().isDead)
             {
-                player.GetComponent<PlayerMovement>().TakeDamage(15);
+                player.GetComponent<PlayerMovement>().TakeDamage(Damage*2);
             }
         }
     }
@@ -215,7 +222,7 @@ public class Enemy : MonoBehaviour
         {
             if (!player.GetComponent<PlayerMovement>().isDead)
             {
-                player.GetComponent<PlayerMovement>().TakeDamage(15);
+                player.GetComponent<PlayerMovement>().TakeDamage(Damage);
 
             }
         }
@@ -233,7 +240,7 @@ public class Enemy : MonoBehaviour
             {
                 
 
-                int AttackNo = Random.Range(0, 3);
+                int AttackNo = Random.Range(0, 5);
                 switch (AttackNo)
                 {
                     case 0:
@@ -242,15 +249,24 @@ public class Enemy : MonoBehaviour
                         break;
 
                     case 1:
-                        Attack2();
+                        Attack3();
     
                         break;
 
                     case 2:
-                        Attack3();
+                        Attack1();
                         break;
 
-                    default:
+                    case 3:
+                        Attack3();
+
+                        break;
+
+                    case 4:
+                       Attack2();
+                    break;
+
+                default:
                         break;
 
 

@@ -76,9 +76,9 @@ public class PlayerMovement : MonoBehaviour
         AudioSource = GetComponent<AudioSource>();
         soundmanager = GameObject.Find("SoundManager").GetComponent<SoundManager>();
 
-        //maxHealth += skills.sta * 10;
+        maxHealth += skills.sta * 10;
         currentHealth = maxHealth;
-        healthBar.SetHealth(currentHealth);
+        healthBar.SetMaxHealth(currentHealth);
 
         currentComboTimer = defaultComboTimer;
         currentComboState = ComboState.NONE;
@@ -88,6 +88,7 @@ public class PlayerMovement : MonoBehaviour
 
         HealthText.text = "HP: " + currentHealth + "/" + maxHealth;
 
+        animator.SetFloat("AttackSpeed", 1 + skills.agi / 10);
 
     }
     // Update is called once per frame
@@ -339,6 +340,7 @@ public class PlayerMovement : MonoBehaviour
         {
             isPunching = false;
         }
+
         if(message == "KickEnded")
         {
             isKicking = false;
