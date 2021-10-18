@@ -21,6 +21,7 @@ public class PlayerMovement : MonoBehaviour
     public int currentHealth;
 
 
+    public Text HealthText;
     public HealthBar healthBar;
     public SoundManager soundmanager;
     public int runSpeed;
@@ -70,6 +71,7 @@ public class PlayerMovement : MonoBehaviour
 
     private void Start()
     {
+        HealthText = GameObject.Find("HealthText").GetComponent<Text>();
         healthBar = GameObject.Find("FighterHealtbar").GetComponent<HealthBar>();
         AudioSource = GetComponent<AudioSource>();
         soundmanager = GameObject.Find("SoundManager").GetComponent<SoundManager>();
@@ -83,7 +85,10 @@ public class PlayerMovement : MonoBehaviour
 
         punchDamage = punchDamage + skills.str + skills.str / 10;
         kickDamage = kickDamage + skills.str + skills.str /10;
-        
+
+        HealthText.text = "HP: " + currentHealth + "/" + maxHealth;
+
+
     }
     // Update is called once per frame
     void Update()
@@ -277,7 +282,7 @@ public class PlayerMovement : MonoBehaviour
             Die();
         }
         healthBar.SetHealth(currentHealth);
-
+        HealthText.text = "HP: " + currentHealth + "/" + maxHealth;
     }
     void Die()
     {
