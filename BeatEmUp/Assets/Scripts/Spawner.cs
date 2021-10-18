@@ -27,7 +27,7 @@ public class Spawner : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D collision)
     {
         
-        if (!isSpawning)
+        if (!isSpawning && collision.gameObject.name == "Fighter")
         {
             PlayerMovement.isFrozen = true;
             camerafollow.isFrozen = true;
