@@ -236,7 +236,7 @@ public class PlayerMovement : MonoBehaviour
                 {
                     if (!enemy.GetComponent<EnemyBoss>().isDead)
                     {
-                        enemy.GetComponent<EnemyBoss>().TakeDamage(kickDamage);
+                        enemy.GetComponent<EnemyBoss>().TakeDamage(punchDamage);
 
                     }
                 }
