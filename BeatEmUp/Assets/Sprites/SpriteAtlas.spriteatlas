@@ -43,11 +43,12 @@ SpriteAtlas:
     - {fileID: 2800000, guid: e30aaf2f626eee04a8ae75bf626d327a, type: 3}
     - {fileID: 2800000, guid: 684dcee55d6ba114fb1585c6f6935c23, type: 3}
     - {fileID: 2800000, guid: 89f6b5c45011dfc46a40ef6a814cbd3e, type: 3}
-    totalSpriteSurfaceArea: 304954
+    - {fileID: 2800000, guid: 6375b79a7ddfa484082ae30eb775daab, type: 3}
+    totalSpriteSurfaceArea: 357054
     bindAsDefault: 1
     storedHash:
       serializedVersion: 2
-      Hash: d014ad7f6b0ddd9629c27f0a25c64213
+      Hash: 20a64f310dcf4def37d7f23f55670597
   m_MasterAtlas: {fileID: 0}
   m_PackedSprites:
   - {fileID: -7957278214813060823, guid: 7ea63551836ddc7468bd696f86b014e3, type: 3}
@@ -829,6 +830,199 @@ SpriteAtlas:
   - {fileID: 4904244283134554887, guid: 6d26ffc6e63231e4095668163c2cfe90, type: 3}
   - {fileID: -7680298563747855855, guid: 6d26ffc6e63231e4095668163c2cfe90, type: 3}
   - {fileID: -5925109727065365430, guid: 6d26ffc6e63231e4095668163c2cfe90, type: 3}
+  - {fileID: -7927328906536907211, guid: 6375b79a7ddfa484082ae30eb775daab, type: 3}
+  - {fileID: -967926217109628403, guid: 6375b79a7ddfa484082ae30eb775daab, type: 3}
+  - {fileID: -4739124772953085143, guid: 6375b79a7ddfa484082ae30eb775daab, type: 3}
+  - {fileID: 5904352525754325888, guid: 6375b79a7ddfa484082ae30eb775daab, type: 3}
+  - {fileID: -6876517126657271163, guid: 6375b79a7ddfa484082ae30eb775daab, type: 3}
+  - {fileID: -5892144542102354951, guid: 6375b79a7ddfa484082ae30eb775daab, type: 3}
+  - {fileID: -7340169686829140776, guid: 6375b79a7ddfa484082ae30eb775daab, type: 3}
+  - {fileID: -1263276011749270389, guid: 6375b79a7ddfa484082ae30eb775daab, type: 3}
+  - {fileID: 4417193962442578952, guid: 6375b79a7ddfa484082ae30eb775daab, type: 3}
+  - {fileID: -8989959200028010435, guid: 6375b79a7ddfa484082ae30eb775daab, type: 3}
+  - {fileID: -2584374897678842848, guid: 6375b79a7ddfa484082ae30eb775daab, type: 3}
+  - {fileID: 765006080334050933, guid: 6375b79a7ddfa484082ae30eb775daab, type: 3}
+  - {fileID: -2243565352133850733, guid: 6375b79a7ddfa484082ae30eb775daab, type: 3}
+  - {fileID: 6957360332367286414, guid: 6375b79a7ddfa484082ae30eb775daab, type: 3}
+  - {fileID: -2842403416162521142, guid: 6375b79a7ddfa484082ae30eb775daab, type: 3}
+  - {fileID: 40612172057899537, guid: 6375b79a7ddfa484082ae30eb775daab, type: 3}
+  - {fileID: -2605298505476130822, guid: 6375b79a7ddfa484082ae30eb775daab, type: 3}
+  - {fileID: 6040710503935883446, guid: 6375b79a7ddfa484082ae30eb775daab, type: 3}
+  - {fileID: 3474177962176111911, guid: 6375b79a7ddfa484082ae30eb775daab, type: 3}
+  - {fileID: -191522569137743842, guid: 6375b79a7ddfa484082ae30eb775daab, type: 3}
+  - {fileID: -763940221944787590, guid: 6375b79a7ddfa484082ae30eb775daab, type: 3}
+  - {fileID: 2182635960844690659, guid: 6375b79a7ddfa484082ae30eb775daab, type: 3}
+  - {fileID: 6051573151785865074, guid: 6375b79a7ddfa484082ae30eb775daab, type: 3}
+  - {fileID: -7687311892358610466, guid: 6375b79a7ddfa484082ae30eb775daab, type: 3}
+  - {fileID: 4586669502159619353, guid: 6375b79a7ddfa484082ae30eb775daab, type: 3}
+  - {fileID: 8043957177058423424, guid: 6375b79a7ddfa484082ae30eb775daab, type: 3}
+  - {fileID: -7166243437907689954, guid: 6375b79a7ddfa484082ae30eb775daab, type: 3}
+  - {fileID: 6677768892243396782, guid: 6375b79a7ddfa484082ae30eb775daab, type: 3}
+  - {fileID: 3064449149167145115, guid: 6375b79a7ddfa484082ae30eb775daab, type: 3}
+  - {fileID: -7723174008646233409, guid: 6375b79a7ddfa484082ae30eb775daab, type: 3}
+  - {fileID: -5119615506460823726, guid: 6375b79a7ddfa484082ae30eb775daab, type: 3}
+  - {fileID: 1388393380469052102, guid: 6375b79a7ddfa484082ae30eb775daab, type: 3}
+  - {fileID: 5274954521278703104, guid: 6375b79a7ddfa484082ae30eb775daab, type: 3}
+  - {fileID: 6801886469423005704, guid: 6375b79a7ddfa484082ae30eb775daab, type: 3}
+  - {fileID: -3860308819670413751, guid: 6375b79a7ddfa484082ae30eb775daab, type: 3}
+  - {fileID: -3237550531953951158, guid: 6375b79a7ddfa484082ae30eb775daab, type: 3}
+  - {fileID: 8619421482805913824, guid: 6375b79a7ddfa484082ae30eb775daab, type: 3}
+  - {fileID: 1891314315985819849, guid: 6375b79a7ddfa484082ae30eb775daab, type: 3}
+  - {fileID: -7813557010710230643, guid: 6375b79a7ddfa484082ae30eb775daab, type: 3}
+  - {fileID: 7156630287493148522, guid: 6375b79a7ddfa484082ae30eb775daab, type: 3}
+  - {fileID: 2100899459219279535, guid: 6375b79a7ddfa484082ae30eb775daab, type: 3}
+  - {fileID: 7960809580580806084, guid: 6375b79a7ddfa484082ae30eb775daab, type: 3}
+  - {fileID: -3014881488362249044, guid: 6375b79a7ddfa484082ae30eb775daab, type: 3}
+  - {fileID: -4270051903356374783, guid: 6375b79a7ddfa484082ae30eb775daab, type: 3}
+  - {fileID: -6408269892093676317, guid: 6375b79a7ddfa484082ae30eb775daab, type: 3}
+  - {fileID: 8459552946014728496, guid: 6375b79a7ddfa484082ae30eb775daab, type: 3}
+  - {fileID: 1367124029522867235, guid: 6375b79a7ddfa484082ae30eb775daab, type: 3}
+  - {fileID: -8736613051611530460, guid: 6375b79a7ddfa484082ae30eb775daab, type: 3}
+  - {fileID: -2681786450044276339, guid: 6375b79a7ddfa484082ae30eb775daab, type: 3}
+  - {fileID: -6401146848032785173, guid: 6375b79a7ddfa484082ae30eb775daab, type: 3}
+  - {fileID: 5203471035535816437, guid: 6375b79a7ddfa484082ae30eb775daab, type: 3}
+  - {fileID: 3030899988278858543, guid: 6375b79a7ddfa484082ae30eb775daab, type: 3}
+  - {fileID: -1337327838262617034, guid: 6375b79a7ddfa484082ae30eb775daab, type: 3}
+  - {fileID: 3752014851552062876, guid: 6375b79a7ddfa484082ae30eb775daab, type: 3}
+  - {fileID: -1242721953863585659, guid: 6375b79a7ddfa484082ae30eb775daab, type: 3}
+  - {fileID: -118403170851778194, guid: 6375b79a7ddfa484082ae30eb775daab, type: 3}
+  - {fileID: -3026949069059675947, guid: 6375b79a7ddfa484082ae30eb775daab, type: 3}
+  - {fileID: -186832448895639102, guid: 6375b79a7ddfa484082ae30eb775daab, type: 3}
+  - {fileID: -1580594196227261005, guid: 6375b79a7ddfa484082ae30eb775daab, type: 3}
+  - {fileID: -1768070060663296103, guid: 6375b79a7ddfa484082ae30eb775daab, type: 3}
+  - {fileID: 2077454914557321964, guid: 6375b79a7ddfa484082ae30eb775daab, type: 3}
+  - {fileID: -4528738490191690498, guid: 6375b79a7ddfa484082ae30eb775daab, type: 3}
+  - {fileID: -6926657807331521936, guid: 6375b79a7ddfa484082ae30eb775daab, type: 3}
+  - {fileID: -4382210996640221462, guid: 6375b79a7ddfa484082ae30eb775daab, type: 3}
+  - {fileID: -5791540281300094289, guid: 6375b79a7ddfa484082ae30eb775daab, type: 3}
+  - {fileID: 3994520704570121271, guid: 6375b79a7ddfa484082ae30eb775daab, type: 3}
+  - {fileID: -7393435032543764080, guid: 6375b79a7ddfa484082ae30eb775daab, type: 3}
+  - {fileID: 3457216822935962903, guid: 6375b79a7ddfa484082ae30eb775daab, type: 3}
+  - {fileID: 5434016372496862485, guid: 6375b79a7ddfa484082ae30eb775daab, type: 3}
+  - {fileID: 5032697709245597810, guid: 6375b79a7ddfa484082ae30eb775daab, type: 3}
+  - {fileID: -1036356390154019905, guid: 6375b79a7ddfa484082ae30eb775daab, type: 3}
+  - {fileID: 2874431474190302844, guid: 6375b79a7ddfa484082ae30eb775daab, type: 3}
+  - {fileID: 4594608713060749622, guid: 6375b79a7ddfa484082ae30eb775daab, type: 3}
+  - {fileID: 7251194510811777924, guid: 6375b79a7ddfa484082ae30eb775daab, type: 3}
+  - {fileID: 8965046886242713424, guid: 6375b79a7ddfa484082ae30eb775daab, type: 3}
+  - {fileID: 5978772662273577878, guid: 6375b79a7ddfa484082ae30eb775daab, type: 3}
+  - {fileID: 6966179619276275953, guid: 6375b79a7ddfa484082ae30eb775daab, type: 3}
+  - {fileID: -4877067114723320660, guid: 6375b79a7ddfa484082ae30eb775daab, type: 3}
+  - {fileID: 7486200502471383451, guid: 6375b79a7ddfa484082ae30eb775daab, type: 3}
+  - {fileID: -8746680564234105358, guid: 6375b79a7ddfa484082ae30eb775daab, type: 3}
+  - {fileID: -4716285424570542326, guid: 6375b79a7ddfa484082ae30eb775daab, type: 3}
+  - {fileID: -107689101536331115, guid: 6375b79a7ddfa484082ae30eb775daab, type: 3}
+  - {fileID: -7231718867856195689, guid: 6375b79a7ddfa484082ae30eb775daab, type: 3}
+  - {fileID: 1322577995317731044, guid: 6375b79a7ddfa484082ae30eb775daab, type: 3}
+  - {fileID: 1662067887252102113, guid: 6375b79a7ddfa484082ae30eb775daab, type: 3}
+  - {fileID: -7894539629793020922, guid: 6375b79a7ddfa484082ae30eb775daab, type: 3}
+  - {fileID: -8535107738416957635, guid: 6375b79a7ddfa484082ae30eb775daab, type: 3}
+  - {fileID: -6694631456014394964, guid: 6375b79a7ddfa484082ae30eb775daab, type: 3}
+  - {fileID: -3499489789117586899, guid: 6375b79a7ddfa484082ae30eb775daab, type: 3}
+  - {fileID: -4315003909659009763, guid: 6375b79a7ddfa484082ae30eb775daab, type: 3}
+  - {fileID: -2819587161438136851, guid: 6375b79a7ddfa484082ae30eb775daab, type: 3}
+  - {fileID: -5369191769911295223, guid: 6375b79a7ddfa484082ae30eb775daab, type: 3}
+  - {fileID: -3011985201550456370, guid: 6375b79a7ddfa484082ae30eb775daab, type: 3}
+  - {fileID: 6336596239735047907, guid: 6375b79a7ddfa484082ae30eb775daab, type: 3}
+  - {fileID: 4921067784755967512, guid: 6375b79a7ddfa484082ae30eb775daab, type: 3}
+  - {fileID: 7403773227157256961, guid: 6375b79a7ddfa484082ae30eb775daab, type: 3}
+  - {fileID: -3989178365306484251, guid: 6375b79a7ddfa484082ae30eb775daab, type: 3}
+  - {fileID: 7359377117145649629, guid: 6375b79a7ddfa484082ae30eb775daab, type: 3}
+  - {fileID: -4091660851136419416, guid: 6375b79a7ddfa484082ae30eb775daab, type: 3}
+  - {fileID: 6225275874956348923, guid: 6375b79a7ddfa484082ae30eb775daab, type: 3}
+  - {fileID: 3186032449356524460, guid: 6375b79a7ddfa484082ae30eb775daab, type: 3}
+  - {fileID: -6992971192129056880, guid: 6375b79a7ddfa484082ae30eb775daab, type: 3}
+  - {fileID: 2418117258377952187, guid: 6375b79a7ddfa484082ae30eb775daab, type: 3}
+  - {fileID: -5595774182170198442, guid: 6375b79a7ddfa484082ae30eb775daab, type: 3}
+  - {fileID: -3513233456717568661, guid: 6375b79a7ddfa484082ae30eb775daab, type: 3}
+  - {fileID: -2177602700839357275, guid: 6375b79a7ddfa484082ae30eb775daab, type: 3}
+  - {fileID: -3883301229772790362, guid: 6375b79a7ddfa484082ae30eb775daab, type: 3}
+  - {fileID: 4874847881049316114, guid: 6375b79a7ddfa484082ae30eb775daab, type: 3}
+  - {fileID: -1171448484364157865, guid: 6375b79a7ddfa484082ae30eb775daab, type: 3}
+  - {fileID: -6492216437167798546, guid: 6375b79a7ddfa484082ae30eb775daab, type: 3}
+  - {fileID: 208987356141975248, guid: 6375b79a7ddfa484082ae30eb775daab, type: 3}
+  - {fileID: -7289855072898970331, guid: 6375b79a7ddfa484082ae30eb775daab, type: 3}
+  - {fileID: 4759564930451578982, guid: 6375b79a7ddfa484082ae30eb775daab, type: 3}
+  - {fileID: 1194310870993705736, guid: 6375b79a7ddfa484082ae30eb775daab, type: 3}
+  - {fileID: 543023978578658560, guid: 6375b79a7ddfa484082ae30eb775daab, type: 3}
+  - {fileID: 5274393883389577330, guid: 6375b79a7ddfa484082ae30eb775daab, type: 3}
+  - {fileID: -9222646722410944259, guid: 6375b79a7ddfa484082ae30eb775daab, type: 3}
+  - {fileID: 7041236736811227964, guid: 6375b79a7ddfa484082ae30eb775daab, type: 3}
+  - {fileID: 8565871460346736186, guid: 6375b79a7ddfa484082ae30eb775daab, type: 3}
+  - {fileID: 651081192669938594, guid: 6375b79a7ddfa484082ae30eb775daab, type: 3}
+  - {fileID: -4812233704026398202, guid: 6375b79a7ddfa484082ae30eb775daab, type: 3}
+  - {fileID: -3386100709610714131, guid: 6375b79a7ddfa484082ae30eb775daab, type: 3}
+  - {fileID: 4416363268104525090, guid: 6375b79a7ddfa484082ae30eb775daab, type: 3}
+  - {fileID: -3292244220252583585, guid: 6375b79a7ddfa484082ae30eb775daab, type: 3}
+  - {fileID: -6518984536155807510, guid: 6375b79a7ddfa484082ae30eb775daab, type: 3}
+  - {fileID: -5661966862856788773, guid: 6375b79a7ddfa484082ae30eb775daab, type: 3}
+  - {fileID: -5588693082460695857, guid: 6375b79a7ddfa484082ae30eb775daab, type: 3}
+  - {fileID: -4013097636415753651, guid: 6375b79a7ddfa484082ae30eb775daab, type: 3}
+  - {fileID: 303795873983497591, guid: 6375b79a7ddfa484082ae30eb775daab, type: 3}
+  - {fileID: 4164752246806401915, guid: 6375b79a7ddfa484082ae30eb775daab, type: 3}
+  - {fileID: -1321930964134229128, guid: 6375b79a7ddfa484082ae30eb775daab, type: 3}
+  - {fileID: 3726126529424433987, guid: 6375b79a7ddfa484082ae30eb775daab, type: 3}
+  - {fileID: -6054068769065552292, guid: 6375b79a7ddfa484082ae30eb775daab, type: 3}
+  - {fileID: 891881438697657237, guid: 6375b79a7ddfa484082ae30eb775daab, type: 3}
+  - {fileID: 8737484226957240204, guid: 6375b79a7ddfa484082ae30eb775daab, type: 3}
+  - {fileID: -4971593073727093314, guid: 6375b79a7ddfa484082ae30eb775daab, type: 3}
+  - {fileID: 3064540905197322504, guid: 6375b79a7ddfa484082ae30eb775daab, type: 3}
+  - {fileID: -661620202033317777, guid: 6375b79a7ddfa484082ae30eb775daab, type: 3}
+  - {fileID: -2168484751151835136, guid: 6375b79a7ddfa484082ae30eb775daab, type: 3}
+  - {fileID: 8772774303730834368, guid: 6375b79a7ddfa484082ae30eb775daab, type: 3}
+  - {fileID: -6575961908643916480, guid: 6375b79a7ddfa484082ae30eb775daab, type: 3}
+  - {fileID: 6541710363788999808, guid: 6375b79a7ddfa484082ae30eb775daab, type: 3}
+  - {fileID: 3646959761127357876, guid: 6375b79a7ddfa484082ae30eb775daab, type: 3}
+  - {fileID: 4948655269447343036, guid: 6375b79a7ddfa484082ae30eb775daab, type: 3}
+  - {fileID: 5649000979696734703, guid: 6375b79a7ddfa484082ae30eb775daab, type: 3}
+  - {fileID: -3151977415283965921, guid: 6375b79a7ddfa484082ae30eb775daab, type: 3}
+  - {fileID: 4942149570890118944, guid: 6375b79a7ddfa484082ae30eb775daab, type: 3}
+  - {fileID: 6264686475142203003, guid: 6375b79a7ddfa484082ae30eb775daab, type: 3}
+  - {fileID: -6937532408035735709, guid: 6375b79a7ddfa484082ae30eb775daab, type: 3}
+  - {fileID: 9153823391277715172, guid: 6375b79a7ddfa484082ae30eb775daab, type: 3}
+  - {fileID: 6138038008096249847, guid: 6375b79a7ddfa484082ae30eb775daab, type: 3}
+  - {fileID: -8289275709305348154, guid: 6375b79a7ddfa484082ae30eb775daab, type: 3}
+  - {fileID: 3460956796442402539, guid: 6375b79a7ddfa484082ae30eb775daab, type: 3}
+  - {fileID: 8905406808036237673, guid: 6375b79a7ddfa484082ae30eb775daab, type: 3}
+  - {fileID: 7444117776767978953, guid: 6375b79a7ddfa484082ae30eb775daab, type: 3}
+  - {fileID: -6857128927550749196, guid: 6375b79a7ddfa484082ae30eb775daab, type: 3}
+  - {fileID: 9203272437210732168, guid: 6375b79a7ddfa484082ae30eb775daab, type: 3}
+  - {fileID: -8855238725752138874, guid: 6375b79a7ddfa484082ae30eb775daab, type: 3}
+  - {fileID: 3451391515015994887, guid: 6375b79a7ddfa484082ae30eb775daab, type: 3}
+  - {fileID: 839084420140816199, guid: 6375b79a7ddfa484082ae30eb775daab, type: 3}
+  - {fileID: -6156533127362977941, guid: 6375b79a7ddfa484082ae30eb775daab, type: 3}
+  - {fileID: -4714418199100793384, guid: 6375b79a7ddfa484082ae30eb775daab, type: 3}
+  - {fileID: -7948333930913167359, guid: 6375b79a7ddfa484082ae30eb775daab, type: 3}
+  - {fileID: -1212507940695783328, guid: 6375b79a7ddfa484082ae30eb775daab, type: 3}
+  - {fileID: -173743613546133193, guid: 6375b79a7ddfa484082ae30eb775daab, type: 3}
+  - {fileID: -1818325207775948088, guid: 6375b79a7ddfa484082ae30eb775daab, type: 3}
+  - {fileID: -3199002414569012956, guid: 6375b79a7ddfa484082ae30eb775daab, type: 3}
+  - {fileID: -6302625208127899309, guid: 6375b79a7ddfa484082ae30eb775daab, type: 3}
+  - {fileID: 5650527862465574198, guid: 6375b79a7ddfa484082ae30eb775daab, type: 3}
+  - {fileID: -1280639714141251324, guid: 6375b79a7ddfa484082ae30eb775daab, type: 3}
+  - {fileID: 4640157042729200637, guid: 6375b79a7ddfa484082ae30eb775daab, type: 3}
+  - {fileID: -7649647447092104785, guid: 6375b79a7ddfa484082ae30eb775daab, type: 3}
+  - {fileID: -7985932673154316277, guid: 6375b79a7ddfa484082ae30eb775daab, type: 3}
+  - {fileID: 4258658762020026149, guid: 6375b79a7ddfa484082ae30eb775daab, type: 3}
+  - {fileID: 7379384223238410536, guid: 6375b79a7ddfa484082ae30eb775daab, type: 3}
+  - {fileID: -2951742794156546865, guid: 6375b79a7ddfa484082ae30eb775daab, type: 3}
+  - {fileID: 6334463912814903929, guid: 6375b79a7ddfa484082ae30eb775daab, type: 3}
+  - {fileID: 8178836862263035079, guid: 6375b79a7ddfa484082ae30eb775daab, type: 3}
+  - {fileID: -1686947791336222534, guid: 6375b79a7ddfa484082ae30eb775daab, type: 3}
+  - {fileID: -4387678115213913536, guid: 6375b79a7ddfa484082ae30eb775daab, type: 3}
+  - {fileID: -8405260986363383042, guid: 6375b79a7ddfa484082ae30eb775daab, type: 3}
+  - {fileID: -9027077124385321843, guid: 6375b79a7ddfa484082ae30eb775daab, type: 3}
+  - {fileID: -3742638810713765741, guid: 6375b79a7ddfa484082ae30eb775daab, type: 3}
+  - {fileID: -1371800086072148756, guid: 6375b79a7ddfa484082ae30eb775daab, type: 3}
+  - {fileID: 3210803636512669615, guid: 6375b79a7ddfa484082ae30eb775daab, type: 3}
+  - {fileID: -7402442972603820133, guid: 6375b79a7ddfa484082ae30eb775daab, type: 3}
+  - {fileID: -6720788362680149548, guid: 6375b79a7ddfa484082ae30eb775daab, type: 3}
+  - {fileID: 3891456683624568334, guid: 6375b79a7ddfa484082ae30eb775daab, type: 3}
+  - {fileID: -5438220882627194875, guid: 6375b79a7ddfa484082ae30eb775daab, type: 3}
+  - {fileID: 1469374516470394260, guid: 6375b79a7ddfa484082ae30eb775daab, type: 3}
+  - {fileID: -5000455131797490160, guid: 6375b79a7ddfa484082ae30eb775daab, type: 3}
+  - {fileID: 1136180069672146344, guid: 6375b79a7ddfa484082ae30eb775daab, type: 3}
+  - {fileID: 1177049797858304378, guid: 6375b79a7ddfa484082ae30eb775daab, type: 3}
   - {fileID: -2280026895110369477, guid: 0a2798ba0f2b27241914c22ba6ce1a4c, type: 3}
   - {fileID: -55044103527121020, guid: 0a2798ba0f2b27241914c22ba6ce1a4c, type: 3}
   - {fileID: -5007127792947206195, guid: 0a2798ba0f2b27241914c22ba6ce1a4c, type: 3}
@@ -2158,6 +2352,199 @@ SpriteAtlas:
   - SMS SSB 8x8 Tiles PNG_160
   - SMS SSB 8x8 Tiles PNG_132
   - SMS SSB 8x8 Tiles PNG_161
+  - NES_Soldier_Free_SpriteSheet_76
+  - NES_Soldier_Free_SpriteSheet_77
+  - NES_Soldier_Free_SpriteSheet_74
+  - NES_Soldier_Free_SpriteSheet_171
+  - NES_Soldier_Free_SpriteSheet_75
+  - NES_Soldier_Free_SpriteSheet_69
+  - NES_Soldier_Free_SpriteSheet_170
+  - NES_Soldier_Free_SpriteSheet_72
+  - NES_Soldier_Free_SpriteSheet_68
+  - NES_Soldier_Free_SpriteSheet_173
+  - NES_Soldier_Free_SpriteSheet_73
+  - NES_Soldier_Free_SpriteSheet_172
+  - NES_Soldier_Free_SpriteSheet_104
+  - NES_Soldier_Free_SpriteSheet_70
+  - NES_Soldier_Free_SpriteSheet_175
+  - NES_Soldier_Free_SpriteSheet_105
+  - NES_Soldier_Free_SpriteSheet_71
+  - NES_Soldier_Free_SpriteSheet_174
+  - NES_Soldier_Free_SpriteSheet_106
+  - NES_Soldier_Free_SpriteSheet_177
+  - NES_Soldier_Free_SpriteSheet_107
+  - NES_Soldier_Free_SpriteSheet_117
+  - NES_Soldier_Free_SpriteSheet_176
+  - NES_Soldier_Free_SpriteSheet_100
+  - NES_Soldier_Free_SpriteSheet_116
+  - NES_Soldier_Free_SpriteSheet_18
+  - NES_Soldier_Free_SpriteSheet_179
+  - NES_Soldier_Free_SpriteSheet_101
+  - NES_Soldier_Free_SpriteSheet_115
+  - NES_Soldier_Free_SpriteSheet_61
+  - NES_Soldier_Free_SpriteSheet_19
+  - NES_Soldier_Free_SpriteSheet_178
+  - NES_Soldier_Free_SpriteSheet_102
+  - NES_Soldier_Free_SpriteSheet_114
+  - NES_Soldier_Free_SpriteSheet_60
+  - NES_Soldier_Free_SpriteSheet_103
+  - NES_Soldier_Free_SpriteSheet_113
+  - NES_Soldier_Free_SpriteSheet_63
+  - NES_Soldier_Free_SpriteSheet_112
+  - NES_Soldier_Free_SpriteSheet_128
+  - NES_Soldier_Free_SpriteSheet_78
+  - NES_Soldier_Free_SpriteSheet_62
+  - NES_Soldier_Free_SpriteSheet_14
+  - NES_Soldier_Free_SpriteSheet_111
+  - NES_Soldier_Free_SpriteSheet_129
+  - NES_Soldier_Free_SpriteSheet_79
+  - NES_Soldier_Free_SpriteSheet_65
+  - NES_Soldier_Free_SpriteSheet_15
+  - NES_Soldier_Free_SpriteSheet_110
+  - NES_Soldier_Free_SpriteSheet_64
+  - NES_Soldier_Free_SpriteSheet_16
+  - NES_Soldier_Free_SpriteSheet_67
+  - NES_Soldier_Free_SpriteSheet_17
+  - NES_Soldier_Free_SpriteSheet_108
+  - NES_Soldier_Free_SpriteSheet_66
+  - NES_Soldier_Free_SpriteSheet_10
+  - NES_Soldier_Free_SpriteSheet_109
+  - NES_Soldier_Free_SpriteSheet_11
+  - NES_Soldier_Free_SpriteSheet_122
+  - NES_Soldier_Free_SpriteSheet_12
+  - NES_Soldier_Free_SpriteSheet_123
+  - NES_Soldier_Free_SpriteSheet_13
+  - NES_Soldier_Free_SpriteSheet_120
+  - NES_Soldier_Free_SpriteSheet_119
+  - NES_Soldier_Free_SpriteSheet_121
+  - NES_Soldier_Free_SpriteSheet_118
+  - NES_Soldier_Free_SpriteSheet_126
+  - NES_Soldier_Free_SpriteSheet_127
+  - NES_Soldier_Free_SpriteSheet_124
+  - NES_Soldier_Free_SpriteSheet_125
+  - NES_Soldier_Free_SpriteSheet_192
+  - NES_Soldier_Free_SpriteSheet_191
+  - NES_Soldier_Free_SpriteSheet_190
+  - NES_Soldier_Free_SpriteSheet_50
+  - NES_Soldier_Free_SpriteSheet_51
+  - NES_Soldier_Free_SpriteSheet_52
+  - NES_Soldier_Free_SpriteSheet_32
+  - NES_Soldier_Free_SpriteSheet_53
+  - NES_Soldier_Free_SpriteSheet_43
+  - NES_Soldier_Free_SpriteSheet_33
+  - NES_Soldier_Free_SpriteSheet_54
+  - NES_Soldier_Free_SpriteSheet_42
+  - NES_Soldier_Free_SpriteSheet_30
+  - NES_Soldier_Free_SpriteSheet_94
+  - NES_Soldier_Free_SpriteSheet_55
+  - NES_Soldier_Free_SpriteSheet_41
+  - NES_Soldier_Free_SpriteSheet_31
+  - NES_Soldier_Free_SpriteSheet_25
+  - NES_Soldier_Free_SpriteSheet_95
+  - NES_Soldier_Free_SpriteSheet_56
+  - NES_Soldier_Free_SpriteSheet_40
+  - NES_Soldier_Free_SpriteSheet_36
+  - NES_Soldier_Free_SpriteSheet_24
+  - NES_Soldier_Free_SpriteSheet_96
+  - NES_Soldier_Free_SpriteSheet_57
+  - NES_Soldier_Free_SpriteSheet_47
+  - NES_Soldier_Free_SpriteSheet_37
+  - NES_Soldier_Free_SpriteSheet_27
+  - NES_Soldier_Free_SpriteSheet_97
+  - NES_Soldier_Free_SpriteSheet_87
+  - NES_Soldier_Free_SpriteSheet_58
+  - NES_Soldier_Free_SpriteSheet_46
+  - NES_Soldier_Free_SpriteSheet_34
+  - NES_Soldier_Free_SpriteSheet_26
+  - NES_Soldier_Free_SpriteSheet_90
+  - NES_Soldier_Free_SpriteSheet_86
+  - NES_Soldier_Free_SpriteSheet_59
+  - NES_Soldier_Free_SpriteSheet_45
+  - NES_Soldier_Free_SpriteSheet_35
+  - NES_Soldier_Free_SpriteSheet_21
+  - NES_Soldier_Free_SpriteSheet_91
+  - NES_Soldier_Free_SpriteSheet_85
+  - NES_Soldier_Free_SpriteSheet_44
+  - NES_Soldier_Free_SpriteSheet_20
+  - NES_Soldier_Free_SpriteSheet_92
+  - NES_Soldier_Free_SpriteSheet_84
+  - NES_Soldier_Free_SpriteSheet_23
+  - NES_Soldier_Free_SpriteSheet_93
+  - NES_Soldier_Free_SpriteSheet_83
+  - NES_Soldier_Free_SpriteSheet_38
+  - NES_Soldier_Free_SpriteSheet_22
+  - NES_Soldier_Free_SpriteSheet_82
+  - NES_Soldier_Free_SpriteSheet_49
+  - NES_Soldier_Free_SpriteSheet_39
+  - NES_Soldier_Free_SpriteSheet_81
+  - NES_Soldier_Free_SpriteSheet_48
+  - NES_Soldier_Free_SpriteSheet_80
+  - NES_Soldier_Free_SpriteSheet_148
+  - NES_Soldier_Free_SpriteSheet_98
+  - NES_Soldier_Free_SpriteSheet_149
+  - NES_Soldier_Free_SpriteSheet_29
+  - NES_Soldier_Free_SpriteSheet_99
+  - NES_Soldier_Free_SpriteSheet_28
+  - NES_Soldier_Free_SpriteSheet_159
+  - NES_Soldier_Free_SpriteSheet_5
+  - NES_Soldier_Free_SpriteSheet_89
+  - NES_Soldier_Free_SpriteSheet_158
+  - NES_Soldier_Free_SpriteSheet_4
+  - NES_Soldier_Free_SpriteSheet_88
+  - NES_Soldier_Free_SpriteSheet_7
+  - NES_Soldier_Free_SpriteSheet_188
+  - NES_Soldier_Free_SpriteSheet_140
+  - NES_Soldier_Free_SpriteSheet_6
+  - NES_Soldier_Free_SpriteSheet_189
+  - NES_Soldier_Free_SpriteSheet_141
+  - NES_Soldier_Free_SpriteSheet_139
+  - NES_Soldier_Free_SpriteSheet_1
+  - NES_Soldier_Free_SpriteSheet_142
+  - NES_Soldier_Free_SpriteSheet_138
+  - NES_Soldier_Free_SpriteSheet_0
+  - NES_Soldier_Free_SpriteSheet_143
+  - NES_Soldier_Free_SpriteSheet_153
+  - NES_Soldier_Free_SpriteSheet_3
+  - NES_Soldier_Free_SpriteSheet_184
+  - NES_Soldier_Free_SpriteSheet_144
+  - NES_Soldier_Free_SpriteSheet_152
+  - NES_Soldier_Free_SpriteSheet_168
+  - NES_Soldier_Free_SpriteSheet_2
+  - NES_Soldier_Free_SpriteSheet_185
+  - NES_Soldier_Free_SpriteSheet_145
+  - NES_Soldier_Free_SpriteSheet_151
+  - NES_Soldier_Free_SpriteSheet_169
+  - NES_Soldier_Free_SpriteSheet_135
+  - NES_Soldier_Free_SpriteSheet_186
+  - NES_Soldier_Free_SpriteSheet_146
+  - NES_Soldier_Free_SpriteSheet_150
+  - NES_Soldier_Free_SpriteSheet_166
+  - NES_Soldier_Free_SpriteSheet_134
+  - NES_Soldier_Free_SpriteSheet_187
+  - NES_Soldier_Free_SpriteSheet_147
+  - NES_Soldier_Free_SpriteSheet_157
+  - NES_Soldier_Free_SpriteSheet_167
+  - NES_Soldier_Free_SpriteSheet_137
+  - NES_Soldier_Free_SpriteSheet_180
+  - NES_Soldier_Free_SpriteSheet_156
+  - NES_Soldier_Free_SpriteSheet_164
+  - NES_Soldier_Free_SpriteSheet_136
+  - NES_Soldier_Free_SpriteSheet_181
+  - NES_Soldier_Free_SpriteSheet_155
+  - NES_Soldier_Free_SpriteSheet_165
+  - NES_Soldier_Free_SpriteSheet_131
+  - NES_Soldier_Free_SpriteSheet_9
+  - NES_Soldier_Free_SpriteSheet_182
+  - NES_Soldier_Free_SpriteSheet_154
+  - NES_Soldier_Free_SpriteSheet_162
+  - NES_Soldier_Free_SpriteSheet_130
+  - NES_Soldier_Free_SpriteSheet_8
+  - NES_Soldier_Free_SpriteSheet_183
+  - NES_Soldier_Free_SpriteSheet_163
+  - NES_Soldier_Free_SpriteSheet_133
+  - NES_Soldier_Free_SpriteSheet_160
+  - NES_Soldier_Free_SpriteSheet_132
+  - NES_Soldier_Free_SpriteSheet_161
   - SMS_C_Street_8x8_128_x128_86
   - SMS_C_Street_8x8_128_x128_87
   - SMS_C_Street_8x8_128_x128_77

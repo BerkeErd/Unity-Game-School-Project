@@ -156,27 +156,35 @@ public class PlayerMovement : MonoBehaviour
         }
         foreach (Collider2D enemy in hitEnemies)
         {
-                if(enemy.GetComponent<Enemy>())
+
+                BoxCollider2D collider = enemy as BoxCollider2D;
+
+                if (collider != null)
                 {
-                    if (!enemy.GetComponent<Enemy>().isDead)
+                    if (enemy.GetComponent<Enemy>())
                     {
-                        enemy.GetComponent<Enemy>().TakeDamage(kickDamage);
-                        if (currentComboState == ComboState.KICK_2)
+                        if (!enemy.GetComponent<Enemy>().isDead)
                         {
-                            enemy.GetComponent<Enemy>().KnockUp();
+                            enemy.GetComponent<Enemy>().TakeDamage(kickDamage);
+                            if (currentComboState == ComboState.KICK_2)
+                            {
+                                enemy.GetComponent<Enemy>().KnockUp();
+                            }
+
                         }
-
                     }
-                }
-                else if(enemy.GetComponent<EnemyBoss>())
-                {
-                    if (!enemy.GetComponent<EnemyBoss>().isDead)
+                    else if (enemy.GetComponent<EnemyBoss>())
                     {
-                        enemy.GetComponent<EnemyBoss>().TakeDamage(kickDamage);
-                       
+                        if (!enemy.GetComponent<EnemyBoss>().isDead)
+                        {
+                            enemy.GetComponent<EnemyBoss>().TakeDamage(kickDamage);
 
+
+                        }
                     }
                 }
+
+                
             
         }
         }
@@ -211,9 +219,9 @@ public class PlayerMovement : MonoBehaviour
                 isPunching = true;
                 animator.SetTrigger("PunchRight");
             currentAttackSound = soundmanager.Punch2;
-        }   
+        }
 
-      Collider2D[] hitEnemies =  Physics2D.OverlapCircleAll(PunchPoint.position,punchRange,enemyLayers);
+            Collider2D[] hitEnemies =  Physics2D.OverlapCircleAll(PunchPoint.position,punchRange,enemyLayers);
 
         if(hitEnemies.Length > 0)
         {
@@ -223,23 +231,29 @@ public class PlayerMovement : MonoBehaviour
 
         foreach (Collider2D enemy in hitEnemies)
         {
+                BoxCollider2D collider = enemy as BoxCollider2D;
 
-                if (enemy.GetComponent<Enemy>())
+                if (collider != null)
                 {
-                    if (!enemy.GetComponent<Enemy>().isDead)
+                    if (enemy.GetComponent<Enemy>())
                     {
-                        enemy.GetComponent<Enemy>().TakeDamage(punchDamage);
+                        if (!enemy.GetComponent<Enemy>().isDead)
+                        {
+                            enemy.GetComponent<Enemy>().TakeDamage(punchDamage);
+                        }
+                    }
+
+                    else if (enemy.GetComponent<EnemyBoss>())
+                    {
+                        if (!enemy.GetComponent<EnemyBoss>().isDead)
+                        {
+                            enemy.GetComponent<EnemyBoss>().TakeDamage(punchDamage);
+
+                        }
                     }
                 }
-           
-                else if (enemy.GetComponent<EnemyBoss>())
-                {
-                    if (!enemy.GetComponent<EnemyBoss>().isDead)
-                    {
-                        enemy.GetComponent<EnemyBoss>().TakeDamage(punchDamage);
 
-                    }
-                }
+                
             }
         }
     }

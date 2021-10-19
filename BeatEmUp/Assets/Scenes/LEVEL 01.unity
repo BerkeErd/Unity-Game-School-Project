@@ -7862,10 +7862,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e94a77f09f791fa48b32cc8eb2b3a110, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  str: 0
-  agi: 0
-  sta: 0
-  lck: 0
+  str: 10
+  agi: 10
+  sta: 10
+  lck: 10
 --- !u!1 &1329940828 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1179569180309312622, guid: 914b56196d42bab46a4049a3ade73f8f,
@@ -7982,6 +7982,11 @@ PrefabInstance:
     - target: {fileID: 1273430094, guid: 4e03ad10f68326b4aa0ae24df64850bf, type: 3}
       propertyPath: chaseDistance
       value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 160337512088169741, guid: 4e03ad10f68326b4aa0ae24df64850bf,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 160337512378115204, guid: 4e03ad10f68326b4aa0ae24df64850bf,
         type: 3}
@@ -8231,7 +8236,8 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 1329940833, guid: 914b56196d42bab46a4049a3ade73f8f, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 914b56196d42bab46a4049a3ade73f8f, type: 3}
 --- !u!1 &1967708054
 GameObject:
@@ -8493,6 +8499,16 @@ PrefabInstance:
       propertyPath: target
       value: 
       objectReference: {fileID: 1324386080}
+    - target: {fileID: 160337512088169741, guid: 4e03ad10f68326b4aa0ae24df64850bf,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 160337512088169741, guid: 4e03ad10f68326b4aa0ae24df64850bf,
+        type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 160337512378115204, guid: 4e03ad10f68326b4aa0ae24df64850bf,
         type: 3}
       propertyPath: m_LocalPosition.x
