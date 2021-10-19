@@ -6,7 +6,7 @@ public class Skills : MonoBehaviour
 {
 
     public int str=0; //strenght
-    public int agi=0; //agility
+    public float agi=0; //agility
     public int sta=0; //stamina
     public int lck=0; //luck
 

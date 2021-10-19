@@ -8568,7 +8568,7 @@ PrefabInstance:
       objectReference: {fileID: 868891472}
     - target: {fileID: 1324386084, guid: a8ea640fb899cdf44a99e9b4ad6fe8e4, type: 3}
       propertyPath: defaultComboTimer
-      value: 0.4
+      value: 0.3
       objectReference: {fileID: 0}
     - target: {fileID: 2011666049, guid: a8ea640fb899cdf44a99e9b4ad6fe8e4, type: 3}
       propertyPath: m_Constraints

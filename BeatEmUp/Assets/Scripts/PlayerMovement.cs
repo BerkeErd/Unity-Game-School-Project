@@ -29,7 +29,7 @@ public class PlayerMovement : MonoBehaviour
     private AudioClip currentAttackSound;
 
     private bool activateTimerToReset;
-    public float defaultComboTimer = 0.4f;
+    public float defaultComboTimer;
     private float currentComboTimer;
 
     private ComboState currentComboState;
@@ -79,6 +79,8 @@ public class PlayerMovement : MonoBehaviour
         maxHealth += skills.sta * 10;
         currentHealth = maxHealth;
         healthBar.SetMaxHealth(currentHealth);
+
+        defaultComboTimer = 0.4f - skills.agi / 100;
 
         currentComboTimer = defaultComboTimer;
         currentComboState = ComboState.NONE;
