@@ -180,7 +180,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 94b7c8f2c94ee504ba7cb150d452ef86, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Damage: 10
+  BaseDamage: 10
   maxHealth: 100
   currentHealth: 0
   PunchPoint: {fileID: 1136653980}
@@ -203,6 +203,7 @@ MonoBehaviour:
     m_Bits: 512
   targetDistanceX: 0
   targetDistanceY: 0
+  AttackSpeedTime: 2
   levelManager: {fileID: 0}
 --- !u!61 &281741045
 BoxCollider2D:

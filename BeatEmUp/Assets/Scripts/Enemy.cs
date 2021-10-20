@@ -8,7 +8,8 @@ public class Enemy : MonoBehaviour
 {
     bool facingRight;
 
-    public int Damage=10;
+    public int BaseDamage = 10;
+    private int Damage;
 
     public int maxHealth = 100;
     public int currentHealth;
@@ -47,12 +48,19 @@ public class Enemy : MonoBehaviour
     public float targetDistanceX;
     public float targetDistanceY;
 
+    public float AttackSpeedTime = 2;
+
     public LevelManager levelManager;
 
 
     private void Awake()
     {
         levelManager = GameObject.Find("LevelManager").GetComponent<LevelManager>();
+
+        Damage = BaseDamage + levelManager.Level; // Level'a göre Düşman Damage
+        AttackSpeedTime = 2 - (float)levelManager.Level / 30; // Level'a göre Düşman attack hızı
+        maxHealth = 100 + levelManager.Level * 10; // Level'a göre Düşman canı
+
         HealthBarObject = Instantiate(Resources.Load("Prefabs/HealthBar")) as GameObject;
         HealthBarObject.transform.parent = GameObject.Find("LevelCanvas").GetComponent<Canvas>().transform;
         HealthBarObject.transform.localScale =new Vector3(1,1,1);
@@ -61,7 +69,9 @@ public class Enemy : MonoBehaviour
     }
     void Start()
     {
-        Damage += levelManager.Level;
+
+       
+
 
         AudioSource = GetComponent<AudioSource>();
         currentHealth = maxHealth;
@@ -234,7 +244,7 @@ public class Enemy : MonoBehaviour
 
 
          isAttacking = true;
-         yield return new WaitForSeconds(2);
+         yield return new WaitForSeconds(AttackSpeedTime);
 
             if (targetClose && !tookDamage)
             {
