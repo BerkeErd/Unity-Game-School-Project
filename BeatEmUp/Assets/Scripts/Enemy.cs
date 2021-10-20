@@ -57,20 +57,20 @@ public class Enemy : MonoBehaviour
     {
         levelManager = GameObject.Find("LevelManager").GetComponent<LevelManager>();
 
-        Damage = BaseDamage + levelManager.Level; // Level'a göre Düşman Damage
-        AttackSpeedTime = 2 - (float)levelManager.Level / 30; // Level'a göre Düşman attack hızı
-        maxHealth = 100 + levelManager.Level * 10; // Level'a göre Düşman canı
+       
 
         HealthBarObject = Instantiate(Resources.Load("Prefabs/HealthBar")) as GameObject;
         HealthBarObject.transform.parent = GameObject.Find("LevelCanvas").GetComponent<Canvas>().transform;
         HealthBarObject.transform.localScale =new Vector3(1,1,1);
         healthBar = HealthBarObject.GetComponent<HealthBar>();
-        healthBar.SetMaxHealth(maxHealth);
+        
     }
     void Start()
     {
-
-       
+        Damage = BaseDamage + levelManager.Level; // Level'a göre Düşman Damage
+        AttackSpeedTime = 2 - (float)levelManager.Level / 30; // Level'a göre Düşman attack hızı
+        maxHealth = 100 + levelManager.Level * 10; // Level'a göre Düşman canı
+        healthBar.SetMaxHealth(maxHealth);
 
 
         AudioSource = GetComponent<AudioSource>();
