@@ -45,7 +45,7 @@ public class Spawner : MonoBehaviour
 
         
 
-        for (int i = 0; i <= EnemyNumber; i++)
+        for (int i = 0; i < EnemyNumber; i++)
         {
             float EnemyX = Camera.main.ViewportToWorldPoint(new Vector3(Random.Range(0, 2), 0, 0)).x;
 
