@@ -99,7 +99,7 @@ MonoBehaviour:
   ID: 1
   DropSound: {fileID: 0}
   CollectSound: {fileID: 0}
-  DropRate: 15
+  DropRate: 40
   HealAmount: 15
 --- !u!61 &5256098509034833149
 BoxCollider2D:

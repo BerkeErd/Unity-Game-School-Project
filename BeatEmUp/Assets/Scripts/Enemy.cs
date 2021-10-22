@@ -135,7 +135,7 @@ public class Enemy : MonoBehaviour
 
         foreach (var loot in Loots)
         {
-            if(dice>loot.DropRate)
+            if(dice>100-loot.DropRate)
             {
                 Debug.Log("Loot düştü : " + loot.name);
                 //Oluşma sesi

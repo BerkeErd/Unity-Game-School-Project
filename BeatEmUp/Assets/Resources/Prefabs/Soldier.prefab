@@ -339,6 +339,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 94b7c8f2c94ee504ba7cb150d452ef86, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Loots:
+  - {fileID: 1409954624113372475, guid: bcfad064a9742384dbdeab864bd78304, type: 3}
   BaseDamage: 15
   maxHealth: 100
   currentHealth: 0
@@ -362,4 +364,5 @@ MonoBehaviour:
     m_Bits: 512
   targetDistanceX: 0
   targetDistanceY: 0
+  AttackSpeedTime: 2
   levelManager: {fileID: 0}
