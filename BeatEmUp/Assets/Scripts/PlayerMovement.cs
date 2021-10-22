@@ -258,7 +258,22 @@ public class PlayerMovement : MonoBehaviour
         }
     }
 
-  
+    public void Heal(int Healamount)
+    {
+        int NextHealth = currentHealth + Healamount;
+
+        if(NextHealth > maxHealth)
+        {
+            currentHealth = maxHealth;
+        }
+        else
+        {
+            currentHealth = NextHealth;
+        }
+
+        healthBar.SetHealth(currentHealth);
+        HealthText.text = "HP: " + currentHealth + "/" + maxHealth;
+    }
 
     void ResetComboState()
     {

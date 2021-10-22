@@ -1,7 +1,37 @@
 fileFormatVersion: 2
 guid: 11e85023fd4f7ee4fa90303ef5bf16d7
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: -6251416357945447858
+    second: Pixel Art Game Assets_01_0
+  - first:
+      213: 7481262527369238523
+    second: Pixel Art Game Assets_01_1
+  - first:
+      213: 4595775965774897976
+    second: Pixel Art Game Assets_01_2
+  - first:
+      213: -7938442823038668669
+    second: Pixel Art Game Assets_01_3
+  - first:
+      213: 6206654814904313795
+    second: Pixel Art Game Assets_01_4
+  - first:
+      213: 2667131135663363267
+    second: Pixel Art Game Assets_01_5
+  - first:
+      213: -6356579373806767682
+    second: Pixel Art Game Assets_01_6
+  - first:
+      213: 5161196460161898538
+    second: Pixel Art Game Assets_01_7
+  - first:
+      213: -8351595092599009708
+    second: Pixel Art Game Assets_01_8
+  - first:
+      213: 4939639121980231519
+    second: Pixel Art Game Assets_01_9
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -40,12 +70,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 25
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -70,9 +100,243 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Pixel Art Game Assets_01_0
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 121
+        width: 21
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f7f0c7308c7fd746993678e09c95ba0
+      internalID: -6251416357945447858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Game Assets_01_1
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 119
+        width: 28
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa26a85e3570824469deab01de119a06
+      internalID: 7481262527369238523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Game Assets_01_2
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 91
+        width: 22
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f48854baf8ec99e4abb0d073e1de2fdd
+      internalID: 4595775965774897976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Game Assets_01_3
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 92
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e85f5afb8d67e746a2abd808db78246
+      internalID: -7938442823038668669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Game Assets_01_4
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 57
+        width: 26
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9a14cdd3a73f5a4c95474a06eb08f83
+      internalID: 6206654814904313795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Game Assets_01_5
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 68
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f95733b3a5820cf468adc58fc594b64d
+      internalID: 2667131135663363267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Game Assets_01_6
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 30
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcd277e3ad94c064bbfc75469eabe868
+      internalID: -6356579373806767682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Game Assets_01_7
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 31
+        width: 16
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47c8e597c8e92814daefec68106eba94
+      internalID: 5161196460161898538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Game Assets_01_8
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 4
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dced4d34d7e12f84db2d26674a8b6d5a
+      internalID: -8351595092599009708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Game Assets_01_9
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 6
+        width: 26
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef54660b5bc9b7b48bdcacd2c1114ebe
+      internalID: 4939639121980231519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
