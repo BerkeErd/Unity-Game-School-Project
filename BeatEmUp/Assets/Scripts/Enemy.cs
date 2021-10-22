@@ -8,6 +8,7 @@ public class Enemy : MonoBehaviour
 {
     bool facingRight;
 
+    public List<Loot> Loots;
     public int BaseDamage = 10;
     private int Damage;
 
@@ -125,8 +126,28 @@ public class Enemy : MonoBehaviour
         
     }
 
+    public void LootDrop()
+    {
+        int playerLuck = GameObject.Find("Fighter").GetComponent<Skills>().lck;
+        int dice = Random.Range(0, 101);
+
+        dice = dice + playerLuck * 5; // Değiştirilebilir
+
+        foreach (var loot in Loots)
+        {
+            if(dice>100-loot.DropRate)
+            {
+                Debug.Log("Loot düştü : " + loot.name);
+                //Oluşma sesi
+                Instantiate(Resources.Load("Prefabs/Loots/Watermelon Loot"),transform.position,Quaternion.identity);
+            }
+        }
+
+    }
+
     public void Destroy()
     {
+        LootDrop();
         Destroy(HealthBarObject);
         Destroy(gameObject);
     }

@@ -78,7 +78,8 @@ public class PlayerMovement : MonoBehaviour
 
         maxHealth += skills.sta * 10;
         currentHealth = maxHealth;
-        healthBar.SetMaxHealth(currentHealth);
+
+        UpdatehealthBar();
 
         defaultComboTimer = 0.4f - skills.agi / 100;
 
@@ -88,7 +89,7 @@ public class PlayerMovement : MonoBehaviour
         punchDamage = punchDamage + skills.str + skills.str / 10;
         kickDamage = kickDamage + skills.str + skills.str /10;
 
-        HealthText.text = "HP: " + currentHealth + "/" + maxHealth;
+        
 
         animator.SetFloat("AttackSpeed", 1 + skills.agi / 10);
 
@@ -258,7 +259,21 @@ public class PlayerMovement : MonoBehaviour
         }
     }
 
-  
+    public void Heal(int Healamount)
+    {
+        int NextHealth = currentHealth + Healamount;
+
+        if(NextHealth > maxHealth)
+        {
+            currentHealth = maxHealth;
+        }
+        else
+        {
+            currentHealth = NextHealth;
+        }
+
+        UpdatehealthBar();
+    }
 
     void ResetComboState()
     {
@@ -298,8 +313,7 @@ public class PlayerMovement : MonoBehaviour
         {
             Die();
         }
-        healthBar.SetHealth(currentHealth);
-        HealthText.text = "HP: " + currentHealth + "/" + maxHealth;
+        UpdatehealthBar();
     }
     void Die()
     {
@@ -348,6 +362,12 @@ public class PlayerMovement : MonoBehaviour
 
         Flip(horizontal);
 
+    }
+
+    public void UpdatehealthBar()
+    {
+        healthBar.SetHealth(currentHealth);
+        HealthText.text = "HP: " + currentHealth + "/" + maxHealth;
     }
 
     public void AlertObservers(string message)
