@@ -614,15 +614,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 869657424, guid: a33ec9d51c80cd34683940c9c1271068, type: 3}
-      propertyPath: Loots.Array.size
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 869657424, guid: a33ec9d51c80cd34683940c9c1271068, type: 3}
-      propertyPath: Loots.Array.data[0]
-      value: 
-      objectReference: {fileID: 1409954624113372475, guid: bcfad064a9742384dbdeab864bd78304,
-        type: 3}
     - target: {fileID: 378713967163485595, guid: a33ec9d51c80cd34683940c9c1271068,
         type: 3}
       propertyPath: m_LocalPosition.x
