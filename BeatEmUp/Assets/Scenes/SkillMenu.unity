@@ -6666,7 +6666,7 @@ GameObject:
   - component: {fileID: 1799714905}
   - component: {fileID: 1799714904}
   m_Layer: 5
-  m_Name: Strenght
+  m_Name: Strength
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6722,7 +6722,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 2
-  m_Text: Strenght
+  m_Text: 'Strength
+
+'
 --- !u!222 &1799714905
 CanvasRenderer:
   m_ObjectHideFlags: 0
