@@ -34,4 +34,14 @@ public class LevelManager : MonoBehaviour
     {
         SceneManager.LoadScene("TileMapTest");
     }
+
+    public void LoadSkillsScene()
+    {
+        SceneManager.LoadScene("SkillMenu");
+    }
+
+    public void LoadMainMenu()
+    {
+        SceneManager.LoadScene("MainMenu");
+    }
 }

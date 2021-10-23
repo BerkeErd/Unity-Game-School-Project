@@ -14,4 +14,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/TileMapTest.unity
     guid: db182a553db85bc48ab9a15d78efe10e
+  - enabled: 1
+    path: Assets/Scenes/SkillMenu.unity
+    guid: b48ef58751cb0814a98edbaf863c732b
   m_configObjects: {}
