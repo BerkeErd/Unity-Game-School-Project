@@ -9539,7 +9539,7 @@ PrefabInstance:
     - target: {fileID: 6896401546870674449, guid: 8dc9d4252bb1bcc4eb97caf09d6e7e8a,
         type: 3}
       propertyPath: m_Name
-      value: Circle
+      value: Dot
       objectReference: {fileID: 0}
     - target: {fileID: 6896401547417964998, guid: 8dc9d4252bb1bcc4eb97caf09d6e7e8a,
         type: 3}
@@ -9549,7 +9549,7 @@ PrefabInstance:
     - target: {fileID: 6896401547454705661, guid: 8dc9d4252bb1bcc4eb97caf09d6e7e8a,
         type: 3}
       propertyPath: m_Name
-      value: Dot
+      value: Circle
       objectReference: {fileID: 0}
     - target: {fileID: 6896401547698713623, guid: 8dc9d4252bb1bcc4eb97caf09d6e7e8a,
         type: 3}
