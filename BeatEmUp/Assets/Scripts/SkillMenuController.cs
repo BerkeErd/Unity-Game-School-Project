@@ -284,8 +284,7 @@ public class SkillMenuController : MonoBehaviour
 
 
     
-
-    //+ Butonuna basıldığında + Butonu hangi özelliğe denk geliyorsa o 1 artacak ve Image'ı da 1 kare yükselecek ve - Butonu oluşacak. Playerın özelliği de 1 artacak fakat tik butonuna basılmadığı sürece save edilmeyecek.
+    
     // X butonuna basılırsa sayfa tekrardan yüklenebilir.
 
 
