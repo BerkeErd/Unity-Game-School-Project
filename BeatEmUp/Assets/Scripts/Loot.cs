@@ -14,7 +14,7 @@ public class Loot : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        PlayerMovement Player = GameObject.Find("Fighter").GetComponent<PlayerMovement>();
+        PlayerCombat Player = GameObject.Find("Fighter").GetComponent<PlayerCombat>();
 
         if (collision.gameObject.name == "Fighter")
         {

@@ -198,11 +198,11 @@ public class EnemyBoss : MonoBehaviour
         }
         foreach (Collider2D player in hitEnemies)
         {
-            if (player.GetComponent<PlayerMovement>())
+            if (player.GetComponent<PlayerCombat>())
             {
-                if (!player.GetComponent<PlayerMovement>().isDead)
+                if (!player.GetComponent<PlayerCombat>().isDead)
                 {
-                    player.GetComponent<PlayerMovement>().TakeDamage(Damage);
+                    player.GetComponent<PlayerCombat>().TakeDamage(Damage);
                 }
             }
             else if (player.GetComponent<Enemy>())

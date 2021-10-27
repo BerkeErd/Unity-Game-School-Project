@@ -72,6 +72,7 @@ GameObject:
   - component: {fileID: 1783236127326492774}
   - component: {fileID: 1324386085}
   - component: {fileID: 1324386081}
+  - component: {fileID: 5427867466908557122}
   - component: {fileID: 1324386084}
   - component: {fileID: 1324386086}
   - component: {fileID: 2011666049}
@@ -264,6 +265,38 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &5427867466908557122
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1783236127326492775}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af4cfa995324775488cdffdeab2e521d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  HealthText: {fileID: 0}
+  healthBar: {fileID: 0}
+  maxHealth: 100
+  currentHealth: 0
+  PunchPoint: {fileID: 61830506}
+  punchRange: 0.5
+  KickPoint: {fileID: 65149371}
+  kickRange: 0.5
+  soundmanager: {fileID: 0}
+  defaultComboTimer: 0
+  isPunching: 0
+  isKicking: 0
+  punchDamage: 0
+  kickDamage: 0
+  isDead: 0
+  skills: {fileID: 0}
+  PlayerMovement: {fileID: 0}
+  enemyLayers:
+    serializedVersion: 2
+    m_Bits: 256
 --- !u!114 &1324386084
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -276,30 +309,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 189011b0421c50a4c9808261898bc3ea, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TestMode: 0
-  maxHealth: 100
-  currentHealth: 0
-  HealthText: {fileID: 0}
-  healthBar: {fileID: 0}
-  soundmanager: {fileID: 0}
   runSpeed: 7
-  defaultComboTimer: 0.3
   horizontal: 0
   vertical: 0
-  isDead: 0
+  facingRight: 0
   isFrozen: 0
-  skills: {fileID: 0}
+  Playercombat: {fileID: 0}
   maxYpos: -2.21
   minYpos: -4.9
-  PunchPoint: {fileID: 61830506}
-  punchRange: 0.5
-  KickPoint: {fileID: 65149371}
-  kickRange: 0.5
-  enemyLayers:
-    serializedVersion: 2
-    m_Bits: 256
-  punchDamage: 10
-  kickDamage: 20
 --- !u!61 &1324386086
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -359,7 +376,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e94a77f09f791fa48b32cc8eb2b3a110, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  str: 0
-  agi: 0
-  sta: 0
-  lck: 0
+  str: 10
+  agi: 10
+  sta: 10
+  lck: 10
+  skillpoints: 0
+  BasepunchDamage: 10
+  BasekickDamage: 20
+  punchDamage: 0
+  kickDamage: 0
+  agiRatio: 0
+  extraHealth: 0
+  luckRatio: 0
+  strRatio: 0

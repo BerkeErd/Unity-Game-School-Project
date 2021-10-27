@@ -25,10 +25,10 @@ public class HealthBar : MonoBehaviour
         Health = (int)slider.maxValue;
     }
 
-    public void SetHealth(int health)
+    public void SetHealth(int newhealth)
     {
-        slider.value = health;
-        Health = health;
+        
+        Health = newhealth;
 
         if (fill != null)
         {
@@ -46,6 +46,6 @@ public class HealthBar : MonoBehaviour
 
     public void FixedUpdate()
     {
-        slider.value = Mathf.MoveTowards(slider.value, Health, changeSpeed * Time.deltaTime);
+        slider.value = Mathf.MoveTowards(slider.value, Health, changeSpeed * Time.fixedDeltaTime);
     }
 }

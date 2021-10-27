@@ -223,9 +223,9 @@ public class Enemy : MonoBehaviour
         }
         foreach (Collider2D player in hitEnemies)
         {
-            if (!player.GetComponent<PlayerMovement>().isDead)
+            if (!player.GetComponent<PlayerCombat>().isDead)
             {
-                player.GetComponent<PlayerMovement>().TakeDamage(Damage);            
+                player.GetComponent<PlayerCombat>().TakeDamage(Damage);            
             }
         }
     }
@@ -241,9 +241,9 @@ public class Enemy : MonoBehaviour
         }
         foreach (Collider2D player in hitEnemies)
         {
-            if (!player.GetComponent<PlayerMovement>().isDead)
+            if (!player.GetComponent<PlayerCombat>().isDead)
             {
-                player.GetComponent<PlayerMovement>().TakeDamage(Damage*2);
+                player.GetComponent<PlayerCombat>().TakeDamage(Damage*2);
             }
         }
     }
@@ -259,9 +259,9 @@ public class Enemy : MonoBehaviour
         }
         foreach (Collider2D player in hitEnemies)
         {
-            if (!player.GetComponent<PlayerMovement>().isDead)
+            if (!player.GetComponent<PlayerCombat>().isDead)
             {
-                player.GetComponent<PlayerMovement>().TakeDamage(Damage);
+                player.GetComponent<PlayerCombat>().TakeDamage(Damage);
 
             }
         }
