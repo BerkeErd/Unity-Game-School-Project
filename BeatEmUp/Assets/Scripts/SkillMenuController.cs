@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class SkillMenuController : MonoBehaviour
 {
@@ -58,7 +59,8 @@ public class SkillMenuController : MonoBehaviour
         LckMinus.onClick.AddListener(ChangeMinusLck);
 
         ApplyButton.onClick.AddListener(ChangeSkillValue);
-
+        MainMenu.onClick.AddListener(LoadMainMenu);
+        ContinueButton.onClick.AddListener(LoadContinue);
         skillBar();
 
 
@@ -248,8 +250,6 @@ public class SkillMenuController : MonoBehaviour
         }
     }
 
-
-
     public void ChangeSkillValue()
     {
         skills.str += TempStr;
@@ -267,6 +267,16 @@ public class SkillMenuController : MonoBehaviour
         skillBar();
 
         skills.save();
+    }
+
+
+    public void LoadMainMenu()
+    {
+        SceneManager.LoadScene("MainMenu");
+    }
+    public void LoadContinue()
+    {
+
     }
 
     //+ Butonuna basıldığında + Butonu hangi özelliğe denk geliyorsa o 1 artacak ve Image'ı da 1 kare yükselecek ve - Butonu oluşacak. Playerın özelliği de 1 artacak fakat tik butonuna basılmadığı sürece save edilmeyecek.

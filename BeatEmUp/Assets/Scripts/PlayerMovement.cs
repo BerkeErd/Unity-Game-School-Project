@@ -46,8 +46,6 @@ public class PlayerMovement : MonoBehaviour
 
     public Skills skills;
      
-
-
     
     public float maxYpos = -2.21f;
     public float minYpos = -4.90f;
@@ -62,6 +60,8 @@ public class PlayerMovement : MonoBehaviour
 
     public int punchDamage = 10;
     public int kickDamage = 20;
+
+    
 
     private void Awake()
     {
@@ -395,4 +395,6 @@ public class PlayerMovement : MonoBehaviour
             transform.localScale = scale;
         }
     }
+
+    
 }

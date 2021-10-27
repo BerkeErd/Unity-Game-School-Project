@@ -18,8 +18,8 @@ public class Joystick : MonoBehaviour
     private void Start()
     {
         player = GameObject.Find("Fighter").transform;
-        circle = GameObject.Find("PS4_Left_Stick").transform;
-        outerCircle = GameObject.Find("XboxSeriesX_Dpad").transform;
+        circle = GameObject.Find("Dot").transform;
+        outerCircle = GameObject.Find("Circle").transform;
 }
     // Update is called once per frame
     void Update()
