@@ -11,18 +11,25 @@ public class Skills : MonoBehaviour
     public int lck=0; //luck
     public int skillpoints = 0;
 
-    void Start()
-    {
-        //save dosyasından yetenekler çekilecek
-    }
+ 
     public void save()
     {
-
+        SaveSystem.SavePlayerSkills(this);
     }
 
     public void load()
     {
-
+        
+       PlayerData data = SaveSystem.LoadPlayerSkills();
+        if(data != null)
+        {
+            str = data.Str;
+            agi = data.Agi;
+            sta = data.Sta;
+            lck = data.Lck;
+            skillpoints = data.SkillPoint;
+        }
+        
     }
 
 }
