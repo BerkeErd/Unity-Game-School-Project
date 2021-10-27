@@ -131,15 +131,23 @@ public class Enemy : MonoBehaviour
         float playerLuck = GameObject.Find("Fighter").GetComponent<Skills>().luckRatio;
         float dice = Random.Range(0, 100);
 
-        dice = dice * playerLuck; // Değiştirilebilir
+        
 
         foreach (var loot in Loots)
         {
-            if(dice>100-loot.DropRate)
+            if(dice>=100-(loot.DropRate*playerLuck))
             {
                 Debug.Log("Loot düştü : " + loot.name);
                 //Oluşma sesi
-                Instantiate(Resources.Load("Prefabs/Loots/Watermelon Loot"),transform.position,Quaternion.identity);
+                switch (loot.name)
+                {
+                    case "Watermelon Loot":
+                        Instantiate(Resources.Load("Prefabs/Loots/Watermelon Loot"), transform.position, Quaternion.identity);
+                        break;
+                    default:
+                        break;
+                }
+                
             }
         }
 

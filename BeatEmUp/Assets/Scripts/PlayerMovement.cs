@@ -67,6 +67,7 @@ public class PlayerMovement : MonoBehaviour
     {
         animator = GetComponent<Animator>();
         skills = GetComponent<Skills>();
+        skills.load();
     }
 
     private void Start()
@@ -91,7 +92,7 @@ public class PlayerMovement : MonoBehaviour
 
         
 
-        animator.SetFloat("AttackSpeed", 1 + skills.agiRatio*10);
+        animator.SetFloat("AttackSpeed", 1 + skills.agiRatio*5);
 
     }
     // Update is called once per frame
