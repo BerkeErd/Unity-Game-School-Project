@@ -10,7 +10,7 @@ public class Skills : MonoBehaviour
     public int sta=0; //stamina
     public float lck=0; //luck
     public int skillpoints = 0;
-
+    
 
     public int BasepunchDamage = 10;
     public int BasekickDamage = 20;
