@@ -5,8 +5,8 @@ using UnityEngine;
 [System.Serializable]
 public class PlayerData
 {
-    public int Str, Sta, Lck, SkillPoint;
-    public float Agi;
+    public int Str, Sta, SkillPoint;
+    public float Agi,Lck;
     // Level ?
 
     public PlayerData(Skills skills)

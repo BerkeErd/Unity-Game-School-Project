@@ -58,8 +58,8 @@ public class PlayerMovement : MonoBehaviour
 
     public LayerMask enemyLayers;
 
-    public int punchDamage = 10;
-    public int kickDamage = 20;
+    public int punchDamage;
+    public int kickDamage;
 
     
 
@@ -76,22 +76,22 @@ public class PlayerMovement : MonoBehaviour
         AudioSource = GetComponent<AudioSource>();
         soundmanager = GameObject.Find("SoundManager").GetComponent<SoundManager>();
 
-        maxHealth += skills.sta * 10;
+        maxHealth += skills.extraHealth;
         currentHealth = maxHealth;
 
         UpdatehealthBar();
 
-        defaultComboTimer = 0.4f - skills.agi / 100;
+        defaultComboTimer = 0.4f - skills.agiRatio;
 
         currentComboTimer = defaultComboTimer;
         currentComboState = ComboState.NONE;
 
-        punchDamage = punchDamage + skills.str + skills.str / 10;
-        kickDamage = kickDamage + skills.str + skills.str /10;
+        punchDamage = skills.punchDamage;
+        kickDamage = skills.kickDamage;
 
         
 
-        animator.SetFloat("AttackSpeed", 1 + skills.agi / 10);
+        animator.SetFloat("AttackSpeed", 1 + skills.agiRatio*10);
 
     }
     // Update is called once per frame

@@ -246,7 +246,7 @@ GameObject:
   - component: {fileID: 2332364}
   - component: {fileID: 2332363}
   m_Layer: 5
-  m_Name: Luck
+  m_Name: LuckRatioText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1472,7 +1472,7 @@ GameObject:
   - component: {fileID: 224826986}
   - component: {fileID: 224826985}
   m_Layer: 5
-  m_Name: AttackSpeed
+  m_Name: AttackSpeedText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1856,7 +1856,7 @@ GameObject:
   - component: {fileID: 351261597}
   - component: {fileID: 351261596}
   m_Layer: 5
-  m_Name: Text
+  m_Name: StatsText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2926,7 +2926,7 @@ GameObject:
   - component: {fileID: 613384172}
   - component: {fileID: 613384171}
   m_Layer: 5
-  m_Name: PunchDamage
+  m_Name: PunchDamageText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5774,7 +5774,7 @@ GameObject:
   - component: {fileID: 1347984436}
   - component: {fileID: 1347984435}
   m_Layer: 5
-  m_Name: KickDamage
+  m_Name: KickDamageText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6991,10 +6991,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   TempStr: 0
-  TempAgi: 0
   TempSta: 0
-  TempLck: 0
   TempSkillsPoints: 0
+  TempAgi: 0
+  TempLck: 0
   StrImages:
   - {fileID: 586269405}
   - {fileID: 1190756743}
@@ -7051,6 +7051,12 @@ MonoBehaviour:
   ApplyButton: {fileID: 0}
   ContinueButton: {fileID: 0}
   MainMenu: {fileID: 0}
+  StatsText: {fileID: 0}
+  HealthText: {fileID: 0}
+  PunchDamageText: {fileID: 0}
+  KickDamageText: {fileID: 0}
+  AttackSpeedText: {fileID: 0}
+  LuckText: {fileID: 0}
   skills: {fileID: 0}
 --- !u!4 &1552149907
 Transform:
@@ -7078,11 +7084,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e94a77f09f791fa48b32cc8eb2b3a110, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  str: 6
+  str: 5
   agi: 3
   sta: 7
-  lck: 1
+  lck: 2
   skillpoints: 10
+  BasepunchDamage: 10
+  BasekickDamage: 20
+  punchDamage: 10
+  kickDamage: 20
+  agiRatio: 0
+  extraHealth: 0
+  luckRatio: 0
+  strRatio: 0
 --- !u!1 &1563395914
 GameObject:
   m_ObjectHideFlags: 0
@@ -8581,7 +8595,7 @@ GameObject:
   - component: {fileID: 1869209459}
   - component: {fileID: 1869209458}
   m_Layer: 5
-  m_Name: Health
+  m_Name: HealthText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

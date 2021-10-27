@@ -7,9 +7,11 @@ using UnityEngine.SceneManagement;
 public class SkillMenuController : MonoBehaviour
 {
 
-    public int TempStr = 0, TempAgi = 0, TempSta = 0, TempLck = 0, TempSkillsPoints=0;
+    public int TempStr = 0,  TempSta = 0, TempSkillsPoints=0;
+    public float TempAgi = 0, TempLck = 0;
     public List<Image> StrImages, AgiImages, StaImages, LckImages; 
     public Button StrPlus, StrMinus, AgiPlus, AgiMinus, StaPlus, StaMinus, LckPlus, LckMinus, CancelButton, ApplyButton, ContinueButton, MainMenu;
+    public Text StatsText, HealthText, PunchDamageText, KickDamageText, AttackSpeedText, LuckText;
     public Skills skills;
 
     private void Awake()
@@ -27,7 +29,12 @@ public class SkillMenuController : MonoBehaviour
         LckPlus = GameObject.Find("Luck+").GetComponent<Button>();
         LckMinus = GameObject.Find("Luck-").GetComponent<Button>();
         MainMenu = GameObject.Find("MainMenu").GetComponent<Button>();
-        
+        StatsText = GameObject.Find("StatsText").GetComponent<Text>();
+        HealthText = GameObject.Find("HealthText").GetComponent<Text>();
+        PunchDamageText = GameObject.Find("PunchDamageText").GetComponent<Text>();
+        KickDamageText = GameObject.Find("KickDamageText").GetComponent<Text>();
+        AttackSpeedText = GameObject.Find("AttackSpeedText").GetComponent<Text>();
+        LuckText = GameObject.Find("LuckRatioText").GetComponent<Text>();
 
     }
 
@@ -35,10 +42,7 @@ public class SkillMenuController : MonoBehaviour
     {
         skills.load();
 
-
-
-
-        
+      
 
         TempSkillsPoints = skills.skillpoints;
 
@@ -61,12 +65,53 @@ public class SkillMenuController : MonoBehaviour
 
     }
 
+    void ShowStatsTexts()
+    {
+        int Maxhealth = skills.extraHealth + 100;
+
+        StatsText.text = "Stat Points : " + skills.skillpoints;
+        HealthText.text = "Health : " + Maxhealth;
+        PunchDamageText.text = "Punch Damage : " + skills.punchDamage;
+        KickDamageText.text = "Kick Damage : " + skills.kickDamage;
+        AttackSpeedText.text = "Attack Speed : " + skills.agiRatio;
+        LuckText.text = "Luck : " + skills.luckRatio;
+
+        if(skills.skillpoints > TempSkillsPoints)
+        {
+            StatsText.text = "Stat Points : " + TempSkillsPoints + "<color=red>"+-(skills.skillpoints-TempSkillsPoints)+"</color>";
+        }
+
+        if (TempStr > 0)
+        {
+            PunchDamageText.text = "Punch Damage : " + skills.punchDamage + "<color=green>" + "+" + (TempStr + TempStr/10) + "</color>";
+            KickDamageText.text = "Kick Damage : " + skills.kickDamage + "<color=green>" + "+"    + (TempStr + TempStr/10) + "</color>";
+        }
+
+        if (TempAgi > 0)
+        {
+            AttackSpeedText.text = "Attack Speed : " + skills.agiRatio + "<color=green>" + "+" + (TempAgi/100) + "</color>";           
+        }
+
+        if (TempSta > 0)
+        {
+            HealthText.text = "Health : " + Maxhealth + "<color=green>" + "+" + (TempSta * 10) + "</color>";          
+        }
+
+        if (TempLck > 0)
+        {
+            LuckText.text = "Luck : " + skills.luckRatio + "<color=green>" + "+" + (TempLck/5) + "</color>";          
+        }
+
+    }
+
+  
 
     void skillBar()
     {
-        
+        ShowStatsTexts();
         MinusButton();
         PlusButton();
+        
 
         for (int i = 0; i < 10; i++)
         {
@@ -108,6 +153,8 @@ public class SkillMenuController : MonoBehaviour
                 LckImages[i].GetComponent<Image>().enabled = false;
             }
         }
+
+      
     }
 
     void otherButtons()
@@ -277,9 +324,10 @@ public class SkillMenuController : MonoBehaviour
 
         skills.skillpoints = TempSkillsPoints;
 
-        skillBar();
+        
 
         skills.save();
+        skillBar();
     }
 
 

@@ -128,10 +128,10 @@ public class Enemy : MonoBehaviour
 
     public void LootDrop()
     {
-        int playerLuck = GameObject.Find("Fighter").GetComponent<Skills>().lck;
-        int dice = Random.Range(0, 101);
+        float playerLuck = GameObject.Find("Fighter").GetComponent<Skills>().luckRatio;
+        float dice = Random.Range(0, 100);
 
-        dice = dice + playerLuck * 5; // Değiştirilebilir
+        dice = dice * playerLuck; // Değiştirilebilir
 
         foreach (var loot in Loots)
         {
