@@ -78,7 +78,7 @@ public class SkillMenuController : MonoBehaviour
 
         if(skills.skillpoints > TempSkillsPoints)
         {
-            StatsText.text = "Stat Points : " + TempSkillsPoints + "<color=red>"+-(skills.skillpoints-TempSkillsPoints)+"</color>";
+            StatsText.text = "Stat Points : " + skills.skillpoints + "<color=red>"+-(skills.skillpoints-TempSkillsPoints)+"</color>";
         }
 
         if (TempStr > 0)

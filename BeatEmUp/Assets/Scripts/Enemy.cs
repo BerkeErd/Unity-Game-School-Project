@@ -103,6 +103,8 @@ public class Enemy : MonoBehaviour
 
         float pushPower = (float)damage / 200 * 7;
 
+        hits(damage);
+
         if (facingRight && !isKnockedUp)
         {
             transform.position = new Vector2(transform.position.x - pushPower, transform.position.y);
@@ -121,7 +123,7 @@ public class Enemy : MonoBehaviour
             
         }
         healthBar.SetHealth(currentHealth);
-        hits(damage);
+        
 
     }
 

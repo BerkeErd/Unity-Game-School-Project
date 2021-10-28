@@ -8380,6 +8380,22 @@ PrefabInstance:
       propertyPath: Exp
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1324386088, guid: a8ea640fb899cdf44a99e9b4ad6fe8e4, type: 3}
+      propertyPath: str
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1324386088, guid: a8ea640fb899cdf44a99e9b4ad6fe8e4, type: 3}
+      propertyPath: agi
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1324386088, guid: a8ea640fb899cdf44a99e9b4ad6fe8e4, type: 3}
+      propertyPath: sta
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1324386088, guid: a8ea640fb899cdf44a99e9b4ad6fe8e4, type: 3}
+      propertyPath: lck
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1783236127326492769, guid: a8ea640fb899cdf44a99e9b4ad6fe8e4,
         type: 3}
       propertyPath: m_LocalPosition.x
