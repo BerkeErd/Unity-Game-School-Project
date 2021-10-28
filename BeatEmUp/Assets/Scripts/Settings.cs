@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 
 public class Settings : MonoBehaviour
 {
-    public Button SoundButton, MainMenuButton, QuitButton, PlayButton;
+    public Button SoundButton, MainMenuButton;
     public GameObject MuteImage;
     public GameObject UnMuteImage;
     public bool Sound;
@@ -20,9 +20,6 @@ public class Settings : MonoBehaviour
 
         SoundButton.onClick.AddListener(ChangeButtonImage);
         MainMenuButton.onClick.AddListener(LoadMainMenu);
-        PlayButton.onClick.AddListener(LoadNextLevel);
-        QuitButton.onClick.AddListener(Quit);
-
         Volume.onValueChanged.AddListener(delegate { SliderValue(); });
         
     }
@@ -59,13 +56,4 @@ public class Settings : MonoBehaviour
         SceneManager.LoadScene("MainMenu");
     }
 
-    public void LoadNextLevel()
-    {
-        
-    }
-
-    public void Quit()
-    {
-        Application.Quit();
-    }
 }
