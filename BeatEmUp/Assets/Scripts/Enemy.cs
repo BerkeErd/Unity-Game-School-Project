@@ -25,6 +25,7 @@ public class Enemy : MonoBehaviour
     private SoundManager soundmanager;
     private HealthBar healthBar;
     private GameObject HealthBarObject;
+    private HitText HitText;
     private GameObject HitsObject;
 
     private AudioSource AudioSource;
@@ -65,9 +66,7 @@ public class Enemy : MonoBehaviour
         levelEnemyChecker = GameObject.Find("LevelEnemyChecker").GetComponent<LevelEnemyChecker>();
         levelManager = GameObject.Find("LevelManager").GetComponent<LevelManager>();
 
-        HitsObject = Instantiate(Resources.Load("Prefabs/Hit")) as GameObject;
-        HitsObject.transform.parent = GameObject.Find("LevelCanvas").GetComponent<Canvas>().transform;
-        HitsObject.transform.localScale = new Vector3(1, 1, 1);
+       
 
 
         HealthBarObject = Instantiate(Resources.Load("Prefabs/HealthBar")) as GameObject;
@@ -179,14 +178,11 @@ public class Enemy : MonoBehaviour
         isDead = true;
         
         animator.SetBool("IsDead", isDead);
-        Destroy(HitsObject);
+        
     }
     // Update is called once per frame
     void Update()   
     {
-        HitsObject.transform.position = new Vector2(transform.position.x, transform.position.y + 4f);
-        //HitsObject.transform.position = new Vector2 (HitsObject.transform.position.x ,Mathf.MoveTowards(HitsObject.transform.position.y, HitsObject.transform.position.y + 10, 10 * Time.fixedDeltaTime));
-
         healthBar.transform.position = new Vector2(transform.position.x, transform.position.y + 3.2f);
 
         if (transform.position.x < target.transform.position.x && !facingRight)
@@ -390,7 +386,17 @@ public class Enemy : MonoBehaviour
 
     public void hits(int damage)
     {
+        HitsObject = Instantiate(Resources.Load("Prefabs/Hit")) as GameObject;
+        HitsObject.transform.parent = GameObject.Find("LevelCanvas").GetComponent<Canvas>().transform;
+        HitsObject.transform.localScale = new Vector3(1, 1, 1);
+        HitsObject.transform.position = new Vector2(transform.position.x, transform.position.y + 4f);
         HitsObject.GetComponentInChildren<Text>().text = "-" + damage;
+
+        HitText = HitsObject.GetComponent<HitText>();
+        
+
     }
+
+    
 
 }

@@ -12,21 +12,28 @@ public class LevelManager : MonoBehaviour
 
     private void Start()
     {
-        Level = SceneManager.GetActiveScene().buildIndex;
-        // save dosyasından level çekilecek
+        Level = GameObject.Find("Fighter").GetComponent<Skills>().currentStageLevel; // Saçma ama öyle 
+       
 
 
         LevelName = SceneManager.GetActiveScene().name;
         if(GameObject.Find("LevelName"))
         {
             LevelNameText = GameObject.Find("LevelName").GetComponent<Text>();
-            LevelNameText.text = LevelName;
+            LevelNameText.text = "Level " + Level;
         }
-       
+        
+
+    }
+
+    public void LevelEnded()
+    {
+        
     }
 
     public void LoadNextLevel()
     {
+        
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
 

@@ -15,6 +15,7 @@ public class Skills : MonoBehaviour
     public int Gold;
     public int Exp;
     public int PlayerLevel;
+    public int currentStageLevel;
 
     public int BasepunchDamage = 10;
     public int BasekickDamage = 20;
@@ -27,8 +28,9 @@ public class Skills : MonoBehaviour
     public float luckRatio;
     public float strRatio;
 
+
     
-   
+
     public int changeSpeed;
 
     public LevelManager levelManager;
@@ -73,6 +75,7 @@ public class Skills : MonoBehaviour
             Exp = data.Exp;
             Gold = data.Gold;
             PlayerLevel = data.PlayerLevel;
+            currentStageLevel = data.currentStageLevel;
         }
         else
         {
@@ -93,6 +96,7 @@ public class Skills : MonoBehaviour
         Exp = 0;
         Gold = 0;
         PlayerLevel = 0;
+        currentStageLevel = 1;
 
         save();
         Debug.Log("Yeni Oyuncu Kaydedildi");
