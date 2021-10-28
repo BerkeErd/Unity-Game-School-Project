@@ -86,6 +86,9 @@ public class Skills : MonoBehaviour
     }
     public void FixedUpdate()
     {
-        ExpBar.value = Mathf.MoveTowards(ExpBar.value, Exp, changeSpeed * Time.fixedDeltaTime);
+        if(Exp>0 && Exp<=100)
+        {
+            ExpBar.value = Mathf.MoveTowards(ExpBar.value, Exp, changeSpeed * Time.fixedDeltaTime);
+        }    
     }
 }
