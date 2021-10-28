@@ -2,6 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 using Random = UnityEngine.Random;
 
 public class Enemy : MonoBehaviour
@@ -24,6 +25,7 @@ public class Enemy : MonoBehaviour
     private SoundManager soundmanager;
     private HealthBar healthBar;
     private GameObject HealthBarObject;
+    private GameObject HitsObject;
 
     private AudioSource AudioSource;
     public bool isDead = false;
@@ -60,8 +62,13 @@ public class Enemy : MonoBehaviour
 
     private void Awake()
     {
-        levelEnemyChecker = GameObject.Find("LevelEnemychecker").GetComponent<LevelEnemyChecker>();
+        levelEnemyChecker = GameObject.Find("LevelEnemyChecker").GetComponent<LevelEnemyChecker>();
         levelManager = GameObject.Find("LevelManager").GetComponent<LevelManager>();
+
+        HitsObject = Instantiate(Resources.Load("Prefabs/Hit")) as GameObject;
+        HitsObject.transform.parent = GameObject.Find("LevelCanvas").GetComponent<Canvas>().transform;
+        HitsObject.transform.localScale = new Vector3(1, 1, 1);
+
 
         HealthBarObject = Instantiate(Resources.Load("Prefabs/HealthBar")) as GameObject;
         HealthBarObject.transform.parent = GameObject.Find("LevelCanvas").GetComponent<Canvas>().transform;
@@ -114,6 +121,7 @@ public class Enemy : MonoBehaviour
             skills.GainExp();
         }
         healthBar.SetHealth(currentHealth);
+        hits(damage);
 
     }
 
@@ -374,6 +382,12 @@ public class Enemy : MonoBehaviour
             scale.x *= -1;
             transform.localScale = scale;
        
+    }
+
+    public void hits(int damage)
+    {
+        HitsObject.transform.position = new Vector2(transform.position.x, transform.position.y + 4f);
+        HitsObject.GetComponentInChildren<Text>().text = damage.ToString();
     }
 
 }
