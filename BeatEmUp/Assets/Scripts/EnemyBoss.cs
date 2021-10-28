@@ -8,6 +8,7 @@ using Random = UnityEngine.Random;
 public class EnemyBoss : MonoBehaviour
 
 {
+    public List<Loot> Loots;
     bool facingRight;
     public int Damage = 40;
     public int maxHealth = 1000;
@@ -28,6 +29,7 @@ public class EnemyBoss : MonoBehaviour
     public bool isAwaken = false; 
     public bool attackStarted = false;
 
+    public int EXP;
     public float speed;
     public float chaseDistance;
 
@@ -108,17 +110,44 @@ public class EnemyBoss : MonoBehaviour
     public void Destroy()
     {
         levelEnemyChecker.EnemyCount -= 1;
+        target.GetComponent<PlayerCombat>().GainExp(EXP);
+        LootDrop();
         Destroy(HealthBarObject);
         Destroy(gameObject);
     }
-
 
     void Die()
     {
         isDead = true;
         animator.SetBool("IsDead", isDead);
         StopAllCoroutines();
-       
+
+    }
+
+    public void LootDrop()
+    {
+        float playerLuck = GameObject.Find("Fighter").GetComponent<Skills>().luckRatio;
+        float dice = Random.Range(0, 100);
+
+
+
+        foreach (var loot in Loots)
+        {
+            Debug.Log("Loot düştü : " + loot.name);
+            if (dice >= 100 - (loot.DropRate * playerLuck))
+            {
+                if (loot.ID == 1)
+                {
+                    Instantiate(Resources.Load("Prefabs/Loots/Watermelon Loot"), transform.position, Quaternion.identity);
+                }
+
+                else if (loot.ID == 2)
+                {
+                    transform.position = new Vector3(transform.position.x + 1, transform.position.y, transform.position.z);
+                    Instantiate(Resources.Load("Prefabs/Loots/Gold Loot"), transform.position, Quaternion.identity);
+                }
+            }
+        }
 
     }
     // Update is called once per frame

@@ -118,7 +118,7 @@ public class Enemy : MonoBehaviour
         if(currentHealth <= 0 )
         {
             Die();
-            target.GetComponent<PlayerCombat>().GainExp(EXP);
+            
         }
         healthBar.SetHealth(currentHealth);
         hits(damage);
@@ -167,6 +167,7 @@ public class Enemy : MonoBehaviour
 
     public void Destroy()
     {
+        target.GetComponent<PlayerCombat>().GainExp(EXP);
         levelEnemyChecker.EnemyCount -= 1;
         LootDrop();
         Destroy(HealthBarObject);

@@ -6,7 +6,7 @@ using UnityEngine.UI;
 
 public class LevelManager : MonoBehaviour
 {
-    public int Level;
+    public int Level = 1;
     public string LevelName;
     public Text LevelNameText;
 
@@ -33,8 +33,16 @@ public class LevelManager : MonoBehaviour
 
     public void LoadNextLevel()
     {
+        Level++;
         
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        if(Level == 11 || Level == 21 || Level == 31)
+        {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        }
+        else
+        {
+            ReloadScene();
+        }
     }
 
     public void LoadTestMap()
