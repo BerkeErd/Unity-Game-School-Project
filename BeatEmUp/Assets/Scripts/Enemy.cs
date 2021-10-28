@@ -170,6 +170,7 @@ public class Enemy : MonoBehaviour
         levelEnemyChecker.EnemyCount -= 1;
         LootDrop();
         Destroy(HealthBarObject);
+        Destroy(HitsObject);
         Destroy(gameObject);
     }
 
