@@ -5,12 +5,16 @@ using UnityEngine;
 [System.Serializable]
 public class PlayerData
 {
-    public int Str, Sta, SkillPoint;
+    public int Str, Sta, SkillPoint, Gold, Exp, PlayerLevel;
+
     public float Agi,Lck;
     // Level ?
 
     public PlayerData(Skills skills)
     {
+        PlayerLevel = skills.PlayerLevel;
+        Exp = skills.Exp;
+        Gold = skills.Gold;
         Str = skills.str;
         Agi = skills.agi;
         Sta = skills.sta;
