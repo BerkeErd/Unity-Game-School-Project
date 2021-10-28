@@ -40,8 +40,7 @@ public class HealthBar : MonoBehaviour
 
     public void BossHealth()
     {
-        transform.localScale *= 3;
-        
+        transform.localScale *= 3;   
     }
 
     public void FixedUpdate()

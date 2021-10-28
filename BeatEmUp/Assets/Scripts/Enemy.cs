@@ -179,15 +179,21 @@ public class Enemy : MonoBehaviour
         isDead = true;
         
         animator.SetBool("IsDead", isDead);
+        Destroy(HitsObject);
     }
     // Update is called once per frame
-    void Update()
+    void Update()   
     {
+        HitsObject.transform.position = new Vector2(transform.position.x, transform.position.y + 4f);
+        //HitsObject.transform.position = new Vector2 (HitsObject.transform.position.x ,Mathf.MoveTowards(HitsObject.transform.position.y, HitsObject.transform.position.y + 10, 10 * Time.fixedDeltaTime));
+
         healthBar.transform.position = new Vector2(transform.position.x, transform.position.y + 3.2f);
+
         if (transform.position.x < target.transform.position.x && !facingRight)
         {
             Flip();
         }
+
         else if (transform.position.x > target.transform.position.x && facingRight)
         {
             Flip();
@@ -219,9 +225,7 @@ public class Enemy : MonoBehaviour
             {
                 //Bi şey yapma
             }
-        }
-
-        
+        }   
     }
 
     private void Attack1()
@@ -386,8 +390,7 @@ public class Enemy : MonoBehaviour
 
     public void hits(int damage)
     {
-        HitsObject.transform.position = new Vector2(transform.position.x, transform.position.y + 4f);
-        HitsObject.GetComponentInChildren<Text>().text = damage.ToString();
+        HitsObject.GetComponentInChildren<Text>().text = "-" + damage;
     }
 
 }

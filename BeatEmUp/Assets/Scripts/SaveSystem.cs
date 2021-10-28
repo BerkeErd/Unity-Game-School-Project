@@ -4,7 +4,6 @@ using System.Runtime.Serialization.Formatters.Binary;
 
 public static class SaveSystem
 {
-
     public static void SavePlayerSkills(Skills skills)
     {
         BinaryFormatter formatter = new BinaryFormatter();
@@ -17,8 +16,6 @@ public static class SaveSystem
         formatter.Serialize(stream, data);
         stream.Close();
     }
-
-
     public static PlayerData LoadPlayerSkills()
     {
         string path = Application.persistentDataPath + "/player.stats";
