@@ -391,5 +391,8 @@ MonoBehaviour:
   strRatio: 0
   Exp: 0
   PlayerLevel: 0
-  Enemy: {fileID: 0}
+  changeSpeed: 0
   levelManager: {fileID: 0}
+  LevelText: {fileID: 0}
+  ExpBar: {fileID: 0}
+  Gold: 0
