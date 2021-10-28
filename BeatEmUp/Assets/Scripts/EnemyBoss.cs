@@ -46,7 +46,7 @@ public class EnemyBoss : MonoBehaviour
 
     private void Awake()
     {
-        levelEnemyChecker = GameObject.Find("LevelEnemychecker").GetComponent<LevelEnemyChecker>();
+        levelEnemyChecker = GameObject.Find("LevelEnemyChecker").GetComponent<LevelEnemyChecker>();
         target = GameObject.Find("Fighter");
         HealthBarObject = Instantiate(Resources.Load("Prefabs/HealthBar")) as GameObject;
         HealthBarObject.transform.parent = GameObject.Find("LevelCanvas").GetComponent<Canvas>().transform;
