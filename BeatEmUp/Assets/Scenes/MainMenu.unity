@@ -1339,7 +1339,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 7968796489425058545}
-        m_MethodName: LoadNextLevel
+        m_MethodName: PlayCurrentLevel
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

@@ -109,7 +109,7 @@ public class EnemyBoss : MonoBehaviour
 
     public void Destroy()
     {
-        levelEnemyChecker.EnemyCount -= 1;
+        levelEnemyChecker.EnemyDied();
         target.GetComponent<PlayerCombat>().GainExp(EXP);
         LootDrop();
         Destroy(HealthBarObject);

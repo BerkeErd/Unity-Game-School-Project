@@ -17,7 +17,7 @@ public class LevelEnemyChecker : MonoBehaviour
         NextLevelMenu = GameObject.Find("NextLevelMenu");
         levelmanager = GameObject.Find("LevelManager").GetComponent<LevelManager>();
 
-       
+        NextLevelMenu.SetActive(false);
     }
 
     public void CountEnemies()
@@ -35,7 +35,7 @@ public class LevelEnemyChecker : MonoBehaviour
         EnemiesNeedToKill = EnemyCount;
     }
 
-   public void CheckLevelEnd()
+   private void CheckLevelEnd()
     {
 
         if(EnemyCount <= 0)
@@ -45,5 +45,11 @@ public class LevelEnemyChecker : MonoBehaviour
             
         }
 
+    }
+
+    public void EnemyDied()
+    {
+        EnemyCount--;
+        CheckLevelEnd();
     }
 }

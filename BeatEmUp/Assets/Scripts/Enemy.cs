@@ -147,18 +147,19 @@ public class Enemy : MonoBehaviour
 
         foreach (var loot in Loots)
         {
-                Debug.Log("Loot düştü : " + loot.name);
+                
             if (dice >= 100 - (loot.DropRate * playerLuck))
             {
                 if (loot.ID == 1)
                 {
+                    Debug.Log("Loot düştü : " + loot.name);
                     Instantiate(Resources.Load("Prefabs/Loots/Watermelon Loot"), transform.position, Quaternion.identity);
                 }
 
                 else if (loot.ID == 2)
                 {
-                    transform.position = new Vector3(transform.position.x + 1, transform.position.y, transform.position.z);
-                    Instantiate(Resources.Load("Prefabs/Loots/Gold Loot"), transform.position, Quaternion.identity);
+                    Debug.Log("Loot düştü : " + loot.name);
+                    Instantiate(Resources.Load("Prefabs/Loots/Gold Loot"), new Vector3(transform.position.x + 1, transform.position.y, transform.position.z), Quaternion.identity);
                 }
             }
         }
@@ -168,7 +169,7 @@ public class Enemy : MonoBehaviour
     public void Destroy()
     {
         target.GetComponent<PlayerCombat>().GainExp(EXP);
-        levelEnemyChecker.EnemyCount -= 1;
+        levelEnemyChecker.EnemyDied();
         LootDrop();
         Destroy(HealthBarObject);
         Destroy(gameObject);

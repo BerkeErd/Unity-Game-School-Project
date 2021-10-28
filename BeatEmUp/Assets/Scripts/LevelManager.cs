@@ -6,7 +6,7 @@ using UnityEngine.UI;
 
 public class LevelManager : MonoBehaviour
 {
-    public int Level = 1;
+    public int Level;
     public string LevelName;
     public Text LevelNameText;
 
@@ -26,23 +26,18 @@ public class LevelManager : MonoBehaviour
 
     }
 
-    public void LevelEnded()
+    public void PlayCurrentLevel()
     {
-        
+        if(Level < 11)
+        {
+            SceneManager.LoadScene("LEVEL 01");
+        }
     }
 
     public void LoadNextLevel()
     {
-        Level++;
-        
-        if(Level == 11 || Level == 21 || Level == 31)
-        {
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
-        }
-        else
-        {
-            ReloadScene();
-        }
+        //LEVEL 1 ARTMALI
+        PlayCurrentLevel();
     }
 
     public void LoadTestMap()
