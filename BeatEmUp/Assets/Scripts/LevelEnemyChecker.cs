@@ -14,6 +14,11 @@ public class LevelEnemyChecker : MonoBehaviour
     {
         levelmanager = GameObject.Find("LevelManager").GetComponent<LevelManager>();
 
+       
+    }
+
+    public void CountEnemies()
+    {
         foreach (var Enemy in GameObject.FindGameObjectsWithTag("Enemy"))
         {
             EnemyCount += 1;
