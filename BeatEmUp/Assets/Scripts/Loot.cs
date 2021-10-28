@@ -10,18 +10,19 @@ public class Loot : MonoBehaviour
     public AudioClip CollectSound;
     public float DropRate;
     public int HealAmount = 0;
+    public int Gold = 0;
 
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
         PlayerCombat Player = GameObject.Find("Fighter").GetComponent<PlayerCombat>();
+        Skills skills = GameObject.Find("Fighter").GetComponent<Skills>();
 
         if (collision.gameObject.name == "Fighter")
         {
-
             Player.Heal(HealAmount);
+            skills.Gold += Gold;
             Destroy(gameObject);
-
         }
     }
    

@@ -1,6 +1,8 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
+using UnityEngine.EventSystems;
 
 public class Skills : MonoBehaviour
 {
@@ -23,9 +25,20 @@ public class Skills : MonoBehaviour
     public float luckRatio;
     public float strRatio;
 
+    public int Exp;
+    public int PlayerLevel;
+    public int changeSpeed;
+
+    public LevelManager levelManager;
+    public Text LevelText;
+    public Slider ExpBar;
+
+    public int Gold;
+
     private void Awake()
     {
         CalculateStats();
+        levelManager = GameObject.Find("LevelManager").GetComponent<LevelManager>();
     }
 
     private void CalculateStats()
@@ -60,4 +73,19 @@ public class Skills : MonoBehaviour
         CalculateStats();
     }
 
+    public void GainExp()
+    {
+        Exp += levelManager.Level * 5;
+        if (Exp >= 100)
+        {
+            PlayerLevel++;
+            skillpoints++;
+            Exp -= 100;
+        }
+        LevelText.text = "Level : " + PlayerLevel;
+    }
+    public void FixedUpdate()
+    {
+        ExpBar.value = Mathf.MoveTowards(ExpBar.value, Exp, changeSpeed * Time.fixedDeltaTime);
+    }
 }

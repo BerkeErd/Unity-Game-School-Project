@@ -389,3 +389,7 @@ MonoBehaviour:
   extraHealth: 0
   luckRatio: 0
   strRatio: 0
+  Exp: 0
+  PlayerLevel: 0
+  Enemy: {fileID: 0}
+  levelManager: {fileID: 0}

@@ -207,6 +207,7 @@ MonoBehaviour:
   targetDistanceY: 0
   AttackSpeedTime: 2
   levelManager: {fileID: 0}
+  skills: {fileID: 0}
 --- !u!61 &281741045
 BoxCollider2D:
   m_ObjectHideFlags: 0

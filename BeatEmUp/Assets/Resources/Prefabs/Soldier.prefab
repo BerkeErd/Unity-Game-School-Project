@@ -366,3 +366,4 @@ MonoBehaviour:
   targetDistanceY: 0
   AttackSpeedTime: 2
   levelManager: {fileID: 0}
+  skills: {fileID: 0}

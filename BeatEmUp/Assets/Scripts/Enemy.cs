@@ -52,19 +52,17 @@ public class Enemy : MonoBehaviour
     public float AttackSpeedTime = 2;
 
     public LevelManager levelManager;
+    public Skills skills;
 
 
     private void Awake()
     {
         levelManager = GameObject.Find("LevelManager").GetComponent<LevelManager>();
 
-       
-
         HealthBarObject = Instantiate(Resources.Load("Prefabs/HealthBar")) as GameObject;
         HealthBarObject.transform.parent = GameObject.Find("LevelCanvas").GetComponent<Canvas>().transform;
         HealthBarObject.transform.localScale =new Vector3(1,1,1);
         healthBar = HealthBarObject.GetComponent<HealthBar>();
-        
     }
     void Start()
     {
@@ -108,6 +106,8 @@ public class Enemy : MonoBehaviour
         if(currentHealth <= 0 )
         {
             Die();
+            skills = GameObject.Find("Fighter").GetComponent<Skills>();
+            skills.GainExp();
         }
         healthBar.SetHealth(currentHealth);
 
@@ -149,6 +149,8 @@ public class Enemy : MonoBehaviour
                 }
                 
             }
+            transform.position = new Vector3(transform.position.x + 1, transform.position.y, transform.position.z);
+            Instantiate(Resources.Load("Prefabs/Loots/Gold Loot"), transform.position, Quaternion.identity);
         }
 
     }
@@ -162,11 +164,9 @@ public class Enemy : MonoBehaviour
 
 
     void Die()
-    {
+    {  
         isDead = true;
         animator.SetBool("IsDead", isDead);
-        
-       
     }
     // Update is called once per frame
     void Update()
