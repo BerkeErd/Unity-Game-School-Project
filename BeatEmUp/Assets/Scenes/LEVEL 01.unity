@@ -8399,6 +8399,7 @@ MonoBehaviour:
   maxY: -2.21
   currentLevel: 1
   levelManager: {fileID: 0}
+  levelEnemyChecker: {fileID: 0}
 --- !u!4 &2044445354
 Transform:
   m_ObjectHideFlags: 0
@@ -8560,6 +8561,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6784840523387652793, guid: 38eed04c0b0b79b488e1eada3f35f418,
+        type: 3}
+      propertyPath: Punch1
+      value: 
+      objectReference: {fileID: 8300000, guid: 0e35e67aa1f2425448969d98ab5047f8, type: 3}
     - target: {fileID: 6784840523387652798, guid: 38eed04c0b0b79b488e1eada3f35f418,
         type: 3}
       propertyPath: m_Name
