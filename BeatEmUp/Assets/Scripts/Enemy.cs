@@ -58,6 +58,8 @@ public class Enemy : MonoBehaviour
     public LevelEnemyChecker levelEnemyChecker;
     public Skills skills;
 
+    public int EXP;
+
     public int EnemyCount;
 
 
@@ -116,8 +118,7 @@ public class Enemy : MonoBehaviour
         if(currentHealth <= 0 )
         {
             Die();
-            skills = GameObject.Find("Fighter").GetComponent<Skills>();
-            skills.GainExp();
+            target.GetComponent<PlayerCombat>().GainExp(EXP);
         }
         healthBar.SetHealth(currentHealth);
         hits(damage);

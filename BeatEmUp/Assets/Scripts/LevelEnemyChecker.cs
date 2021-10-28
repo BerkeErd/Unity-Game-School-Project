@@ -37,7 +37,8 @@ public class LevelEnemyChecker : MonoBehaviour
 
         if(EnemyCount <= 0)
         {
-            levelmanager.LevelEnded();
+            // Level sonu ekranı
+            levelmanager.LoadMainMenu();
         }
 
     }

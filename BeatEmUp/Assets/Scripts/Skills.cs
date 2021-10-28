@@ -31,18 +31,17 @@ public class Skills : MonoBehaviour
 
     
 
-    public int changeSpeed;
 
-    public LevelManager levelManager;
-    public Text LevelText;
-    public Slider ExpBar;
+  
+    
+    
 
     
 
     private void Awake()
     {
         CalculateStats();
-        levelManager = GameObject.Find("LevelManager").GetComponent<LevelManager>();
+        
     }
 
     private void CalculateStats()
@@ -95,29 +94,15 @@ public class Skills : MonoBehaviour
         skillpoints = 0;
         Exp = 0;
         Gold = 0;
-        PlayerLevel = 0;
+        PlayerLevel = 1;
         currentStageLevel = 1;
 
         save();
         Debug.Log("Yeni Oyuncu Kaydedildi");
     }
 
-    public void GainExp()
-    {
-        Exp += levelManager.Level * 5; // Enemy'de yazmalı
-        if (Exp >= 100)
-        {
-            PlayerLevel++;
-            skillpoints++;
-            Exp -= 100;
-        }
-        LevelText.text = "Level : " + PlayerLevel;
-    }
-    public void FixedUpdate()
-    {
-        if(Exp>0 && Exp<=100)
-        {
-            ExpBar.value = Mathf.MoveTowards(ExpBar.value, Exp, changeSpeed * Time.fixedDeltaTime);
-        }    
-    }
+   
+    
+
+    
 }

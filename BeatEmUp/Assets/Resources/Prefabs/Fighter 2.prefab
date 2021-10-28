@@ -208,7 +208,10 @@ MonoBehaviour:
   targetDistanceY: 0
   AttackSpeedTime: 2
   levelManager: {fileID: 0}
+  levelEnemyChecker: {fileID: 0}
   skills: {fileID: 0}
+  EXP: 5
+  EnemyCount: 0
 --- !u!61 &281741045
 BoxCollider2D:
   m_ObjectHideFlags: 0

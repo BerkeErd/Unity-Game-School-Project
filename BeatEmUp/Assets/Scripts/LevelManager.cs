@@ -12,7 +12,7 @@ public class LevelManager : MonoBehaviour
 
     private void Start()
     {
-        Level = GameObject.Find("Fighter").GetComponent<Skills>().currentStageLevel; // Saçma ama öyle 
+        //Level = GameObject.Find("Fighter").GetComponent<Skills>().currentStageLevel; // Saçma ama öyle 
        
 
 
