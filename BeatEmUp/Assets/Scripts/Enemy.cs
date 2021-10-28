@@ -54,6 +54,8 @@ public class Enemy : MonoBehaviour
     public LevelManager levelManager;
     public Skills skills;
 
+    public int EnemyCount;
+
 
     private void Awake()
     {
