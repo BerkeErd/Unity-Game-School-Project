@@ -35,8 +35,8 @@ public class EnemyBoss : MonoBehaviour
 
     public GameObject target;
 
-    
 
+    public LevelEnemyChecker levelEnemyChecker;
     public LayerMask playerLayer;
 
     Animator animator;
@@ -46,6 +46,7 @@ public class EnemyBoss : MonoBehaviour
 
     private void Awake()
     {
+        levelEnemyChecker = GameObject.Find("LevelEnemychecker").GetComponent<LevelEnemyChecker>();
         target = GameObject.Find("Fighter");
         HealthBarObject = Instantiate(Resources.Load("Prefabs/HealthBar")) as GameObject;
         HealthBarObject.transform.parent = GameObject.Find("LevelCanvas").GetComponent<Canvas>().transform;
@@ -103,6 +104,7 @@ public class EnemyBoss : MonoBehaviour
 
     public void Destroy()
     {
+        levelEnemyChecker.EnemyCount -= 1;
         Destroy(HealthBarObject);
         Destroy(gameObject);
     }
@@ -113,7 +115,7 @@ public class EnemyBoss : MonoBehaviour
         isDead = true;
         animator.SetBool("IsDead", isDead);
         StopAllCoroutines();
-
+       
 
     }
     // Update is called once per frame

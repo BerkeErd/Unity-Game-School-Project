@@ -52,6 +52,7 @@ public class Enemy : MonoBehaviour
     public float AttackSpeedTime = 2;
 
     public LevelManager levelManager;
+    public LevelEnemyChecker levelEnemyChecker;
     public Skills skills;
 
     public int EnemyCount;
@@ -59,6 +60,7 @@ public class Enemy : MonoBehaviour
 
     private void Awake()
     {
+        levelEnemyChecker = GameObject.Find("LevelEnemychecker").GetComponent<LevelEnemyChecker>();
         levelManager = GameObject.Find("LevelManager").GetComponent<LevelManager>();
 
         HealthBarObject = Instantiate(Resources.Load("Prefabs/HealthBar")) as GameObject;
@@ -157,6 +159,7 @@ public class Enemy : MonoBehaviour
 
     public void Destroy()
     {
+        levelEnemyChecker.EnemyCount -= 1;
         LootDrop();
         Destroy(HealthBarObject);
         Destroy(gameObject);
@@ -166,6 +169,7 @@ public class Enemy : MonoBehaviour
     void Die()
     {  
         isDead = true;
+        
         animator.SetBool("IsDead", isDead);
     }
     // Update is called once per frame
