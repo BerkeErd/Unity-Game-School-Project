@@ -56,7 +56,7 @@ public class Enemy : MonoBehaviour
 
     public LevelManager levelManager;
     public LevelEnemyChecker levelEnemyChecker;
-    public Skills skills;
+    
 
     public int EXP;
 

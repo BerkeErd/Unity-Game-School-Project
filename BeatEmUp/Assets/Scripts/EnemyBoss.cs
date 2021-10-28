@@ -2,6 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 using Random = UnityEngine.Random;
 
 public class EnemyBoss : MonoBehaviour
@@ -19,6 +20,8 @@ public class EnemyBoss : MonoBehaviour
     private SoundManager soundmanager;
     private HealthBar healthBar;
     private GameObject HealthBarObject;
+    private HitText HitText;
+    private GameObject HitsObject;
 
     private AudioSource AudioSource;
     public bool isDead = false;
@@ -91,7 +94,7 @@ public class EnemyBoss : MonoBehaviour
             Die();
         }
         healthBar.SetHealth(currentHealth);
-
+        hits(damage);
     }
 
 
@@ -311,6 +314,19 @@ public class EnemyBoss : MonoBehaviour
         Vector3 scale = transform.localScale;
         scale.x *= -1;
         transform.localScale = scale;
+
+    }
+
+    public void hits(int damage)
+    {
+        HitsObject = Instantiate(Resources.Load("Prefabs/Hit")) as GameObject;
+        HitsObject.transform.parent = GameObject.Find("LevelCanvas").GetComponent<Canvas>().transform;
+        HitsObject.transform.localScale = new Vector3(1, 1, 1);
+        HitsObject.transform.position = new Vector2(transform.position.x, transform.position.y + 4f);
+        HitsObject.GetComponentInChildren<Text>().text = "-" + damage;
+
+        HitText = HitsObject.GetComponent<HitText>();
+
 
     }
 
