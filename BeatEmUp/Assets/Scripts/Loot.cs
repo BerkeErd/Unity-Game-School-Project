@@ -20,8 +20,14 @@ public class Loot : MonoBehaviour
 
         if (collision.gameObject.name == "Fighter")
         {
-            Player.Heal(HealAmount);
-            skills.Gold += Gold;
+            if(Name=="Watermelon")
+            {
+                Player.Heal(HealAmount);
+            }
+            if(Name == "Gold")
+            {
+                skills.Gold += Gold;
+            }
             Destroy(gameObject);
         }
     }

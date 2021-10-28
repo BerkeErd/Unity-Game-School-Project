@@ -135,22 +135,20 @@ public class Enemy : MonoBehaviour
 
         foreach (var loot in Loots)
         {
-            if(dice>=100-(loot.DropRate*playerLuck))
-            {
                 Debug.Log("Loot düştü : " + loot.name);
-                //Oluşma sesi
-                switch (loot.name)
+            if (dice >= 100 - (loot.DropRate * playerLuck))
+            {
+                if (loot.ID == 1)
                 {
-                    case "Watermelon Loot":
-                        Instantiate(Resources.Load("Prefabs/Loots/Watermelon Loot"), transform.position, Quaternion.identity);
-                        break;
-                    default:
-                        break;
+                    Instantiate(Resources.Load("Prefabs/Loots/Watermelon Loot"), transform.position, Quaternion.identity);
                 }
-                
+
+                else if (loot.ID == 2)
+                {
+                    transform.position = new Vector3(transform.position.x + 1, transform.position.y, transform.position.z);
+                    Instantiate(Resources.Load("Prefabs/Loots/Gold Loot"), transform.position, Quaternion.identity);
+                }
             }
-            transform.position = new Vector3(transform.position.x + 1, transform.position.y, transform.position.z);
-            Instantiate(Resources.Load("Prefabs/Loots/Gold Loot"), transform.position, Quaternion.identity);
         }
 
     }
