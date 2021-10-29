@@ -706,8 +706,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   SoundButton: {fileID: 1082583205}
   MainMenuButton: {fileID: 2018971986}
-  QuitButton: {fileID: 0}
-  PlayButton: {fileID: 0}
   MuteImage: {fileID: 916069435}
   UnMuteImage: {fileID: 1716674987}
   Sound: 0
@@ -3884,7 +3882,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &2376294536671076332
 RectTransform:
   m_ObjectHideFlags: 0

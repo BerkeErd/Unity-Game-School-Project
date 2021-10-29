@@ -44,20 +44,27 @@ public class PlayerCombat : MonoBehaviour
 
     public bool isDead = false;
     
+    private int changeSpeed = 50;
 
     Animator animator;
     public Skills skills;
     public PlayerMovement PlayerMovement;
     public LayerMask enemyLayers;
+    public Slider ExpBar;
+    public Text LevelText;
+    public LevelManager levelManager;
 
     // Start is called before the first frame update
     private void Awake()
     {
+        LevelText = GameObject.Find("LevelText").GetComponent<Text>();
         animator = GetComponent<Animator>();
         PlayerMovement = GetComponent<PlayerMovement>();
         skills = GetComponent<Skills>();
         HealthText = GameObject.Find("HealthText").GetComponent<Text>();
         healthBar = GameObject.Find("FighterHealtbar").GetComponent<HealthBar>();
+        ExpBar = GameObject.Find("ExpBar").GetComponent<Slider>();
+        levelManager = GameObject.Find("LevelManager").GetComponent<LevelManager>();
         skills.load();
     }
     void Start()
@@ -68,7 +75,8 @@ public class PlayerCombat : MonoBehaviour
         kickDamage = skills.kickDamage;
         soundmanager = GameObject.Find("SoundManager").GetComponent<SoundManager>();
 
-       
+        ExpBar.maxValue = skills.PlayerLevel * 20;
+
         maxHealth += skills.extraHealth;
 
         currentHealth = maxHealth;
@@ -82,16 +90,26 @@ public class PlayerCombat : MonoBehaviour
 
         animator.SetFloat("AttackSpeed", 1 + skills.agiRatio * 5);
 
-        
+        LevelText.text = "Level : " + skills.PlayerLevel;
+
         UpdatehealthBar();
     }
 
     // Update is called once per frame
     void Update()
     {
+
+        
+
         ResetComboState();
     }
 
+    private void FixedUpdate()
+    {
+       
+            ExpBar.value = Mathf.MoveTowards(ExpBar.value, skills.Exp, changeSpeed * Time.fixedDeltaTime);
+        
+    }
 
     public void Kick()
     {
@@ -334,5 +352,16 @@ public class PlayerCombat : MonoBehaviour
 
     }
 
-
+    public void GainExp(int EnemyExp)
+    {
+        skills.Exp += EnemyExp + levelManager.Level * 5; 
+        if (skills.Exp >= skills.PlayerLevel * 20)
+        {
+            skills.PlayerLevel++;
+            skills.skillpoints++;
+            skills.Exp = 0;
+            ExpBar.maxValue = skills.PlayerLevel * 20;
+        }
+        LevelText.text = "Level : " + skills.PlayerLevel;
+    }
 }

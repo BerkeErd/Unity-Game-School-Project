@@ -7089,6 +7089,10 @@ MonoBehaviour:
   sta: 7
   lck: 2
   skillpoints: 10
+  Gold: 0
+  Exp: 1
+  PlayerLevel: 0
+  currentStageLevel: 0
   BasepunchDamage: 10
   BasekickDamage: 20
   punchDamage: 10
@@ -7097,6 +7101,9 @@ MonoBehaviour:
   extraHealth: 0
   luckRatio: 0
   strRatio: 0
+  levelManager: {fileID: 0}
+  LevelText: {fileID: 0}
+  ExpBar: {fileID: 0}
 --- !u!1 &1563395914
 GameObject:
   m_ObjectHideFlags: 0

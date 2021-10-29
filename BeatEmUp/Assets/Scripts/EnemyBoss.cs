@@ -2,11 +2,13 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 using Random = UnityEngine.Random;
 
 public class EnemyBoss : MonoBehaviour
 
 {
+    public List<Loot> Loots;
     bool facingRight;
     public int Damage = 40;
     public int maxHealth = 1000;
@@ -19,12 +21,15 @@ public class EnemyBoss : MonoBehaviour
     private SoundManager soundmanager;
     private HealthBar healthBar;
     private GameObject HealthBarObject;
+    private HitText HitText;
+    private GameObject HitsObject;
 
     private AudioSource AudioSource;
     public bool isDead = false;
     public bool isAwaken = false; 
     public bool attackStarted = false;
 
+    public int EXP;
     public float speed;
     public float chaseDistance;
 
@@ -91,7 +96,7 @@ public class EnemyBoss : MonoBehaviour
             Die();
         }
         healthBar.SetHealth(currentHealth);
-
+        hits(damage);
     }
 
 
@@ -104,18 +109,45 @@ public class EnemyBoss : MonoBehaviour
 
     public void Destroy()
     {
-        levelEnemyChecker.EnemyCount -= 1;
+        levelEnemyChecker.EnemyDied();
+        target.GetComponent<PlayerCombat>().GainExp(EXP);
+        LootDrop();
         Destroy(HealthBarObject);
         Destroy(gameObject);
     }
-
 
     void Die()
     {
         isDead = true;
         animator.SetBool("IsDead", isDead);
         StopAllCoroutines();
-       
+
+    }
+
+    public void LootDrop()
+    {
+        float playerLuck = GameObject.Find("Fighter").GetComponent<Skills>().luckRatio;
+        float dice = Random.Range(0, 100);
+
+
+
+        foreach (var loot in Loots)
+        {
+            Debug.Log("Loot düştü : " + loot.name);
+            if (dice >= 100 - (loot.DropRate * playerLuck))
+            {
+                if (loot.ID == 1)
+                {
+                    Instantiate(Resources.Load("Prefabs/Loots/Watermelon Loot"), transform.position, Quaternion.identity);
+                }
+
+                else if (loot.ID == 2)
+                {
+                    transform.position = new Vector3(transform.position.x + 1, transform.position.y, transform.position.z);
+                    Instantiate(Resources.Load("Prefabs/Loots/Gold Loot"), transform.position, Quaternion.identity);
+                }
+            }
+        }
 
     }
     // Update is called once per frame
@@ -311,6 +343,19 @@ public class EnemyBoss : MonoBehaviour
         Vector3 scale = transform.localScale;
         scale.x *= -1;
         transform.localScale = scale;
+
+    }
+
+    public void hits(int damage)
+    {
+        HitsObject = Instantiate(Resources.Load("Prefabs/Hit")) as GameObject;
+        HitsObject.transform.parent = GameObject.Find("LevelCanvas").GetComponent<Canvas>().transform;
+        HitsObject.transform.localScale = new Vector3(1, 1, 1);
+        HitsObject.transform.position = new Vector2(transform.position.x, transform.position.y + 4f);
+        HitsObject.GetComponentInChildren<Text>().text = "-" + damage;
+
+        HitText = HitsObject.GetComponent<HitText>();
+
 
     }
 

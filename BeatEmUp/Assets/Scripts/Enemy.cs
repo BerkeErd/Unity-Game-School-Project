@@ -25,6 +25,7 @@ public class Enemy : MonoBehaviour
     private SoundManager soundmanager;
     private HealthBar healthBar;
     private GameObject HealthBarObject;
+    private HitText HitText;
     private GameObject HitsObject;
 
     private AudioSource AudioSource;
@@ -55,7 +56,9 @@ public class Enemy : MonoBehaviour
 
     public LevelManager levelManager;
     public LevelEnemyChecker levelEnemyChecker;
-    public Skills skills;
+    
+
+    public int EXP;
 
     public int EnemyCount;
 
@@ -65,9 +68,7 @@ public class Enemy : MonoBehaviour
         levelEnemyChecker = GameObject.Find("LevelEnemyChecker").GetComponent<LevelEnemyChecker>();
         levelManager = GameObject.Find("LevelManager").GetComponent<LevelManager>();
 
-        HitsObject = Instantiate(Resources.Load("Prefabs/Hit")) as GameObject;
-        HitsObject.transform.parent = GameObject.Find("LevelCanvas").GetComponent<Canvas>().transform;
-        HitsObject.transform.localScale = new Vector3(1, 1, 1);
+       
 
 
         HealthBarObject = Instantiate(Resources.Load("Prefabs/HealthBar")) as GameObject;
@@ -102,6 +103,8 @@ public class Enemy : MonoBehaviour
 
         float pushPower = (float)damage / 200 * 7;
 
+        hits(damage);
+
         if (facingRight && !isKnockedUp)
         {
             transform.position = new Vector2(transform.position.x - pushPower, transform.position.y);
@@ -117,11 +120,10 @@ public class Enemy : MonoBehaviour
         if(currentHealth <= 0 )
         {
             Die();
-            skills = GameObject.Find("Fighter").GetComponent<Skills>();
-            skills.GainExp();
+            
         }
         healthBar.SetHealth(currentHealth);
-        hits(damage);
+        
 
     }
 
@@ -147,18 +149,19 @@ public class Enemy : MonoBehaviour
 
         foreach (var loot in Loots)
         {
-                Debug.Log("Loot düştü : " + loot.name);
+                
             if (dice >= 100 - (loot.DropRate * playerLuck))
             {
                 if (loot.ID == 1)
                 {
+                    Debug.Log("Loot düştü : " + loot.name);
                     Instantiate(Resources.Load("Prefabs/Loots/Watermelon Loot"), transform.position, Quaternion.identity);
                 }
 
                 else if (loot.ID == 2)
                 {
-                    transform.position = new Vector3(transform.position.x + 1, transform.position.y, transform.position.z);
-                    Instantiate(Resources.Load("Prefabs/Loots/Gold Loot"), transform.position, Quaternion.identity);
+                    Debug.Log("Loot düştü : " + loot.name);
+                    Instantiate(Resources.Load("Prefabs/Loots/Gold Loot"), new Vector3(transform.position.x + 1, transform.position.y, transform.position.z), Quaternion.identity);
                 }
             }
         }
@@ -167,7 +170,8 @@ public class Enemy : MonoBehaviour
 
     public void Destroy()
     {
-        levelEnemyChecker.EnemyCount -= 1;
+        target.GetComponent<PlayerCombat>().GainExp(EXP);
+        levelEnemyChecker.EnemyDied();
         LootDrop();
         Destroy(HealthBarObject);
         Destroy(HitsObject);
@@ -180,14 +184,11 @@ public class Enemy : MonoBehaviour
         isDead = true;
         
         animator.SetBool("IsDead", isDead);
-        Destroy(HitsObject);
+        
     }
     // Update is called once per frame
     void Update()   
     {
-        HitsObject.transform.position = new Vector2(transform.position.x, transform.position.y + 4f);
-        //HitsObject.transform.position = new Vector2 (HitsObject.transform.position.x ,Mathf.MoveTowards(HitsObject.transform.position.y, HitsObject.transform.position.y + 10, 10 * Time.fixedDeltaTime));
-
         healthBar.transform.position = new Vector2(transform.position.x, transform.position.y + 3.2f);
 
         if (transform.position.x < target.transform.position.x && !facingRight)
@@ -391,7 +392,17 @@ public class Enemy : MonoBehaviour
 
     public void hits(int damage)
     {
+        HitsObject = Instantiate(Resources.Load("Prefabs/Hit")) as GameObject;
+        HitsObject.transform.parent = GameObject.Find("LevelCanvas").GetComponent<Canvas>().transform;
+        HitsObject.transform.localScale = new Vector3(1, 1, 1);
+        HitsObject.transform.position = new Vector2(transform.position.x, transform.position.y + 4f);
         HitsObject.GetComponentInChildren<Text>().text = "-" + damage;
+
+        HitText = HitsObject.GetComponent<HitText>();
+        
+
     }
+
+    
 
 }

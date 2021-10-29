@@ -6,15 +6,18 @@ public class LevelEnemyChecker : MonoBehaviour
 {
     public int EnemyCount = 0;
     public int EnemiesNeedToKill = 0;
+    public GameObject NextLevelMenu;
+
 
     public LevelManager levelmanager;
 
     // Start is called before the first frame update
     void Start()
     {
+        NextLevelMenu = GameObject.Find("NextLevelMenu");
         levelmanager = GameObject.Find("LevelManager").GetComponent<LevelManager>();
 
-       
+        NextLevelMenu.SetActive(false);
     }
 
     public void CountEnemies()
@@ -32,13 +35,21 @@ public class LevelEnemyChecker : MonoBehaviour
         EnemiesNeedToKill = EnemyCount;
     }
 
-   public void CheckLevelEnd()
+   private void CheckLevelEnd()
     {
 
         if(EnemyCount <= 0)
         {
-            //Level sonu ekranı belirir
+            GameObject.Find("Fighter").GetComponent<Skills>().save();
+            NextLevelMenu.SetActive(true);
+            
         }
 
+    }
+
+    public void EnemyDied()
+    {
+        EnemyCount--;
+        CheckLevelEnd();
     }
 }

@@ -8,7 +8,8 @@ public class PlayerData
     public int Str, Sta, SkillPoint, Gold, Exp, PlayerLevel;
 
     public float Agi,Lck;
-    // Level ?
+    
+    public int currentStageLevel;
 
     public PlayerData(Skills skills)
     {
