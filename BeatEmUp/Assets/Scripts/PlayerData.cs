@@ -9,7 +9,7 @@ public class PlayerData
 
     public float Agi,Lck;
     
-    public int currentStageLevel;
+    //public int currentStageLevel;
 
     public PlayerData(Skills skills)
     {
