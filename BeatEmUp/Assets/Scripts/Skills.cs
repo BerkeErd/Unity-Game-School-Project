@@ -74,7 +74,6 @@ public class Skills : MonoBehaviour
             Exp = data.Exp;
             Gold = data.Gold;
             PlayerLevel = data.PlayerLevel;
-            currentStageLevel = data.currentStageLevel;
         }
         else
         {
