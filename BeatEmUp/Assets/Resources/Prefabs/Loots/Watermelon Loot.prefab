@@ -99,7 +99,7 @@ MonoBehaviour:
   ID: 1
   DropSound: {fileID: 0}
   CollectSound: {fileID: 0}
-  DropRate: 40
+  DropRate: 10
   HealAmount: 15
   Gold: 0
 --- !u!61 &5256098509034833149

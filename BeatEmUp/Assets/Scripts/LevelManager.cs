@@ -33,12 +33,6 @@ public class LevelManager : MonoBehaviour
         }
     }
 
-    public void LoadNextLevel()
-    {
-        //LEVEL 1 ARTMALI
-        PlayCurrentLevel();
-    }
-
     public void LoadTestMap()
     {
         SceneManager.LoadScene("TileMapTest");

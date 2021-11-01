@@ -147,7 +147,7 @@ public class Enemy : MonoBehaviour
         foreach (var loot in Loots)
         {
                 
-            if (dice >= 100 - (loot.DropRate * playerLuck))
+            if (dice >= 100 - (loot.DropRate + loot.DropRate * playerLuck/10))
             {
                 if (loot.ID == 1)
                 {
