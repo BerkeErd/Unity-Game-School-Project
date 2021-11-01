@@ -31,6 +31,14 @@ public class LevelManager : MonoBehaviour
         {
             SceneManager.LoadScene("LEVEL 01");
         }
+        else if (Level < 21)
+        {
+            SceneManager.LoadScene("LEVEL 02");
+        }
+        else if (Level < 31)
+        {
+            SceneManager.LoadScene("LEVEL 03");
+        }
     }
 
     public void LoadTestMap()
