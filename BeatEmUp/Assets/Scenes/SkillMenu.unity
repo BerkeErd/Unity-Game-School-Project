@@ -7058,6 +7058,7 @@ MonoBehaviour:
   AttackSpeedText: {fileID: 0}
   LuckText: {fileID: 0}
   skills: {fileID: 0}
+  saveData: {fileID: 0}
 --- !u!4 &1552149907
 Transform:
   m_ObjectHideFlags: 0
@@ -7089,10 +7090,9 @@ MonoBehaviour:
   sta: 7
   lck: 2
   skillpoints: 10
-  Gold: 0
   Exp: 1
   PlayerLevel: 0
-  currentStageLevel: 0
+  Gold: 0
   BasepunchDamage: 10
   BasekickDamage: 20
   punchDamage: 10
@@ -7101,9 +7101,7 @@ MonoBehaviour:
   extraHealth: 0
   luckRatio: 0
   strRatio: 0
-  levelManager: {fileID: 0}
-  LevelText: {fileID: 0}
-  ExpBar: {fileID: 0}
+  saveData: {fileID: 0}
 --- !u!1 &1563395914
 GameObject:
   m_ObjectHideFlags: 0
@@ -9354,6 +9352,7 @@ GameObject:
   - component: {fileID: 2026115508}
   - component: {fileID: 2026115507}
   - component: {fileID: 2026115506}
+  - component: {fileID: 2026115509}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -9427,6 +9426,29 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2026115509
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2026115505}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c80468abd9237bf41903051fe1588bf3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  str: 0
+  sta: 0
+  agi: 0
+  lck: 0
+  skillpoints: 0
+  Exp: 0
+  PlayerLevel: 0
+  Gold: 0
+  currentStageLevel: 0
+  skills: {fileID: 0}
+  levelManager: {fileID: 0}
 --- !u!1001 &2041289714
 PrefabInstance:
   m_ObjectHideFlags: 0

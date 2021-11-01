@@ -13,6 +13,7 @@ public class SkillMenuController : MonoBehaviour
     public Button StrPlus, StrMinus, AgiPlus, AgiMinus, StaPlus, StaMinus, LckPlus, LckMinus, CancelButton, ApplyButton, ContinueButton, MainMenu;
     public Text StatsText, HealthText, PunchDamageText, KickDamageText, AttackSpeedText, LuckText;
     public Skills skills;
+    public SaveData saveData;
 
     private void Awake()
     {
@@ -36,11 +37,13 @@ public class SkillMenuController : MonoBehaviour
         AttackSpeedText = GameObject.Find("AttackSpeedText").GetComponent<Text>();
         LuckText = GameObject.Find("LuckRatioText").GetComponent<Text>();
 
+        saveData = GameObject.Find("Main Camera").GetComponent<SaveData>();
+
     }
 
     private void Start()
     {
-        skills.load();
+        saveData.load();
 
       
 
@@ -326,7 +329,7 @@ public class SkillMenuController : MonoBehaviour
 
         
 
-        skills.save();
+        saveData.save();
         skillBar();
     }
 

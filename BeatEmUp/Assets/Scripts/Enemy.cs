@@ -7,7 +7,7 @@ using Random = UnityEngine.Random;
 
 public class Enemy : MonoBehaviour
 {
-    bool facingRight;
+    public bool facingRight;
 
     public List<Loot> Loots;
     public int BaseDamage = 10;
@@ -67,9 +67,6 @@ public class Enemy : MonoBehaviour
     {
         levelEnemyChecker = GameObject.Find("LevelEnemyChecker").GetComponent<LevelEnemyChecker>();
         levelManager = GameObject.Find("LevelManager").GetComponent<LevelManager>();
-
-       
-
 
         HealthBarObject = Instantiate(Resources.Load("Prefabs/HealthBar")) as GameObject;
         HealthBarObject.transform.parent = GameObject.Find("LevelCanvas").GetComponent<Canvas>().transform;
@@ -243,7 +240,7 @@ public class Enemy : MonoBehaviour
         {
             if (!player.GetComponent<PlayerCombat>().isDead)
             {
-                player.GetComponent<PlayerCombat>().TakeDamage(Damage);            
+                player.GetComponent<PlayerCombat>().TakeDamage(Damage, gameObject);            
             }
         }
     }
@@ -261,7 +258,7 @@ public class Enemy : MonoBehaviour
         {
             if (!player.GetComponent<PlayerCombat>().isDead)
             {
-                player.GetComponent<PlayerCombat>().TakeDamage(Damage*2);
+                player.GetComponent<PlayerCombat>().TakeDamage(Damage*2, gameObject);
             }
         }
     }
@@ -279,7 +276,7 @@ public class Enemy : MonoBehaviour
         {
             if (!player.GetComponent<PlayerCombat>().isDead)
             {
-                player.GetComponent<PlayerCombat>().TakeDamage(Damage);
+                player.GetComponent<PlayerCombat>().TakeDamage(Damage, gameObject);
 
             }
         }
@@ -403,6 +400,5 @@ public class Enemy : MonoBehaviour
 
     }
 
-    
 
 }

@@ -19,7 +19,6 @@ public class Settings : MonoBehaviour
         ChangeButtonImage();
 
         SoundButton.onClick.AddListener(ChangeButtonImage);
-        MainMenuButton.onClick.AddListener(LoadMainMenu);
         Volume.onValueChanged.AddListener(delegate { SliderValue(); });
         
     }
@@ -50,10 +49,4 @@ public class Settings : MonoBehaviour
             Sound = true;
         }
     }
-
-    public void LoadMainMenu()
-    {
-        SceneManager.LoadScene("MainMenu");
-    }
-
 }

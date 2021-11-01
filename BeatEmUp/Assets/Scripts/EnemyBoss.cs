@@ -9,7 +9,7 @@ public class EnemyBoss : MonoBehaviour
 
 {
     public List<Loot> Loots;
-    bool facingRight;
+    public bool facingRight;
     public int Damage = 40;
     public int maxHealth = 1000;
     public int currentHealth;
@@ -236,7 +236,7 @@ public class EnemyBoss : MonoBehaviour
             {
                 if (!player.GetComponent<PlayerCombat>().isDead)
                 {
-                    player.GetComponent<PlayerCombat>().TakeDamage(Damage);
+                    player.GetComponent<PlayerCombat>().TakeDamage(Damage, gameObject);
                 }
             }
             else if (player.GetComponent<Enemy>())

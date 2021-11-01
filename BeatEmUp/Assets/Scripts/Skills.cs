@@ -12,10 +12,10 @@ public class Skills : MonoBehaviour
     public int sta;
     public float lck;
     public int skillpoints;
-    public int Gold;
     public int Exp;
     public int PlayerLevel;
-    public int currentStageLevel;
+    //public int currentStageLevel;
+    public int Gold;
 
     public int BasepunchDamage = 10;
     public int BasekickDamage = 20;
@@ -28,23 +28,18 @@ public class Skills : MonoBehaviour
     public float luckRatio;
     public float strRatio;
 
+    public SaveData saveData;
 
-    
-
-
-  
-    
-    
-
-    
 
     private void Awake()
     {
+        saveData = GameObject.Find("Main Camera").GetComponent<SaveData>();
+       
         CalculateStats();
         
     }
 
-    private void CalculateStats()
+    public void CalculateStats()
     {
         strRatio = str + str / 10;
         agiRatio = agi / 100;
@@ -54,34 +49,6 @@ public class Skills : MonoBehaviour
         extraHealth = sta * 10;
     }
 
-    public void save()
-    {
-        SaveSystem.SavePlayerSkills(this);
-        CalculateStats();
-    }
-
-    public void load()
-    {
-        
-       PlayerData data = SaveSystem.LoadPlayerSkills();
-        if(data != null)
-        {
-            str = data.Str;
-            agi = data.Agi;
-            sta = data.Sta;
-            lck = data.Lck;
-            skillpoints = data.SkillPoint;
-            Exp = data.Exp;
-            Gold = data.Gold;
-            PlayerLevel = data.PlayerLevel;
-        }
-        else
-        {
-            newPlayer();
-        }
-
-        CalculateStats();
-    }
     
     public void newPlayer()
     {
@@ -92,11 +59,11 @@ public class Skills : MonoBehaviour
         lck = 0;
         skillpoints = 0;
         Exp = 0;
-        Gold = 0;
+        //Gold = 0;
         PlayerLevel = 1;
-        currentStageLevel = 1;
+        //currentStageLevel = 1;
 
-        save();
+        saveData.save();
         Debug.Log("Yeni Oyuncu Kaydedildi");
     }
 

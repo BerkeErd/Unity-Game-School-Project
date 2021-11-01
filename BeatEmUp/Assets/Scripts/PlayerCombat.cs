@@ -53,6 +53,7 @@ public class PlayerCombat : MonoBehaviour
     public Slider ExpBar;
     public Text LevelText;
     public LevelManager levelManager;
+    public SaveData saveData;
 
     // Start is called before the first frame update
     private void Awake()
@@ -65,10 +66,12 @@ public class PlayerCombat : MonoBehaviour
         healthBar = GameObject.Find("FighterHealtbar").GetComponent<HealthBar>();
         ExpBar = GameObject.Find("ExpBar").GetComponent<Slider>();
         levelManager = GameObject.Find("LevelManager").GetComponent<LevelManager>();
-        skills.load();
+
+        saveData = GameObject.Find("Main Camera").GetComponent<SaveData>();
     }
     void Start()
     {
+        saveData.load();
         AudioSource = GetComponent<AudioSource>();
         
         punchDamage = skills.punchDamage;
@@ -296,22 +299,34 @@ public class PlayerCombat : MonoBehaviour
         }
     }
 
-    public void TakeDamage(int damage)
+    public void TakeDamage(int damage ,GameObject enemy)
     {
         currentHealth -= damage;
         //  tookDamage = true;
         //  isAttacking = false;
         float pushPower = (float)damage / 200 * 7;
-        if (!PlayerMovement.facingRight)
+        if (enemy.GetComponent<Enemy>())
         {
-
-            transform.position = new Vector2(transform.position.x - pushPower, transform.position.y);
-
-
+            if (!enemy.GetComponent<Enemy>().facingRight) //sola dönük
+            {
+                transform.position = new Vector2(transform.position.x - pushPower, transform.position.y);
+            }
+            else if (enemy.GetComponent<Enemy>().facingRight) //sağa dönük
+            {
+                transform.position = new Vector2(transform.position.x + pushPower, transform.position.y);
+            }
         }
-        else if (PlayerMovement.facingRight)
+
+        else if (enemy.GetComponent<EnemyBoss>())
         {
-            transform.position = new Vector2(transform.position.x + pushPower, transform.position.y);
+            if (!enemy.GetComponent<EnemyBoss>().facingRight) //sola dönük
+            {
+                transform.position = new Vector2(transform.position.x - pushPower, transform.position.y);
+            }
+            else if (enemy.GetComponent<EnemyBoss>().facingRight) //sağa dönük
+            {
+                transform.position = new Vector2(transform.position.x + pushPower, transform.position.y);
+            }
         }
 
         //  animator.SetTrigger("Hit");

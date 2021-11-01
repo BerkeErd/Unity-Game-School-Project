@@ -22,13 +22,12 @@ public class LevelManager : MonoBehaviour
             LevelNameText = GameObject.Find("LevelName").GetComponent<Text>();
             LevelNameText.text = "Level " + Level;
         }
-        
-
     }
 
     public void PlayCurrentLevel()
     {
-        if(Level < 11)
+        
+        if (Level < 11)
         {
             SceneManager.LoadScene("LEVEL 01");
         }
@@ -52,6 +51,10 @@ public class LevelManager : MonoBehaviour
 
     public void LoadMainMenu()
     {
+        if (Time.timeScale == 0)
+        {
+            Time.timeScale = 1;
+        }
         SceneManager.LoadScene("MainMenu");
     }
     

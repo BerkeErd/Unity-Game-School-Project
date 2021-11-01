@@ -10,12 +10,14 @@ public class LevelEnemyChecker : MonoBehaviour
 
 
     public LevelManager levelmanager;
+    public SaveData saveData;
 
     // Start is called before the first frame update
     void Start()
     {
         NextLevelMenu = GameObject.Find("NextLevelMenu");
         levelmanager = GameObject.Find("LevelManager").GetComponent<LevelManager>();
+        saveData = GameObject.Find("Main Camera").GetComponent<SaveData>();
 
         NextLevelMenu.SetActive(false);
     }
@@ -40,7 +42,8 @@ public class LevelEnemyChecker : MonoBehaviour
 
         if(EnemyCount <= 0)
         {
-            GameObject.Find("Fighter").GetComponent<Skills>().save();
+            levelmanager.Level += 1;
+            saveData.save();
             NextLevelMenu.SetActive(true);
             
         }

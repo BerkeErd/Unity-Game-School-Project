@@ -7,14 +7,14 @@ public static class SaveSystem
 
 
    
-    public static void SavePlayerSkills(Skills skills)
+    public static void SavePlayerSkills(SaveData saveData)
     {
         BinaryFormatter formatter = new BinaryFormatter();
 
         string path = Application.persistentDataPath + "/player.stats";
         FileStream stream = new FileStream(path, FileMode.Create);
 
-        PlayerData data = new PlayerData(skills);
+        PlayerData data = new PlayerData(saveData);
 
         formatter.Serialize(stream, data);
         stream.Close();
