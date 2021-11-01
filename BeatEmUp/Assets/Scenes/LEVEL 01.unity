@@ -8743,6 +8743,11 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 21300000, guid: 479d064a593bb604c8a996911d6d297e,
         type: 3}
+    - target: {fileID: 6896401547454705663, guid: 8dc9d4252bb1bcc4eb97caf09d6e7e8a,
+        type: 3}
+      propertyPath: m_Color.a
+      value: 0.7058824
+      objectReference: {fileID: 0}
     - target: {fileID: 6896401548217755586, guid: 8dc9d4252bb1bcc4eb97caf09d6e7e8a,
         type: 3}
       propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -8873,6 +8878,11 @@ PrefabInstance:
       propertyPath: m_Camera
       value: 
       objectReference: {fileID: 1967708056}
+    - target: {fileID: 7940200260507558024, guid: 8dc9d4252bb1bcc4eb97caf09d6e7e8a,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -155
+      objectReference: {fileID: 0}
     - target: {fileID: 8172045790740716066, guid: 8dc9d4252bb1bcc4eb97caf09d6e7e8a,
         type: 3}
       propertyPath: m_IsActive
