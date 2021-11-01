@@ -180,6 +180,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 94b7c8f2c94ee504ba7cb150d452ef86, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  facingRight: 0
   Loots:
   - {fileID: 1409954624113372475, guid: bcfad064a9742384dbdeab864bd78304, type: 3}
   - {fileID: -2740753711175139924, guid: a564d4702b77a9847881d9a09e107520, type: 3}
@@ -209,7 +210,6 @@ MonoBehaviour:
   AttackSpeedTime: 2
   levelManager: {fileID: 0}
   levelEnemyChecker: {fileID: 0}
-  skills: {fileID: 0}
   EXP: 5
   EnemyCount: 0
 --- !u!61 &281741045

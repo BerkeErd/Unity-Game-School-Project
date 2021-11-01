@@ -116,7 +116,7 @@ public class PlayerCombat : MonoBehaviour
 
     public void Kick()
     {
-        if (!isKicking && !isPunching)
+        if (!isKicking && !isPunching && !isDead)
 
         {
 
@@ -203,7 +203,7 @@ public class PlayerCombat : MonoBehaviour
 
     public void Punch()
     {
-        if (!isPunching && !isKicking)
+        if (!isPunching && !isKicking && !isDead)
         {
 
 
@@ -301,6 +301,8 @@ public class PlayerCombat : MonoBehaviour
 
     public void TakeDamage(int damage ,GameObject enemy)
     {
+        isKicking = false;
+        isPunching = false;
         currentHealth -= damage;
         //  tookDamage = true;
         //  isAttacking = false;
@@ -329,7 +331,7 @@ public class PlayerCombat : MonoBehaviour
             }
         }
 
-        //  animator.SetTrigger("Hit");
+        animator.SetTrigger("Hit");
 
         if (currentHealth <= 0)
         {
@@ -340,8 +342,10 @@ public class PlayerCombat : MonoBehaviour
 
     void Die()
     {
+
+
         isDead = true;
-        // animator.SetBool("IsDead", isDead);
+        animator.SetBool("IsDead", isDead);
 
 
     }

@@ -297,6 +297,10 @@ MonoBehaviour:
   enemyLayers:
     serializedVersion: 2
     m_Bits: 256
+  ExpBar: {fileID: 0}
+  LevelText: {fileID: 0}
+  levelManager: {fileID: 0}
+  saveData: {fileID: 0}
 --- !u!114 &1324386084
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -381,6 +385,9 @@ MonoBehaviour:
   sta: 10
   lck: 10
   skillpoints: 0
+  Exp: 0
+  PlayerLevel: 0
+  Gold: 0
   BasepunchDamage: 10
   BasekickDamage: 20
   punchDamage: 0
@@ -389,10 +396,4 @@ MonoBehaviour:
   extraHealth: 0
   luckRatio: 0
   strRatio: 0
-  Exp: 0
-  PlayerLevel: 0
-  changeSpeed: 0
-  levelManager: {fileID: 0}
-  LevelText: {fileID: 0}
-  ExpBar: {fileID: 0}
-  Gold: 0
+  saveData: {fileID: 0}
