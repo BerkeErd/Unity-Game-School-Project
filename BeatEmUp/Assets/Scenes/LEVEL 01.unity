@@ -8892,18 +8892,15 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 129438900, guid: fab5867fd4fbc4e4e85e28b20f0ba238, type: 3}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 1031536306574058585, guid: 78ce5d03cb4446c4bae846d157e5eebc,
+    - target: {fileID: 361395850889757246, guid: fab5867fd4fbc4e4e85e28b20f0ba238,
         type: 3}
-    - target: {fileID: 671473897, guid: fab5867fd4fbc4e4e85e28b20f0ba238, type: 3}
-      propertyPath: m_Text
-      value: LEVEL FAILED
+      propertyPath: m_AnchoredPosition.x
+      value: 250
       objectReference: {fileID: 0}
-    - target: {fileID: 1787543604, guid: fab5867fd4fbc4e4e85e28b20f0ba238, type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: 0
+    - target: {fileID: 2246281178813343019, guid: fab5867fd4fbc4e4e85e28b20f0ba238,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -250
       objectReference: {fileID: 0}
     - target: {fileID: 3261987585529601169, guid: fab5867fd4fbc4e4e85e28b20f0ba238,
         type: 3}
@@ -8979,6 +8976,27 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8150713531356929129, guid: fab5867fd4fbc4e4e85e28b20f0ba238,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 1849293603984048337, guid: d2422475720d0224c8e7e37a366be135,
+        type: 3}
+    - target: {fileID: 8150713532364125652, guid: fab5867fd4fbc4e4e85e28b20f0ba238,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -155
+      objectReference: {fileID: 0}
+    - target: {fileID: 8150713532364125652, guid: fab5867fd4fbc4e4e85e28b20f0ba238,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8150713532364125659, guid: fab5867fd4fbc4e4e85e28b20f0ba238,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: LoadSkillsScene
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fab5867fd4fbc4e4e85e28b20f0ba238, type: 3}
