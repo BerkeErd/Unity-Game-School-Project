@@ -43,7 +43,6 @@ public class SkillMenuController : MonoBehaviour
 
     private void Start()
     {
-        saveData.load();
 
       
 

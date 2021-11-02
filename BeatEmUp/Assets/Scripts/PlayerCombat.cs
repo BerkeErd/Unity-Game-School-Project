@@ -68,10 +68,13 @@ public class PlayerCombat : MonoBehaviour
         levelManager = GameObject.Find("LevelManager").GetComponent<LevelManager>();
 
         saveData = GameObject.Find("Main Camera").GetComponent<SaveData>();
+       // saveData.load();
+
     }
     void Start()
     {
-        saveData.load();
+
+
         AudioSource = GetComponent<AudioSource>();
         
         punchDamage = skills.punchDamage;

@@ -45,10 +45,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Player: {fileID: 0}
+  levelmanager: {fileID: 0}
   PlayerMovement: {fileID: 0}
+  Boss: {fileID: 1179569180309312622, guid: 914b56196d42bab46a4049a3ade73f8f, type: 3}
   Enemy: {fileID: 160337512378115206, guid: 4e03ad10f68326b4aa0ae24df64850bf, type: 3}
-  EnemyNumber: 5
+  FirstLevelNumber: 0
   camerafollow: {fileID: 0}
+  MusicSource: {fileID: 0}
+  EnemiesWillSpawn: 0
   isSpawning: 0
 --- !u!61 &3293671671213833649
 BoxCollider2D:

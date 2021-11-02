@@ -81,19 +81,25 @@ public class LevelEnemySpawner : MonoBehaviour
             case 8:
                 enemy1Amount = 20;
                 enemy2Amount = 20;
-                enemy3Amount = 5;
+                enemy3Amount = 0;
                 enemy4Amount = 0;
                 break;
             case 9:
                 enemy1Amount = 20;
                 enemy2Amount = 20;
-                enemy3Amount = 10;
+                enemy3Amount = 0;
                 enemy4Amount = 0;
                 break;
             case 10:
                 enemy1Amount = 20;
                 enemy2Amount = 20;
-                enemy3Amount = 15;
+                enemy3Amount = 0;
+                enemy4Amount = 0;
+                break;
+            case 11:
+                enemy1Amount = 20;
+                enemy2Amount = 20;
+                enemy3Amount = 0;
                 enemy4Amount = 0;
                 break;
 
@@ -118,6 +124,20 @@ public class LevelEnemySpawner : MonoBehaviour
             Vector2 EnemyPos = new Vector2(randX, randY);
 
             Instantiate(enemy1, EnemyPos, Quaternion.identity);
+
+            //totalenemy -= 1;
+        }
+
+        for (int i = 0; i < enemy2Amount; i++)
+        {
+            float randY = Random.Range(minY, maxY);
+
+            //float randX = Random.Range(minX + maxX / totalenemy +1, maxX / totalenemy);
+            float randX = Random.Range(minX + (maxX - minX) / totalenemy * i, maxX - (maxX - minX) / totalenemy * (totalenemy - i) + 5);
+
+            Vector2 EnemyPos = new Vector2(randX, randY);
+
+            Instantiate(enemy2, EnemyPos, Quaternion.identity);
 
             //totalenemy -= 1;
         }

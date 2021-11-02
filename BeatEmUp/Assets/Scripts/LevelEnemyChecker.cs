@@ -11,10 +11,15 @@ public class LevelEnemyChecker : MonoBehaviour
 
     public LevelManager levelmanager;
     public SaveData saveData;
+    public Spawner Spawner;
 
-    // Start is called before the first frame update
+    private void Awake()
+    {
+        Spawner = GameObject.Find("Spawner").GetComponent<Spawner>();
+    }
     void Start()
     {
+        
         NextLevelMenu = GameObject.Find("NextLevelMenu");
         levelmanager = GameObject.Find("LevelManager").GetComponent<LevelManager>();
         saveData = GameObject.Find("Main Camera").GetComponent<SaveData>();
@@ -29,10 +34,7 @@ public class LevelEnemyChecker : MonoBehaviour
             EnemyCount += 1;
         }
 
-        foreach (var Spawner in GameObject.FindGameObjectsWithTag("Spawner"))
-        {
-            EnemyCount += Spawner.GetComponent<Spawner>().EnemyNumber;
-        }
+        EnemyCount += Spawner.EnemiesWillSpawn;
 
         EnemiesNeedToKill = EnemyCount;
     }

@@ -10,6 +10,10 @@ public class LevelManager : MonoBehaviour
     public string LevelName;
     public Text LevelNameText;
 
+    private void Awake()
+    {
+            
+    }
     private void Start()
     {
         //Level = GameObject.Find("Fighter").GetComponent<Skills>().currentStageLevel; // Saçma ama öyle 
@@ -19,6 +23,7 @@ public class LevelManager : MonoBehaviour
         LevelName = SceneManager.GetActiveScene().name;
         if(GameObject.Find("LevelName"))
         {
+            Debug.Log(Level);
             LevelNameText = GameObject.Find("LevelName").GetComponent<Text>();
             LevelNameText.text = "Level " + Level;
         }

@@ -27,13 +27,17 @@ public class SaveData : MonoBehaviour
         if (GameObject.Find("Fighter"))
         {
             skills = GameObject.Find("Fighter").GetComponent<Skills>();
+            LoadPlayer();
         }
         else if (GameObject.Find("SkillMenuController"))
         {
             skills = GameObject.Find("SkillMenuController").GetComponent<Skills>();
+            LoadPlayer();
         }
 
         levelManager = GameObject.Find("LevelManager").GetComponent<LevelManager>();
+        LoadLevelManager();
+        
     }
     public void UpdateSaveData()
     {
@@ -54,9 +58,11 @@ public class SaveData : MonoBehaviour
         skills.CalculateStats();
     }
 
-    public void load()
-    {
 
+
+    public void LoadPlayer()
+    {
+        Debug.Log("Player Loaded");
         PlayerData data = SaveSystem.LoadPlayerSkills();
         if (data != null)
         {
@@ -67,14 +73,25 @@ public class SaveData : MonoBehaviour
             skills.skillpoints = data.SkillPoint;
             skills.Exp = data.Exp;
             //Gold = data.Gold;
-            skills.PlayerLevel = data.PlayerLevel;
+            skills.PlayerLevel = data.PlayerLevel;      
+        }
+        else
+        {
+            skills.newPlayer();
+        }
+    }
+
+    public void LoadLevelManager()
+    {
+        Debug.Log("Level Manager Loaded");
+        PlayerData data = SaveSystem.LoadPlayerSkills();
+        if (data != null)
+        {
             levelManager.Level = data.currentStageLevel;
         }
         else
         {
             skills.newPlayer();
         }
-
-        skills.CalculateStats();
     }
 }
