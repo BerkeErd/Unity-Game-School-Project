@@ -7724,6 +7724,26 @@ PrefabInstance:
       propertyPath: m_AnchorMax.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3362454367711956787, guid: fab5867fd4fbc4e4e85e28b20f0ba238,
+        type: 3}
+      propertyPath: m_CullingMask.m_Bits
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 3362454367711956787, guid: fab5867fd4fbc4e4e85e28b20f0ba238,
+        type: 3}
+      propertyPath: m_BackGroundColor.r
+      value: 0.1509434
+      objectReference: {fileID: 0}
+    - target: {fileID: 3362454367711956787, guid: fab5867fd4fbc4e4e85e28b20f0ba238,
+        type: 3}
+      propertyPath: m_BackGroundColor.g
+      value: 0.1509434
+      objectReference: {fileID: 0}
+    - target: {fileID: 3362454367711956787, guid: fab5867fd4fbc4e4e85e28b20f0ba238,
+        type: 3}
+      propertyPath: m_BackGroundColor.b
+      value: 0.1509434
+      objectReference: {fileID: 0}
     - target: {fileID: 3561474002079690569, guid: fab5867fd4fbc4e4e85e28b20f0ba238,
         type: 3}
       propertyPath: m_Name

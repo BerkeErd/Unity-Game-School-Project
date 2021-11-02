@@ -44,10 +44,6 @@ public class LevelManager : MonoBehaviour
         }
     }
 
-    public void LoadTestMap()
-    {
-        SceneManager.LoadScene("TileMapTest");
-    }
 
     public void LoadSkillsScene()
     {
@@ -65,6 +61,10 @@ public class LevelManager : MonoBehaviour
     
     public void ReloadScene()
     {
+        if (Time.timeScale == 0)
+        {
+            Time.timeScale = 1;
+        }
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
 
