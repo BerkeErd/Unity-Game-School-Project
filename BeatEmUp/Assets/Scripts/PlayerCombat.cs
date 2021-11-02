@@ -39,6 +39,7 @@ public class PlayerCombat : MonoBehaviour
     private AudioClip currentAttackSound;
     public bool isPunching;
     public bool isKicking;
+    public bool isTakeHit;
     public int punchDamage;
     public int kickDamage;
 
@@ -104,9 +105,6 @@ public class PlayerCombat : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
-        
-
         ResetComboState();
     }
 
@@ -306,6 +304,7 @@ public class PlayerCombat : MonoBehaviour
     {
         isKicking = false;
         isPunching = false;
+        isTakeHit = true;
         currentHealth -= damage;
         //  tookDamage = true;
         //  isAttacking = false;
@@ -372,6 +371,10 @@ public class PlayerCombat : MonoBehaviour
         {
             RestartMenu.SetActive(true);
             Time.timeScale = 0;
+        }
+        if (message == "HitEnded")
+        {
+            isTakeHit = false;
         }
 
     }

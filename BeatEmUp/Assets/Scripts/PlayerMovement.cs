@@ -39,7 +39,7 @@ public class PlayerMovement : MonoBehaviour
 
     void FixedUpdate()
     {
-        if((horizontal != 0 || vertical != 0) && !Playercombat.isPunching && !Playercombat.isKicking)
+        if((horizontal != 0 || vertical != 0) && !Playercombat.isPunching && !Playercombat.isKicking && !Playercombat.isTakeHit)
         {
 
             Vector3 movement = new Vector3(horizontal * runSpeed, vertical * runSpeed, 0.0f);
