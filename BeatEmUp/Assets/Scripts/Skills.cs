@@ -14,6 +14,10 @@ public class Skills : MonoBehaviour
     public int skillpoints;
     public int Exp;
     public int PlayerLevel;
+    public int KickUpgrade;
+    public int PunchUpgrade;
+    public int PunchSkill;
+    public int KickSkill;
     //public int currentStageLevel;
     public int Gold;
 

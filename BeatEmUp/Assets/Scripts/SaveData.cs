@@ -14,7 +14,7 @@ public class SaveData : MonoBehaviour
     public int PlayerLevel;
 
     //store
-    //public int Gold;
+    public int Gold;
 
     //LevelManager
     public int currentStageLevel;
@@ -48,6 +48,7 @@ public class SaveData : MonoBehaviour
         skillpoints = skills.skillpoints;
         Exp = skills.Exp;
         PlayerLevel = skills.PlayerLevel;
+        Gold = skills.Gold;
         currentStageLevel = levelManager.Level;
     }
 
