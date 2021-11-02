@@ -54,7 +54,6 @@ public class PlayerCombat : MonoBehaviour
     public Text LevelText;
     public LevelManager levelManager;
     public SaveData saveData;
-    public GameObject RestartMenu;
 
     // Start is called before the first frame update
     private void Awake()
@@ -81,7 +80,6 @@ public class PlayerCombat : MonoBehaviour
         punchDamage = skills.punchDamage;
         kickDamage = skills.kickDamage;
         soundmanager = GameObject.Find("SoundManager").GetComponent<SoundManager>();
-        RestartMenu = GameObject.Find("RestartMenu");
 
         ExpBar.maxValue = skills.PlayerLevel * 20;
 
@@ -99,7 +97,6 @@ public class PlayerCombat : MonoBehaviour
         animator.SetFloat("AttackSpeed", 1 + skills.agiRatio * 5);
 
         LevelText.text = "Level : " + skills.PlayerLevel;
-        RestartMenu.SetActive(false);
 
         UpdatehealthBar();
     }
@@ -348,8 +345,12 @@ public class PlayerCombat : MonoBehaviour
 
     void Die()
     {
+
+
         isDead = true;
         animator.SetBool("IsDead", isDead);
+
+
     }
 
     public void UpdatehealthBar()
@@ -369,12 +370,6 @@ public class PlayerCombat : MonoBehaviour
         if (message == "KickEnded")
         {
             isKicking = false;
-        }
-
-        if (message == "PlayerDie")
-        {
-            RestartMenu.SetActive(true);
-            Time.timeScale = 0;
         }
 
     }
