@@ -33,8 +33,7 @@ public class MusicSource : MonoBehaviour
 
 
     public void ChangeMusic(int Level, bool Boss = false, bool ManyEnemies = false)
-    {
-        
+    {        
         if(Level < 11)
         {
             if(Boss)
@@ -86,10 +85,8 @@ public class MusicSource : MonoBehaviour
                 NowPlaying = Level3Theme;
             }
         }
-
         source.clip = NowPlaying;
         source.Play();
-
     }
 
 

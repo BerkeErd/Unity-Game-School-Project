@@ -40,7 +40,7 @@ public class Enemy : MonoBehaviour
     public bool isAttacking = false;
     public bool tookDamage = false;
     public bool isWalking = false;
-    
+
     public GameObject target;
 
     public bool targetClose = false;
@@ -56,7 +56,7 @@ public class Enemy : MonoBehaviour
 
     public LevelManager levelManager;
     public LevelEnemyChecker levelEnemyChecker;
-    
+
 
     public int EXP;
 
@@ -70,7 +70,7 @@ public class Enemy : MonoBehaviour
 
         HealthBarObject = Instantiate(Resources.Load("Prefabs/HealthBar")) as GameObject;
         HealthBarObject.transform.parent = GameObject.Find("LevelCanvas").GetComponent<Canvas>().transform;
-        HealthBarObject.transform.localScale =new Vector3(1,1,1);
+        HealthBarObject.transform.localScale = new Vector3(1, 1, 1);
         healthBar = HealthBarObject.GetComponent<HealthBar>();
     }
     void Start()
@@ -112,29 +112,29 @@ public class Enemy : MonoBehaviour
         }
 
         if (!isKnockedUp)
-        animator.SetTrigger("Hit");
+            animator.SetTrigger("Hit");
 
-        if(currentHealth <= 0 )
+        if (currentHealth <= 0)
         {
             Die();
-            
+
         }
         healthBar.SetHealth(currentHealth);
-        
+
 
     }
 
     public void KnockUp()
     {
 
-        if(!isKnockedUp)
+        if (!isKnockedUp)
         {
             animator.SetTrigger("KnockDown");
             isKnockedUp = true;
         }
-        
 
-        
+
+
     }
 
     public void LootDrop()
@@ -142,12 +142,12 @@ public class Enemy : MonoBehaviour
         float playerLuck = GameObject.Find("Fighter").GetComponent<Skills>().luckRatio;
         float dice = Random.Range(0, 100);
 
-        
+
 
         foreach (var loot in Loots)
         {
-                
-            if (dice >= 100 - (loot.DropRate + loot.DropRate * playerLuck/10))
+
+            if (dice >= 100 - (loot.DropRate + loot.DropRate * playerLuck / 10))
             {
                 if (loot.ID == 1)
                 {
@@ -177,14 +177,14 @@ public class Enemy : MonoBehaviour
 
 
     void Die()
-    {  
+    {
         isDead = true;
-        
+
         animator.SetBool("IsDead", isDead);
-        
+
     }
     // Update is called once per frame
-    void Update()   
+    void Update()
     {
         healthBar.transform.position = new Vector2(transform.position.x, transform.position.y + 3.2f);
 
@@ -205,7 +205,7 @@ public class Enemy : MonoBehaviour
                 Die();
             }
 
-           
+
             targetDistanceX = Mathf.Abs(transform.position.x - target.transform.position.x);
             targetDistanceY = Mathf.Abs(transform.position.y - target.transform.position.y);
 
@@ -224,7 +224,7 @@ public class Enemy : MonoBehaviour
             {
                 //Bi şey yapma
             }
-        }   
+        }
     }
 
     private void Attack1()
@@ -240,7 +240,7 @@ public class Enemy : MonoBehaviour
         {
             if (!player.GetComponent<PlayerCombat>().isDead)
             {
-                player.GetComponent<PlayerCombat>().TakeDamage(Damage, gameObject);            
+                player.GetComponent<PlayerCombat>().TakeDamage(Damage, gameObject);
             }
         }
     }
@@ -258,7 +258,7 @@ public class Enemy : MonoBehaviour
         {
             if (!player.GetComponent<PlayerCombat>().isDead)
             {
-                player.GetComponent<PlayerCombat>().TakeDamage(Damage*2, gameObject);
+                player.GetComponent<PlayerCombat>().TakeDamage(Damage * 2, gameObject);
             }
         }
     }
@@ -287,49 +287,49 @@ public class Enemy : MonoBehaviour
     {
 
 
-         isAttacking = true;
-         yield return new WaitForSeconds(AttackSpeedTime);
+        isAttacking = true;
+        yield return new WaitForSeconds(AttackSpeedTime);
 
-            if (targetClose && !tookDamage)
+        if (targetClose && !tookDamage)
+        {
+
+
+            int AttackNo = Random.Range(0, 5);
+            switch (AttackNo)
             {
-                
+                case 0:
+                    Attack1();
 
-                int AttackNo = Random.Range(0, 5);
-                switch (AttackNo)
-                {
-                    case 0:
-                        Attack1();
-                  
-                        break;
+                    break;
 
-                    case 1:
-                        Attack3();
-    
-                        break;
+                case 1:
+                    Attack3();
 
-                    case 2:
-                        Attack1();
-                        break;
+                    break;
 
-                    case 3:
-                        Attack3();
+                case 2:
+                    Attack1();
+                    break;
 
-                        break;
+                case 3:
+                    Attack3();
 
-                    case 4:
-                       Attack2();
+                    break;
+
+                case 4:
+                    Attack2();
                     break;
 
                 default:
-                        break;
+                    break;
 
 
-                }
             }
-            else
-            {
-                isAttacking = false;
-            }
+        }
+        else
+        {
+            isAttacking = false;
+        }
 
 
         tookDamage = false;
@@ -341,8 +341,8 @@ public class Enemy : MonoBehaviour
         isWalking = false;
         animator.SetBool("IsWalking", isWalking);
 
-        if(!isAttacking)
-        StartCoroutine(AttackPlayer());
+        if (!isAttacking)
+            StartCoroutine(AttackPlayer());
     }
 
     public void AlertObservers(string message)
@@ -367,24 +367,24 @@ public class Enemy : MonoBehaviour
     private void ChasePlayer()
     {
         targetClose = false;
-       
-           
+
+
 
         transform.position = Vector2.MoveTowards(transform.position, target.transform.position, speed * Time.deltaTime);
-        
+
         isWalking = true;
         animator.SetBool("IsWalking", isWalking);
     }
 
     private void Flip()
     {
-        
-            facingRight = !facingRight;
 
-            Vector3 scale = transform.localScale;
-            scale.x *= -1;
-            transform.localScale = scale;
-       
+        facingRight = !facingRight;
+
+        Vector3 scale = transform.localScale;
+        scale.x *= -1;
+        transform.localScale = scale;
+
     }
 
     public void hits(int damage)
@@ -396,7 +396,7 @@ public class Enemy : MonoBehaviour
         HitsObject.GetComponentInChildren<Text>().text = "-" + damage;
 
         HitText = HitsObject.GetComponent<HitText>();
-        
+
 
     }
 

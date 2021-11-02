@@ -10,15 +10,9 @@ public class LevelManager : MonoBehaviour
     public string LevelName;
     public Text LevelNameText;
 
-    private void Awake()
-    {
-            
-    }
     private void Start()
     {
         //Level = GameObject.Find("Fighter").GetComponent<Skills>().currentStageLevel; // Saçma ama öyle 
-       
-
 
         LevelName = SceneManager.GetActiveScene().name;
         if(GameObject.Find("LevelName"))
@@ -30,8 +24,12 @@ public class LevelManager : MonoBehaviour
     }
 
     public void PlayCurrentLevel()
-    {
-        
+    {    
+        if (Time.timeScale==0)
+        {
+            Time.timeScale = 1;
+        }
+
         if (Level < 11)
         {
             SceneManager.LoadScene("LEVEL 01");

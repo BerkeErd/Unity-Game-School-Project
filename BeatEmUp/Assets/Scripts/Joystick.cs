@@ -11,20 +11,21 @@ public class Joystick : MonoBehaviour
 
     private Vector2 pointA2;
 
-    
+
     public Transform circle;
     public Transform outerCircle;
+
 
     private void Start()
     {
         player = GameObject.Find("Fighter").transform;
         circle = GameObject.Find("Dot").transform;
         outerCircle = GameObject.Find("Circle").transform;
-}
+    }
     // Update is called once per frame
     void Update()
     {
-        if (!player.GetComponent<PlayerMovement>().isFrozen)
+        if (!player.GetComponent<PlayerMovement>().isFrozen )
         {
             if (Input.GetMouseButtonDown(0) && Input.mousePosition.x <= Screen.width / 2)
             {
@@ -38,14 +39,11 @@ public class Joystick : MonoBehaviour
                 circle.GetComponent<SpriteRenderer>().enabled = true;
                 outerCircle.GetComponent<SpriteRenderer>().enabled = true;
             }
+
             if (Input.GetMouseButton(0) && Input.mousePosition.x <= Screen.width / 2)
             {
-
-
                 pointB = new Vector2(Input.mousePosition.x, Input.mousePosition.y);
-
             }
-
             else
             {
                 touchStart = false;
@@ -60,7 +58,7 @@ public class Joystick : MonoBehaviour
             player.GetComponent<PlayerMovement>().horizontal = 0;
             player.GetComponent<PlayerMovement>().vertical = 0;
         }
-        
+
     }
     private void FixedUpdate()
     {
@@ -92,5 +90,5 @@ public class Joystick : MonoBehaviour
     }
 
 
-   
+
 }

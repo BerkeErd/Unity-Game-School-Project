@@ -6,7 +6,6 @@ using UnityEngine.SceneManagement;
 
 public class PauseMenu : MonoBehaviour
 {
-
     public Button PauseButton, ContinueButton;
     public bool pause = false;
     public GameObject pauseMenu;

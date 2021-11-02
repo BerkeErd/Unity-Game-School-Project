@@ -6,9 +6,8 @@ public class LevelEnemyChecker : MonoBehaviour
 {
     public int EnemyCount = 0;
     public int EnemiesNeedToKill = 0;
+
     public GameObject NextLevelMenu;
-
-
     public LevelManager levelmanager;
     public SaveData saveData;
     public Spawner Spawner;
@@ -19,7 +18,6 @@ public class LevelEnemyChecker : MonoBehaviour
     }
     void Start()
     {
-        
         NextLevelMenu = GameObject.Find("NextLevelMenu");
         levelmanager = GameObject.Find("LevelManager").GetComponent<LevelManager>();
         saveData = GameObject.Find("Main Camera").GetComponent<SaveData>();
@@ -35,21 +33,17 @@ public class LevelEnemyChecker : MonoBehaviour
         }
 
         EnemyCount += Spawner.EnemiesWillSpawn;
-
         EnemiesNeedToKill = EnemyCount;
     }
 
-   private void CheckLevelEnd()
+    private void CheckLevelEnd()
     {
-
-        if(EnemyCount <= 0)
+        if (EnemyCount <= 0)
         {
             levelmanager.Level += 1;
             saveData.save();
             NextLevelMenu.SetActive(true);
-            
         }
-
     }
 
     public void EnemyDied()

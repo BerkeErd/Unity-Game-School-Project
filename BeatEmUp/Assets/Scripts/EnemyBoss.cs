@@ -26,7 +26,7 @@ public class EnemyBoss : MonoBehaviour
 
     private AudioSource AudioSource;
     public bool isDead = false;
-    public bool isAwaken = false; 
+    public bool isAwaken = false;
     public bool attackStarted = false;
 
     public int EXP;
@@ -35,7 +35,7 @@ public class EnemyBoss : MonoBehaviour
 
     public bool isFrozen = false;
     public bool isAttacking = false;
-    
+
     public bool IsRunning = false;
 
     public GameObject target;
@@ -61,22 +61,20 @@ public class EnemyBoss : MonoBehaviour
     }
     void Start()
     {
-        AudioSource = GetComponent<AudioSource>();
-        currentHealth = maxHealth;
         animator = GetComponent<Animator>();
-        
+        AudioSource = GetComponent<AudioSource>();
         AudioSource = GetComponent<AudioSource>();
         soundmanager = GameObject.Find("SoundManager").GetComponent<SoundManager>();
-       
+
+        currentHealth = maxHealth;
+
         healthBar.BossHealth();
     }
-    
+
     public void TakeDamage(int damage)
     {
         currentHealth -= damage;
-     
         //isAttacking = false;
-
         float pushPower = 0;
 
         if (facingRight)
@@ -88,8 +86,7 @@ public class EnemyBoss : MonoBehaviour
             transform.position = new Vector2(transform.position.x + pushPower, transform.position.y);
         }
 
-        
-            //animator.SetTrigger("Hit");
+        //animator.SetTrigger("Hit");
 
         if (currentHealth <= 0)
         {
@@ -121,15 +118,12 @@ public class EnemyBoss : MonoBehaviour
         isDead = true;
         animator.SetBool("IsDead", isDead);
         StopAllCoroutines();
-
     }
 
     public void LootDrop()
     {
         float playerLuck = GameObject.Find("Fighter").GetComponent<Skills>().luckRatio;
         float dice = Random.Range(0, 100);
-
-
 
         foreach (var loot in Loots)
         {
@@ -159,7 +153,6 @@ public class EnemyBoss : MonoBehaviour
         {
             if (targetDistanceX < chaseDistance && targetDistanceX > 0)
             {
-
                 isAwaken = true;
             }
 
@@ -179,7 +172,6 @@ public class EnemyBoss : MonoBehaviour
                     Flip();
                 }
             }
-
 
             if (IsRunning)
             {
@@ -204,24 +196,17 @@ public class EnemyBoss : MonoBehaviour
                 Die();
             }
 
-           
             targetDistanceX = Mathf.Abs(transform.position.x - target.transform.position.x);
             targetDistanceY = Mathf.Abs(transform.position.y - target.transform.position.y);
 
-
         }
-
-
     }
 
     private void Attack1()
     {
         animator.SetTrigger("Attack");
-
-
-       
     }
-    
+
     public void Attack1Damage()
     {
         Collider2D[] hitEnemies = Physics2D.OverlapCircleAll(AttackPoint.position, AttackRange, playerLayer);
@@ -246,19 +231,12 @@ public class EnemyBoss : MonoBehaviour
                     player.GetComponent<Enemy>().TakeDamage(Damage);
                     player.GetComponent<Enemy>().KnockUp();
                 }
-
-                {
-
-                }
             }
         }
     }
 
     private IEnumerator AttackPlayer()
     {
-
-
-
         // IDLE ÖNCE
 
         TargetOldPos = target.transform.position;
@@ -267,7 +245,6 @@ public class EnemyBoss : MonoBehaviour
         animator.SetBool("IsRunning", IsRunning);
         // DÜŞMANIN BELİRLENEN YERİNE HIZLA KOŞULUYOR
         yield return new WaitUntil(() => transform.position == TargetOldPos);
-
 
         // ULAŞINCA VUR
         IsRunning = false;
@@ -295,9 +272,9 @@ public class EnemyBoss : MonoBehaviour
 
     }
 
-   
 
-   
+
+
 
     public void AlertObservers(string message)
     {
@@ -312,18 +289,18 @@ public class EnemyBoss : MonoBehaviour
     {
         animator.SetBool("IsRunning", IsRunning);
 
-        
 
-      
 
-        if(!IsRunning && !isAttacking)
+
+
+        if (!IsRunning && !isAttacking)
         {
             IsRunning = true;
 
             TargetOldPos = target.transform.position;
-            
-         
-           
+
+
+
         }
 
         if (TargetOldPos == transform.position)

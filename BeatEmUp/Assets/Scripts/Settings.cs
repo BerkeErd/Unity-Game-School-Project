@@ -12,6 +12,7 @@ public class Settings : MonoBehaviour
     public bool Sound;
     public Slider Volume;
     public float TempVolume;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -19,8 +20,7 @@ public class Settings : MonoBehaviour
         ChangeButtonImage();
 
         SoundButton.onClick.AddListener(ChangeButtonImage);
-        Volume.onValueChanged.AddListener(delegate { SliderValue(); });
-        
+        Volume.onValueChanged.AddListener(delegate { SliderValue(); });    
     }
 
     public void SliderValue()

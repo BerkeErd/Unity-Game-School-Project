@@ -35,8 +35,7 @@ public class Skills : MonoBehaviour
     {
         saveData = GameObject.Find("Main Camera").GetComponent<SaveData>();
        
-        CalculateStats();
-        
+        CalculateStats();       
     }
 
     public void CalculateStats()
@@ -49,7 +48,6 @@ public class Skills : MonoBehaviour
         extraHealth = sta * 10;
     }
 
-    
     public void newPlayer()
     {
         Debug.Log("Yeni Oyuncu Oluşturuldu");

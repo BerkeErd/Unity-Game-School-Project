@@ -39,11 +39,12 @@ public class PlayerCombat : MonoBehaviour
     private AudioClip currentAttackSound;
     public bool isPunching;
     public bool isKicking;
+    public bool isTakeHit;
     public int punchDamage;
     public int kickDamage;
 
     public bool isDead = false;
-    
+
     private int changeSpeed = 50;
 
     Animator animator;
@@ -54,43 +55,42 @@ public class PlayerCombat : MonoBehaviour
     public Text LevelText;
     public LevelManager levelManager;
     public SaveData saveData;
+    public GameObject RestartMenu;
+    public Joystick Joystick;
 
     // Start is called before the first frame update
     private void Awake()
     {
-        LevelText = GameObject.Find("LevelText").GetComponent<Text>();
+        Joystick = GetComponent<Joystick>();
         animator = GetComponent<Animator>();
         PlayerMovement = GetComponent<PlayerMovement>();
         skills = GetComponent<Skills>();
+        RestartMenu = GameObject.Find("RestartMenu");
+        LevelText = GameObject.Find("LevelText").GetComponent<Text>();
         HealthText = GameObject.Find("HealthText").GetComponent<Text>();
         healthBar = GameObject.Find("FighterHealtbar").GetComponent<HealthBar>();
         ExpBar = GameObject.Find("ExpBar").GetComponent<Slider>();
         levelManager = GameObject.Find("LevelManager").GetComponent<LevelManager>();
-
         saveData = GameObject.Find("Main Camera").GetComponent<SaveData>();
-       // saveData.load();
+        // saveData.load();
 
     }
     void Start()
     {
-
-
         AudioSource = GetComponent<AudioSource>();
-        
+
         punchDamage = skills.punchDamage;
         kickDamage = skills.kickDamage;
+
         soundmanager = GameObject.Find("SoundManager").GetComponent<SoundManager>();
 
         ExpBar.maxValue = skills.PlayerLevel * 20;
 
         maxHealth += skills.extraHealth;
-
         currentHealth = maxHealth;
-
         healthBar.SetMaxHealth(maxHealth);
 
         defaultComboTimer = 0.4f - skills.agiRatio;
-
         currentComboTimer = defaultComboTimer;
         currentComboState = ComboState.NONE;
 
@@ -98,32 +98,25 @@ public class PlayerCombat : MonoBehaviour
 
         LevelText.text = "Level : " + skills.PlayerLevel;
 
+        RestartMenu.SetActive(false);
         UpdatehealthBar();
     }
 
     // Update is called once per frame
     void Update()
     {
-
-        
-
         ResetComboState();
     }
 
     private void FixedUpdate()
     {
-       
-            ExpBar.value = Mathf.MoveTowards(ExpBar.value, skills.Exp, changeSpeed * Time.fixedDeltaTime);
-        
+        ExpBar.value = Mathf.MoveTowards(ExpBar.value, skills.Exp, changeSpeed * Time.fixedDeltaTime);
     }
 
     public void Kick()
     {
-        if (!isKicking && !isPunching && !isDead)
-
+        if (!isKicking && !isPunching && !isDead && !isTakeHit)
         {
-
-
             if (currentComboState == ComboState.KICK_2 || currentComboState == ComboState.PUNCH_1)
             {
                 return;
@@ -135,6 +128,7 @@ public class PlayerCombat : MonoBehaviour
                 activateTimerToReset = true;
                 currentComboTimer = defaultComboTimer;
             }
+
             if (currentComboState == ComboState.NONE)
             {
                 currentComboState = ComboState.KICK_1;
@@ -148,13 +142,13 @@ public class PlayerCombat : MonoBehaviour
                 currentComboTimer = defaultComboTimer;
             }
 
-
             if (currentComboState == ComboState.KICK_1)
             {
                 isKicking = true;
                 animator.SetTrigger("KickLeft");
                 currentAttackSound = soundmanager.Kick;
             }
+
             if (currentComboState == ComboState.KICK_2)
             {
                 isKicking = true;
@@ -163,14 +157,15 @@ public class PlayerCombat : MonoBehaviour
             }
 
             Collider2D[] hitEnemies = Physics2D.OverlapCircleAll(KickPoint.position, kickRange, enemyLayers);
+
             if (hitEnemies.Length > 0)
             {
                 AudioSource.clip = currentAttackSound;
                 AudioSource.Play();
             }
+
             foreach (Collider2D enemy in hitEnemies)
             {
-
                 BoxCollider2D collider = enemy as BoxCollider2D;
 
                 if (collider != null)
@@ -184,7 +179,6 @@ public class PlayerCombat : MonoBehaviour
                             {
                                 enemy.GetComponent<Enemy>().KnockUp();
                             }
-
                         }
                     }
                     else if (enemy.GetComponent<EnemyBoss>())
@@ -192,35 +186,25 @@ public class PlayerCombat : MonoBehaviour
                         if (!enemy.GetComponent<EnemyBoss>().isDead)
                         {
                             enemy.GetComponent<EnemyBoss>().TakeDamage(kickDamage);
-
-
                         }
                     }
                 }
-
-
-
             }
         }
     }
 
     public void Punch()
     {
-        if (!isPunching && !isKicking && !isDead)
+        if (!isPunching && !isKicking && !isDead && !isTakeHit)
         {
-
-
             if (currentComboState == ComboState.PUNCH_2 || currentComboState == ComboState.KICK_1 || currentComboState == ComboState.KICK_2)
             {
                 return;
             }
 
-
             currentComboState++;
             activateTimerToReset = true;
             currentComboTimer = defaultComboTimer;
-
-
 
             if (currentComboState == ComboState.PUNCH_1)
             {
@@ -228,6 +212,7 @@ public class PlayerCombat : MonoBehaviour
                 animator.SetTrigger("PunchLeft");
                 currentAttackSound = soundmanager.Punch1;
             }
+
             if (currentComboState == ComboState.PUNCH_2)
             {
                 isPunching = true;
@@ -266,8 +251,6 @@ public class PlayerCombat : MonoBehaviour
                         }
                     }
                 }
-
-
             }
         }
     }
@@ -302,10 +285,11 @@ public class PlayerCombat : MonoBehaviour
         }
     }
 
-    public void TakeDamage(int damage ,GameObject enemy)
+    public void TakeDamage(int damage, GameObject enemy)
     {
         isKicking = false;
         isPunching = false;
+        isTakeHit = true;
         currentHealth -= damage;
         //  tookDamage = true;
         //  isAttacking = false;
@@ -345,12 +329,8 @@ public class PlayerCombat : MonoBehaviour
 
     void Die()
     {
-
-
         isDead = true;
         animator.SetBool("IsDead", isDead);
-
-
     }
 
     public void UpdatehealthBar()
@@ -372,11 +352,21 @@ public class PlayerCombat : MonoBehaviour
             isKicking = false;
         }
 
+        if (message == "TakeHit")
+        {
+            isTakeHit = false;
+        }
+
+        if (message == "Death")
+        {
+            Time.timeScale = 0;
+            RestartMenu.SetActive(true);
+        }
     }
 
     public void GainExp(int EnemyExp)
     {
-        skills.Exp += EnemyExp + levelManager.Level * 5; 
+        skills.Exp += EnemyExp + levelManager.Level * 5;
         if (skills.Exp >= skills.PlayerLevel * 20)
         {
             skills.PlayerLevel++;

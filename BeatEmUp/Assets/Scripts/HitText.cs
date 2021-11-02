@@ -12,11 +12,8 @@ public class HitText : MonoBehaviour
 
     void Start()
     {
-        FirstPos = transform.position;
-        
-        TargetY = FirstPos.y + 3;
-        
-        
+        FirstPos = transform.position;      
+        TargetY = FirstPos.y + 3;   
     }
 
     // Update is called once per frame
@@ -26,10 +23,8 @@ public class HitText : MonoBehaviour
 
         transform.localScale *= Mathf.MoveTowards(1, 5, 3 * Time.deltaTime);
 
-
         if (transform.position == new Vector3(FirstPos.x,TargetY,transform.position.z))
-        {
-           
+        {  
             Destroy(gameObject);
         }
     }

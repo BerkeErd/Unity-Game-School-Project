@@ -34,7 +34,7 @@ public class LevelEnemySpawner : MonoBehaviour
         levelManager = GameObject.Find("LevelManager").GetComponent<LevelManager>();
         currentLevel = levelManager.Level;
 
-        switch (currentLevel+1)
+        switch (currentLevel + 1)
         {
             case 1:
                 enemy1Amount = 10;
@@ -119,7 +119,7 @@ public class LevelEnemySpawner : MonoBehaviour
             float randY = Random.Range(minY, maxY);
 
             //float randX = Random.Range(minX + maxX / totalenemy +1, maxX / totalenemy);
-            float randX = Random.Range(minX+(maxX-minX)/totalenemy*i , maxX-(maxX-minX)/totalenemy*(totalenemy-i)+5 ) ;
+            float randX = Random.Range(minX + (maxX - minX) / totalenemy * i, maxX - (maxX - minX) / totalenemy * (totalenemy - i) + 5);
 
             Vector2 EnemyPos = new Vector2(randX, randY);
 
