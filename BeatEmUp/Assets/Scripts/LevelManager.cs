@@ -26,7 +26,11 @@ public class LevelManager : MonoBehaviour
 
     public void PlayCurrentLevel()
     {
-        
+        if (Time.timeScale == 0)
+        {
+            Time.timeScale = 1;
+        }
+
         if (Level < 11)
         {
             SceneManager.LoadScene("LEVEL 01");
