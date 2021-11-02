@@ -8892,17 +8892,73 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+<<<<<<< HEAD
     - target: {fileID: 224245953478394431, guid: fab5867fd4fbc4e4e85e28b20f0ba238,
         type: 3}
       propertyPath: FirstLevelNumber
       value: 0
+=======
+    - target: {fileID: 2018971986, guid: 8dc9d4252bb1bcc4eb97caf09d6e7e8a, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1397611193}
+    - target: {fileID: 1291321468159173647, guid: 8dc9d4252bb1bcc4eb97caf09d6e7e8a,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1397611193}
+    - target: {fileID: 1799133670045003246, guid: 8dc9d4252bb1bcc4eb97caf09d6e7e8a,
+        type: 3}
+      propertyPath: m_Name
+      value: RestartButton
+      objectReference: {fileID: 0}
+    - target: {fileID: 3920170775125633977, guid: 8dc9d4252bb1bcc4eb97caf09d6e7e8a,
+        type: 3}
+      propertyPath: m_Text
+      value: LEVEL FAILED
+      objectReference: {fileID: 0}
+    - target: {fileID: 4075094912254610485, guid: 8dc9d4252bb1bcc4eb97caf09d6e7e8a,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1397611193}
+    - target: {fileID: 4916152942283197659, guid: 8dc9d4252bb1bcc4eb97caf09d6e7e8a,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 1031536306574058585, guid: 78ce5d03cb4446c4bae846d157e5eebc,
+        type: 3}
+    - target: {fileID: 5545197060918078485, guid: 8dc9d4252bb1bcc4eb97caf09d6e7e8a,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 5545197060918078485, guid: 8dc9d4252bb1bcc4eb97caf09d6e7e8a,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 30
+>>>>>>> dc3e0fcc6bbcb58595cd2adf97212a3b31667e77
       objectReference: {fileID: 0}
     - target: {fileID: 3261987585529601169, guid: fab5867fd4fbc4e4e85e28b20f0ba238,
         type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
       objectReference: {fileID: 0}
+<<<<<<< HEAD
     - target: {fileID: 3362454367550806607, guid: fab5867fd4fbc4e4e85e28b20f0ba238,
+=======
+    - target: {fileID: 6896401547417964998, guid: 8dc9d4252bb1bcc4eb97caf09d6e7e8a,
+        type: 3}
+      propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1324386086}
+    - target: {fileID: 6896401548217755586, guid: 8dc9d4252bb1bcc4eb97caf09d6e7e8a,
+        type: 3}
+      propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1324386086}
+    - target: {fileID: 6896401548562620396, guid: 8dc9d4252bb1bcc4eb97caf09d6e7e8a,
+>>>>>>> dc3e0fcc6bbcb58595cd2adf97212a3b31667e77
         type: 3}
       propertyPath: m_AnchorMax.x
       value: 0
@@ -8972,6 +9028,24 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+<<<<<<< HEAD
+=======
+    - target: {fileID: 6896401548788087526, guid: 8dc9d4252bb1bcc4eb97caf09d6e7e8a,
+        type: 3}
+      propertyPath: m_Camera
+      value: 
+      objectReference: {fileID: 1967708056}
+    - target: {fileID: 8348352446525953710, guid: 8dc9d4252bb1bcc4eb97caf09d6e7e8a,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1397611193}
+    - target: {fileID: 9207733379389075781, guid: 8dc9d4252bb1bcc4eb97caf09d6e7e8a,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1397611193}
+>>>>>>> dc3e0fcc6bbcb58595cd2adf97212a3b31667e77
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fab5867fd4fbc4e4e85e28b20f0ba238, type: 3}
 --- !u!1 &1865577177

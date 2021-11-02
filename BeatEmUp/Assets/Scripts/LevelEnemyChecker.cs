@@ -46,8 +46,8 @@ public class LevelEnemyChecker : MonoBehaviour
         {
             levelmanager.Level += 1;
             saveData.save();
+            new WaitForSeconds(2);
             NextLevelMenu.SetActive(true);
-            
         }
 
     }
