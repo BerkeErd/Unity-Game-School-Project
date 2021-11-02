@@ -58,6 +58,10 @@ public class SaveData : MonoBehaviour
         skills.CalculateStats();
     }
 
+    public void Directsave()
+    {
+        SaveSystem.SavePlayerSkills(this);
+    }
 
 
     public void LoadPlayer()
@@ -77,7 +81,7 @@ public class SaveData : MonoBehaviour
         }
         else
         {
-            skills.newPlayer();
+            newPlayer();
         }
     }
 
@@ -91,7 +95,24 @@ public class SaveData : MonoBehaviour
         }
         else
         {
-            skills.newPlayer();
+            newPlayer();
         }
+    }
+
+    public void newPlayer()
+    {
+        Debug.Log("Yeni Oyuncu Oluşturuldu");
+        str = 0;
+        agi = 0;
+        sta = 0;
+        lck = 0;
+        skillpoints = 0;
+        Exp = 0;
+        //Gold = 0;
+        PlayerLevel = 1;
+        currentStageLevel = 1;
+
+        Directsave();
+        Debug.Log("Yeni Oyuncu Kaydedildi");
     }
 }
