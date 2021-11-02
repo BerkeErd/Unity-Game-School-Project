@@ -77,7 +77,7 @@ public class SaveData : MonoBehaviour
             skills.lck = data.Lck;
             skills.skillpoints = data.SkillPoint;
             skills.Exp = data.Exp;
-            //Gold = data.Gold;
+            Gold = data.Gold;
             skills.PlayerLevel = data.PlayerLevel;      
         }
         else
@@ -109,7 +109,7 @@ public class SaveData : MonoBehaviour
         lck = 0;
         skillpoints = 0;
         Exp = 0;
-        //Gold = 0;
+        Gold = 0;
         PlayerLevel = 1;
         currentStageLevel = 1;
 
