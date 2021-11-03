@@ -16,6 +16,8 @@ public class Settings : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        TempVolume = 50;
+
         Sound = true;
         ChangeButtonImage();
 

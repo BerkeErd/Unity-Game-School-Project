@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class LevelEnemySpawner : MonoBehaviour
 {
-
     public GameObject enemy1;
     public GameObject enemy2;
     public GameObject enemy3;
@@ -33,6 +32,7 @@ public class LevelEnemySpawner : MonoBehaviour
         levelEnemyChecker = GameObject.Find("LevelEnemyChecker").GetComponent<LevelEnemyChecker>();
         levelManager = GameObject.Find("LevelManager").GetComponent<LevelManager>();
         currentLevel = levelManager.Level;
+
 
         switch (currentLevel + 1)
         {
@@ -117,29 +117,24 @@ public class LevelEnemySpawner : MonoBehaviour
         for (int i = 0; i < enemy1Amount; i++)
         {
             float randY = Random.Range(minY, maxY);
-
-            //float randX = Random.Range(minX + maxX / totalenemy +1, maxX / totalenemy);
             float randX = Random.Range(minX + (maxX - minX) / totalenemy * i, maxX - (maxX - minX) / totalenemy * (totalenemy - i) + 5);
 
             Vector2 EnemyPos = new Vector2(randX, randY);
 
-            Instantiate(enemy1, EnemyPos, Quaternion.identity);
-
-            //totalenemy -= 1;
+            var Enemy1 = Instantiate(enemy1, EnemyPos, Quaternion.identity);
+            Enemy1.transform.parent = GameObject.Find("Enemies").transform;
         }
 
         for (int i = 0; i < enemy2Amount; i++)
         {
             float randY = Random.Range(minY, maxY);
-
-            //float randX = Random.Range(minX + maxX / totalenemy +1, maxX / totalenemy);
             float randX = Random.Range(minX + (maxX - minX) / totalenemy * i, maxX - (maxX - minX) / totalenemy * (totalenemy - i) + 5);
 
             Vector2 EnemyPos = new Vector2(randX, randY);
 
-            Instantiate(enemy2, EnemyPos, Quaternion.identity);
+            var Enemy2 = Instantiate(enemy2, EnemyPos, Quaternion.identity);
+            Enemy2.transform.parent = GameObject.Find("Enemies").transform;
 
-            //totalenemy -= 1;
         }
 
     }

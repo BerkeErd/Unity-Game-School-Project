@@ -705,7 +705,7 @@ MonoBehaviour:
   skillpoints: 0
   Exp: 0
   PlayerLevel: 0
-  Gold: 0
+  Gold: 1000
   currentStageLevel: 0
   skills: {fileID: 0}
   levelManager: {fileID: 0}
@@ -934,7 +934,7 @@ MonoBehaviour:
   PunchUpgrade: 0
   PunchSkill: 0
   KickSkill: 0
-  Gold: 0
+  Gold: 1000
   BasepunchDamage: 10
   BasekickDamage: 20
   punchDamage: 0

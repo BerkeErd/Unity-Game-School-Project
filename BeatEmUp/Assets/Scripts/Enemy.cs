@@ -69,7 +69,7 @@ public class Enemy : MonoBehaviour
         levelManager = GameObject.Find("LevelManager").GetComponent<LevelManager>();
 
         HealthBarObject = Instantiate(Resources.Load("Prefabs/HealthBar")) as GameObject;
-        HealthBarObject.transform.parent = GameObject.Find("LevelCanvas").GetComponent<Canvas>().transform;
+        HealthBarObject.transform.parent = GameObject.Find("EnemyHealthbars").transform;
         HealthBarObject.transform.localScale = new Vector3(1, 1, 1);
         healthBar = HealthBarObject.GetComponent<HealthBar>();
     }
