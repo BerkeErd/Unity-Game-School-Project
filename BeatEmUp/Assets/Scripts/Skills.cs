@@ -39,7 +39,12 @@ public class Skills : MonoBehaviour
     {
         saveData = GameObject.Find("Main Camera").GetComponent<SaveData>();
        
-        CalculateStats();       
+             
+    }
+
+    private void Start()
+    {
+        CalculateStats();
     }
 
     public void CalculateStats()

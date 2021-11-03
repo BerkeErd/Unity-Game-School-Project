@@ -28,11 +28,13 @@ public class SaveData : MonoBehaviour
         {
             skills = GameObject.Find("Fighter").GetComponent<Skills>();
             LoadPlayer();
+            skills.CalculateStats();
         }
         else if (GameObject.Find("SkillMenuController"))
         {
             skills = GameObject.Find("SkillMenuController").GetComponent<Skills>();
             LoadPlayer();
+            skills.CalculateStats();
         }
 
         levelManager = GameObject.Find("LevelManager").GetComponent<LevelManager>();
