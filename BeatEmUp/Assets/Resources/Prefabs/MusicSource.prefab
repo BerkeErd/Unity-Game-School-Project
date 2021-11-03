@@ -142,6 +142,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MainMenuTheme: {fileID: 8300000, guid: c99c18f83639b244dba977255b79e358, type: 3}
   SkillMenuTheme: {fileID: 8300000, guid: 04f780b759dd4bd4fa3d11ed520e3b0b, type: 3}
+  StoreTheme: {fileID: 8300000, guid: 73b00883a5cf469428cb27fc89479fd1, type: 3}
   Level1Theme: {fileID: 8300000, guid: 12a1aa90b48bdba4cb1f0c66a1952093, type: 3}
   Level2Theme: {fileID: 8300000, guid: 73b00883a5cf469428cb27fc89479fd1, type: 3}
   Level3Theme: {fileID: 0}

@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class MusicSource : MonoBehaviour
 {
-    public AudioClip MainMenuTheme,SkillMenuTheme,Level1Theme, Level2Theme, Level3Theme, Level1BossTheme, Level2BossTheme, Level3BossTheme, ManyEnemiesTheme, NowPlaying;
+    public AudioClip MainMenuTheme,SkillMenuTheme,StoreTheme,Level1Theme, Level2Theme, Level3Theme, Level1BossTheme, Level2BossTheme, Level3BossTheme, ManyEnemiesTheme, NowPlaying;
     private AudioSource source;
     public LevelManager levelmanager;
 
@@ -17,6 +17,11 @@ public class MusicSource : MonoBehaviour
         {
             ChangeMusic(levelmanager.Level);
             
+        }
+        else if (GameObject.Find("Store"))
+        {
+            source.clip = StoreTheme;
+            source.Play();
         }
         else if(GameObject.Find("PlayButton"))
         {

@@ -77,6 +77,7 @@ public class PlayerCombat : MonoBehaviour
     }
     void Start()
     {
+        skills.CalculateStats();
         AudioSource = GetComponent<AudioSource>();
 
         punchDamage = skills.punchDamage;
