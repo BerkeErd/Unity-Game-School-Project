@@ -1,0 +1,4747 @@
+fileFormatVersion: 2
+guid: 008af09f1ab5a984c91fdea0888eff6c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3134842470894066507
+    second: NES_Soldier_Free_SpriteSheet_teal_0
+  - first:
+      213: 6035755473498824650
+    second: NES_Soldier_Free_SpriteSheet_teal_1
+  - first:
+      213: -2823017875224870789
+    second: NES_Soldier_Free_SpriteSheet_teal_2
+  - first:
+      213: -5139360973117677247
+    second: NES_Soldier_Free_SpriteSheet_teal_3
+  - first:
+      213: -18312010762947963
+    second: NES_Soldier_Free_SpriteSheet_teal_4
+  - first:
+      213: 8870666647182738586
+    second: NES_Soldier_Free_SpriteSheet_teal_5
+  - first:
+      213: 5819437400731473302
+    second: NES_Soldier_Free_SpriteSheet_teal_6
+  - first:
+      213: -5788953293581785515
+    second: NES_Soldier_Free_SpriteSheet_teal_7
+  - first:
+      213: -4372101819151350293
+    second: NES_Soldier_Free_SpriteSheet_teal_8
+  - first:
+      213: 6319180317957747020
+    second: NES_Soldier_Free_SpriteSheet_teal_9
+  - first:
+      213: -4577766435266406560
+    second: NES_Soldier_Free_SpriteSheet_teal_10
+  - first:
+      213: 7655102021255900809
+    second: NES_Soldier_Free_SpriteSheet_teal_11
+  - first:
+      213: -5809556224382190717
+    second: NES_Soldier_Free_SpriteSheet_teal_12
+  - first:
+      213: -4264182234799840433
+    second: NES_Soldier_Free_SpriteSheet_teal_13
+  - first:
+      213: 4973987741306736705
+    second: NES_Soldier_Free_SpriteSheet_teal_14
+  - first:
+      213: -5986776441941705724
+    second: NES_Soldier_Free_SpriteSheet_teal_15
+  - first:
+      213: -4885656614851245660
+    second: NES_Soldier_Free_SpriteSheet_teal_16
+  - first:
+      213: 1914661530746991111
+    second: NES_Soldier_Free_SpriteSheet_teal_17
+  - first:
+      213: 8575065322924809784
+    second: NES_Soldier_Free_SpriteSheet_teal_18
+  - first:
+      213: -21258595920493153
+    second: NES_Soldier_Free_SpriteSheet_teal_19
+  - first:
+      213: 3669314197096950969
+    second: NES_Soldier_Free_SpriteSheet_teal_20
+  - first:
+      213: -4825090153460251107
+    second: NES_Soldier_Free_SpriteSheet_teal_21
+  - first:
+      213: 560658839765351076
+    second: NES_Soldier_Free_SpriteSheet_teal_22
+  - first:
+      213: 4730248019651024602
+    second: NES_Soldier_Free_SpriteSheet_teal_23
+  - first:
+      213: 8540929481953843452
+    second: NES_Soldier_Free_SpriteSheet_teal_24
+  - first:
+      213: 8773215315404072996
+    second: NES_Soldier_Free_SpriteSheet_teal_25
+  - first:
+      213: -8949253801144385146
+    second: NES_Soldier_Free_SpriteSheet_teal_26
+  - first:
+      213: -5571716446952735127
+    second: NES_Soldier_Free_SpriteSheet_teal_27
+  - first:
+      213: -6505745648558626678
+    second: NES_Soldier_Free_SpriteSheet_teal_28
+  - first:
+      213: 5258419880470497433
+    second: NES_Soldier_Free_SpriteSheet_teal_29
+  - first:
+      213: 4806473339993248060
+    second: NES_Soldier_Free_SpriteSheet_teal_30
+  - first:
+      213: -1080019587803869567
+    second: NES_Soldier_Free_SpriteSheet_teal_31
+  - first:
+      213: -1020120157816547142
+    second: NES_Soldier_Free_SpriteSheet_teal_32
+  - first:
+      213: -5637152785398777938
+    second: NES_Soldier_Free_SpriteSheet_teal_33
+  - first:
+      213: -1063537717879848275
+    second: NES_Soldier_Free_SpriteSheet_teal_34
+  - first:
+      213: 2289621743184576385
+    second: NES_Soldier_Free_SpriteSheet_teal_35
+  - first:
+      213: 169512974654374638
+    second: NES_Soldier_Free_SpriteSheet_teal_36
+  - first:
+      213: 2769372088963091213
+    second: NES_Soldier_Free_SpriteSheet_teal_37
+  - first:
+      213: -3250351043568533290
+    second: NES_Soldier_Free_SpriteSheet_teal_38
+  - first:
+      213: -4660168579896987382
+    second: NES_Soldier_Free_SpriteSheet_teal_39
+  - first:
+      213: -8610331840639530711
+    second: NES_Soldier_Free_SpriteSheet_teal_40
+  - first:
+      213: -1690446354310668751
+    second: NES_Soldier_Free_SpriteSheet_teal_41
+  - first:
+      213: -6680895023411538963
+    second: NES_Soldier_Free_SpriteSheet_teal_42
+  - first:
+      213: -1855243257720975170
+    second: NES_Soldier_Free_SpriteSheet_teal_43
+  - first:
+      213: 8485392851089500639
+    second: NES_Soldier_Free_SpriteSheet_teal_44
+  - first:
+      213: -4379823585643936655
+    second: NES_Soldier_Free_SpriteSheet_teal_45
+  - first:
+      213: -8409558664089491108
+    second: NES_Soldier_Free_SpriteSheet_teal_46
+  - first:
+      213: -2909508889226934697
+    second: NES_Soldier_Free_SpriteSheet_teal_47
+  - first:
+      213: -6129041892647832052
+    second: NES_Soldier_Free_SpriteSheet_teal_48
+  - first:
+      213: 8968682808831535079
+    second: NES_Soldier_Free_SpriteSheet_teal_49
+  - first:
+      213: 7818414495182332274
+    second: NES_Soldier_Free_SpriteSheet_teal_50
+  - first:
+      213: 5706180668409523836
+    second: NES_Soldier_Free_SpriteSheet_teal_51
+  - first:
+      213: -8380080701518287646
+    second: NES_Soldier_Free_SpriteSheet_teal_52
+  - first:
+      213: 3489039068050008399
+    second: NES_Soldier_Free_SpriteSheet_teal_53
+  - first:
+      213: 6756839096490325858
+    second: NES_Soldier_Free_SpriteSheet_teal_54
+  - first:
+      213: -855152971699304232
+    second: NES_Soldier_Free_SpriteSheet_teal_55
+  - first:
+      213: 2837245772869004328
+    second: NES_Soldier_Free_SpriteSheet_teal_56
+  - first:
+      213: 8796785965545559261
+    second: NES_Soldier_Free_SpriteSheet_teal_57
+  - first:
+      213: -5593092706803266247
+    second: NES_Soldier_Free_SpriteSheet_teal_58
+  - first:
+      213: 7514410992068379859
+    second: NES_Soldier_Free_SpriteSheet_teal_59
+  - first:
+      213: 621018711443284454
+    second: NES_Soldier_Free_SpriteSheet_teal_60
+  - first:
+      213: -6790732812444036738
+    second: NES_Soldier_Free_SpriteSheet_teal_61
+  - first:
+      213: -7458291157441815129
+    second: NES_Soldier_Free_SpriteSheet_teal_62
+  - first:
+      213: 5387609757309416482
+    second: NES_Soldier_Free_SpriteSheet_teal_63
+  - first:
+      213: -7364191555709598298
+    second: NES_Soldier_Free_SpriteSheet_teal_64
+  - first:
+      213: 3731603823173020158
+    second: NES_Soldier_Free_SpriteSheet_teal_65
+  - first:
+      213: -794351444122616493
+    second: NES_Soldier_Free_SpriteSheet_teal_66
+  - first:
+      213: 2621003617494536944
+    second: NES_Soldier_Free_SpriteSheet_teal_67
+  - first:
+      213: -312111401807951439
+    second: NES_Soldier_Free_SpriteSheet_teal_68
+  - first:
+      213: -4939761984101205378
+    second: NES_Soldier_Free_SpriteSheet_teal_69
+  - first:
+      213: 6771285729764891742
+    second: NES_Soldier_Free_SpriteSheet_teal_70
+  - first:
+      213: -2430102455363083080
+    second: NES_Soldier_Free_SpriteSheet_teal_71
+  - first:
+      213: -3762356718813381929
+    second: NES_Soldier_Free_SpriteSheet_teal_72
+  - first:
+      213: 7668139135947201191
+    second: NES_Soldier_Free_SpriteSheet_teal_73
+  - first:
+      213: -8751411236603202016
+    second: NES_Soldier_Free_SpriteSheet_teal_74
+  - first:
+      213: 8690043799245251011
+    second: NES_Soldier_Free_SpriteSheet_teal_75
+  - first:
+      213: 5228617709295960894
+    second: NES_Soldier_Free_SpriteSheet_teal_76
+  - first:
+      213: -5054867989410245282
+    second: NES_Soldier_Free_SpriteSheet_teal_77
+  - first:
+      213: -6914604737813552398
+    second: NES_Soldier_Free_SpriteSheet_teal_78
+  - first:
+      213: -8055121326100308605
+    second: NES_Soldier_Free_SpriteSheet_teal_79
+  - first:
+      213: 2065357189944798521
+    second: NES_Soldier_Free_SpriteSheet_teal_80
+  - first:
+      213: -6149198803151677175
+    second: NES_Soldier_Free_SpriteSheet_teal_81
+  - first:
+      213: 6259637144223879106
+    second: NES_Soldier_Free_SpriteSheet_teal_82
+  - first:
+      213: 1038314424330382764
+    second: NES_Soldier_Free_SpriteSheet_teal_83
+  - first:
+      213: 8644100580925881632
+    second: NES_Soldier_Free_SpriteSheet_teal_84
+  - first:
+      213: 6877259811071205195
+    second: NES_Soldier_Free_SpriteSheet_teal_85
+  - first:
+      213: 1456567957284692877
+    second: NES_Soldier_Free_SpriteSheet_teal_86
+  - first:
+      213: 4410544793228744913
+    second: NES_Soldier_Free_SpriteSheet_teal_87
+  - first:
+      213: -7190846453281108287
+    second: NES_Soldier_Free_SpriteSheet_teal_88
+  - first:
+      213: 7361982849431741237
+    second: NES_Soldier_Free_SpriteSheet_teal_89
+  - first:
+      213: 7589813393633123901
+    second: NES_Soldier_Free_SpriteSheet_teal_90
+  - first:
+      213: -5427670242261518874
+    second: NES_Soldier_Free_SpriteSheet_teal_91
+  - first:
+      213: 2498718581365638502
+    second: NES_Soldier_Free_SpriteSheet_teal_92
+  - first:
+      213: 4930706677431014258
+    second: NES_Soldier_Free_SpriteSheet_teal_93
+  - first:
+      213: -5088432270038452460
+    second: NES_Soldier_Free_SpriteSheet_teal_94
+  - first:
+      213: -7807112105251379510
+    second: NES_Soldier_Free_SpriteSheet_teal_95
+  - first:
+      213: -5829095530365106448
+    second: NES_Soldier_Free_SpriteSheet_teal_96
+  - first:
+      213: 793373054253787543
+    second: NES_Soldier_Free_SpriteSheet_teal_97
+  - first:
+      213: 6360963372101753263
+    second: NES_Soldier_Free_SpriteSheet_teal_98
+  - first:
+      213: 525041586011679964
+    second: NES_Soldier_Free_SpriteSheet_teal_99
+  - first:
+      213: 4094895283717412597
+    second: NES_Soldier_Free_SpriteSheet_teal_100
+  - first:
+      213: -4880012590051289394
+    second: NES_Soldier_Free_SpriteSheet_teal_101
+  - first:
+      213: -1760801940091701203
+    second: NES_Soldier_Free_SpriteSheet_teal_102
+  - first:
+      213: 5914077239822330737
+    second: NES_Soldier_Free_SpriteSheet_teal_103
+  - first:
+      213: -8296645436943420845
+    second: NES_Soldier_Free_SpriteSheet_teal_104
+  - first:
+      213: 6913055773548501690
+    second: NES_Soldier_Free_SpriteSheet_teal_105
+  - first:
+      213: -4456679402302004908
+    second: NES_Soldier_Free_SpriteSheet_teal_106
+  - first:
+      213: -2082434593166512998
+    second: NES_Soldier_Free_SpriteSheet_teal_107
+  - first:
+      213: 5472653549414449234
+    second: NES_Soldier_Free_SpriteSheet_teal_108
+  - first:
+      213: 2989637848153640770
+    second: NES_Soldier_Free_SpriteSheet_teal_109
+  - first:
+      213: 8968588178714770574
+    second: NES_Soldier_Free_SpriteSheet_teal_110
+  - first:
+      213: -4555311657602851055
+    second: NES_Soldier_Free_SpriteSheet_teal_111
+  - first:
+      213: 403044581782600928
+    second: NES_Soldier_Free_SpriteSheet_teal_112
+  - first:
+      213: -6069824447193073181
+    second: NES_Soldier_Free_SpriteSheet_teal_113
+  - first:
+      213: 3755524740755847065
+    second: NES_Soldier_Free_SpriteSheet_teal_114
+  - first:
+      213: 6101306146173343534
+    second: NES_Soldier_Free_SpriteSheet_teal_115
+  - first:
+      213: -6428598323204283461
+    second: NES_Soldier_Free_SpriteSheet_teal_116
+  - first:
+      213: 5635064774683981491
+    second: NES_Soldier_Free_SpriteSheet_teal_117
+  - first:
+      213: -7560982494617773233
+    second: NES_Soldier_Free_SpriteSheet_teal_118
+  - first:
+      213: -8744021836924351523
+    second: NES_Soldier_Free_SpriteSheet_teal_119
+  - first:
+      213: -3467087256814305325
+    second: NES_Soldier_Free_SpriteSheet_teal_120
+  - first:
+      213: -1587318941538769260
+    second: NES_Soldier_Free_SpriteSheet_teal_121
+  - first:
+      213: 2690254667642510099
+    second: NES_Soldier_Free_SpriteSheet_teal_122
+  - first:
+      213: -4138638502908471839
+    second: NES_Soldier_Free_SpriteSheet_teal_123
+  - first:
+      213: -7107148002000244082
+    second: NES_Soldier_Free_SpriteSheet_teal_124
+  - first:
+      213: -8233015308814824177
+    second: NES_Soldier_Free_SpriteSheet_teal_125
+  - first:
+      213: 8287283654737912220
+    second: NES_Soldier_Free_SpriteSheet_teal_126
+  - first:
+      213: 7201926778858918185
+    second: NES_Soldier_Free_SpriteSheet_teal_127
+  - first:
+      213: -6945258674370702155
+    second: NES_Soldier_Free_SpriteSheet_teal_128
+  - first:
+      213: -5374951858273619866
+    second: NES_Soldier_Free_SpriteSheet_teal_129
+  - first:
+      213: 6207972380694992181
+    second: NES_Soldier_Free_SpriteSheet_teal_130
+  - first:
+      213: 5110985168204157639
+    second: NES_Soldier_Free_SpriteSheet_teal_131
+  - first:
+      213: 4045750024173885789
+    second: NES_Soldier_Free_SpriteSheet_teal_132
+  - first:
+      213: 3326521224641137620
+    second: NES_Soldier_Free_SpriteSheet_teal_133
+  - first:
+      213: 1604591474888153422
+    second: NES_Soldier_Free_SpriteSheet_teal_134
+  - first:
+      213: -8836367583461334487
+    second: NES_Soldier_Free_SpriteSheet_teal_135
+  - first:
+      213: -5450039191322332815
+    second: NES_Soldier_Free_SpriteSheet_teal_136
+  - first:
+      213: -7308321749628814942
+    second: NES_Soldier_Free_SpriteSheet_teal_137
+  - first:
+      213: 8667818667421777461
+    second: NES_Soldier_Free_SpriteSheet_teal_138
+  - first:
+      213: 8551948855412244842
+    second: NES_Soldier_Free_SpriteSheet_teal_139
+  - first:
+      213: 4403073869468343846
+    second: NES_Soldier_Free_SpriteSheet_teal_140
+  - first:
+      213: -7300229306676174633
+    second: NES_Soldier_Free_SpriteSheet_teal_141
+  - first:
+      213: -4898978664798686275
+    second: NES_Soldier_Free_SpriteSheet_teal_142
+  - first:
+      213: 5739792848853462928
+    second: NES_Soldier_Free_SpriteSheet_teal_143
+  - first:
+      213: 8705972822412120436
+    second: NES_Soldier_Free_SpriteSheet_teal_144
+  - first:
+      213: -9013095426884486479
+    second: NES_Soldier_Free_SpriteSheet_teal_145
+  - first:
+      213: 484304720270256538
+    second: NES_Soldier_Free_SpriteSheet_teal_146
+  - first:
+      213: 5718687554451944243
+    second: NES_Soldier_Free_SpriteSheet_teal_147
+  - first:
+      213: -2558933974736770414
+    second: NES_Soldier_Free_SpriteSheet_teal_148
+  - first:
+      213: -4323500286952179111
+    second: NES_Soldier_Free_SpriteSheet_teal_149
+  - first:
+      213: -8551580378500374803
+    second: NES_Soldier_Free_SpriteSheet_teal_150
+  - first:
+      213: -6897058707179094399
+    second: NES_Soldier_Free_SpriteSheet_teal_151
+  - first:
+      213: -6167907838832957816
+    second: NES_Soldier_Free_SpriteSheet_teal_152
+  - first:
+      213: -8590038955028885017
+    second: NES_Soldier_Free_SpriteSheet_teal_153
+  - first:
+      213: 7169427337374312870
+    second: NES_Soldier_Free_SpriteSheet_teal_154
+  - first:
+      213: 6436070736959148384
+    second: NES_Soldier_Free_SpriteSheet_teal_155
+  - first:
+      213: -5825169147615484314
+    second: NES_Soldier_Free_SpriteSheet_teal_156
+  - first:
+      213: 2475802503011514498
+    second: NES_Soldier_Free_SpriteSheet_teal_157
+  - first:
+      213: -4861619157754263912
+    second: NES_Soldier_Free_SpriteSheet_teal_158
+  - first:
+      213: 4623312555552108819
+    second: NES_Soldier_Free_SpriteSheet_teal_159
+  - first:
+      213: 5390649748512153430
+    second: NES_Soldier_Free_SpriteSheet_teal_160
+  - first:
+      213: -493579512717130591
+    second: NES_Soldier_Free_SpriteSheet_teal_161
+  - first:
+      213: 6467703023916002088
+    second: NES_Soldier_Free_SpriteSheet_teal_162
+  - first:
+      213: 8149910739759927819
+    second: NES_Soldier_Free_SpriteSheet_teal_163
+  - first:
+      213: -8553584755371222506
+    second: NES_Soldier_Free_SpriteSheet_teal_164
+  - first:
+      213: 6297931985703425317
+    second: NES_Soldier_Free_SpriteSheet_teal_165
+  - first:
+      213: 774954201923461801
+    second: NES_Soldier_Free_SpriteSheet_teal_166
+  - first:
+      213: 1370914309492473969
+    second: NES_Soldier_Free_SpriteSheet_teal_167
+  - first:
+      213: 3411182281118271662
+    second: NES_Soldier_Free_SpriteSheet_teal_168
+  - first:
+      213: -1419505866308617445
+    second: NES_Soldier_Free_SpriteSheet_teal_169
+  - first:
+      213: 928621344632796226
+    second: NES_Soldier_Free_SpriteSheet_teal_170
+  - first:
+      213: -3118608990314728031
+    second: NES_Soldier_Free_SpriteSheet_teal_171
+  - first:
+      213: -6158435628301736270
+    second: NES_Soldier_Free_SpriteSheet_teal_172
+  - first:
+      213: -7583160814202227791
+    second: NES_Soldier_Free_SpriteSheet_teal_173
+  - first:
+      213: 8142221125243639600
+    second: NES_Soldier_Free_SpriteSheet_teal_174
+  - first:
+      213: 9222738616015327644
+    second: NES_Soldier_Free_SpriteSheet_teal_175
+  - first:
+      213: 2294630828899166514
+    second: NES_Soldier_Free_SpriteSheet_teal_176
+  - first:
+      213: -1725989674925919672
+    second: NES_Soldier_Free_SpriteSheet_teal_177
+  - first:
+      213: 3195106751861907606
+    second: NES_Soldier_Free_SpriteSheet_teal_178
+  - first:
+      213: -9022901948512350705
+    second: NES_Soldier_Free_SpriteSheet_teal_179
+  - first:
+      213: -3057867903370221223
+    second: NES_Soldier_Free_SpriteSheet_teal_180
+  - first:
+      213: -4191809474320779161
+    second: NES_Soldier_Free_SpriteSheet_teal_181
+  - first:
+      213: -7096080417648607390
+    second: NES_Soldier_Free_SpriteSheet_teal_182
+  - first:
+      213: 3393739743162752647
+    second: NES_Soldier_Free_SpriteSheet_teal_183
+  - first:
+      213: -6874347753774080083
+    second: NES_Soldier_Free_SpriteSheet_teal_184
+  - first:
+      213: 75808163502387380
+    second: NES_Soldier_Free_SpriteSheet_teal_185
+  - first:
+      213: -6494732850729241329
+    second: NES_Soldier_Free_SpriteSheet_teal_186
+  - first:
+      213: -12438595679191032
+    second: NES_Soldier_Free_SpriteSheet_teal_187
+  - first:
+      213: -3910714430313019333
+    second: NES_Soldier_Free_SpriteSheet_teal_188
+  - first:
+      213: 3665537280695444482
+    second: NES_Soldier_Free_SpriteSheet_teal_189
+  - first:
+      213: -3660690004655815111
+    second: NES_Soldier_Free_SpriteSheet_teal_190
+  - first:
+      213: -183232817737977091
+    second: NES_Soldier_Free_SpriteSheet_teal_191
+  - first:
+      213: 9050320288400488235
+    second: NES_Soldier_Free_SpriteSheet_teal_192
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: NES_Soldier_Free_SpriteSheet_teal_0
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 211
+        width: 24
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 310f813d191e43f468e488960f8ba58f
+      internalID: 3134842470894066507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Soldier_Free_SpriteSheet_teal_1
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 211
+        width: 58
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29eefdc22700ad547997298b47bedfa2
+      internalID: 6035755473498824650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Soldier_Free_SpriteSheet_teal_2
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 211
+        width: 25
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64050d1f5dbe143499276f3f070abe21
+      internalID: -2823017875224870789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Soldier_Free_SpriteSheet_teal_3
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 211
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6abcd8672b6635d43bc6f5585456eced
+      internalID: -5139360973117677247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Soldier_Free_SpriteSheet_teal_4
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 211
+        width: 39
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58c5e70ff1529954cb084eae8485de4d
+      internalID: -18312010762947963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Soldier_Free_SpriteSheet_teal_5
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 211
+        width: 18
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c8f9b767c586804aade994c62ae2a66
+      internalID: 8870666647182738586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Soldier_Free_SpriteSheet_teal_6
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 24
+        width: 88
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3341db7709cc9d49bd6838676ff78c5
+      internalID: 5819437400731473302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Soldier_Free_SpriteSheet_teal_7
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 182
+        width: 8
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e5ac33f4605cd448adeacb98e3c20cd
+      internalID: -5788953293581785515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Soldier_Free_SpriteSheet_teal_8
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 161
+        width: 14
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03a9f4e522169cb43ba40cc37060c892
+      internalID: -4372101819151350293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Soldier_Free_SpriteSheet_teal_9
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 161
+        width: 14
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1afb5536fef191b48a40ec940716ea5c
+      internalID: 6319180317957747020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Soldier_Free_SpriteSheet_teal_10
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 161
+        width: 14
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 781259d9b5cba024f80c7ec3896dea84
+      internalID: -4577766435266406560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Soldier_Free_SpriteSheet_teal_11
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 161
+        width: 14
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3214dc335ea823a4f9accf3b5c567986
+      internalID: 7655102021255900809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Soldier_Free_SpriteSheet_teal_12
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 185
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2a2d987d21d46b47a6570e1ffb8d214
+      internalID: -5809556224382190717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Soldier_Free_SpriteSheet_teal_13
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 162
+        width: 14
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a25633656be465a42a914fbf85a490b2
+      internalID: -4264182234799840433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Soldier_Free_SpriteSheet_teal_14
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 161
+        width: 13
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 234260d17f8f9e24caad40952e9c18a3
+      internalID: 4973987741306736705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Soldier_Free_SpriteSheet_teal_15
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 161
+        width: 13
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8254e6cbff92e9a4a96dd2a3036ddbe0
+      internalID: -5986776441941705724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Soldier_Free_SpriteSheet_teal_16
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 161
+        width: 13
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88c84d57c7a827044836aed5d608392d
+      internalID: -4885656614851245660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Soldier_Free_SpriteSheet_teal_17
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 185
+        width: 8
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3438c4a4adbaa74d9d44527ba9e279e
+      internalID: 1914661530746991111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Soldier_Free_SpriteSheet_teal_18
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 182
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ce9cd8a781b6e5449f44788568dc29f
+      internalID: 8575065322924809784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Soldier_Free_SpriteSheet_teal_19
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 161
+        width: 14
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82599367bbd7802459ec4d5db9a25ad8
+      internalID: -21258595920493153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Soldier_Free_SpriteSheet_teal_20
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 168
+        width: 20
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dea0bdbd091ddb7428dc7608f2fe6bfc
+      internalID: 3669314197096950969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Soldier_Free_SpriteSheet_teal_21
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 176
+        width: 8
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e80c0adb66dca7d44b6b4268f1d41e12
+      internalID: -4825090153460251107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Soldier_Free_SpriteSheet_teal_22
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 179
+        width: 8
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c6f80dec1596314b8daf5c08135567a
+      internalID: 560658839765351076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Soldier_Free_SpriteSheet_teal_23
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 175
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb19268891da4d3459abaf3b09eb367a
+      internalID: 4730248019651024602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Soldier_Free_SpriteSheet_teal_24
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 175
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6354e8afc91ceca44aa08f6abbb3755c
+      internalID: 8540929481953843452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Soldier_Free_SpriteSheet_teal_25
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 161
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17c06320419eeea4fbac9eaef0684a3b
+      internalID: 8773215315404072996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Soldier_Free_SpriteSheet_teal_26
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 161
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c93b9fc1c8bdc4439b32c3bd78f93e0
+      internalID: -8949253801144385146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Soldier_Free_SpriteSheet_teal_27
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 165
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f74b0675843e9334b9e60d1b628e8449
+      internalID: -5571716446952735127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Soldier_Free_SpriteSheet_teal_28
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 171
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16ab144a9a24e6c4796776b8662c0c35
+      internalID: -6505745648558626678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Soldier_Free_SpriteSheet_teal_29
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 162
+        width: 20
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84ee14fda0191bf4aa3b410af9ee5ce7
+      internalID: 5258419880470497433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Soldier_Free_SpriteSheet_teal_30
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 167
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9df28de9632f1cf47af535b0a0fdb30f
+      internalID: 4806473339993248060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Soldier_Free_SpriteSheet_teal_31
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 161
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49b426f3c5ca6df4aae9acfa612d41d8
+      internalID: -1080019587803869567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Soldier_Free_SpriteSheet_teal_32
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 150
+        width: 8
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cdc9c17d4267814ba121c3daf4ed96d
+      internalID: -1020120157816547142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Soldier_Free_SpriteSheet_teal_33
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 129
+        width: 13
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f48faa7c3cc28c4ebfa43a7c71bf368
+      internalID: -5637152785398777938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Soldier_Free_SpriteSheet_teal_34
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 129
+        width: 13
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d46f1d14041ab9749b342b1ed986e14b
+      internalID: -1063537717879848275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Soldier_Free_SpriteSheet_teal_35
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 129
+        width: 13
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c580ee27b428e644b6937c7311e7fd9
+      internalID: 2289621743184576385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Soldier_Free_SpriteSheet_teal_36
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 129
+        width: 13
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b29bc5ae1799024fadf1706e01917a1
+      internalID: 169512974654374638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Soldier_Free_SpriteSheet_teal_37
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 153
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61da539092f5b5e45ad74fb1c15ed039
+      internalID: 2769372088963091213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Soldier_Free_SpriteSheet_teal_38
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 129
+        width: 13
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e415ba7c788fbea46a9bc3bf1bfd368e
+      internalID: -3250351043568533290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Soldier_Free_SpriteSheet_teal_39
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 130
+        width: 14
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0d4a0cba20b4e14bba180a4746f140c
+      internalID: -4660168579896987382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Soldier_Free_SpriteSheet_teal_40
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 129
+        width: 13
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee0bb183f0b7816469db1a1ef3eacf75
+      internalID: -8610331840639530711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Soldier_Free_SpriteSheet_teal_41
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 129
+        width: 13
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a016e6184d9c1b04b94786df32b3d5c2
+      internalID: -1690446354310668751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Soldier_Free_SpriteSheet_teal_42
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 151
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 443e503656a84a847ac0ebeddc650a7b
+      internalID: -6680895023411538963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Soldier_Free_SpriteSheet_teal_43
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 144
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51b0ba47538056345b6cca58a04767d3
+      internalID: -1855243257720975170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Soldier_Free_SpriteSheet_teal_44
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 129
+        width: 18
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 396304d6f850ffc4ba7c23c65f5932d1
+      internalID: 8485392851089500639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Soldier_Free_SpriteSheet_teal_45
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 129
+        width: 15
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79bffd1980b9b27468dc039f77a8f428
+      internalID: -4379823585643936655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Soldier_Free_SpriteSheet_teal_46
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 151
+        width: 8
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e6844aecb871ed43bca709915807d9d
+      internalID: -8409558664089491108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Soldier_Free_SpriteSheet_teal_47
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 129
+        width: 17
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6c6e437a6775dc4e914e12287ce7380
+      internalID: -2909508889226934697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Soldier_Free_SpriteSheet_teal_48
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 144
+        width: 8
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37254d299eb7e844894b7ddb0158fd3a
+      internalID: -6129041892647832052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Soldier_Free_SpriteSheet_teal_49
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 147
+        width: 8
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 651d37e994e3dfa4faa25d849680d2df
+      internalID: 8968682808831535079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Soldier_Free_SpriteSheet_teal_50
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 143
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec359619d4396ab419483cd2814ea399
+      internalID: 7818414495182332274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Soldier_Free_SpriteSheet_teal_51
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 143
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d928a6582987bd46b5ec53d9f78138d
+      internalID: 5706180668409523836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Soldier_Free_SpriteSheet_teal_52
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 133
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf00034084e2d4c419e2f1ee2b6cf979
+      internalID: -8380080701518287646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Soldier_Free_SpriteSheet_teal_53
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 139
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a5cd659ac2b94f4d87c50227d52e77d
+      internalID: 3489039068050008399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Soldier_Free_SpriteSheet_teal_54
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 138
+        width: 8
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d9a88355aa643a478c640122a06102c
+      internalID: 6756839096490325858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Soldier_Free_SpriteSheet_teal_55
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 137
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d26756a3ca3b51469cd64f4be812b82
+      internalID: -855152971699304232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Soldier_Free_SpriteSheet_teal_56
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 137
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 957b42b9613fb834aa9bbc43f8fc18de
+      internalID: 2837245772869004328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Soldier_Free_SpriteSheet_teal_57
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 124
+        width: 8
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24baf661a0309ac49ac0fe468f2fd1bc
+      internalID: 8796785965545559261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Soldier_Free_SpriteSheet_teal_58
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 130
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba62cf6c33c3ea1409a5684d78669d28
+      internalID: -5593092706803266247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Soldier_Free_SpriteSheet_teal_59
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 130
+        width: 8
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0c75ee818da06348931a12e18c47829
+      internalID: 7514410992068379859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Soldier_Free_SpriteSheet_teal_60
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 132
+        width: 8
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68acd8b22f628f440892decad58ae8e9
+      internalID: 621018711443284454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Soldier_Free_SpriteSheet_teal_61
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 121
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0be0b722edb2c94f88d5c60ef8f310b
+      internalID: -6790732812444036738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Soldier_Free_SpriteSheet_teal_62
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 97
+        width: 15
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82f35247c7dfa294b97359051d96c592
+      internalID: -7458291157441815129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Soldier_Free_SpriteSheet_teal_63
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 97
+        width: 13
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a93e32e1d6f6de44face6cacbff85cdb
+      internalID: 5387609757309416482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Soldier_Free_SpriteSheet_teal_64
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 97
+        width: 14
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d12acfa258199434b9c2319b1f94b253
+      internalID: -7364191555709598298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Soldier_Free_SpriteSheet_teal_65
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 97
+        width: 13
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66f00b740c7f742479ed7a55657fbfd4
+      internalID: 3731603823173020158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Soldier_Free_SpriteSheet_teal_66
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 112
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d886390280c55e4e80fb630283a8d87
+      internalID: -794351444122616493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Soldier_Free_SpriteSheet_teal_67
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 97
+        width: 14
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0a0332a774dc6048a69882a6bfac069
+      internalID: 2621003617494536944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Soldier_Free_SpriteSheet_teal_68
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 97
+        width: 13
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b380f40073d94b3498c59b2ca86490ff
+      internalID: -312111401807951439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Soldier_Free_SpriteSheet_teal_69
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 97
+        width: 14
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36703e5018190cb41ad034831b021bb8
+      internalID: -4939761984101205378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Soldier_Free_SpriteSheet_teal_70
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 97
+        width: 13
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85af73940cb6dae4a92731926bee1d00
+      internalID: 6771285729764891742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Soldier_Free_SpriteSheet_teal_71
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 122
+        width: 8
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fba51fa8fc8c2884bb5748ecac0439fb
+      internalID: -2430102455363083080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Soldier_Free_SpriteSheet_teal_72
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 97
+        width: 17
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b1a77297f466934c836e4e9933c5223
+      internalID: -3762356718813381929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Soldier_Free_SpriteSheet_teal_73
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 117
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69d9fb4c788286c428b90941b2e5c29c
+      internalID: 7668139135947201191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Soldier_Free_SpriteSheet_teal_74
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 98
+        width: 21
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bd2e0d587492ab49b19a2d4f2a1e6f8
+      internalID: -8751411236603202016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Soldier_Free_SpriteSheet_teal_75
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 115
+        width: 8
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9dbcf84331a5a214fb0726ae82bbb9ac
+      internalID: 8690043799245251011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Soldier_Free_SpriteSheet_teal_76
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 116
+        width: 8
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6101a528723501b47a8ec9c069ff7d26
+      internalID: 5228617709295960894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Soldier_Free_SpriteSheet_teal_77
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 107
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6eb1f178c719bb4b81b93180a185501
+      internalID: -5054867989410245282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Soldier_Free_SpriteSheet_teal_78
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 107
+        width: 8
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31db0dd09786a1f40a2d02be825deecc
+      internalID: -6914604737813552398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Soldier_Free_SpriteSheet_teal_79
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 109
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7500ad412fdb38341aadcf0c4d37c58b
+      internalID: -8055121326100308605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Soldier_Free_SpriteSheet_teal_80
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 110
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5066cf26de37998498b2f40ed7aeee30
+      internalID: 2065357189944798521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Soldier_Free_SpriteSheet_teal_81
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 97
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42b0bd9258002f14bb67ad5717c542be
+      internalID: -6149198803151677175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Soldier_Free_SpriteSheet_teal_82
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 102
+        width: 8
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ade54fc7800c76448efa0a9404a951d
+      internalID: 6259637144223879106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Soldier_Free_SpriteSheet_teal_83
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 103
+        width: 8
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8612cdf073709a1449d9997f0e330456
+      internalID: 1038314424330382764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Soldier_Free_SpriteSheet_teal_84
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 100
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5caa2033e641c2d44a320a01b084640a
+      internalID: 8644100580925881632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Soldier_Free_SpriteSheet_teal_85
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 92
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d166ed22d4dd8f04eb905f2df2406421
+      internalID: 6877259811071205195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Soldier_Free_SpriteSheet_teal_86
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 97
+        width: 8
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0266e9104ed16094186292842fc81b41
+      internalID: 1456567957284692877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Soldier_Free_SpriteSheet_teal_87
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 89
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c38f6f59f61b224ab87836b8bb38a08
+      internalID: 4410544793228744913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Soldier_Free_SpriteSheet_teal_88
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 65
+        width: 13
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 398f9fcbc2eef404884b1cb5d44459bc
+      internalID: -7190846453281108287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Soldier_Free_SpriteSheet_teal_89
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 65
+        width: 13
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5deaa65a79202543822dcc7fcf3c960
+      internalID: 7361982849431741237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Soldier_Free_SpriteSheet_teal_90
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 65
+        width: 14
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c99f8e7510ceaa45889ae52aebe755e
+      internalID: 7589813393633123901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Soldier_Free_SpriteSheet_teal_91
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 65
+        width: 13
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81ebf32a4e1769c429592ccc85e61113
+      internalID: -5427670242261518874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Soldier_Free_SpriteSheet_teal_92
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 80
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39b5ea9532daa9b41ae6bd21276e1e30
+      internalID: 2498718581365638502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Soldier_Free_SpriteSheet_teal_93
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 65
+        width: 14
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63b1c987c744b8e409b7b431950f9753
+      internalID: 4930706677431014258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Soldier_Free_SpriteSheet_teal_94
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 65
+        width: 13
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30e8dcf712cdbf44b87d204520a4a661
+      internalID: -5088432270038452460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Soldier_Free_SpriteSheet_teal_95
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 65
+        width: 14
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 916e966364922bd438cb1c7491dae307
+      internalID: -7807112105251379510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Soldier_Free_SpriteSheet_teal_96
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 65
+        width: 13
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba5ee07284a202f4d81166c5ad49bd66
+      internalID: -5829095530365106448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Soldier_Free_SpriteSheet_teal_97
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 90
+        width: 8
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c96a6fb33a8b6e42912430fce5466b4
+      internalID: 793373054253787543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Soldier_Free_SpriteSheet_teal_98
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 65
+        width: 19
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bac9baae3eb0af647bef4caaf31272f0
+      internalID: 6360963372101753263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Soldier_Free_SpriteSheet_teal_99
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 85
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41e477bc92ea7f94989d292531957419
+      internalID: 525041586011679964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Soldier_Free_SpriteSheet_teal_100
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 65
+        width: 21
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d0538eedc251c44bb3f7c593fdff4c9
+      internalID: 4094895283717412597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Soldier_Free_SpriteSheet_teal_101
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 84
+        width: 8
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abaf445fdf78e6341bdef2137c11d672
+      internalID: -4880012590051289394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Soldier_Free_SpriteSheet_teal_102
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 84
+        width: 8
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09d1425212295b046ba52c409c638759
+      internalID: -1760801940091701203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Soldier_Free_SpriteSheet_teal_103
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 79
+        width: 8
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb1dd4e182eefdb47a1ff01c492f1891
+      internalID: 5914077239822330737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Soldier_Free_SpriteSheet_teal_104
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 77
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc8067b7da27e80409784885f3cb1d55
+      internalID: -8296645436943420845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Soldier_Free_SpriteSheet_teal_105
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 78
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 224f14428f28abd4abe19ca986d591f8
+      internalID: 6913055773548501690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Soldier_Free_SpriteSheet_teal_106
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 70
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47d21353b1d00a843a4c63b432432d3e
+      internalID: -4456679402302004908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Soldier_Free_SpriteSheet_teal_107
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 75
+        width: 8
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc8ff57cd7c3a88408fd016663d8d537
+      internalID: -2082434593166512998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Soldier_Free_SpriteSheet_teal_108
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 71
+        width: 8
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07e340b9d43c4724ab0a309ba520b41c
+      internalID: 5472653549414449234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Soldier_Free_SpriteSheet_teal_109
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 68
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf83e22fd7020b44f881d47ef41aa4b2
+      internalID: 2989637848153640770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Soldier_Free_SpriteSheet_teal_110
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 70
+        width: 8
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd7af9b00797fda4b9d4c0fa8790f15e
+      internalID: 8968588178714770574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Soldier_Free_SpriteSheet_teal_111
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 65
+        width: 8
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1c1ccdc0ef607741baf16e82ef1a76e
+      internalID: -4555311657602851055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Soldier_Free_SpriteSheet_teal_112
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 65
+        width: 8
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 355667f6dda54e24f81e4ac5ee4818bb
+      internalID: 403044581782600928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Soldier_Free_SpriteSheet_teal_113
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 65
+        width: 8
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e550c7ed3251b54cb4df10518e1ac36
+      internalID: -6069824447193073181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Soldier_Free_SpriteSheet_teal_114
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 33
+        width: 12
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49e07a93580f628468504299241053e4
+      internalID: 3755524740755847065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Soldier_Free_SpriteSheet_teal_115
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 33
+        width: 16
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c09efb9800e06654485e5600b850176c
+      internalID: 6101306146173343534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Soldier_Free_SpriteSheet_teal_116
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 34
+        width: 12
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2ca4e8a9ee83e3439bf4f3049c5892b
+      internalID: -6428598323204283461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Soldier_Free_SpriteSheet_teal_117
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 34
+        width: 15
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21bc1d3bd6134fd4a813ec42c6aba350
+      internalID: 5635064774683981491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Soldier_Free_SpriteSheet_teal_118
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 54
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1d9808b3912e2c4fbdf71fad6608034
+      internalID: -7560982494617773233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Soldier_Free_SpriteSheet_teal_119
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 56
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 271ebe52f3fa09e4192331e8798e39a3
+      internalID: -8744021836924351523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Soldier_Free_SpriteSheet_teal_120
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 33
+        width: 13
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6568471e9dc132d41adcb1862ab91672
+      internalID: -3467087256814305325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Soldier_Free_SpriteSheet_teal_121
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 58
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 890a72e81c38d4e4cb057dc05963bf55
+      internalID: -1587318941538769260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Soldier_Free_SpriteSheet_teal_122
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 56
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70b5cb2daec9e9b4cb5edb0acf8bd75d
+      internalID: 2690254667642510099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Soldier_Free_SpriteSheet_teal_123
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 57
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7768fd93cbc5854b88f4bc64f06b36c
+      internalID: -4138638502908471839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Soldier_Free_SpriteSheet_teal_124
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 52
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65788f222aaab1443b2f052eaf4edc85
+      internalID: -7107148002000244082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Soldier_Free_SpriteSheet_teal_125
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 49
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7dc85687d2084ba4680dc1d420c14f73
+      internalID: -8233015308814824177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Soldier_Free_SpriteSheet_teal_126
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 33
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57c5073e231bd834c897a177085434f1
+      internalID: 8287283654737912220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Soldier_Free_SpriteSheet_teal_127
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 50
+        width: 8
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a8faac844f7e9748ade8aea9347a0a2
+      internalID: 7201926778858918185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Soldier_Free_SpriteSheet_teal_128
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 53
+        width: 7
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 554e75fda1dad9048a1b1bbed17c3263
+      internalID: -6945258674370702155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Soldier_Free_SpriteSheet_teal_129
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 51
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e6a45c0ceff81d4fb3ebad609763a46
+      internalID: -5374951858273619866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Soldier_Free_SpriteSheet_teal_130
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 36
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 498ff9bdf05461b438e7ae1ddaac7785
+      internalID: 6207972380694992181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Soldier_Free_SpriteSheet_teal_131
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 39
+        width: 7
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d3ce2c9f6c20ed4f874ef044a4e6276
+      internalID: 5110985168204157639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Soldier_Free_SpriteSheet_teal_132
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 51
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97ba813828a1ba144a5fff6d80010f09
+      internalID: 4045750024173885789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Soldier_Free_SpriteSheet_teal_133
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 44
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7509a4a0029e68f40bad2b2e02cba61e
+      internalID: 3326521224641137620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Soldier_Free_SpriteSheet_teal_134
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 47
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 997008003b4c0a24fa190615872bb16a
+      internalID: 1604591474888153422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Soldier_Free_SpriteSheet_teal_135
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 42
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3698130712c7d64ba4fc7c0bbff68c7
+      internalID: -8836367583461334487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Soldier_Free_SpriteSheet_teal_136
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 46
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3fef1680cf182142b81d9b3f2d312c4
+      internalID: -5450039191322332815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Soldier_Free_SpriteSheet_teal_137
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 45
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61ca1cbdafd80154dbdef595139dd93f
+      internalID: -7308321749628814942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Soldier_Free_SpriteSheet_teal_138
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 44
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f935e8f5ca68ec4a8c8d4d39a0c3b4a
+      internalID: 8667818667421777461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Soldier_Free_SpriteSheet_teal_139
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 37
+        width: 8
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10dd78c224bc90a49bcb283bae637f78
+      internalID: 8551948855412244842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Soldier_Free_SpriteSheet_teal_140
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 37
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9878483f605898b4d9ad25cdd275927d
+      internalID: 4403073869468343846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Soldier_Free_SpriteSheet_teal_141
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 41
+        width: 15
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1bb9b1053c360849894f194e6ca1402
+      internalID: -7300229306676174633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Soldier_Free_SpriteSheet_teal_142
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 39
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b60d3f3ec00b894ab49a1c8f65db265
+      internalID: -4898978664798686275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Soldier_Free_SpriteSheet_teal_143
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 38
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44070f63c6d77fd42b58ab2023db087a
+      internalID: 5739792848853462928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Soldier_Free_SpriteSheet_teal_144
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 39
+        width: 7
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 568bd243a57730149b3bea3604a469a7
+      internalID: 8705972822412120436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Soldier_Free_SpriteSheet_teal_145
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 32
+        width: 29
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e102f6477f6038c4fae7250dd8813d31
+      internalID: -9013095426884486479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Soldier_Free_SpriteSheet_teal_146
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 34
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: beac6646f0f07aa47bae75f8c2657721
+      internalID: 484304720270256538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Soldier_Free_SpriteSheet_teal_147
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 33
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9c6bdac548c38e4d8a3ebc7f4949bfd
+      internalID: 5718687554451944243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Soldier_Free_SpriteSheet_teal_148
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 33
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef5a381dcc9f4be4f94576f585129c48
+      internalID: -2558933974736770414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Soldier_Free_SpriteSheet_teal_149
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 33
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fa8c3700c98091479d047aeb9af3819
+      internalID: -4323500286952179111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Soldier_Free_SpriteSheet_teal_150
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 25
+        width: 8
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf37d2a06d1489049ab0dcf5c93f3aaa
+      internalID: -8551580378500374803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Soldier_Free_SpriteSheet_teal_151
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 5
+        width: 14
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a90f091083831254a98d0af6fbc7875b
+      internalID: -6897058707179094399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Soldier_Free_SpriteSheet_teal_152
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 3
+        width: 13
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ecd0fe1f74d95349bceab110e7a6817
+      internalID: -6167907838832957816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Soldier_Free_SpriteSheet_teal_153
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 5
+        width: 14
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ff6ad02c5ea2ad49a5d831aa6ce48b8
+      internalID: -8590038955028885017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Soldier_Free_SpriteSheet_teal_154
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 3
+        width: 13
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccaa6a31f55442842a8b5005ee9ca2ec
+      internalID: 7169427337374312870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Soldier_Free_SpriteSheet_teal_155
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 24
+        width: 8
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a33d72f2a063514e92b646603d09028
+      internalID: 6436070736959148384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Soldier_Free_SpriteSheet_teal_156
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 1
+        width: 12
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d41160a10776b3042ab04f27e39bb403
+      internalID: -5825169147615484314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Soldier_Free_SpriteSheet_teal_157
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 1
+        width: 12
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 220ac64292e31c448b57c91c9445ac81
+      internalID: 2475802503011514498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Soldier_Free_SpriteSheet_teal_158
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 1
+        width: 12
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12d822a61e155674993f77281bed3c78
+      internalID: -4861619157754263912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Soldier_Free_SpriteSheet_teal_159
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 1
+        width: 12
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9291d87b68b2894bb860f120b2971d4
+      internalID: 4623312555552108819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Soldier_Free_SpriteSheet_teal_160
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 24
+        width: 8
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c6d0f1d02ad4594197360f083e49af0
+      internalID: 5390649748512153430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Soldier_Free_SpriteSheet_teal_161
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 23
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de444b971ea06d94289afab6499b1b09
+      internalID: -493579512717130591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Soldier_Free_SpriteSheet_teal_162
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 21
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fb648dcded52334a92d44ce3d419886
+      internalID: 6467703023916002088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Soldier_Free_SpriteSheet_teal_163
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 24
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4a35b4e9dbdf1543bb9de5f346f360e
+      internalID: 8149910739759927819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Soldier_Free_SpriteSheet_teal_164
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 0
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6625456cf629d994491f7e701819525a
+      internalID: -8553584755371222506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Soldier_Free_SpriteSheet_teal_165
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 16
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ee0deceb26b11c409bd7fa414cf690c
+      internalID: 6297931985703425317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Soldier_Free_SpriteSheet_teal_166
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 10
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cbd5c0cfe80fec499e649b1eb90cc4e
+      internalID: 774954201923461801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Soldier_Free_SpriteSheet_teal_167
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 18
+        width: 8
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d95a3354411533e4dac3a8eba49bb251
+      internalID: 1370914309492473969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Soldier_Free_SpriteSheet_teal_168
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 17
+        width: 8
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8267efc928aab842850c4361e317c72
+      internalID: 3411182281118271662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Soldier_Free_SpriteSheet_teal_169
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 1
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c75afd3b19af8842bcc07cfd801e1bd
+      internalID: -1419505866308617445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Soldier_Free_SpriteSheet_teal_170
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 1
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38239cfe7754aca4684224496aa08e8b
+      internalID: 928621344632796226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Soldier_Free_SpriteSheet_teal_171
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 19
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63c016419b78b3b448e5c051c9a67213
+      internalID: -3118608990314728031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Soldier_Free_SpriteSheet_teal_172
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 17
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bfeade6b8e8e4f4fa389e1fcf0cfb2a
+      internalID: -6158435628301736270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Soldier_Free_SpriteSheet_teal_173
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 1
+        width: 13
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa7a5d497439b67468f9b1769f47793a
+      internalID: -7583160814202227791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Soldier_Free_SpriteSheet_teal_174
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 14
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57b4bab308d531249b060fa8065394e2
+      internalID: 8142221125243639600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Soldier_Free_SpriteSheet_teal_175
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 16
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8515b7ffb5472a6419ee5158ab27716f
+      internalID: 9222738616015327644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Soldier_Free_SpriteSheet_teal_176
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 1
+        width: 15
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5074dd4760caed44af9ae151e0f71f1
+      internalID: 2294630828899166514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Soldier_Free_SpriteSheet_teal_177
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 8
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e73a78933633cc4d8e6b2cddb5ac139
+      internalID: -1725989674925919672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Soldier_Free_SpriteSheet_teal_178
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 10
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97679369b540de545aaa18d780a96057
+      internalID: 3195106751861907606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Soldier_Free_SpriteSheet_teal_179
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 12
+        width: 8
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d7791a2fca1fca4397bd05cd19e8e20
+      internalID: -9022901948512350705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Soldier_Free_SpriteSheet_teal_180
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 14
+        width: 7
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38e5de69e0fc1e849bac7dfd0f3ea32e
+      internalID: -3057867903370221223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Soldier_Free_SpriteSheet_teal_181
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 9
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1dad1f17dc923c2469ec67fec120770c
+      internalID: -4191809474320779161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Soldier_Free_SpriteSheet_teal_182
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 0
+        width: 40
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aeacf48e645b8c1449e3395d108ad9a2
+      internalID: -7096080417648607390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Soldier_Free_SpriteSheet_teal_183
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 3
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb819c4c1350395418be1e899af6c522
+      internalID: 3393739743162752647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Soldier_Free_SpriteSheet_teal_184
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 3
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04266b017733a0c43872feaedb75b6e4
+      internalID: -6874347753774080083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Soldier_Free_SpriteSheet_teal_185
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 7
+        width: 8
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edd602bcab0a52f40bf33dbbcad5db0f
+      internalID: 75808163502387380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Soldier_Free_SpriteSheet_teal_186
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 6
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 473ea73d9ca0b43418e7ad47589b70b7
+      internalID: -6494732850729241329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Soldier_Free_SpriteSheet_teal_187
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 4
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0266da791e3f388448a923626b9f8e43
+      internalID: -12438595679191032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Soldier_Free_SpriteSheet_teal_188
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 8
+        width: 15
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f212c1a0cb24ee48a628786e59b88d6
+      internalID: -3910714430313019333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Soldier_Free_SpriteSheet_teal_189
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 2
+        width: 8
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8d61b39c5f54b842840518ad165d024
+      internalID: 3665537280695444482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Soldier_Free_SpriteSheet_teal_190
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 1
+        width: 8
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 429e05091da6b7c4e893561b9fc5b807
+      internalID: -3660690004655815111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Soldier_Free_SpriteSheet_teal_191
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 0
+        width: 4
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90c10cf46b6a5ec48b6b47f3dfba7af5
+      internalID: -183232817737977091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Soldier_Free_SpriteSheet_teal_192
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 0
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51cfa420c4e449d44baacdd2aff7ee99
+      internalID: 9050320288400488235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
