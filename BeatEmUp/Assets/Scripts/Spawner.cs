@@ -16,7 +16,7 @@ public class Spawner : MonoBehaviour
     public int EnemiesWillSpawn;
     public bool isSpawning = false;
 
-    private void Start()
+    private void Awake()
     {
         MusicSource = GameObject.Find("MusicSource").GetComponent<MusicSource>();
         levelmanager = GameObject.Find("LevelManager").GetComponent<LevelManager>();
@@ -34,6 +34,10 @@ public class Spawner : MonoBehaviour
         }
         else { EnemiesWillSpawn = 0; }
     }
+    private void Start()
+    {
+      
+    }
 
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -45,6 +49,7 @@ public class Spawner : MonoBehaviour
                 PlayerMovement.isFrozen = true;
                 camerafollow.isFrozen = true;
                 StartCoroutine(SpawnBoss());
+                StartCoroutine(SpawnEnemies(levelmanager.Level - FirstLevelNumber));
                 MusicSource.ChangeMusic(levelmanager.Level, true, true);
             }
 
@@ -52,7 +57,7 @@ public class Spawner : MonoBehaviour
             {
                 PlayerMovement.isFrozen = true;
                 camerafollow.isFrozen = true;
-                StartCoroutine(SpawnEnemies(levelmanager.Level - FirstLevelNumber));
+                StartCoroutine(SpawnEnemies(levelmanager.Level - FirstLevelNumber + 3));
                 MusicSource.ChangeMusic(levelmanager.Level, false, true);
             }
         }
@@ -68,8 +73,17 @@ public class Spawner : MonoBehaviour
 
         for (int i = 0; i < EnemyNumber; i++)
         {
-            float EnemyX = Camera.main.ViewportToWorldPoint(new Vector3(Random.Range(0, 2), 0, 0)).x;
-
+            float randomX = Random.Range(0, 2);
+            if(randomX == 1)
+            {
+                randomX = 0.90f;
+            }
+            else if(randomX == 0)
+            {
+                randomX = 0.2f;
+            }
+            float EnemyX = Camera.main.ViewportToWorldPoint(new Vector3(randomX, 0, 0)).x;
+           
             float EnemyY = Random.Range(maxYpos, minYpos);
 
             Vector2 EnemyPos = new Vector2(EnemyX, EnemyY);
@@ -98,7 +112,7 @@ public class Spawner : MonoBehaviour
         float maxYpos = PlayerMovement.maxYpos;
         float minYpos = PlayerMovement.minYpos;
 
-        float EnemyX = Camera.main.ViewportToWorldPoint(new Vector3(1, 0, 0)).x;
+        float EnemyX = Camera.main.ViewportToWorldPoint(new Vector3(0.95f, 0, 0)).x;
         float EnemyY = Random.Range(maxYpos, minYpos);
 
         Vector2 EnemyPos = new Vector2(EnemyX, EnemyY);
