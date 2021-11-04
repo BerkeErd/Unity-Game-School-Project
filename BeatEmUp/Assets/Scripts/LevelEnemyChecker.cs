@@ -31,8 +31,9 @@ public class LevelEnemyChecker : MonoBehaviour
         {
             EnemyCount += 1;
         }
-
+        Debug.Log(EnemyCount);
         EnemyCount += Spawner.EnemiesWillSpawn;
+        Debug.Log(EnemyCount);
         EnemiesNeedToKill = EnemyCount;
     }
 
@@ -40,6 +41,7 @@ public class LevelEnemyChecker : MonoBehaviour
     {
         if (EnemyCount <= 0)
         {
+            Time.timeScale = 0;
             levelmanager.Level += 1;
             saveData.save();
             NextLevelMenu.SetActive(true);

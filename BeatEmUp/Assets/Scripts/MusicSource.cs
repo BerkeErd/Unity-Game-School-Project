@@ -54,6 +54,8 @@ public class MusicSource : MonoBehaviour
             else
             {
                 NowPlaying = Level1Theme;
+                source.clip = NowPlaying;
+                source.Play();
             }
         }
        else if (Level < 21)
@@ -71,6 +73,8 @@ public class MusicSource : MonoBehaviour
             else
             {
                 NowPlaying = Level2Theme;
+                source.clip = NowPlaying;
+                source.Play();
             }
         }
        else if (Level < 31)
@@ -88,10 +92,11 @@ public class MusicSource : MonoBehaviour
             else
             {
                 NowPlaying = Level3Theme;
+                source.clip = NowPlaying;
+                source.Play();
             }
         }
-        source.clip = NowPlaying;
-        source.Play();
+        
     }
 
 

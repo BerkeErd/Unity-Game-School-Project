@@ -24,13 +24,14 @@ public class Spawner : MonoBehaviour
         Player = GameObject.Find("Fighter").GetComponent<Transform>();
         PlayerMovement = GameObject.Find("Fighter").GetComponent<PlayerMovement>();
 
-        if (levelmanager.Level - FirstLevelNumber >= 5)
+        if (levelmanager.Level - FirstLevelNumber == 10)
         {
-            EnemiesWillSpawn = levelmanager.Level - FirstLevelNumber;
+            EnemiesWillSpawn = 1 + levelmanager.Level - FirstLevelNumber;
+           
         }
-        else if (levelmanager.Level - FirstLevelNumber == 10)
+        else if (levelmanager.Level - FirstLevelNumber >= 5)
         {
-            EnemiesWillSpawn = 1;
+            EnemiesWillSpawn = levelmanager.Level - FirstLevelNumber + 3;
         }
         else { EnemiesWillSpawn = 0; }
     }

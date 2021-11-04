@@ -17,7 +17,7 @@ public class LevelManager : MonoBehaviour
         LevelName = SceneManager.GetActiveScene().name;
         if(GameObject.Find("LevelName"))
         {
-            Debug.Log(Level);
+
             LevelNameText = GameObject.Find("LevelName").GetComponent<Text>();
             LevelNameText.text = "Level " + Level;
         }
