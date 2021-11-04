@@ -37,68 +37,182 @@ public class LevelEnemySpawner : MonoBehaviour
         switch (currentLevel + 1)
         {
             case 1:
-                enemy1Amount = 10;
+                enemy1Amount = 4;
                 enemy2Amount = 0;
                 enemy3Amount = 0;
                 enemy4Amount = 0;
                 break;
             case 2:
-                enemy1Amount = 15;
+                enemy1Amount = 6;
                 enemy2Amount = 0;
                 enemy3Amount = 0;
                 enemy4Amount = 0;
                 break;
             case 3:
-                enemy1Amount = 20;
+                enemy1Amount = 8;
                 enemy2Amount = 0;
                 enemy3Amount = 0;
                 enemy4Amount = 0;
                 break;
             case 4:
-                enemy1Amount = 20;
-                enemy2Amount = 5;
+                enemy1Amount = 10;
+                enemy2Amount = 0;
                 enemy3Amount = 0;
                 enemy4Amount = 0;
                 break;
             case 5:
-                enemy1Amount = 20;
-                enemy2Amount = 10;
+                enemy1Amount = 12;
+                enemy2Amount = 0;
                 enemy3Amount = 0;
                 enemy4Amount = 0;
                 break;
             case 6:
-                enemy1Amount = 20;
-                enemy2Amount = 15;
+                enemy1Amount = 14;
+                enemy2Amount = 0;
                 enemy3Amount = 0;
                 enemy4Amount = 0;
                 break;
             case 7:
-                enemy1Amount = 20;
-                enemy2Amount = 20;
+                enemy1Amount = 16;
+                enemy2Amount = 0;
                 enemy3Amount = 0;
                 enemy4Amount = 0;
                 break;
             case 8:
-                enemy1Amount = 20;
-                enemy2Amount = 20;
+                enemy1Amount = 18;
+                enemy2Amount = 0;
                 enemy3Amount = 0;
                 enemy4Amount = 0;
                 break;
             case 9:
                 enemy1Amount = 20;
-                enemy2Amount = 20;
+                enemy2Amount = 0;
                 enemy3Amount = 0;
                 enemy4Amount = 0;
                 break;
             case 10:
                 enemy1Amount = 20;
-                enemy2Amount = 20;
+                enemy2Amount = 0;
                 enemy3Amount = 0;
                 enemy4Amount = 0;
                 break;
             case 11:
-                enemy1Amount = 20;
+                enemy1Amount = 0;
+                enemy2Amount = 6;
+                enemy3Amount = 0;
+                enemy4Amount = 0;
+                break;
+            case 12:
+                enemy1Amount = 0;
+                enemy2Amount = 8;
+                enemy3Amount = 0;
+                enemy4Amount = 0;
+                break;
+            case 13:
+                enemy1Amount = 0;
+                enemy2Amount = 10;
+                enemy3Amount = 0;
+                enemy4Amount = 0;
+                break;
+            case 14:
+                enemy1Amount = 0;
+                enemy2Amount = 12;
+                enemy3Amount = 0;
+                enemy4Amount = 0;
+                break;
+            case 15:
+                enemy1Amount = 0;
+                enemy2Amount = 14;
+                enemy3Amount = 0;
+                enemy4Amount = 0;
+                break;
+            case 16:
+                enemy1Amount = 0;
+                enemy2Amount = 16;
+                enemy3Amount = 0;
+                enemy4Amount = 0;
+                break;
+            case 17:
+                enemy1Amount = 0;
+                enemy2Amount = 18;
+                enemy3Amount = 0;
+                enemy4Amount = 0;
+                break;
+            case 18:
+                enemy1Amount = 0;
                 enemy2Amount = 20;
+                enemy3Amount = 0;
+                enemy4Amount = 0;
+                break;
+            case 19:
+                enemy1Amount = 0;
+                enemy2Amount = 25;
+                enemy3Amount = 0;
+                enemy4Amount = 0;
+                break;
+            case 20:
+                enemy1Amount = 0;
+                enemy2Amount = 25;
+                enemy3Amount = 0;
+                enemy4Amount = 0;
+                break;
+            case 21:
+                enemy1Amount = 2;
+                enemy2Amount = 2;
+                enemy3Amount = 0;
+                enemy4Amount = 0;
+                break;
+            case 22:
+                enemy1Amount = 4;
+                enemy2Amount = 4;
+                enemy3Amount = 0;
+                enemy4Amount = 0;
+                break;
+            case 23:
+                enemy1Amount = 6;
+                enemy2Amount = 6;
+                enemy3Amount = 0;
+                enemy4Amount = 0;
+                break;
+            case 24:
+                enemy1Amount = 8;
+                enemy2Amount = 8;
+                enemy3Amount = 0;
+                enemy4Amount = 0;
+                break;
+            case 25:
+                enemy1Amount = 10;
+                enemy2Amount = 10;
+                enemy3Amount = 0;
+                enemy4Amount = 0;
+                break;
+            case 26:
+                enemy1Amount = 12;
+                enemy2Amount = 12;
+                enemy3Amount = 0;
+                enemy4Amount = 0;
+                break;
+            case 27:
+                enemy1Amount = 14;
+                enemy2Amount = 14;
+                enemy3Amount = 0;
+                enemy4Amount = 0;
+                break;
+            case 28:
+                enemy1Amount = 16;
+                enemy2Amount = 16;
+                enemy3Amount = 0;
+                enemy4Amount = 0;
+                break;
+            case 29:
+                enemy1Amount = 18;
+                enemy2Amount = 18;
+                enemy3Amount = 0;
+                enemy4Amount = 0;
+                break;
+            case 30:
+                enemy1Amount = 0;
+                enemy2Amount = 0;
                 enemy3Amount = 0;
                 enemy4Amount = 0;
                 break;
