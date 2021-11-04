@@ -12,6 +12,7 @@ public class HitText : MonoBehaviour
 
     void Start()
     {
+        
         FirstPos = transform.position;      
         TargetY = FirstPos.y + 3;   
     }
