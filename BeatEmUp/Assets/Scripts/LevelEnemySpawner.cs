@@ -34,7 +34,7 @@ public class LevelEnemySpawner : MonoBehaviour
         currentLevel = levelManager.Level;
 
 
-        switch (currentLevel + 1)
+        switch (currentLevel)
         {
             case 1:
                 enemy1Amount = 4;
