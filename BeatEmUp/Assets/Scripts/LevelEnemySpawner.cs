@@ -26,9 +26,11 @@ public class LevelEnemySpawner : MonoBehaviour
 
     public LevelManager levelManager;
     public LevelEnemyChecker levelEnemyChecker;
+    public Spawner Spawner;
 
     void Start()
     {
+        Spawner = GameObject.Find("Spawner").GetComponent<Spawner>();
         levelEnemyChecker = GameObject.Find("LevelEnemyChecker").GetComponent<LevelEnemyChecker>();
         levelManager = GameObject.Find("LevelManager").GetComponent<LevelManager>();
         currentLevel = levelManager.Level;
@@ -223,6 +225,7 @@ public class LevelEnemySpawner : MonoBehaviour
 
         totalenemy = enemy1Amount + enemy2Amount + enemy3Amount + enemy4Amount;
         SpawnEnemy();
+        Spawner.CalculateSpawnEnemies();
         levelEnemyChecker.CountEnemies();
     }
 

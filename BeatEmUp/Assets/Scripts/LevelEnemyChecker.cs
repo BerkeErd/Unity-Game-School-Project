@@ -10,12 +10,9 @@ public class LevelEnemyChecker : MonoBehaviour
     public GameObject NextLevelMenu;
     public LevelManager levelmanager;
     public SaveData saveData;
-    public Spawner Spawner;
+   
 
-    private void Awake()
-    {
-        Spawner = GameObject.Find("Spawner").GetComponent<Spawner>();
-    }
+   
     void Start()
     {
         NextLevelMenu = GameObject.Find("NextLevelMenu");
@@ -32,7 +29,7 @@ public class LevelEnemyChecker : MonoBehaviour
             EnemyCount += 1;
         }
         Debug.Log(EnemyCount);
-        EnemyCount += Spawner.EnemiesWillSpawn;
+        EnemyCount += GameObject.Find("Spawner").GetComponent<Spawner>().EnemiesWillSpawn;
         Debug.Log(EnemyCount);
         EnemiesNeedToKill = EnemyCount;
     }
