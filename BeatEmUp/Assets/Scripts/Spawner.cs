@@ -27,8 +27,22 @@ public class Spawner : MonoBehaviour
         
     }
 
+    
     public void CalculateSpawnEnemies()
     {
+        if(levelmanager.Level < 11)
+        {
+            FirstLevelNumber = 0;
+        }
+        else if (levelmanager.Level < 21)
+        {
+            FirstLevelNumber = 10;
+        }
+        else if (levelmanager.Level < 31)
+        {
+            FirstLevelNumber = 20;
+        }
+
         if (levelmanager.Level - FirstLevelNumber == 10)
         {
             EnemiesWillSpawn = 1 + levelmanager.Level - FirstLevelNumber;
