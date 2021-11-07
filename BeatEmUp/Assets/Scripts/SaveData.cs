@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class SaveData : MonoBehaviour
 {
@@ -37,6 +38,7 @@ public class SaveData : MonoBehaviour
             skills.CalculateStats();
         }
 
+        LoadInfo();
         levelManager = GameObject.Find("LevelManager").GetComponent<LevelManager>();
         LoadLevelManager();
         
@@ -61,13 +63,39 @@ public class SaveData : MonoBehaviour
         skills.CalculateStats();
     }
 
-    public void Directsave()
+    public void SaveNewPlayer()
     {
         SaveSystem.SavePlayerSkills(this);
     }
 
+    public void LoadInfo()
+    {
+        Debug.Log("Player Info Loaded");
+        PlayerData data = SaveSystem.LoadPlayerSkills();
+        if (data != null)
+        {
+            str = data.Str;
+            agi = data.Agi;
+            sta = data.Sta;
+            lck = data.Lck;
+            skillpoints = data.SkillPoint;
+            Exp = data.Exp;
+            Gold = data.Gold;
+            PlayerLevel = data.PlayerLevel;
+        }
 
-    public void LoadPlayer()
+        if (GameObject.Find("LevelText"))
+        {
+            GameObject.Find("LevelText").GetComponent<Text>().text = "Level : " + PlayerLevel;
+        }
+        if(GameObject.Find("GoldText"))
+        {
+            GameObject.Find("GoldText").GetComponent<Text>().text = "x " + Gold;
+        }
+
+    }
+
+        public void LoadPlayer()
     {
         Debug.Log("Player Loaded");
         PlayerData data = SaveSystem.LoadPlayerSkills();
@@ -115,7 +143,7 @@ public class SaveData : MonoBehaviour
         PlayerLevel = 1;
         currentStageLevel = 1;
 
-        Directsave();
+        SaveNewPlayer();
         Debug.Log("Yeni Oyuncu Kaydedildi");
     }
 }

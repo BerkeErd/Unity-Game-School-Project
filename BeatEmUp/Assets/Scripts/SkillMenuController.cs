@@ -36,7 +36,6 @@ public class SkillMenuController : MonoBehaviour
         KickDamageText = GameObject.Find("KickDamageText").GetComponent<Text>();
         AttackSpeedText = GameObject.Find("AttackSpeedText").GetComponent<Text>();
         LuckText = GameObject.Find("LuckRatioText").GetComponent<Text>();
-
         saveData = GameObject.Find("Main Camera").GetComponent<SaveData>();
 
     }

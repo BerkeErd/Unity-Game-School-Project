@@ -73,6 +73,10 @@ public class LevelManager : MonoBehaviour
         SceneManager.LoadScene("Settings");
     }
 
+    public void LoadShop()
+    {
+        SceneManager.LoadScene("StoreMenu");
+    }
 
 }
 

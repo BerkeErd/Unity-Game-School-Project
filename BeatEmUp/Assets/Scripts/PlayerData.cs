@@ -16,7 +16,7 @@ public class PlayerData
         //saveData.UpdateSaveData();
         PlayerLevel = saveData.PlayerLevel;
         Exp = saveData.Exp;
-        //Gold = saveData.Gold;
+        Gold = saveData.Gold;
         Str = saveData.str;
         Agi = saveData.agi;
         Sta = saveData.sta;
