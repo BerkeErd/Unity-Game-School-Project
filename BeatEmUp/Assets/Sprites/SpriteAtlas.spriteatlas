@@ -49,11 +49,17 @@ SpriteAtlas:
     - {fileID: 2800000, guid: 1a8c63b338f65804b8c3a4414ede2d3c, type: 3}
     - {fileID: 2800000, guid: 23765adc12ab52344832a690948d8c40, type: 3}
     - {fileID: 2800000, guid: 008af09f1ab5a984c91fdea0888eff6c, type: 3}
-    totalSpriteSurfaceArea: 565454
+    - {fileID: 2800000, guid: f2152b1c5e2776c459911c7d7d89952c, type: 3}
+    - {fileID: 2800000, guid: 7ea63551836ddc7468bd696f86b014e3, type: 3}
+    - {fileID: 2800000, guid: 6c9c956def74ec343a8f640ea6d016b0, type: 3}
+    - {fileID: 2800000, guid: 5944134fc589ee9448e6e3beb39c2dfe, type: 3}
+    - {fileID: 2800000, guid: e2e00bc5db9995649b6f6738de1ed011, type: 3}
+    - {fileID: 2800000, guid: 0bed0773cff74cf48b84207d1b991dc0, type: 3}
+    totalSpriteSurfaceArea: 576269
     bindAsDefault: 1
     storedHash:
       serializedVersion: 2
-      Hash: ce234171ed038e4962ed1a362dfd8ce0
+      Hash: 2e3427ea1c908f57427d1410194185f5
   m_MasterAtlas: {fileID: 0}
   m_PackedSprites:
   - {fileID: -7957278214813060823, guid: 7ea63551836ddc7468bd696f86b014e3, type: 3}
@@ -453,6 +459,9 @@ SpriteAtlas:
   - {fileID: -186140444351170904, guid: c23f10f2687c64244965e2c8fbe98061, type: 3}
   - {fileID: -4809581410420601419, guid: c23f10f2687c64244965e2c8fbe98061, type: 3}
   - {fileID: 4967844420848608961, guid: c23f10f2687c64244965e2c8fbe98061, type: 3}
+  - {fileID: 8793639957104055765, guid: 0bed0773cff74cf48b84207d1b991dc0, type: 3}
+  - {fileID: 6084859605308855041, guid: 0bed0773cff74cf48b84207d1b991dc0, type: 3}
+  - {fileID: 8603369663158992956, guid: 0bed0773cff74cf48b84207d1b991dc0, type: 3}
   - {fileID: -8202855157847329046, guid: 1a8c63b338f65804b8c3a4414ede2d3c, type: 3}
   - {fileID: -8448091952282480472, guid: 1a8c63b338f65804b8c3a4414ede2d3c, type: 3}
   - {fileID: -3263929004123947830, guid: 1a8c63b338f65804b8c3a4414ede2d3c, type: 3}
@@ -2082,6 +2091,14 @@ SpriteAtlas:
   - {fileID: 7569875507708785619, guid: 23765adc12ab52344832a690948d8c40, type: 3}
   - {fileID: 3370832059010984883, guid: 23765adc12ab52344832a690948d8c40, type: 3}
   - {fileID: 1728390858918406630, guid: 23765adc12ab52344832a690948d8c40, type: 3}
+  - {fileID: 8676454946275842879, guid: 6c9c956def74ec343a8f640ea6d016b0, type: 3}
+  - {fileID: -4440497016933152808, guid: 6c9c956def74ec343a8f640ea6d016b0, type: 3}
+  - {fileID: -2217414122262695004, guid: 6c9c956def74ec343a8f640ea6d016b0, type: 3}
+  - {fileID: 2833043080597125133, guid: 6c9c956def74ec343a8f640ea6d016b0, type: 3}
+  - {fileID: 5304202850863732263, guid: 6c9c956def74ec343a8f640ea6d016b0, type: 3}
+  - {fileID: 8284087734974297348, guid: 6c9c956def74ec343a8f640ea6d016b0, type: 3}
+  - {fileID: -2274363484027164459, guid: 6c9c956def74ec343a8f640ea6d016b0, type: 3}
+  - {fileID: 4944230376442633554, guid: 6c9c956def74ec343a8f640ea6d016b0, type: 3}
   - {fileID: -776778496892415009, guid: e30aaf2f626eee04a8ae75bf626d327a, type: 3}
   - {fileID: 2256630858298360949, guid: e30aaf2f626eee04a8ae75bf626d327a, type: 3}
   - {fileID: -1219847415254492431, guid: e30aaf2f626eee04a8ae75bf626d327a, type: 3}
@@ -2747,6 +2764,9 @@ SpriteAtlas:
   - Renegade_Free_SpriteSheet_76
   - Renegade_Free_SpriteSheet_60
   - Renegade_Free_SpriteSheet_56
+  - idle_0
+  - idle_1
+  - idle_2
   - NES_Soldier_Free_SpriteSheet_olive_180
   - NES_Soldier_Free_SpriteSheet_olive_181
   - NES_Soldier_Free_SpriteSheet_olive_182
@@ -4376,6 +4396,14 @@ SpriteAtlas:
   - NES_Soldier_Free_SpriteSheet_red_38
   - NES_Soldier_Free_SpriteSheet_red_39
   - NES_Soldier_Free_SpriteSheet_red_36
+  - Run_7
+  - Run_6
+  - Run_5
+  - Run_4
+  - Run_3
+  - Run_2
+  - Run_1
+  - Run_0
   - SMS SSB 16x16 Tiles BMP 1_31
   - SMS SSB 16x16 Tiles BMP 1_30
   - SMS SSB 16x16 Tiles BMP 1_28

@@ -144,11 +144,11 @@ MonoBehaviour:
   SkillMenuTheme: {fileID: 8300000, guid: 04f780b759dd4bd4fa3d11ed520e3b0b, type: 3}
   StoreTheme: {fileID: 8300000, guid: 73b00883a5cf469428cb27fc89479fd1, type: 3}
   Level1Theme: {fileID: 8300000, guid: 12a1aa90b48bdba4cb1f0c66a1952093, type: 3}
-  Level2Theme: {fileID: 8300000, guid: 73b00883a5cf469428cb27fc89479fd1, type: 3}
-  Level3Theme: {fileID: 0}
+  Level2Theme: {fileID: 8300000, guid: fc84037763f516f4fbab273b5e8bdc5b, type: 3}
+  Level3Theme: {fileID: 8300000, guid: 0ecc6501c788f6e4eb46c975d1c7f3b7, type: 3}
   Level1BossTheme: {fileID: 8300000, guid: 6aaa8d5964d2ecc42ad8f810fe23b63e, type: 3}
-  Level2BossTheme: {fileID: 0}
-  Level3BossTheme: {fileID: 0}
-  ManyEnemiesTheme: {fileID: 0}
+  Level2BossTheme: {fileID: 8300000, guid: e8157f4862a1bfc4a8b926c0a52719d5, type: 3}
+  Level3BossTheme: {fileID: 8300000, guid: c85cddaccc0a86941b8f69d7b75939ca, type: 3}
+  ManyEnemiesTheme: {fileID: 8300000, guid: 548444176dd75e14bb28b11ef5ced565, type: 3}
   NowPlaying: {fileID: 0}
   levelmanager: {fileID: 0}
