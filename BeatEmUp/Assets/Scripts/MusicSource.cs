@@ -23,7 +23,7 @@ public class MusicSource : MonoBehaviour
             source.clip = StoreTheme;
             source.Play();
         }
-        else if(GameObject.Find("PlayButton"))
+        else if(GameObject.Find("ContinueGameButton"))
         {
             source.clip = MainMenuTheme;
             source.Play();

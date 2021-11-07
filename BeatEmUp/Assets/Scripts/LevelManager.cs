@@ -9,9 +9,12 @@ public class LevelManager : MonoBehaviour
     public int Level;
     public string LevelName;
     public Text LevelNameText;
+    public SaveData savedata;
+
 
     private void Start()
     {
+        savedata = GameObject.Find("Main Camera").GetComponent<SaveData>();
         //Level = GameObject.Find("Fighter").GetComponent<Skills>().currentStageLevel; // Saçma ama öyle 
 
         LevelName = SceneManager.GetActiveScene().name;
@@ -76,6 +79,12 @@ public class LevelManager : MonoBehaviour
     public void LoadShop()
     {
         SceneManager.LoadScene("StoreMenu");
+    }
+
+    public void LoadNewPlayer()
+    {
+        savedata.newPlayer();
+        PlayCurrentLevel();
     }
 
 }

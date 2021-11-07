@@ -58,10 +58,7 @@ public class Store : MonoBehaviour
         ShowStats();
     }
 
-    public void Update()
-    {
-
-    }
+   
 
 
     public void ShowStats()

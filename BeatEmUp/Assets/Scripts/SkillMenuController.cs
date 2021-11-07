@@ -310,8 +310,9 @@ public class SkillMenuController : MonoBehaviour
         TempSta = 0;
         TempLck = 0;
 
-        skills.skillpoints = TempSkillsPoints;    
+        skills.skillpoints = TempSkillsPoints;
 
+        skills.Gold = saveData.Gold;
         saveData.save();
         skillBar();
     }

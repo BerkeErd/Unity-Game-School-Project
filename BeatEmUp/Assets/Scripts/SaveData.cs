@@ -14,6 +14,7 @@ public class SaveData : MonoBehaviour
     public int Exp;
     public int PlayerLevel;
 
+    public bool NewPlayer;
     //store
     public int Gold;
 
@@ -25,6 +26,8 @@ public class SaveData : MonoBehaviour
 
     public void Awake()
     {
+        LoadInfo();
+
         if (GameObject.Find("Fighter"))
         {
             skills = GameObject.Find("Fighter").GetComponent<Skills>();
@@ -37,8 +40,14 @@ public class SaveData : MonoBehaviour
             LoadPlayer();
             skills.CalculateStats();
         }
+        else if (GameObject.Find("Store"))
+        {
+            skills = GameObject.Find("Skills").GetComponent<Skills>();
+            LoadPlayer();
+            skills.CalculateStats();
+        }
 
-        LoadInfo();
+       
         levelManager = GameObject.Find("LevelManager").GetComponent<LevelManager>();
         LoadLevelManager();
         
@@ -63,6 +72,8 @@ public class SaveData : MonoBehaviour
         skills.CalculateStats();
     }
 
+    
+
     public void SaveNewPlayer()
     {
         SaveSystem.SavePlayerSkills(this);
@@ -82,8 +93,13 @@ public class SaveData : MonoBehaviour
             Exp = data.Exp;
             Gold = data.Gold;
             PlayerLevel = data.PlayerLevel;
-        }
 
+            NewPlayer = false;
+        }
+        else
+        {
+            NewPlayer = true;
+        }
         if (GameObject.Find("LevelText"))
         {
             GameObject.Find("LevelText").GetComponent<Text>().text = "Level : " + PlayerLevel;
