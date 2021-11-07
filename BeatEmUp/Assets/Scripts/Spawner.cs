@@ -90,14 +90,7 @@ public class Spawner : MonoBehaviour
         for (int i = 0; i < EnemyNumber; i++)
         {
             float randomX = Random.Range(0, 2);
-            if(randomX == 1)
-            {
-                randomX = 0.90f;
-            }
-            else if(randomX == 0)
-            {
-                randomX = 0.2f;
-            }
+            
             float EnemyX = Camera.main.ViewportToWorldPoint(new Vector3(randomX, 0, 0)).x;
            
             float EnemyY = Random.Range(maxYpos, minYpos);
@@ -128,7 +121,7 @@ public class Spawner : MonoBehaviour
         float maxYpos = PlayerMovement.maxYpos;
         float minYpos = PlayerMovement.minYpos;
 
-        float EnemyX = Camera.main.ViewportToWorldPoint(new Vector3(0.95f, 0, 0)).x;
+        float EnemyX = Camera.main.ViewportToWorldPoint(new Vector3(1.5f, 0, 0)).x;
         float EnemyY = Random.Range(maxYpos, minYpos);
 
         Vector2 EnemyPos = new Vector2(EnemyX, EnemyY);

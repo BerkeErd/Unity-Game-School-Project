@@ -225,6 +225,17 @@ public class Enemy : MonoBehaviour
                 //Bi şey yapma
             }
         }
+        else
+        {
+            if(Vector2.Distance(transform.position,target.transform.position) > 5f)
+            {
+                ChasePlayer();
+            }
+            else
+            {
+                StopChasePlayer();
+            }
+        }
     }
 
     private void Attack1()
@@ -375,6 +386,9 @@ public class Enemy : MonoBehaviour
         isWalking = true;
         animator.SetBool("IsWalking", isWalking);
     }
+
+   
+
 
     private void Flip()
     {

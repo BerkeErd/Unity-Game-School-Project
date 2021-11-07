@@ -186,10 +186,7 @@ public class EnemyBoss : MonoBehaviour
                     Flip();
                 }
             }
-            else
-            {
-
-            }
+            
 
             if (isDead) // Bazen bug oluyor ölse de ölme animasyonuna girmiyor bu onu engellemek için
             {
@@ -199,6 +196,20 @@ public class EnemyBoss : MonoBehaviour
             targetDistanceX = Mathf.Abs(transform.position.x - target.transform.position.x);
             targetDistanceY = Mathf.Abs(transform.position.y - target.transform.position.y);
 
+        }
+        else
+        {
+            if (Vector2.Distance(transform.position, target.transform.position) > 6f)
+            {
+                IsRunning = true;
+                animator.SetBool("IsRunning", IsRunning);
+                transform.position = Vector2.MoveTowards(transform.position, target.transform.position, speed * Time.deltaTime);
+            }
+            else
+            {
+                IsRunning = false;
+                animator.SetBool("IsRunning", IsRunning);
+            }
         }
     }
 
@@ -260,16 +271,30 @@ public class EnemyBoss : MonoBehaviour
         StartCoroutine(AttackPlayer());
 
 
+    }
 
+    private IEnumerator SpawnRun()
+    {
 
+        TargetOldPos = target.transform.position;
+        // DÜŞMANIN YERİ BELİRLENDİ
+        IsRunning = true;
+        animator.SetBool("IsRunning", IsRunning);
+        // DÜŞMANIN BELİRLENEN YERİNE HIZLA KOŞULUYOR
+        yield return new WaitUntil(() => transform.position == TargetOldPos);
 
+        // ULAŞINCA VUR
+        IsRunning = false;
+        isAttacking = true;
+        Attack1();
+        // VURMA BİTİNCE IDLE A GERİ DÖN 2 SANİYE DUR
 
+        yield return new WaitUntil(() => !isAttacking);
+        animator.SetBool("IsRunning", IsRunning);
+        yield return new WaitForSeconds(3f);
+        // SONRA BAŞA DÖN
 
-
-
-
-
-
+        StartCoroutine(AttackPlayer());
     }
 
 
