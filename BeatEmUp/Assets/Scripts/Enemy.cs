@@ -241,7 +241,7 @@ public class Enemy : MonoBehaviour
     private void Attack1()
     {
         animator.SetTrigger("Attack1");
-        Collider2D[] hitEnemies = Physics2D.OverlapCircleAll(KickPoint.position, kickRange, playerLayer);
+        Collider2D[] hitEnemies = Physics2D.OverlapCircleAll(PunchPoint.position, kickRange, playerLayer);
         if (hitEnemies.Length > 0)
         {
             AudioSource.clip = soundmanager.Punch2;
@@ -274,15 +274,21 @@ public class Enemy : MonoBehaviour
         }
     }
 
-    private void Attack3()
+    private void PistolSound()
     {
-        animator.SetTrigger("Attack3");
-        Collider2D[] hitEnemies = Physics2D.OverlapCircleAll(KickPoint.position, kickRange, playerLayer);
+        AudioSource.clip = soundmanager.GunShot;
+        AudioSource.Play();
+        Collider2D[] hitEnemies = Physics2D.OverlapCircleAll(PunchPoint.position, kickRange, playerLayer);
+
         if (hitEnemies.Length > 0)
         {
-            AudioSource.clip = soundmanager.Punch1;
+
+            AudioSource.clip = soundmanager.GunShot;
             AudioSource.Play();
+
+
         }
+
         foreach (Collider2D player in hitEnemies)
         {
             if (!player.GetComponent<PlayerCombat>().isDead)
@@ -292,6 +298,32 @@ public class Enemy : MonoBehaviour
             }
         }
 
+    }
+    private void Attack3()
+    {
+        animator.SetTrigger("Attack3");
+        if(gameObject.name != "Agent(Clone)")
+        {
+
+        
+        Collider2D[] hitEnemies = Physics2D.OverlapCircleAll(PunchPoint.position, kickRange, playerLayer);
+        if (hitEnemies.Length > 0)
+        {
+            
+                AudioSource.clip = soundmanager.Punch1;
+                AudioSource.Play();
+            
+            
+        }
+        foreach (Collider2D player in hitEnemies)
+        {
+            if (!player.GetComponent<PlayerCombat>().isDead)
+            {
+                player.GetComponent<PlayerCombat>().TakeDamage(Damage, gameObject);
+
+            }
+        }
+        }
     }
 
     private IEnumerator AttackPlayer()

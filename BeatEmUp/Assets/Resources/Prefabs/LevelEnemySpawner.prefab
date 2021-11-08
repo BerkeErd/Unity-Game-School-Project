@@ -45,7 +45,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   enemy1: {fileID: 160337512378115206, guid: 4e03ad10f68326b4aa0ae24df64850bf, type: 3}
   enemy2: {fileID: 3427244103580153036, guid: a33ec9d51c80cd34683940c9c1271068, type: 3}
-  enemy3: {fileID: 0}
+  enemy3: {fileID: 2839342691115526221, guid: e11ac1b61d2f95c4ab3c268ca5b3642e, type: 3}
   enemy4: {fileID: 0}
   enemy1Amount: 0
   enemy2Amount: 0
@@ -59,3 +59,4 @@ MonoBehaviour:
   currentLevel: 1
   levelManager: {fileID: 0}
   levelEnemyChecker: {fileID: 0}
+  Spawner: {fileID: 0}

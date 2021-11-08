@@ -74,28 +74,28 @@ public class SkillMenuController : MonoBehaviour
 
         if(skills.skillpoints > TempSkillsPoints)
         {
-            StatsText.text = "Stat Points : " + skills.skillpoints + "<color=red>"+-(skills.skillpoints-TempSkillsPoints)+"</color>";
+            StatsText.text = "Stat Points : " + skills.skillpoints + "<color=#ff0000ff>" + -(skills.skillpoints-TempSkillsPoints)+"</color>";
         }
 
         if (TempStr > 0)
         {
-            PunchDamageText.text = "Punch Damage : " + skills.punchDamage + "<color=green>" + "+" + (TempStr + TempStr/10) + "</color>";
-            KickDamageText.text = "Kick Damage : " + skills.kickDamage + "<color=green>" + "+"    + (TempStr + TempStr/10) + "</color>";
+            PunchDamageText.text = "Punch Damage : " + skills.punchDamage + "<color=#00ff00ff>" + "+" + (TempStr + TempStr/10) + "</color>";
+            KickDamageText.text = "Kick Damage : " + skills.kickDamage + "<color=#00ff00ff>" + "+"    + (TempStr + TempStr/10) + "</color>";
         }
 
         if (TempAgi > 0)
         {
-            AttackSpeedText.text = "Attack Speed : " + skills.agiRatio + "<color=green>" + "+" + (TempAgi/100) + "</color>";           
+            AttackSpeedText.text = "Attack Speed : " + skills.agiRatio + "<color=#00ff00ff>" + "+" + (TempAgi/100) + "</color>";           
         }
 
         if (TempSta > 0)
         {
-            HealthText.text = "Health : " + Maxhealth + "<color=green>" + "+" + (TempSta * 10) + "</color>";          
+            HealthText.text = "Health : " + Maxhealth + "<color=#00ff00ff>" + "+" + (TempSta * 10) + "</color>";          
         }
 
         if (TempLck > 0)
         {
-            LuckText.text = "Luck : " + skills.luckRatio + "<color=green>" + "+" + (TempLck/5) + "</color>";          
+            LuckText.text = "Luck : " + skills.luckRatio + "<color=#00ff00ff>" + "+" + (TempLck/5) + "</color>";          
         }
     }
 

@@ -48,3 +48,4 @@ MonoBehaviour:
   Kick: {fileID: 8300000, guid: 4b8e169f1b965b14b898330e0741c8bf, type: 3}
   Kick2: {fileID: 8300000, guid: dc87b7f11c1ad8f479cbccbcc73881fc, type: 3}
   Music: {fileID: 0}
+  GunShot: {fileID: 8300000, guid: 923a3a28ffb2ba642a58ef4d804acc0d, type: 3}

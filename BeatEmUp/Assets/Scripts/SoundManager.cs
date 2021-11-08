@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class SoundManager : MonoBehaviour
 {
-    public AudioClip Punch1, Punch2, Kick, Kick2, Music;
+    public AudioClip Punch1, Punch2, Kick, Kick2, GunShot;
    
 
     private void Start()

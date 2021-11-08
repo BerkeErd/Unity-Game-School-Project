@@ -159,9 +159,9 @@ public class LevelEnemySpawner : MonoBehaviour
                 enemy4Amount = 0;
                 break;
             case 21:
-                enemy1Amount = 2;
-                enemy2Amount = 2;
-                enemy3Amount = 0;
+                enemy1Amount = 0;
+                enemy2Amount = 0;
+                enemy3Amount = 4;
                 enemy4Amount = 0;
                 break;
             case 22:
@@ -251,6 +251,18 @@ public class LevelEnemySpawner : MonoBehaviour
 
             var Enemy2 = Instantiate(enemy2, EnemyPos, Quaternion.identity);
             Enemy2.transform.parent = GameObject.Find("Enemies").transform;
+
+        }
+
+        for (int i = 0; i < enemy3Amount; i++)
+        {
+            float randY = Random.Range(minY, maxY);
+            float randX = Random.Range(minX + (maxX - minX) / totalenemy * i, maxX - (maxX - minX) / totalenemy * (totalenemy - i) + 5);
+
+            Vector2 EnemyPos = new Vector2(randX, randY);
+
+            var Enemy3 = Instantiate(enemy3, EnemyPos, Quaternion.identity);
+            Enemy3.transform.parent = GameObject.Find("Enemies").transform;
 
         }
 

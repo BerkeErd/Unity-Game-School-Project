@@ -542,6 +542,12 @@ PrefabInstance:
       propertyPath: m_AnchorMax.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3362454367905880578, guid: fab5867fd4fbc4e4e85e28b20f0ba238,
+        type: 3}
+      propertyPath: enemy3
+      value: 
+      objectReference: {fileID: 2839342691115526221, guid: e11ac1b61d2f95c4ab3c268ca5b3642e,
+        type: 3}
     - target: {fileID: 3561474002079690569, guid: fab5867fd4fbc4e4e85e28b20f0ba238,
         type: 3}
       propertyPath: m_Name
