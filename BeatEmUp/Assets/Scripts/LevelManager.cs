@@ -83,6 +83,7 @@ public class LevelManager : MonoBehaviour
 
     public void LoadNewPlayer()
     {
+        Level = 1;
         savedata.newPlayer();
         PlayCurrentLevel();
     }

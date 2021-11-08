@@ -9318,7 +9318,7 @@ PrefabInstance:
     - target: {fileID: 6622807507777710313, guid: 7f4fb5aecbe79c645b94af98b164db1c,
         type: 3}
       propertyPath: m_RootOrder
-      value: 8
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 6622807507777710313, guid: 7f4fb5aecbe79c645b94af98b164db1c,
         type: 3}
@@ -9338,7 +9338,7 @@ PrefabInstance:
     - target: {fileID: 6622807507777710313, guid: 7f4fb5aecbe79c645b94af98b164db1c,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 84
+      value: 152
       objectReference: {fileID: 0}
     - target: {fileID: 6622807507777710313, guid: 7f4fb5aecbe79c645b94af98b164db1c,
         type: 3}
@@ -9670,6 +9670,7 @@ MonoBehaviour:
   skillpoints: 0
   Exp: 0
   PlayerLevel: 0
+  NewPlayer: 0
   Gold: 0
   currentStageLevel: 0
   skills: {fileID: 0}

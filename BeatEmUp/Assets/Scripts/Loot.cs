@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Loot : MonoBehaviour
 {
@@ -22,6 +23,7 @@ public class Loot : MonoBehaviour
         {
            Player.Heal(HealAmount);
            skills.Gold += Gold;
+            GameObject.Find("GoldText").GetComponent<Text>().text = skills.Gold.ToString();
            Debug.Log(collision.gameObject.name);
            Destroy(gameObject);
         }
