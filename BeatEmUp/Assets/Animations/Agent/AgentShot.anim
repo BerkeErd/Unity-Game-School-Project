@@ -144,7 +144,7 @@ AnimationClip:
   m_HasMotionFloatCurves: 0
   m_Events:
   - time: 0.93333334
-    functionName: 
+    functionName: PistolSound
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
