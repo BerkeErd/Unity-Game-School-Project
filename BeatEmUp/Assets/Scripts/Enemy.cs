@@ -269,7 +269,7 @@ public class Enemy : MonoBehaviour
         {
             if (!player.GetComponent<PlayerCombat>().isDead)
             {
-                player.GetComponent<PlayerCombat>().TakeDamage(Damage * 2, gameObject);
+                player.GetComponent<PlayerCombat>().TakeDamage(Damage, gameObject);
             }
         }
     }
@@ -293,7 +293,7 @@ public class Enemy : MonoBehaviour
         {
             if (!player.GetComponent<PlayerCombat>().isDead)
             {
-                player.GetComponent<PlayerCombat>().TakeDamage(Damage, gameObject);
+                player.GetComponent<PlayerCombat>().TakeDamage(Damage * 3, gameObject);
 
             }
         }
@@ -319,7 +319,7 @@ public class Enemy : MonoBehaviour
         {
             if (!player.GetComponent<PlayerCombat>().isDead)
             {
-                player.GetComponent<PlayerCombat>().TakeDamage(Damage, gameObject);
+                player.GetComponent<PlayerCombat>().TakeDamage(Damage * 2, gameObject);
 
             }
         }
@@ -346,7 +346,7 @@ public class Enemy : MonoBehaviour
                     break;
 
                 case 1:
-                    Attack3();
+                    Attack2();
 
                     break;
 
@@ -355,12 +355,12 @@ public class Enemy : MonoBehaviour
                     break;
 
                 case 3:
-                    Attack3();
+                    Attack2();
 
                     break;
 
                 case 4:
-                    Attack2();
+                    Attack3();
                     break;
 
                 default:
