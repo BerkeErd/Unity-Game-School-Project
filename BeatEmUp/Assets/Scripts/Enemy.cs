@@ -238,6 +238,27 @@ public class Enemy : MonoBehaviour
         }
     }
 
+
+    
+
+    private void PunchDamageAgent()
+    {
+        Collider2D[] hitEnemies = Physics2D.OverlapCircleAll(PunchPoint.position, kickRange, playerLayer);
+        if (hitEnemies.Length > 0)
+        {
+            AudioSource.clip = soundmanager.Punch2;
+            AudioSource.Play();
+        }
+        foreach (Collider2D player in hitEnemies)
+        {
+            if (!player.GetComponent<PlayerCombat>().isDead)
+            {
+                player.GetComponent<PlayerCombat>().TakeDamage(Damage, gameObject);
+            }
+        }
+    }
+
+
     private void Attack1()
     {
         animator.SetTrigger("Attack1");
@@ -403,6 +424,16 @@ public class Enemy : MonoBehaviour
         if (message == "HitEnded")
         {
             tookDamage = false;
+        }
+
+        if (message == "Punch1")
+        {
+            PunchDamageAgent();
+        }
+
+        if (message == "Punch2")
+        {
+            PunchDamageAgent();
         }
 
     }
