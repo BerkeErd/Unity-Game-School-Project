@@ -23,7 +23,7 @@ public class Loot : MonoBehaviour
         {
            Player.Heal(HealAmount);
            skills.Gold += Gold;
-            GameObject.Find("GoldText").GetComponent<Text>().text = skills.Gold.ToString();
+           GameObject.Find("GoldText").GetComponent<Text>().text = "x "+skills.Gold;
            Debug.Log(collision.gameObject.name);
            Destroy(gameObject);
         }
