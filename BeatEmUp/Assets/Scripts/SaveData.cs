@@ -15,8 +15,13 @@ public class SaveData : MonoBehaviour
     public int PlayerLevel;
 
     public bool NewPlayer;
+
     //store
     public int Gold;
+    public int PunchUpgrade;
+    public int KickUpgrade;
+    public int PunchSkill;
+    public int KickSkill;
 
     //LevelManager
     public int currentStageLevel;
@@ -47,10 +52,10 @@ public class SaveData : MonoBehaviour
             skills.CalculateStats();
         }
 
-       
+
         levelManager = GameObject.Find("LevelManager").GetComponent<LevelManager>();
         LoadLevelManager();
-        
+
     }
     public void UpdateSaveData()
     {
@@ -63,6 +68,10 @@ public class SaveData : MonoBehaviour
         PlayerLevel = skills.PlayerLevel;
         Gold = skills.Gold;
         currentStageLevel = levelManager.Level;
+        PunchUpgrade = skills.PunchUpgrade;
+        KickUpgrade = skills.KickUpgrade;
+        PunchSkill = skills.PunchSkill;
+        KickSkill = skills.KickSkill;
     }
 
     public void save()
@@ -72,7 +81,7 @@ public class SaveData : MonoBehaviour
         skills.CalculateStats();
     }
 
-    
+
 
     public void SaveNewPlayer()
     {
@@ -93,6 +102,10 @@ public class SaveData : MonoBehaviour
             Exp = data.Exp;
             Gold = data.Gold;
             PlayerLevel = data.PlayerLevel;
+            KickSkill = data.KickSkill;
+            PunchSkill = data.PunchSkill;
+            KickUpgrade = data.KickUpgrade;
+            PunchUpgrade = data.PunchUpgrade;
 
             NewPlayer = false;
         }
@@ -104,14 +117,14 @@ public class SaveData : MonoBehaviour
         {
             GameObject.Find("LevelText").GetComponent<Text>().text = "Level : " + PlayerLevel;
         }
-        if(GameObject.Find("GoldText"))
+        if (GameObject.Find("GoldText"))
         {
             GameObject.Find("GoldText").GetComponent<Text>().text = "x " + Gold;
         }
 
     }
 
-        public void LoadPlayer()
+    public void LoadPlayer()
     {
         Debug.Log("Player Loaded");
         PlayerData data = SaveSystem.LoadPlayerSkills();
@@ -124,7 +137,11 @@ public class SaveData : MonoBehaviour
             skills.skillpoints = data.SkillPoint;
             skills.Exp = data.Exp;
             Gold = data.Gold;
-            skills.PlayerLevel = data.PlayerLevel;      
+            skills.PlayerLevel = data.PlayerLevel;
+            skills.KickSkill = data.KickSkill;
+            skills.PunchSkill = data.PunchSkill;
+            skills.KickUpgrade = data.KickUpgrade;
+            skills.PunchUpgrade = data.PunchUpgrade;
         }
         else
         {
@@ -158,6 +175,10 @@ public class SaveData : MonoBehaviour
         Gold = 0;
         PlayerLevel = 1;
         currentStageLevel = 1;
+        KickSkill = 0;
+        PunchSkill = 0;
+        KickUpgrade = 0;
+        PunchUpgrade = 0;
 
         SaveNewPlayer();
         Debug.Log("Yeni Oyuncu Kaydedildi");

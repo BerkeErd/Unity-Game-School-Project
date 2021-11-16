@@ -706,7 +706,11 @@ MonoBehaviour:
   Exp: 0
   PlayerLevel: 0
   NewPlayer: 0
-  Gold: 1000
+  Gold: 0
+  PunchUpgrade: 0
+  KickUpgrade: 0
+  PunchSkill: 0
+  KickSkill: 0
   currentStageLevel: 0
   skills: {fileID: 0}
   levelManager: {fileID: 0}

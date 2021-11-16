@@ -6,6 +6,7 @@ public static class SaveSystem
 { 
     public static void SavePlayerSkills(SaveData saveData)
     {
+        Debug.Log("savesystem'e girdi");
         BinaryFormatter formatter = new BinaryFormatter();
 
         string path = Application.persistentDataPath + "/player.stats";

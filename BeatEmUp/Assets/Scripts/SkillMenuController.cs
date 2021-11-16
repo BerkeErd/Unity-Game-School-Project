@@ -18,9 +18,12 @@ public class SkillMenuController : MonoBehaviour
     private void Awake()
     {
         skills = GetComponent<Skills>();
+
         CancelButton = GameObject.Find("CancelButton").GetComponent<Button>();
         ApplyButton = GameObject.Find("ApplyButton").GetComponent<Button>();
         ContinueButton = GameObject.Find("ContinueButton").GetComponent<Button>();
+        MainMenu = GameObject.Find("MainMenu").GetComponent<Button>();
+
         StrPlus = GameObject.Find("Strength+").GetComponent<Button>();
         StrMinus = GameObject.Find("Strength-").GetComponent<Button>();
         AgiPlus = GameObject.Find("Agility+").GetComponent<Button>();
@@ -29,13 +32,14 @@ public class SkillMenuController : MonoBehaviour
         StaMinus = GameObject.Find("Stamina-").GetComponent<Button>();
         LckPlus = GameObject.Find("Luck+").GetComponent<Button>();
         LckMinus = GameObject.Find("Luck-").GetComponent<Button>();
-        MainMenu = GameObject.Find("MainMenu").GetComponent<Button>();
+
         StatsText = GameObject.Find("StatsText").GetComponent<Text>();
         HealthText = GameObject.Find("HealthText").GetComponent<Text>();
         PunchDamageText = GameObject.Find("PunchDamageText").GetComponent<Text>();
         KickDamageText = GameObject.Find("KickDamageText").GetComponent<Text>();
         AttackSpeedText = GameObject.Find("AttackSpeedText").GetComponent<Text>();
         LuckText = GameObject.Find("LuckRatioText").GetComponent<Text>();
+
         saveData = GameObject.Find("Main Camera").GetComponent<SaveData>();
 
     }

@@ -36,13 +36,9 @@ public class Store : MonoBehaviour
         saveData = GameObject.Find("Main Camera").GetComponent<SaveData>();
 
     }
+
     public void Start()
     {
-        PunchUpgradePrice = 100;
-        KickUpgradePrice = 100;
-        PunchSkillPrice = 100;
-        KickSkillPrice = 100;
-
         PunchUpgradePriceText.text = "" + PunchUpgradePrice;
         KickUpgradePriceText.text = "" + KickUpgradePrice;
         PunchSkillPriceText.text = "" + PunchSkillPrice;
@@ -53,14 +49,21 @@ public class Store : MonoBehaviour
         PunchSkillButton.onClick.AddListener(delegate { Buy("PunchSkill"); });
         KickSkillButton.onClick.AddListener(delegate { Buy("KickSkill"); });
 
+        UpdatePrice();
         DisableButton();
         skillBar();
         ShowStats();
+        
     }
 
 
-
-
+    public void UpdatePrice()
+    {
+        PunchUpgradePrice = 100 + 100 * skills.PunchUpgrade;
+        KickUpgradePrice = 100 + 100 * skills.KickUpgrade;
+        PunchSkillPrice = 100 + 100 * skills.PunchSkill;
+        KickSkillPrice = 100 + 100 * skills.KickSkill;
+    }
     public void ShowStats()
     {
         PunchStats.text = "Punch Damage : " + (skills.punchDamage + skills.PunchUpgrade * 5);
@@ -110,6 +113,7 @@ public class Store : MonoBehaviour
                 KickSkillImage[i].GetComponent<Image>().enabled = false;
             }
         }
+
     }
 
     public void Buy(string item)
@@ -161,6 +165,7 @@ public class Store : MonoBehaviour
         DisableButton();
         skillBar();
         ShowStats();
+        saveData.save();
     }
 
     public void DisableButton()

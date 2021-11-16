@@ -5,7 +5,7 @@ using UnityEngine;
 [System.Serializable]
 public class PlayerData
 {
-    public int Str, Sta, SkillPoint, Gold, Exp, PlayerLevel, currentStageLevel;
+    public int Str, Sta, SkillPoint, Gold, Exp, PlayerLevel, currentStageLevel, KickSkill, PunchSkill, KickUpgrade, PunchUpgrade;
 
     public float Agi,Lck;
     
@@ -13,7 +13,7 @@ public class PlayerData
 
     public PlayerData(SaveData saveData)
     {
-        //saveData.UpdateSaveData();
+        saveData.UpdateSaveData();
         PlayerLevel = saveData.PlayerLevel;
         Exp = saveData.Exp;
         Gold = saveData.Gold;
@@ -23,5 +23,9 @@ public class PlayerData
         Lck = saveData.lck;
         SkillPoint = saveData.skillpoints;
         currentStageLevel = saveData.currentStageLevel;
+        KickSkill = saveData.KickSkill;
+        PunchSkill = saveData.PunchSkill;
+        KickUpgrade = saveData.KickUpgrade;
+        PunchUpgrade = saveData.PunchUpgrade;
     }
 }
