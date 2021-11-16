@@ -58,7 +58,7 @@ public class Store : MonoBehaviour
         ShowStats();
     }
 
-   
+
 
 
     public void ShowStats()
@@ -120,7 +120,8 @@ public class Store : MonoBehaviour
             skills.Gold -= PunchUpgradePrice;
             if (skills.PunchUpgrade < 5)
             {
-                PunchUpgradePriceText.text = "" + (PunchUpgradePrice + (PunchUpgradePrice * skills.PunchUpgrade));
+                PunchUpgradePrice = PunchUpgradePrice + (PunchUpgradePrice * skills.PunchUpgrade);
+                PunchUpgradePriceText.text = "" + (PunchUpgradePrice);
             }
         }
 
@@ -130,7 +131,8 @@ public class Store : MonoBehaviour
             skills.Gold -= KickUpgradePrice;
             if (skills.KickUpgrade < 5)
             {
-                KickUpgradePriceText.text = "" + (KickUpgradePrice + (KickUpgradePrice * skills.KickUpgrade));
+                KickUpgradePrice = KickUpgradePrice + (KickUpgradePrice * skills.KickUpgrade);
+                KickUpgradePriceText.text = "" + (KickUpgradePrice);
             }
         }
 
@@ -140,7 +142,8 @@ public class Store : MonoBehaviour
             skills.Gold -= PunchSkillPrice;
             if (skills.PunchSkill < 2)
             {
-                PunchSkillPriceText.text = "" + (PunchSkillPrice + (PunchSkillPrice * skills.PunchSkill));
+                PunchSkillPrice = PunchSkillPrice + (PunchSkillPrice * skills.PunchSkill);
+                PunchSkillPriceText.text = "" + (PunchSkillPrice);
             }
         }
 
@@ -150,7 +153,8 @@ public class Store : MonoBehaviour
             skills.Gold -= KickSkillPrice;
             if (skills.KickSkill < 2)
             {
-                KickSkillPriceText.text = "" + (KickSkillPrice + (KickSkillPrice * skills.KickSkill));
+                KickSkillPrice = KickSkillPrice + (KickSkillPrice * skills.KickSkill);
+                KickSkillPriceText.text = "" + (KickSkillPrice);
             }
 
         }
