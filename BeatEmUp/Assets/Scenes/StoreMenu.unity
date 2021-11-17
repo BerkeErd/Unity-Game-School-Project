@@ -939,7 +939,7 @@ MonoBehaviour:
   PunchUpgrade: 0
   PunchSkill: 0
   KickSkill: 0
-  Gold: 1000
+  Gold: 0
   BasepunchDamage: 10
   BasekickDamage: 20
   punchDamage: 0
