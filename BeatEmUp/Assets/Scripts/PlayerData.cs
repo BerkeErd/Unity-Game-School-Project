@@ -13,7 +13,7 @@ public class PlayerData
 
     public PlayerData(SaveData saveData)
     {
-        saveData.UpdateSaveData();
+       // saveData.UpdateSaveData();
         PlayerLevel = saveData.PlayerLevel;
         Exp = saveData.Exp;
         Gold = saveData.Gold;
