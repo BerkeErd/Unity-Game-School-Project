@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 1409954624113372472}
   - component: {fileID: 1409954624113372475}
   - component: {fileID: 5256098509034833149}
+  - component: {fileID: 5199959737574102870}
   m_Layer: 0
   m_Name: Watermelon Loot
   m_TagString: Untagged
@@ -98,7 +99,7 @@ MonoBehaviour:
   Name: Watermelon
   ID: 1
   DropSound: {fileID: 0}
-  CollectSound: {fileID: 0}
+  CollectSound: {fileID: 8300000, guid: d1125e87929616844a8b30644fb31945, type: 3}
   DropRate: 10
   HealAmount: 15
   Gold: 0
@@ -128,3 +129,22 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.12, y: 1.08}
   m_EdgeRadius: 0
+--- !u!95 &5199959737574102870
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1409954624113372474}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: a4831418f2c1abc46b725ac9363391c0, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
