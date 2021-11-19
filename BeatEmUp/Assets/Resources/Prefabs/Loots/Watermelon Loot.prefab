@@ -98,7 +98,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Name: Watermelon
   ID: 1
-  DropSound: {fileID: 0}
+  DropSound: {fileID: 8300000, guid: fdd8e9c3f6bb7154eb5e6168548c6733, type: 3}
   CollectSound: {fileID: 8300000, guid: d1125e87929616844a8b30644fb31945, type: 3}
   DropRate: 10
   HealAmount: 15

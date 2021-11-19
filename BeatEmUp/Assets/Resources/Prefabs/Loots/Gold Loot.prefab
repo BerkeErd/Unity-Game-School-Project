@@ -98,7 +98,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Name: Gold
   ID: 2
-  DropSound: {fileID: 0}
+  DropSound: {fileID: 8300000, guid: 837cdec4809a582489d44c1c6c196360, type: 3}
   CollectSound: {fileID: 8300000, guid: ab638bb7e8382bc4a889a34882a38dce, type: 3}
   DropRate: 100
   HealAmount: 0
