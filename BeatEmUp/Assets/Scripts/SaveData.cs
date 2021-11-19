@@ -136,7 +136,7 @@ public class SaveData : MonoBehaviour
             skills.lck = data.Lck;
             skills.skillpoints = data.SkillPoint;
             skills.Exp = data.Exp;
-            Gold = data.Gold;
+            skills.Gold = data.Gold;
             skills.PlayerLevel = data.PlayerLevel;
             skills.KickSkill = data.KickSkill;
             skills.PunchSkill = data.PunchSkill;
