@@ -80,8 +80,8 @@ AnimationClip:
   m_HasMotionFloatCurves: 0
   m_Events:
   - time: 0.16666667
-    functionName: 
-    data: 
+    functionName: AlertObservers
+    data: GoingUp
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0
@@ -89,6 +89,13 @@ AnimationClip:
   - time: 0.33333334
     functionName: 
     data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 0.35
+    functionName: AlertObservers
+    data: GoingDown
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0

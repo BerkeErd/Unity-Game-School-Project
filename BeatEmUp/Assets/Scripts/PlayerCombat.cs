@@ -41,13 +41,15 @@ public class PlayerCombat : MonoBehaviour
     public bool isKicking;
     public bool isTakeHit;
     public bool isUsingSkill;
+    public bool isGoingUp;
+    public bool isGoingDown;
     public int punchDamage;
     public int kickDamage;
 
     public bool isDead = false;
 
     private int changeSpeed = 50;
-    public int SkillSpeed = 50;
+    public int SkillSpeed = 1;
 
     Animator animator;
     public Skills skills;
@@ -112,10 +114,41 @@ public class PlayerCombat : MonoBehaviour
     }
 
     private void FixedUpdate()
-    { 
+    {
         if (isUsingSkill == true)
         {
-            Mathf.MoveTowards(transform.position.x, FirstPos.x + 10, SkillSpeed * Time.fixedDeltaTime);
+            PlayerMovement.isFrozen = true ;
+            if (isGoingUp == true)
+            {
+               if(PlayerMovement.facingRight == false)
+                {
+                    transform.position = new Vector2(Mathf.MoveTowards(transform.position.x, FirstPos.x + 5, SkillSpeed / 10 * Time.fixedDeltaTime)
+                    , Mathf.MoveTowards(transform.position.y, FirstPos.y + 10, SkillSpeed/10 * Time.fixedDeltaTime));
+                }
+               else
+                {
+                    transform.position = new Vector2(Mathf.MoveTowards(transform.position.x, FirstPos.x - 5, SkillSpeed / 10 * Time.fixedDeltaTime)
+                    , Mathf.MoveTowards(transform.position.y, FirstPos.y + 10, SkillSpeed/10 * Time.fixedDeltaTime));
+                }
+            }
+            else if (isGoingDown == true)
+            {
+                if (PlayerMovement.facingRight == false)
+                {
+                    transform.position = new Vector2(Mathf.MoveTowards(transform.position.x, FirstPos.x + 5, SkillSpeed / 10 * Time.fixedDeltaTime)
+                    , Mathf.MoveTowards(transform.position.y, FirstPos.y, SkillSpeed/10 * Time.fixedDeltaTime));
+                }
+                else
+                {
+                    transform.position = new Vector2(Mathf.MoveTowards(transform.position.x, FirstPos.x - 5, SkillSpeed / 10 * Time.fixedDeltaTime)
+                    , Mathf.MoveTowards(transform.position.y, FirstPos.y, SkillSpeed/10 * Time.fixedDeltaTime));
+                }
+
+            }
+
+            Debug.Log(transform.position);
+            Debug.Log(FirstPos);
+
         }
 
         ExpBar.value = Mathf.MoveTowards(ExpBar.value, skills.Exp, changeSpeed * Time.fixedDeltaTime);
@@ -123,7 +156,7 @@ public class PlayerCombat : MonoBehaviour
 
     public void Kick()
     {
-        if (!isKicking && !isPunching && !isDead && !isTakeHit)
+        if (!isKicking && !isPunching && !isDead && !isTakeHit && !PlayerMovement.isFrozen)
         {
             if (currentComboState == ComboState.KICK_2 || currentComboState == ComboState.PUNCH_1)
             {
@@ -170,7 +203,7 @@ public class PlayerCombat : MonoBehaviour
 
     public void Punch()
     {
-        if (!isPunching && !isKicking && !isDead && !isTakeHit)
+        if (!isPunching && !isKicking && !isDead && !isTakeHit && !PlayerMovement.isFrozen)
         {
             if (currentComboState == ComboState.PUNCH_2 || currentComboState == ComboState.KICK_1 || currentComboState == ComboState.KICK_2)
             {
@@ -263,7 +296,11 @@ public class PlayerCombat : MonoBehaviour
             }
         }
 
-        animator.SetTrigger("Hit");
+        if(!isUsingSkill)
+        {
+            animator.SetTrigger("Hit");
+        }
+        
 
         if (currentHealth <= 0)
         {
@@ -310,6 +347,17 @@ public class PlayerCombat : MonoBehaviour
         if (message == "SkillEnded")
         {
             isUsingSkill = false;
+            PlayerMovement.isFrozen = false;
+        }
+        if (message == "GoingUp")
+        {
+            isGoingUp = true;
+            isGoingDown = false;
+        }
+        if (message == "GoingDown")
+        {
+            isGoingUp = false;
+            isGoingDown = true;
         }
     }
 
@@ -328,7 +376,7 @@ public class PlayerCombat : MonoBehaviour
 
     public void KickSkill()
     {
-        if (!isPunching && !isKicking && !isDead && !isTakeHit)
+        if (!isPunching && !isKicking && !isDead && !isTakeHit && !PlayerMovement.isFrozen)
         {
             isKicking = true;
             isUsingSkill = true;
@@ -354,8 +402,9 @@ public class PlayerCombat : MonoBehaviour
             {
                 enemy.GetComponent<Collider2D>().enabled = true;
             }
-        }   
+        }
         isKicking = false;
+        
         yield return null;
     }
 

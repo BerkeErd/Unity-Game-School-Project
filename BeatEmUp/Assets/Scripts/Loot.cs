@@ -13,6 +13,7 @@ public class Loot : MonoBehaviour
     public int HealAmount = 0;
     public int Gold = 0;
 
+   
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
