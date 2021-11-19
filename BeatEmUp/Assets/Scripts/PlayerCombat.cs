@@ -40,12 +40,14 @@ public class PlayerCombat : MonoBehaviour
     public bool isPunching;
     public bool isKicking;
     public bool isTakeHit;
+    public bool isUsingSkill;
     public int punchDamage;
     public int kickDamage;
 
     public bool isDead = false;
 
     private int changeSpeed = 50;
+    public int SkillSpeed = 50;
 
     Animator animator;
     public Skills skills;
@@ -57,6 +59,7 @@ public class PlayerCombat : MonoBehaviour
     public SaveData saveData;
     public GameObject RestartMenu;
     public Joystick Joystick;
+    public Vector2 FirstPos;
 
     // Start is called before the first frame update
     private void Awake()
@@ -109,7 +112,12 @@ public class PlayerCombat : MonoBehaviour
     }
 
     private void FixedUpdate()
-    {
+    { 
+        if (isUsingSkill == true)
+        {
+            Mathf.MoveTowards(transform.position.x, FirstPos.x + 10, SkillSpeed * Time.fixedDeltaTime);
+        }
+
         ExpBar.value = Mathf.MoveTowards(ExpBar.value, skills.Exp, changeSpeed * Time.fixedDeltaTime);
     }
 
@@ -156,40 +164,7 @@ public class PlayerCombat : MonoBehaviour
                 currentAttackSound = soundmanager.Kick2;
             }
 
-            Collider2D[] hitEnemies = Physics2D.OverlapCircleAll(KickPoint.position, kickRange, enemyLayers);
-
-            if (hitEnemies.Length > 0)
-            {
-                AudioSource.clip = currentAttackSound;
-                AudioSource.Play();
-            }
-
-            foreach (Collider2D enemy in hitEnemies)
-            {
-                BoxCollider2D collider = enemy as BoxCollider2D;
-
-                if (collider != null)
-                {
-                    if (enemy.GetComponent<Enemy>())
-                    {
-                        if (!enemy.GetComponent<Enemy>().isDead)
-                        {
-                            enemy.GetComponent<Enemy>().TakeDamage(kickDamage);
-                            if (currentComboState == ComboState.KICK_2)
-                            {
-                                enemy.GetComponent<Enemy>().KnockUp();
-                            }
-                        }
-                    }
-                    else if (enemy.GetComponent<EnemyBoss>())
-                    {
-                        if (!enemy.GetComponent<EnemyBoss>().isDead)
-                        {
-                            enemy.GetComponent<EnemyBoss>().TakeDamage(kickDamage);
-                        }
-                    }
-                }
-            }
+            HitEnemy(kickDamage, KickPoint, kickRange);
         }
     }
 
@@ -220,38 +195,8 @@ public class PlayerCombat : MonoBehaviour
                 currentAttackSound = soundmanager.Punch2;
             }
 
-            Collider2D[] hitEnemies = Physics2D.OverlapCircleAll(PunchPoint.position, punchRange, enemyLayers);
+            HitEnemy(punchDamage, PunchPoint, punchRange);
 
-            if (hitEnemies.Length > 0)
-            {
-                AudioSource.clip = currentAttackSound;
-                AudioSource.Play();
-            }
-
-            foreach (Collider2D enemy in hitEnemies)
-            {
-                BoxCollider2D collider = enemy as BoxCollider2D;
-
-                if (collider != null)
-                {
-                    if (enemy.GetComponent<Enemy>())
-                    {
-                        if (!enemy.GetComponent<Enemy>().isDead)
-                        {
-                            enemy.GetComponent<Enemy>().TakeDamage(punchDamage);
-                        }
-                    }
-
-                    else if (enemy.GetComponent<EnemyBoss>())
-                    {
-                        if (!enemy.GetComponent<EnemyBoss>().isDead)
-                        {
-                            enemy.GetComponent<EnemyBoss>().TakeDamage(punchDamage);
-
-                        }
-                    }
-                }
-            }
         }
     }
 
@@ -362,6 +307,10 @@ public class PlayerCombat : MonoBehaviour
             Time.timeScale = 0;
             RestartMenu.SetActive(true);
         }
+        if (message == "SkillEnded")
+        {
+            isUsingSkill = false;
+        }
     }
 
     public void GainExp(int EnemyExp)
@@ -375,5 +324,83 @@ public class PlayerCombat : MonoBehaviour
             ExpBar.maxValue = skills.PlayerLevel * 20;
         }
         LevelText.text = "Level : " + skills.PlayerLevel;
+    }
+
+    public void KickSkill()
+    {
+        if (!isPunching && !isKicking && !isDead && !isTakeHit)
+        {
+            isKicking = true;
+            isUsingSkill = true;
+            animator.SetTrigger("KickSkill");
+            currentAttackSound = soundmanager.Punch1;
+            FirstPos = transform.position;
+
+            StartCoroutine(KickSkillKicking());
+
+        }
+    }
+    IEnumerator KickSkillKicking()
+    {
+        while (isUsingSkill && isKicking)
+        {
+            HitEnemy(kickDamage * 2, KickPoint, kickRange * 1.2f);
+            yield return new WaitForSeconds(0.1f);
+        }
+
+        foreach (GameObject enemy in GameObject.FindGameObjectsWithTag("Enemy"))
+        {
+            if (enemy.GetComponent<Collider2D>().enabled == false && enemy.GetComponent<Enemy>().currentHealth >= 0)
+            {
+                enemy.GetComponent<Collider2D>().enabled = true;
+            }
+        }   
+        isKicking = false;
+        yield return null;
+    }
+
+    public void HitEnemy(int damage, Transform DamagePoint, float Range)
+    {
+        Collider2D[] hitEnemies = Physics2D.OverlapCircleAll(DamagePoint.position, Range, enemyLayers);
+
+        if (hitEnemies.Length > 0)
+        {
+            AudioSource.clip = currentAttackSound;
+            AudioSource.Play();
+        }
+
+        foreach (Collider2D enemy in hitEnemies)
+        {
+            BoxCollider2D collider = enemy as BoxCollider2D;
+
+            if (collider != null)
+            {
+                if (enemy.GetComponent<Enemy>())
+                {
+                    if (!enemy.GetComponent<Enemy>().isDead)
+                    {
+                        enemy.GetComponent<Enemy>().TakeDamage(damage);
+
+                        if (isUsingSkill == true)
+                        {
+                            enemy.enabled = false;
+                        }
+                    }
+                }
+
+                else if (enemy.GetComponent<EnemyBoss>())
+                {
+                    if (!enemy.GetComponent<EnemyBoss>().isDead)
+                    {
+                        enemy.GetComponent<EnemyBoss>().TakeDamage(damage);
+
+                        if (isUsingSkill == true)
+                        {
+                            enemy.enabled = false;
+                        }
+                    }
+                }
+            }
+        }
     }
 }

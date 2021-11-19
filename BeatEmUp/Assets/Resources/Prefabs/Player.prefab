@@ -289,6 +289,8 @@ MonoBehaviour:
   defaultComboTimer: 0
   isPunching: 0
   isKicking: 0
+  isTakeHit: 0
+  isUsingSkill: 0
   punchDamage: 0
   kickDamage: 0
   isDead: 0
@@ -301,6 +303,8 @@ MonoBehaviour:
   LevelText: {fileID: 0}
   levelManager: {fileID: 0}
   saveData: {fileID: 0}
+  RestartMenu: {fileID: 0}
+  Joystick: {fileID: 0}
 --- !u!114 &1324386084
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -387,6 +391,10 @@ MonoBehaviour:
   skillpoints: 0
   Exp: 0
   PlayerLevel: 0
+  KickUpgrade: 0
+  PunchUpgrade: 0
+  PunchSkill: 0
+  KickSkill: 0
   Gold: 0
   BasepunchDamage: 10
   BasekickDamage: 20
