@@ -122,12 +122,12 @@ public class PlayerCombat : MonoBehaviour
             {
                if(PlayerMovement.facingRight == false)
                 {
-                    transform.position = new Vector2(Mathf.MoveTowards(transform.position.x, FirstPos.x + 5, SkillSpeed / 10 * Time.fixedDeltaTime)
+                    transform.position = new Vector2(Mathf.MoveTowards(transform.position.x, FirstPos.x + 1, SkillSpeed / 10 * Time.fixedDeltaTime)
                     , Mathf.MoveTowards(transform.position.y, FirstPos.y + 10, SkillSpeed/10 * Time.fixedDeltaTime));
                 }
                else
                 {
-                    transform.position = new Vector2(Mathf.MoveTowards(transform.position.x, FirstPos.x - 5, SkillSpeed / 10 * Time.fixedDeltaTime)
+                    transform.position = new Vector2(Mathf.MoveTowards(transform.position.x, FirstPos.x - 1, SkillSpeed / 10 * Time.fixedDeltaTime)
                     , Mathf.MoveTowards(transform.position.y, FirstPos.y + 10, SkillSpeed/10 * Time.fixedDeltaTime));
                 }
             }
@@ -135,12 +135,12 @@ public class PlayerCombat : MonoBehaviour
             {
                 if (PlayerMovement.facingRight == false)
                 {
-                    transform.position = new Vector2(Mathf.MoveTowards(transform.position.x, FirstPos.x + 5, SkillSpeed / 10 * Time.fixedDeltaTime)
+                    transform.position = new Vector2(Mathf.MoveTowards(transform.position.x, FirstPos.x + 1, SkillSpeed / 10 * Time.fixedDeltaTime)
                     , Mathf.MoveTowards(transform.position.y, FirstPos.y, SkillSpeed/10 * Time.fixedDeltaTime));
                 }
                 else
                 {
-                    transform.position = new Vector2(Mathf.MoveTowards(transform.position.x, FirstPos.x - 5, SkillSpeed / 10 * Time.fixedDeltaTime)
+                    transform.position = new Vector2(Mathf.MoveTowards(transform.position.x, FirstPos.x - 1, SkillSpeed / 10 * Time.fixedDeltaTime)
                     , Mathf.MoveTowards(transform.position.y, FirstPos.y, SkillSpeed/10 * Time.fixedDeltaTime));
                 }
 
@@ -335,6 +335,11 @@ public class PlayerCombat : MonoBehaviour
             isKicking = false;
         }
 
+        if (message == "Kicking")
+        {
+            isKicking = true;
+        }
+
         if (message == "TakeHit")
         {
             isTakeHit = false;
@@ -384,18 +389,19 @@ public class PlayerCombat : MonoBehaviour
     {
         if (!isPunching && !isKicking && !isDead && !isTakeHit && !PlayerMovement.isFrozen)
         {
-            isKicking = true;
+            //isKicking = true;
             isUsingSkill = true;
             animator.SetTrigger("KickSkill");
             currentAttackSound = soundmanager.Punch1;
             FirstPos = transform.position;
 
-            StartCoroutine(KickSkillKicking());
+            StartCoroutine(KickSkillKicking()); 
 
         }
     }
-    IEnumerator KickSkillKicking()
+     IEnumerator KickSkillKicking()
     {
+        yield return new WaitUntil(() => isKicking==true);
         while (isUsingSkill && isKicking)
         {
             HitEnemy(kickDamage * 2, KickPoint, kickRange * 1.2f);
