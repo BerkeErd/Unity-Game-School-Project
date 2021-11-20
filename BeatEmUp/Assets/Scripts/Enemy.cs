@@ -356,7 +356,7 @@ public class Enemy : MonoBehaviour
         isAttacking = true;
         yield return new WaitForSeconds(AttackSpeedTime);
 
-        if (targetClose && !tookDamage)
+        if (targetClose && !tookDamage && !isFrozen)
         {
 
 

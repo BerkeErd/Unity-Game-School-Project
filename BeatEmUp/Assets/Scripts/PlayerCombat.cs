@@ -346,8 +346,12 @@ public class PlayerCombat : MonoBehaviour
         }
         if (message == "SkillEnded")
         {
-            isUsingSkill = false;
-            PlayerMovement.isFrozen = false;
+            if(isUsingSkill)
+            {
+                isUsingSkill = false;
+                PlayerMovement.isFrozen = false;
+            }
+            
         }
         if (message == "GoingUp")
         {
