@@ -268,6 +268,7 @@ public class PlayerCombat : MonoBehaviour
         isKicking = false;
         isPunching = false;
         isTakeHit = true;
+        PlayerMovement.isFrozen = false;
         currentHealth -= damage;
         //  tookDamage = true;
         //  isAttacking = false;
@@ -350,6 +351,7 @@ public class PlayerCombat : MonoBehaviour
             {
                 isUsingSkill = false;
                 PlayerMovement.isFrozen = false;
+                isTakeHit = false;
             }
             
         }
@@ -402,7 +404,7 @@ public class PlayerCombat : MonoBehaviour
 
         foreach (GameObject enemy in GameObject.FindGameObjectsWithTag("Enemy"))
         {
-            if (enemy.GetComponent<Collider2D>().enabled == false && enemy.GetComponent<Enemy>().currentHealth >= 0)
+            if (enemy.GetComponent<Collider2D>().enabled == false) //(enemy.GetComponent<Collider2D>().enabled == false && enemy.GetComponent<Enemy>().currentHealth >= 0) EnemyBoss olduğunda null referans veriyor
             {
                 enemy.GetComponent<Collider2D>().enabled = true;
             }

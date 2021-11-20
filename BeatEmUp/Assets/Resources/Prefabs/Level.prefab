@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 2963018411178015347}
   - component: {fileID: 709597519399609223}
   - component: {fileID: 8251277574145587133}
+  - component: {fileID: 1716052461}
   m_Layer: 0
   m_Name: PunchSkillButton
   m_TagString: Untagged
@@ -116,7 +117,31 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 709597519399609223}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 0}
+        m_MethodName: 
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &1716052461
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1672245397396437490}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates: []
 --- !u!1 &2096674142665804906
 GameObject:
   m_ObjectHideFlags: 0
@@ -129,6 +154,7 @@ GameObject:
   - component: {fileID: 6588439808552281282}
   - component: {fileID: 3766751335101544526}
   - component: {fileID: 8687280912091691793}
+  - component: {fileID: 1733396525}
   m_Layer: 0
   m_Name: KickSkillButton
   m_TagString: Untagged
@@ -234,6 +260,34 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &1733396525
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2096674142665804906}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 2
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 9026670585120208548}
+          m_MethodName: KickSkill
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
 --- !u!1 &3362454367711956797
 GameObject:
   m_ObjectHideFlags: 0
@@ -1331,12 +1385,6 @@ PrefabInstance:
       objectReference: {fileID: 5933778691797960412}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8dc9d4252bb1bcc4eb97caf09d6e7e8a, type: 3}
---- !u!4 &3362454368596601437 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 6896401547454705662, guid: 8dc9d4252bb1bcc4eb97caf09d6e7e8a,
-    type: 3}
-  m_PrefabInstance: {fileID: 8150713531748369827}
-  m_PrefabAsset: {fileID: 0}
 --- !u!114 &8150713530544370069 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 1539699766, guid: 8dc9d4252bb1bcc4eb97caf09d6e7e8a,
@@ -1349,6 +1397,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!4 &3362454368375443889 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6896401546870674450, guid: 8dc9d4252bb1bcc4eb97caf09d6e7e8a,
+    type: 3}
+  m_PrefabInstance: {fileID: 8150713531748369827}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &3362454368353235113 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6896401546690655498, guid: 8dc9d4252bb1bcc4eb97caf09d6e7e8a,
@@ -1361,24 +1415,12 @@ RectTransform:
     type: 3}
   m_PrefabInstance: {fileID: 8150713531748369827}
   m_PrefabAsset: {fileID: 0}
---- !u!4 &3362454368375443889 stripped
+--- !u!4 &3362454368596601437 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: 6896401546870674450, guid: 8dc9d4252bb1bcc4eb97caf09d6e7e8a,
+  m_CorrespondingSourceObject: {fileID: 6896401547454705662, guid: 8dc9d4252bb1bcc4eb97caf09d6e7e8a,
     type: 3}
   m_PrefabInstance: {fileID: 8150713531748369827}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &3362454368683946379 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 6896401547698713640, guid: 8dc9d4252bb1bcc4eb97caf09d6e7e8a,
-    type: 3}
-  m_PrefabInstance: {fileID: 8150713531748369827}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &8150713532046073065 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 843553098, guid: 8dc9d4252bb1bcc4eb97caf09d6e7e8a,
@@ -1395,6 +1437,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &3362454368683946379 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6896401547698713640, guid: 8dc9d4252bb1bcc4eb97caf09d6e7e8a,
+    type: 3}
+  m_PrefabInstance: {fileID: 8150713531748369827}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1001 &8374148493864234717
