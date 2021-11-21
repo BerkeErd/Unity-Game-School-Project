@@ -1,7 +1,130 @@
 fileFormatVersion: 2
 guid: 642b49f1b5b1f674497f7f93f6fe968f
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 4696785561509794565
+    second: SMS SSB Tile Set Sheet_0
+  - first:
+      213: -8882379532905525436
+    second: SMS SSB Tile Set Sheet_1
+  - first:
+      213: 2742314084489434794
+    second: SMS SSB Tile Set Sheet_2
+  - first:
+      213: -9080003165891288450
+    second: SMS SSB Tile Set Sheet_3
+  - first:
+      213: -8531075367257389991
+    second: SMS SSB Tile Set Sheet_4
+  - first:
+      213: 5383693374969927012
+    second: SMS SSB Tile Set Sheet_5
+  - first:
+      213: 4902378719948488302
+    second: SMS SSB Tile Set Sheet_6
+  - first:
+      213: -1134571141291232902
+    second: SMS SSB Tile Set Sheet_7
+  - first:
+      213: -4913810401275638710
+    second: SMS SSB Tile Set Sheet_8
+  - first:
+      213: -3425656000920696750
+    second: SMS SSB Tile Set Sheet_9
+  - first:
+      213: 4708050274944231258
+    second: SMS SSB Tile Set Sheet_10
+  - first:
+      213: -2693183508104597473
+    second: SMS SSB Tile Set Sheet_11
+  - first:
+      213: 8755208363484545447
+    second: SMS SSB Tile Set Sheet_12
+  - first:
+      213: 7803554756621955176
+    second: SMS SSB Tile Set Sheet_13
+  - first:
+      213: -1380464771612291795
+    second: SMS SSB Tile Set Sheet_14
+  - first:
+      213: 160631732051826884
+    second: SMS SSB Tile Set Sheet_15
+  - first:
+      213: -6374613028696789344
+    second: SMS SSB Tile Set Sheet_16
+  - first:
+      213: 4625470510644711237
+    second: SMS SSB Tile Set Sheet_17
+  - first:
+      213: 4784049519350969518
+    second: SMS SSB Tile Set Sheet_18
+  - first:
+      213: -7442722199539263151
+    second: SMS SSB Tile Set Sheet_19
+  - first:
+      213: 23456538283953973
+    second: SMS SSB Tile Set Sheet_20
+  - first:
+      213: 8153911517891113294
+    second: SMS SSB Tile Set Sheet_21
+  - first:
+      213: -1512541095169711249
+    second: SMS SSB Tile Set Sheet_22
+  - first:
+      213: 1761455640973446869
+    second: SMS SSB Tile Set Sheet_23
+  - first:
+      213: 2471653521484250988
+    second: SMS SSB Tile Set Sheet_24
+  - first:
+      213: -1781937787848474527
+    second: SMS SSB Tile Set Sheet_25
+  - first:
+      213: 3585174348954556857
+    second: SMS SSB Tile Set Sheet_26
+  - first:
+      213: -747914978780441420
+    second: SMS SSB Tile Set Sheet_27
+  - first:
+      213: 2086899328769032558
+    second: SMS SSB Tile Set Sheet_28
+  - first:
+      213: -8667755661848172892
+    second: SMS SSB Tile Set Sheet_29
+  - first:
+      213: 323189045017104279
+    second: SMS SSB Tile Set Sheet_30
+  - first:
+      213: -2481854029339400250
+    second: SMS SSB Tile Set Sheet_31
+  - first:
+      213: -3834587795607048332
+    second: SMS SSB Tile Set Sheet_32
+  - first:
+      213: 7170004096825160180
+    second: SMS SSB Tile Set Sheet_33
+  - first:
+      213: 5636301134727659891
+    second: SMS SSB Tile Set Sheet_34
+  - first:
+      213: -3278380485229088195
+    second: SMS SSB Tile Set Sheet_35
+  - first:
+      213: -961818675450767095
+    second: SMS SSB Tile Set Sheet_36
+  - first:
+      213: -2285429679633951611
+    second: SMS SSB Tile Set Sheet_37
+  - first:
+      213: 2053324463109722782
+    second: SMS SSB Tile Set Sheet_38
+  - first:
+      213: 6291281197671042346
+    second: SMS SSB Tile Set Sheet_39
+  - first:
+      213: -4067191955561016100
+    second: SMS SSB Tile Set Sheet_40
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -40,7 +163,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -108,7 +231,868 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: SMS SSB Tile Set Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 473
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0f39e59f4d1f0440b767507ad2ad35b
+      internalID: 4696785561509794565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS SSB Tile Set Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 473
+        width: 13
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1efa385b866c4cc4e9250a29d352d883
+      internalID: -8882379532905525436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS SSB Tile Set Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 473
+        width: 17
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51a50af0a4a38c14fac6a96b2188d003
+      internalID: 2742314084489434794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS SSB Tile Set Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 473
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3099bfff3448217478bb08070caf121a
+      internalID: -9080003165891288450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS SSB Tile Set Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 473
+        width: 30
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5688f196c7ffd0249b51578066acff64
+      internalID: -8531075367257389991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS SSB Tile Set Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 473
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2ffbb80a4673984bb767a6f21484655
+      internalID: 5383693374969927012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS SSB Tile Set Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 473
+        width: 13
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8be4fe97e7f0ebd4e943daec83c83bb8
+      internalID: 4902378719948488302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS SSB Tile Set Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 473
+        width: 38
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70436d5a9ab8f134ab06b0015f14515a
+      internalID: -1134571141291232902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS SSB Tile Set Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 473
+        width: 17
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df0b26e41853e124b863736ed14b945f
+      internalID: -4913810401275638710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS SSB Tile Set Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 473
+        width: 13
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fa0525ee5cd90c428bc21c32bac30d1
+      internalID: -3425656000920696750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS SSB Tile Set Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 473
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9002c1da98d97404f99ddea80e564ab2
+      internalID: 4708050274944231258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS SSB Tile Set Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 473
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fd86f8c781d1ff438282faf8ac7d325
+      internalID: -2693183508104597473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS SSB Tile Set Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 473
+        width: 5
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1903cf11b678f64688cc164bfd5cae5
+      internalID: 8755208363484545447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS SSB Tile Set Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 473
+        width: 13
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed714e54ee4656f4aad55c6c8aa6336f
+      internalID: 7803554756621955176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS SSB Tile Set Sheet_14
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 473
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b25b8a9a50c86014ea7a38a282fbc11f
+      internalID: -1380464771612291795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS SSB Tile Set Sheet_15
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 473
+        width: 5
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3380005032fdd824abeeaf1097408167
+      internalID: 160631732051826884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS SSB Tile Set Sheet_16
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 473
+        width: 17
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6325054cabbd6d241829f6e8c455a9c9
+      internalID: -6374613028696789344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS SSB Tile Set Sheet_17
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 473
+        width: 19
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f2265af2a46d3c46b03b3d6031f4660
+      internalID: 4625470510644711237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS SSB Tile Set Sheet_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 222
+        width: 784
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc8a318e48fa1df42bbf12797ada4502
+      internalID: 4784049519350969518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS SSB Tile Set Sheet_19
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 209
+        width: 5
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30e8d0a640afd3d44bf2451ad05f9e3c
+      internalID: -7442722199539263151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS SSB Tile Set Sheet_20
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 209
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29dace02ca8bfd04280aaebf3bc7e277
+      internalID: 23456538283953973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS SSB Tile Set Sheet_21
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 209
+        width: 5
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a6460bed94059344b433395741ad84d
+      internalID: 8153911517891113294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS SSB Tile Set Sheet_22
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 209
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb0a66e504278614480ad2e7b39fabf8
+      internalID: -1512541095169711249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS SSB Tile Set Sheet_23
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 209
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e012cd1cdd7ebc349982c2f74714d904
+      internalID: 1761455640973446869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS SSB Tile Set Sheet_24
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 209
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdc0e744a0e670b479c6c88c74356a77
+      internalID: 2471653521484250988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS SSB Tile Set Sheet_25
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 209
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efaa4891c6e215d47b901f1bf11f2dcb
+      internalID: -1781937787848474527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS SSB Tile Set Sheet_26
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 209
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da1491ff28e87034fa7cb68f431cf39b
+      internalID: 3585174348954556857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS SSB Tile Set Sheet_27
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 209
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b7085b212ad75a46b08406166685266
+      internalID: -747914978780441420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS SSB Tile Set Sheet_28
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 209
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0038999267ee5fd4ba04f3e905919dc1
+      internalID: 2086899328769032558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS SSB Tile Set Sheet_29
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 209
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37b20af0a60d46f4eb554a65f98a1e09
+      internalID: -8667755661848172892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS SSB Tile Set Sheet_30
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 209
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ee925350cf6abc468dbfe84e0824bf3
+      internalID: 323189045017104279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS SSB Tile Set Sheet_31
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 72
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f964e60128f324c448782958bc87e926
+      internalID: -2481854029339400250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS SSB Tile Set Sheet_32
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 72
+        width: 416
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9a345a6c7be8824391eb83b9687a326
+      internalID: -3834587795607048332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS SSB Tile Set Sheet_33
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 96
+        width: 184
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7edb70e03e2132244be789141fb0ccd5
+      internalID: 7170004096825160180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS SSB Tile Set Sheet_34
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 8
+        width: 80
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a43fcc85a6c2fd43ad407ccc9b1b451
+      internalID: 5636301134727659891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS SSB Tile Set Sheet_35
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 8
+        width: 80
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 413f6733ff017f54dbe108c1221fdcb6
+      internalID: -3278380485229088195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS SSB Tile Set Sheet_36
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 8
+        width: 80
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc3bef9d8eddf514fab0d02936c7ca96
+      internalID: -961818675450767095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS SSB Tile Set Sheet_37
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 8
+        width: 80
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad130b7e5e49b074e80f732cb340940d
+      internalID: -2285429679633951611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS SSB Tile Set Sheet_38
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 8
+        width: 80
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d97815644eb08b14baa15cc1f2a530cb
+      internalID: 2053324463109722782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS SSB Tile Set Sheet_39
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 8
+        width: 80
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d3205b3a1cc3734ead73d7d2b6b635d
+      internalID: 6291281197671042346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS SSB Tile Set Sheet_40
+      rect:
+        serializedVersion: 2
+        x: 629
+        y: 8
+        width: 131
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: add2d9ea64070104daf1345d424ec4d4
+      internalID: -4067191955561016100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []

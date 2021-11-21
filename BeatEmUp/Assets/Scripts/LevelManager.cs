@@ -33,19 +33,33 @@ public class LevelManager : MonoBehaviour
             Time.timeScale = 1;
         }
 
+       
+            SceneManager.LoadScene("LoadingScreen");
+        
+    }
+
+    public AsyncOperation SendLevelInfo()
+    {
+       
+
         if (Level < 11)
         {
-            SceneManager.LoadScene("LEVEL 01");
+           return SceneManager.LoadSceneAsync("LEVEL 01");
         }
         else if (Level < 21)
         {
-            SceneManager.LoadScene("LEVEL 02");
+            return SceneManager.LoadSceneAsync("LEVEL 02");
         }
-        else if (Level < 31)
+        else
         {
-            SceneManager.LoadScene("LEVEL 03");
+            return SceneManager.LoadSceneAsync("LEVEL 03");
         }
+
+
     }
+
+
+
 
 
     public void LoadSkillsScene()

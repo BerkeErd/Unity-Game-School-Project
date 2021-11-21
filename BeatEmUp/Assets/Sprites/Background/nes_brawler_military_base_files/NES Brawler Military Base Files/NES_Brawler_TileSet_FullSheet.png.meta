@@ -1,7 +1,46 @@
 fileFormatVersion: 2
 guid: 64227068837e104408f80670fbd3f2a0
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 8053126202269132454
+    second: NES_Brawler_TileSet_FullSheet_0
+  - first:
+      213: -9030816035201574189
+    second: NES_Brawler_TileSet_FullSheet_1
+  - first:
+      213: -4076416436965679915
+    second: NES_Brawler_TileSet_FullSheet_2
+  - first:
+      213: 6105488838433016470
+    second: NES_Brawler_TileSet_FullSheet_3
+  - first:
+      213: 6269736110105536928
+    second: NES_Brawler_TileSet_FullSheet_4
+  - first:
+      213: 4949745553979521959
+    second: NES_Brawler_TileSet_FullSheet_5
+  - first:
+      213: 1416496565270768319
+    second: NES_Brawler_TileSet_FullSheet_6
+  - first:
+      213: -6126316503624811854
+    second: NES_Brawler_TileSet_FullSheet_7
+  - first:
+      213: -7554309828056920236
+    second: NES_Brawler_TileSet_FullSheet_8
+  - first:
+      213: -9055554641005015213
+    second: NES_Brawler_TileSet_FullSheet_9
+  - first:
+      213: 1429722544617953113
+    second: NES_Brawler_TileSet_FullSheet_10
+  - first:
+      213: 3780088675797890060
+    second: NES_Brawler_TileSet_FullSheet_11
+  - first:
+      213: 7851512633139667413
+    second: NES_Brawler_TileSet_FullSheet_12
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -40,7 +79,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -108,7 +147,280 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: NES_Brawler_TileSet_FullSheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 224
+        width: 800
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8362cc20df4114e4e94693ad4441bb86
+      internalID: 8053126202269132454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Brawler_TileSet_FullSheet_1
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 80
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce83b48ce5fc4f544816d7609c799443
+      internalID: -9030816035201574189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Brawler_TileSet_FullSheet_2
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 80
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1695b549c2c5f4b4f842508f3b5d47cb
+      internalID: -4076416436965679915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Brawler_TileSet_FullSheet_3
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 80
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c4b7111692216343b38cd47951eb6fe
+      internalID: 6105488838433016470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Brawler_TileSet_FullSheet_4
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 112
+        width: 128
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6733c32990111f4d84f4111e81541f4
+      internalID: 6269736110105536928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Brawler_TileSet_FullSheet_5
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 16
+        width: 80
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fed98d3a1f9f94468852a9a7e9c84f8
+      internalID: 4949745553979521959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Brawler_TileSet_FullSheet_6
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 16
+        width: 104
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 701b6c965da9d6f4eb05933b157660ef
+      internalID: 1416496565270768319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Brawler_TileSet_FullSheet_7
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 16
+        width: 104
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70ada5ec83689ba40a2885213b7717ea
+      internalID: -6126316503624811854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Brawler_TileSet_FullSheet_8
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 16
+        width: 104
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e2c5355d3abf5a44a9cc7a95057b909
+      internalID: -7554309828056920236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Brawler_TileSet_FullSheet_9
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 16
+        width: 104
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51a864b613044ff4380bb5360c24f953
+      internalID: -9055554641005015213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Brawler_TileSet_FullSheet_10
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 16
+        width: 104
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da07500fc725b034ebb2c2762a69d6c8
+      internalID: 1429722544617953113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Brawler_TileSet_FullSheet_11
+      rect:
+        serializedVersion: 2
+        x: 569
+        y: 40
+        width: 64
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebc07a9ffadbc8b499b782e2c40b3110
+      internalID: 3780088675797890060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_Brawler_TileSet_FullSheet_12
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 16
+        width: 64
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8512596fe6277a44298525224487cdf1
+      internalID: 7851512633139667413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
