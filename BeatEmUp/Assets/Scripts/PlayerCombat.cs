@@ -356,6 +356,7 @@ public class PlayerCombat : MonoBehaviour
             {
                 isUsingSkill = false;
                 PlayerMovement.isFrozen = false;
+                isGoingDown = false;
                 isTakeHit = false;
             }
             

@@ -161,7 +161,7 @@ public class Enemy : MonoBehaviour
                     Instantiate(Resources.Load("Prefabs/Loots/Gold Loot"), new Vector3(transform.position.x + 1, transform.position.y, transform.position.z), Quaternion.identity);
                 }
 
-                AudioSource.PlayOneShot(loot.DropSound);
+               target.GetComponent<AudioSource>().PlayOneShot(loot.DropSound);
             }
         }
 
