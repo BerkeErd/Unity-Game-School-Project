@@ -33,8 +33,25 @@ public class LevelManager : MonoBehaviour
             Time.timeScale = 1;
         }
 
-       
+        if (Level < 11 && SceneManager.GetActiveScene().name == "LEVEL 01")
+        {
+            SceneManager.LoadScene("LEVEL 01");
+        }
+        else if (Level < 21 && SceneManager.GetActiveScene().name == "LEVEL 02")
+        {
+            SceneManager.LoadScene("LEVEL 02");
+        }
+        else if (Level < 31 && SceneManager.GetActiveScene().name == "LEVEL 03")
+        {
+            SceneManager.LoadScene("LEVEL 03");
+        }
+
+        else
+        {
             SceneManager.LoadScene("LoadingScreen");
+        }
+
+            
         
     }
 
