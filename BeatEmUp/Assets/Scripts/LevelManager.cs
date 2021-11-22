@@ -55,6 +55,11 @@ public class LevelManager : MonoBehaviour
         
     }
 
+    public void loadTest()
+    {
+        SceneManager.LoadScene("Test Scene");
+    }
+
     public AsyncOperation SendLevelInfo()
     {
        
