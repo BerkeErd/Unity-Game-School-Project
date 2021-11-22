@@ -24,7 +24,9 @@ public class Loot : MonoBehaviour
         {
            Player.Heal(HealAmount);
            skills.Gold += Gold;
-           collision.gameObject.GetComponent<AudioSource>().PlayOneShot(CollectSound);
+
+            collision.gameObject.GetComponent<AudioSource>().Stop();
+            collision.gameObject.GetComponent<AudioSource>().PlayOneShot(CollectSound);
            GameObject.Find("GoldText").GetComponent<Text>().text = "x "+skills.Gold;
            Debug.Log(collision.gameObject.name);
            Destroy(gameObject);
