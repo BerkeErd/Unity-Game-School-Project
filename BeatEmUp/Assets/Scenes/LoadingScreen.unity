@@ -327,8 +327,8 @@ MonoBehaviour:
   Background: {fileID: 858355943}
   Backgrounds:
   - {fileID: -418802794229609503, guid: c9f09769d1a28e94fb761f3e7b86e5b5, type: 3}
-  - {fileID: 4784049519350969518, guid: 642b49f1b5b1f674497f7f93f6fe968f, type: 3}
   - {fileID: 8053126202269132454, guid: 64227068837e104408f80670fbd3f2a0, type: 3}
+  - {fileID: 4784049519350969518, guid: 642b49f1b5b1f674497f7f93f6fe968f, type: 3}
   levelmanager: {fileID: 0}
   gradient:
     serializedVersion: 2
