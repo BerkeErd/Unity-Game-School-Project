@@ -65,7 +65,7 @@ public class LevelEnemyChecker : MonoBehaviour
 
     IEnumerator LevelEnd()
     {
-
+        yield return new WaitForSeconds(1f);
         LootsAreFlying = true;
 
         yield return new WaitUntil(() => GameObject.FindGameObjectsWithTag("Loot").Length == 0);

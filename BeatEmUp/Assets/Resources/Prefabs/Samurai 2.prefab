@@ -146,9 +146,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1f91f35c31412174788e4cd07eab5188, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Loots: []
+  Loots:
+  - {fileID: -2740753711175139924, guid: a564d4702b77a9847881d9a09e107520, type: 3}
+  - {fileID: -2740753711175139924, guid: a564d4702b77a9847881d9a09e107520, type: 3}
+  - {fileID: -2740753711175139924, guid: a564d4702b77a9847881d9a09e107520, type: 3}
+  - {fileID: -2740753711175139924, guid: a564d4702b77a9847881d9a09e107520, type: 3}
+  - {fileID: -2740753711175139924, guid: a564d4702b77a9847881d9a09e107520, type: 3}
   facingRight: 0
-  Damage: 40
+  BaseDamage: 40
   maxHealth: 300
   currentHealth: 0
   AttackPoint: {fileID: 99967285}
@@ -163,6 +168,7 @@ MonoBehaviour:
   isAttacking: 0
   IsRunning: 0
   target: {fileID: 0}
+  levelManager: {fileID: 0}
   levelEnemyChecker: {fileID: 0}
   playerLayer:
     serializedVersion: 2
