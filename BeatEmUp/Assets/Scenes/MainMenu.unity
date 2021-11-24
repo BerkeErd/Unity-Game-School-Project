@@ -188,7 +188,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Skills
+  m_Text: Stats
 --- !u!222 &89592029
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -352,7 +352,7 @@ GameObject:
   - component: {fileID: 333376243}
   - component: {fileID: 333376242}
   m_Layer: 0
-  m_Name: Skills Text
+  m_Name: Store Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -408,7 +408,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Shop
+  m_Text: Store
 --- !u!222 &333376243
 CanvasRenderer:
   m_ObjectHideFlags: 0
