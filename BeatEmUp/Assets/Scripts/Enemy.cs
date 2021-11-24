@@ -77,7 +77,7 @@ public class Enemy : MonoBehaviour
     {
         Damage = BaseDamage + levelManager.Level; // Level'a göre Düşman Damage
         AttackSpeedTime = 2 - (float)levelManager.Level / 30; // Level'a göre Düşman attack hızı
-        maxHealth = 100 + levelManager.Level * 10; // Level'a göre Düşman canı
+        maxHealth = 100 + levelManager.Level * 5; // Level'a göre Düşman canı
         healthBar.SetMaxHealth(maxHealth);
 
 

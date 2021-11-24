@@ -7,12 +7,12 @@ public class LevelEnemySpawner : MonoBehaviour
     public GameObject enemy1;
     public GameObject enemy2;
     public GameObject enemy3;
-    public GameObject enemy4;
+   
 
     public int enemy1Amount;
     public int enemy2Amount;
     public int enemy3Amount;
-    public int enemy4Amount;
+    
 
     public int totalenemy;
 
@@ -36,194 +36,21 @@ public class LevelEnemySpawner : MonoBehaviour
         currentLevel = levelManager.Level;
 
 
-        switch (currentLevel)
+        if(currentLevel > 20)
         {
-            case 1:
-                enemy1Amount = 4;
-                enemy2Amount = 0;
-                enemy3Amount = 0;
-                enemy4Amount = 0;
-                break;
-            case 2:
-                enemy1Amount = 6;
-                enemy2Amount = 0;
-                enemy3Amount = 0;
-                enemy4Amount = 0;
-                break;
-            case 3:
-                enemy1Amount = 8;
-                enemy2Amount = 0;
-                enemy3Amount = 0;
-                enemy4Amount = 0;
-                break;
-            case 4:
-                enemy1Amount = 10;
-                enemy2Amount = 0;
-                enemy3Amount = 0;
-                enemy4Amount = 0;
-                break;
-            case 5:
-                enemy1Amount = 12;
-                enemy2Amount = 0;
-                enemy3Amount = 0;
-                enemy4Amount = 0;
-                break;
-            case 6:
-                enemy1Amount = 14;
-                enemy2Amount = 0;
-                enemy3Amount = 0;
-                enemy4Amount = 0;
-                break;
-            case 7:
-                enemy1Amount = 16;
-                enemy2Amount = 0;
-                enemy3Amount = 0;
-                enemy4Amount = 0;
-                break;
-            case 8:
-                enemy1Amount = 18;
-                enemy2Amount = 0;
-                enemy3Amount = 0;
-                enemy4Amount = 0;
-                break;
-            case 9:
-                enemy1Amount = 20;
-                enemy2Amount = 0;
-                enemy3Amount = 0;
-                enemy4Amount = 0;
-                break;
-            case 10:
-                enemy1Amount = 20;
-                enemy2Amount = 0;
-                enemy3Amount = 0;
-                enemy4Amount = 0;
-                break;
-            case 11:
-                enemy1Amount = 0;
-                enemy2Amount = 6;
-                enemy3Amount = 0;
-                enemy4Amount = 0;
-                break;
-            case 12:
-                enemy1Amount = 0;
-                enemy2Amount = 8;
-                enemy3Amount = 0;
-                enemy4Amount = 0;
-                break;
-            case 13:
-                enemy1Amount = 0;
-                enemy2Amount = 10;
-                enemy3Amount = 0;
-                enemy4Amount = 0;
-                break;
-            case 14:
-                enemy1Amount = 0;
-                enemy2Amount = 12;
-                enemy3Amount = 0;
-                enemy4Amount = 0;
-                break;
-            case 15:
-                enemy1Amount = 0;
-                enemy2Amount = 14;
-                enemy3Amount = 0;
-                enemy4Amount = 0;
-                break;
-            case 16:
-                enemy1Amount = 0;
-                enemy2Amount = 16;
-                enemy3Amount = 0;
-                enemy4Amount = 0;
-                break;
-            case 17:
-                enemy1Amount = 0;
-                enemy2Amount = 18;
-                enemy3Amount = 0;
-                enemy4Amount = 0;
-                break;
-            case 18:
-                enemy1Amount = 0;
-                enemy2Amount = 20;
-                enemy3Amount = 0;
-                enemy4Amount = 0;
-                break;
-            case 19:
-                enemy1Amount = 0;
-                enemy2Amount = 25;
-                enemy3Amount = 0;
-                enemy4Amount = 0;
-                break;
-            case 20:
-                enemy1Amount = 0;
-                enemy2Amount = 25;
-                enemy3Amount = 0;
-                enemy4Amount = 0;
-                break;
-            case 21:
-                enemy1Amount = 0;
-                enemy2Amount = 0;
-                enemy3Amount = 4;
-                enemy4Amount = 0;
-                break;
-            case 22:
-                enemy1Amount = 4;
-                enemy2Amount = 4;
-                enemy3Amount = 0;
-                enemy4Amount = 0;
-                break;
-            case 23:
-                enemy1Amount = 6;
-                enemy2Amount = 6;
-                enemy3Amount = 0;
-                enemy4Amount = 0;
-                break;
-            case 24:
-                enemy1Amount = 8;
-                enemy2Amount = 8;
-                enemy3Amount = 0;
-                enemy4Amount = 0;
-                break;
-            case 25:
-                enemy1Amount = 10;
-                enemy2Amount = 10;
-                enemy3Amount = 0;
-                enemy4Amount = 0;
-                break;
-            case 26:
-                enemy1Amount = 12;
-                enemy2Amount = 12;
-                enemy3Amount = 0;
-                enemy4Amount = 0;
-                break;
-            case 27:
-                enemy1Amount = 14;
-                enemy2Amount = 14;
-                enemy3Amount = 0;
-                enemy4Amount = 0;
-                break;
-            case 28:
-                enemy1Amount = 16;
-                enemy2Amount = 16;
-                enemy3Amount = 0;
-                enemy4Amount = 0;
-                break;
-            case 29:
-                enemy1Amount = 18;
-                enemy2Amount = 18;
-                enemy3Amount = 0;
-                enemy4Amount = 0;
-                break;
-            case 30:
-                enemy1Amount = 0;
-                enemy2Amount = 0;
-                enemy3Amount = 0;
-                enemy4Amount = 0;
-                break;
-
-            default:
-                break;
+            enemy3Amount = (currentLevel - 19) * 2;
+        }
+        else if(currentLevel > 10)
+        {
+            enemy2Amount = (currentLevel - 9) * 2;
+        }
+        else
+        {
+            enemy1Amount = (currentLevel + 1) * 2;
         }
 
-        totalenemy = enemy1Amount + enemy2Amount + enemy3Amount + enemy4Amount;
+        
+        totalenemy = enemy1Amount + enemy2Amount + enemy3Amount;
         SpawnEnemy();
         Spawner.CalculateSpawnEnemies();
         levelEnemyChecker.CountEnemies();

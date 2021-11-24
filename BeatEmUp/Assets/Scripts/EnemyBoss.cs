@@ -10,7 +10,8 @@ public class EnemyBoss : MonoBehaviour
 {
     public List<Loot> Loots;
     public bool facingRight;
-    public int Damage = 40;
+    public int BaseDamage = 40;
+    private int Damage;
     public int maxHealth = 1000;
     public int currentHealth;
 
@@ -40,7 +41,7 @@ public class EnemyBoss : MonoBehaviour
 
     public GameObject target;
 
-
+    public LevelManager levelManager;
     public LevelEnemyChecker levelEnemyChecker;
     public LayerMask playerLayer;
 
@@ -51,6 +52,7 @@ public class EnemyBoss : MonoBehaviour
 
     private void Awake()
     {
+        levelManager = GameObject.Find("LevelManager").GetComponent<LevelManager>();
         levelEnemyChecker = GameObject.Find("LevelEnemyChecker").GetComponent<LevelEnemyChecker>();
         target = GameObject.Find("Fighter");
         HealthBarObject = Instantiate(Resources.Load("Prefabs/HealthBar")) as GameObject;
@@ -65,6 +67,10 @@ public class EnemyBoss : MonoBehaviour
         AudioSource = GetComponent<AudioSource>();
         AudioSource = GetComponent<AudioSource>();
         soundmanager = GameObject.Find("SoundManager").GetComponent<SoundManager>();
+
+
+        Damage = BaseDamage + levelManager.Level; // Level'a göre Düşman Damage
+        maxHealth = 100 + levelManager.Level * 10; // Level'a göre Düşman canı
 
         currentHealth = maxHealth;
 
