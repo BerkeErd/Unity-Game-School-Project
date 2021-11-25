@@ -35,12 +35,13 @@ public class PlayerCombat : MonoBehaviour
     private float currentComboTimer;
     private ComboState currentComboState;
 
-    private AudioSource AudioSource;
-    private AudioClip currentAttackSound;
+    public AudioSource AudioSource;
+    public AudioClip currentAttackSound;
     public bool isPunching;
     public bool isKicking;
     public bool isTakeHit;
-    public bool isUsingSkill;
+    public bool isUsingKickSkill;
+    public bool isUsingPunchSkill;
     public bool isGoingUp;
     public bool isGoingDown;
     public int punchDamage;
@@ -115,10 +116,10 @@ public class PlayerCombat : MonoBehaviour
 
     private void FixedUpdate()
     {
-        if (isUsingSkill == true)
+        if (isUsingKickSkill == true || isUsingPunchSkill == true)
         {
             PlayerMovement.isFrozen = true ;
-            if (isGoingUp == true)
+            if (isGoingUp == true && isUsingKickSkill)
             {
                if(PlayerMovement.facingRight == false)
                 {
@@ -131,7 +132,7 @@ public class PlayerCombat : MonoBehaviour
                     , Mathf.MoveTowards(transform.position.y, FirstPos.y + 10, SkillSpeed/10 * Time.fixedDeltaTime));
                 }
             }
-            else if (isGoingDown == true)
+            else if (isGoingDown == true && isUsingKickSkill)
             {
                 if (PlayerMovement.facingRight == false)
                 {
@@ -146,8 +147,7 @@ public class PlayerCombat : MonoBehaviour
 
             }
 
-            Debug.Log(transform.position);
-            Debug.Log(FirstPos);
+            
 
         }
 
@@ -272,7 +272,7 @@ public class PlayerCombat : MonoBehaviour
         currentHealth -= damage;
         //  tookDamage = true;
         //  isAttacking = false;
-        float pushPower = (float)damage / 200 * 7;
+        float pushPower = (float)damage / 200 * 2;
         if (enemy.GetComponent<Enemy>())
         {
             if (!enemy.GetComponent<Enemy>().facingRight) //sola dönük
@@ -297,7 +297,7 @@ public class PlayerCombat : MonoBehaviour
             }
         }
 
-        if(!isUsingSkill)
+        if(!isUsingKickSkill && !isUsingPunchSkill)
         {
             animator.SetTrigger("Hit");
         }
@@ -352,12 +352,17 @@ public class PlayerCombat : MonoBehaviour
         }
         if (message == "SkillEnded")
         {
-            if(isUsingSkill)
+            PlayerMovement.isFrozen = false;
+            isTakeHit = false;
+            if (isUsingKickSkill)
             {
-                isUsingSkill = false;
-                PlayerMovement.isFrozen = false;
-                isGoingDown = false;
-                isTakeHit = false;
+                isUsingKickSkill = false;                
+                isGoingDown = false;             
+            }
+
+            else if(isUsingPunchSkill)
+            {
+                isUsingPunchSkill = false;           
             }
             
         }
@@ -386,24 +391,32 @@ public class PlayerCombat : MonoBehaviour
         LevelText.text = "Level : " + skills.PlayerLevel;
     }
 
+
+
+
     public void KickSkill()
     {
         if (!isPunching && !isKicking && !isDead && !isTakeHit && !PlayerMovement.isFrozen)
         {
             //isKicking = true;
-            isUsingSkill = true;
+            isUsingKickSkill = true;
             animator.SetTrigger("KickSkill");
-            currentAttackSound = soundmanager.Punch1;
+            currentAttackSound = soundmanager.Kick;
             FirstPos = transform.position;
 
             StartCoroutine(KickSkillKicking()); 
 
         }
     }
-     IEnumerator KickSkillKicking()
+
+  
+
+
+
+    IEnumerator KickSkillKicking()
     {
         yield return new WaitUntil(() => isKicking==true);
-        while (isUsingSkill && isKicking)
+        while (isUsingKickSkill && isKicking)
         {
             HitEnemy(kickDamage * 2, KickPoint, kickRange * 1.2f);
             yield return new WaitForSeconds(0.1f);
@@ -421,15 +434,42 @@ public class PlayerCombat : MonoBehaviour
         yield return null;
     }
 
+    
+    public void SpecialPunchStart()
+    {
+        if(!isPunching && !isKicking && !isDead && !isTakeHit && !PlayerMovement.isFrozen)
+        {
+            isPunching = true;
+            isUsingPunchSkill = true;
+            animator.SetTrigger("PunchSkill");
+        } 
+    }
+
+
+    public void SpecialPunch(int Number)
+    {
+        if (Number == 3)
+        {
+            currentAttackSound = soundmanager.Punch1;
+            HitEnemy(punchDamage * 5, PunchPoint, punchRange);
+        }
+        else
+        {
+            currentAttackSound = soundmanager.Punch2;
+            HitEnemy(punchDamage/2, PunchPoint, punchRange);
+        }
+
+    }
+
     public void HitEnemy(int damage, Transform DamagePoint, float Range)
     {
         Collider2D[] hitEnemies = Physics2D.OverlapCircleAll(DamagePoint.position, Range, enemyLayers);
 
-        if (hitEnemies.Length > 0)
+       /* if (hitEnemies.Length > 0)
         {
             AudioSource.clip = currentAttackSound;
             AudioSource.Play();
-        }
+        } */
 
         foreach (Collider2D enemy in hitEnemies)
         {
@@ -443,7 +483,7 @@ public class PlayerCombat : MonoBehaviour
                     {
                         enemy.GetComponent<Enemy>().TakeDamage(damage);
 
-                        if (isUsingSkill == true)
+                        if (isUsingKickSkill == true)
                         {
                             enemy.enabled = false;
                         }
@@ -456,7 +496,7 @@ public class PlayerCombat : MonoBehaviour
                     {
                         enemy.GetComponent<EnemyBoss>().TakeDamage(damage);
 
-                        if (isUsingSkill == true)
+                        if (isUsingKickSkill == true)
                         {
                             enemy.enabled = false;
                         }

@@ -142,7 +142,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Delegates: []
+  m_Delegates:
+  - eventID: 2
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 9026670585120208548}
+          m_MethodName: SpecialPunchStart
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
 --- !u!114 &9102141104566324906
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1211,11 +1226,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 6784840523387652793, guid: 38eed04c0b0b79b488e1eada3f35f418,
-        type: 3}
-      propertyPath: Punch1
-      value: 
-      objectReference: {fileID: 8300000, guid: 0e35e67aa1f2425448969d98ab5047f8, type: 3}
     - target: {fileID: 6784840523387652798, guid: 38eed04c0b0b79b488e1eada3f35f418,
         type: 3}
       propertyPath: m_Name

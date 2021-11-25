@@ -57,6 +57,8 @@ public class Enemy : MonoBehaviour
     public LevelManager levelManager;
     public LevelEnemyChecker levelEnemyChecker;
 
+    public AudioSource TargetAudioSource;
+
 
     public int EXP;
 
@@ -85,6 +87,7 @@ public class Enemy : MonoBehaviour
         currentHealth = maxHealth;
         animator = GetComponent<Animator>();
         target = GameObject.Find("Fighter");
+        TargetAudioSource = target.GetComponent<PlayerCombat>().AudioSource;
         AudioSource = GetComponent<AudioSource>();
         soundmanager = GameObject.Find("SoundManager").GetComponent<SoundManager>();
         stopDistanceX = Random.Range(stopDistanceX - 0.3f, stopDistanceX + 0.3f);
@@ -98,7 +101,7 @@ public class Enemy : MonoBehaviour
         tookDamage = true;
         isAttacking = false;
 
-        float pushPower = (float)damage / 200 * 7;
+        float pushPower = (float)damage / 200 *3;
 
         hits(damage);
 
@@ -111,6 +114,13 @@ public class Enemy : MonoBehaviour
             transform.position = new Vector2(transform.position.x + pushPower, transform.position.y);
         }
 
+        AudioSource.clip = target.GetComponent<PlayerCombat>().currentAttackSound;
+        AudioSource.Play();
+
+        if(damage > maxHealth/3)
+        {
+            KnockUp();
+        }
         if (!isKnockedUp)
             animator.SetTrigger("Hit");
 
@@ -248,8 +258,9 @@ public class Enemy : MonoBehaviour
         Collider2D[] hitEnemies = Physics2D.OverlapCircleAll(PunchPoint.position, kickRange, playerLayer);
         if (hitEnemies.Length > 0)
         {
-            AudioSource.clip = soundmanager.Punch2;
-            AudioSource.Play();
+
+            TargetAudioSource.clip = soundmanager.Punch2;
+            TargetAudioSource.Play();
         }
         foreach (Collider2D player in hitEnemies)
         {
@@ -267,8 +278,8 @@ public class Enemy : MonoBehaviour
         Collider2D[] hitEnemies = Physics2D.OverlapCircleAll(PunchPoint.position, kickRange, playerLayer);
         if (hitEnemies.Length > 0)
         {
-            AudioSource.clip = soundmanager.Punch2;
-            AudioSource.Play();
+            TargetAudioSource.clip = soundmanager.Punch2;
+            TargetAudioSource.Play();
         }
         foreach (Collider2D player in hitEnemies)
         {
@@ -285,8 +296,8 @@ public class Enemy : MonoBehaviour
         Collider2D[] hitEnemies = Physics2D.OverlapCircleAll(KickPoint.position, kickRange, playerLayer);
         if (hitEnemies.Length > 0)
         {
-            AudioSource.clip = soundmanager.Kick2;
-            AudioSource.Play();
+            TargetAudioSource.clip = soundmanager.Kick2;
+            TargetAudioSource.Play();
         }
         foreach (Collider2D player in hitEnemies)
         {
@@ -306,8 +317,8 @@ public class Enemy : MonoBehaviour
         if (hitEnemies.Length > 0)
         {
 
-            AudioSource.clip = soundmanager.GunShot;
-            AudioSource.Play();
+            TargetAudioSource.clip = soundmanager.GunShot;
+            TargetAudioSource.Play();
 
 
         }

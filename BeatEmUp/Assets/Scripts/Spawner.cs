@@ -62,7 +62,8 @@ public class Spawner : MonoBehaviour
         {
             if (levelmanager.Level - FirstLevelNumber == 10)
             {
-                Player.GetComponent<PlayerCombat>().isUsingSkill = false;
+                Player.GetComponent<PlayerCombat>().isUsingKickSkill = false;
+                Player.GetComponent<PlayerCombat>().isUsingPunchSkill = false;
                 PlayerMovement.isFrozen = true;
                 camerafollow.isFrozen = true;
                 StartCoroutine(SpawnBoss());
@@ -72,7 +73,8 @@ public class Spawner : MonoBehaviour
 
             else if (levelmanager.Level - FirstLevelNumber >= 5)
             {
-                Player.GetComponent<PlayerCombat>().isUsingSkill = false;
+                Player.GetComponent<PlayerCombat>().isUsingKickSkill = false;
+                Player.GetComponent<PlayerCombat>().isUsingPunchSkill = false;
                 PlayerMovement.isFrozen = true;
                 camerafollow.isFrozen = true;
                 StartCoroutine(SpawnEnemies(levelmanager.Level - FirstLevelNumber + 3));
