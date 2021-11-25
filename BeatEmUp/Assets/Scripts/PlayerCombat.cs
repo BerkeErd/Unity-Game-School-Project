@@ -386,7 +386,7 @@ public class PlayerCombat : MonoBehaviour
             skills.PlayerLevel++;
             skills.skillpoints++;
             skills.Exp = 0;
-            ExpBar.maxValue = skills.PlayerLevel * 20;
+            ExpBar.maxValue = skills.PlayerLevel * 30;
         }
         LevelText.text = "Level : " + skills.PlayerLevel;
     }

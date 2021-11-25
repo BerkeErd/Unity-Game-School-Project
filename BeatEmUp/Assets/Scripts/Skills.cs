@@ -49,12 +49,12 @@ public class Skills : MonoBehaviour
 
     public void CalculateStats()
     {
-        strRatio = str + str / 10;
+        strRatio = str + str / 7;
         agiRatio = agi / 100;
-        luckRatio = lck / 5; 
+        luckRatio = lck / 4; 
         punchDamage = BasepunchDamage + (int)strRatio;
         kickDamage = BasekickDamage + (int)strRatio;
-        extraHealth = sta * 10;
+        extraHealth = sta * 20;
     }
 
   
