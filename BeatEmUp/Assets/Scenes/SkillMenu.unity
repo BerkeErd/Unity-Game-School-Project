@@ -7072,11 +7072,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 75f441a2fd8cf0644b7c6cb62a787855, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TempStr: 0
-  TempSta: 0
-  TempSkillsPoints: 0
-  TempAgi: 0
-  TempLck: 0
+  TempSkills: {fileID: 0}
   StrImages:
   - {fileID: 586269405}
   - {fileID: 1190756743}
@@ -7920,6 +7916,70 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1679078433}
   m_CullTransparentMesh: 0
+--- !u!1 &1696561548
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1696561550}
+  - component: {fileID: 1696561549}
+  m_Layer: 0
+  m_Name: TempSkills
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1696561549
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1696561548}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e94a77f09f791fa48b32cc8eb2b3a110, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  str: 0
+  agi: 0
+  sta: 0
+  lck: 0
+  skillpoints: 0
+  Exp: 0
+  PlayerLevel: 0
+  KickUpgrade: 0
+  PunchUpgrade: 0
+  PunchSkill: 0
+  KickSkill: 0
+  Gold: 0
+  BasepunchDamage: 10
+  BasekickDamage: 20
+  punchDamage: 0
+  kickDamage: 0
+  agiRatio: 0
+  extraHealth: 0
+  luckRatio: 0
+  strRatio: 0
+  saveData: {fileID: 0}
+--- !u!4 &1696561550
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1696561548}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 4.7878723, y: -3.880434, z: 544.06396}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1708151339
 GameObject:
   m_ObjectHideFlags: 0
