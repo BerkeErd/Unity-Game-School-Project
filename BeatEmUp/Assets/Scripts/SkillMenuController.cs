@@ -7,6 +7,8 @@ using UnityEngine.SceneManagement;
 public class SkillMenuController : MonoBehaviour
 {
 
+    public Skills TempSkills;
+
     public int TempStr = 0,  TempSta = 0, TempSkillsPoints=0;
     public float TempAgi = 0, TempLck = 0;
     public List<Image> StrImages, AgiImages, StaImages, LckImages; 

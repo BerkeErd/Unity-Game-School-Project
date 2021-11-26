@@ -352,16 +352,20 @@ public class PlayerCombat : MonoBehaviour
         }
         if (message == "SkillEnded")
         {
-            PlayerMovement.isFrozen = false;
-            isTakeHit = false;
+            
+            
             if (isUsingKickSkill)
             {
+                isTakeHit = false;
+                PlayerMovement.isFrozen = false;
                 isUsingKickSkill = false;                
                 isGoingDown = false;             
             }
 
             else if(isUsingPunchSkill)
             {
+                isTakeHit = false;
+                PlayerMovement.isFrozen = false;
                 isUsingPunchSkill = false;           
             }
             
