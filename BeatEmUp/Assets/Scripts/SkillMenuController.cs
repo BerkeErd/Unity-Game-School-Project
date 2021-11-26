@@ -8,10 +8,7 @@ public class SkillMenuController : MonoBehaviour
 {
 
     public Skills TempSkills;
-
-    public int TempStr = 0,  TempSta = 0, TempSkillsPoints=0;
-    public float TempAgi = 0, TempLck = 0;
-    public List<Image> StrImages, AgiImages, StaImages, LckImages; 
+    public List<Image> StrImages, AgiImages, StaImages, LckImages;
     public Button StrPlus, StrMinus, AgiPlus, AgiMinus, StaPlus, StaMinus, LckPlus, LckMinus, CancelButton, ApplyButton, ContinueButton, MainMenu;
     public Text StatsText, HealthText, PunchDamageText, KickDamageText, AttackSpeedText, LuckText;
     public Skills skills;
@@ -19,6 +16,7 @@ public class SkillMenuController : MonoBehaviour
 
     private void Awake()
     {
+        TempSkills = GameObject.Find("TempSkills").GetComponent<Skills>();
         skills = GetComponent<Skills>();
 
         CancelButton = GameObject.Find("CancelButton").GetComponent<Button>();
@@ -48,7 +46,7 @@ public class SkillMenuController : MonoBehaviour
 
     private void Start()
     {
-        TempSkillsPoints = skills.skillpoints;
+        TempSkills.skillpoints = skills.skillpoints;
 
         StrPlus.onClick.AddListener(ChangePlusStr);
         StrMinus.onClick.AddListener(ChangeMinusStr);
@@ -63,7 +61,7 @@ public class SkillMenuController : MonoBehaviour
         LckMinus.onClick.AddListener(ChangeMinusLck);
 
         ApplyButton.onClick.AddListener(ChangeSkillValue);
-        
+
         skillBar();
     }
 
@@ -78,43 +76,44 @@ public class SkillMenuController : MonoBehaviour
         AttackSpeedText.text = "Attack Speed : " + skills.agiRatio;
         LuckText.text = "Luck : " + skills.luckRatio;
 
-        if(skills.skillpoints > TempSkillsPoints)
+        if (skills.skillpoints > TempSkills.skillpoints)
         {
-            StatsText.text = "Stat Points : " + skills.skillpoints + "<color=#ff0000ff>" + -(skills.skillpoints-TempSkillsPoints)+"</color>";
+            StatsText.text = "Stat Points : " + skills.skillpoints + "<color=#ff0000ff>" + -(skills.skillpoints - TempSkills.skillpoints) + "</color>";
         }
 
-        if (TempStr > 0)
+        if (TempSkills.str > 0)
         {
-            PunchDamageText.text = "Punch Damage : " + skills.punchDamage + "<color=#00ff00ff>" + "+" + (TempStr + TempStr/10) + "</color>";
-            KickDamageText.text = "Kick Damage : " + skills.kickDamage + "<color=#00ff00ff>" + "+"    + (TempStr + TempStr/10) + "</color>";
+            PunchDamageText.text = "Punch Damage : " + skills.punchDamage + "<color=#00ff00ff>" + "+" + (TempSkills.strRatio) + "</color>";
+            KickDamageText.text = "Kick Damage : " + skills.kickDamage + "<color=#00ff00ff>" + "+" + (TempSkills.strRatio) + "</color>";
         }
 
-        if (TempAgi > 0)
+        if (TempSkills.agi > 0)
         {
-            AttackSpeedText.text = "Attack Speed : " + skills.agiRatio + "<color=#00ff00ff>" + "+" + (TempAgi/100) + "</color>";           
+            AttackSpeedText.text = "Attack Speed : " + skills.agiRatio + "<color=#00ff00ff>" + "+" + (TempSkills.agiRatio) + "</color>";
         }
 
-        if (TempSta > 0)
+        if (TempSkills.sta > 0)
         {
-            HealthText.text = "Health : " + Maxhealth + "<color=#00ff00ff>" + "+" + (TempSta * 10) + "</color>";          
+            HealthText.text = "Health : " + Maxhealth + "<color=#00ff00ff>" + "+" + (TempSkills.extraHealth) + "</color>";
         }
 
-        if (TempLck > 0)
+        if (TempSkills.lck > 0)
         {
-            LuckText.text = "Luck : " + skills.luckRatio + "<color=#00ff00ff>" + "+" + (TempLck/5) + "</color>";          
+            LuckText.text = "Luck : " + skills.luckRatio + "<color=#00ff00ff>" + "+" + (TempSkills.luckRatio) + "</color>";
         }
     }
 
- 
+
     void skillBar()
     {
+        TempSkills.CalculateStats();
         ShowStatsTexts();
         MinusButton();
         PlusButton();
-        
+
         for (int i = 0; i < 10; i++)
         {
-            if(i<skills.str + TempStr)
+            if (i < skills.str + TempSkills.str)
             {
                 StrImages[i].GetComponent<Image>().enabled = true;
             }
@@ -123,7 +122,7 @@ public class SkillMenuController : MonoBehaviour
                 StrImages[i].GetComponent<Image>().enabled = false;
             }
 
-            if (i < skills.agi + TempAgi)
+            if (i < skills.agi + TempSkills.agi)
             {
                 AgiImages[i].GetComponent<Image>().enabled = true;
             }
@@ -133,7 +132,7 @@ public class SkillMenuController : MonoBehaviour
             }
 
 
-            if (i < skills.sta + TempSta)
+            if (i < skills.sta + TempSkills.sta)
             {
                 StaImages[i].GetComponent<Image>().enabled = true;
             }
@@ -143,7 +142,7 @@ public class SkillMenuController : MonoBehaviour
             }
 
 
-            if (i < skills.lck + TempLck)
+            if (i < skills.lck + TempSkills.lck)
             {
                 LckImages[i].GetComponent<Image>().enabled = true;
             }
@@ -151,7 +150,7 @@ public class SkillMenuController : MonoBehaviour
             {
                 LckImages[i].GetComponent<Image>().enabled = false;
             }
-        }    
+        }
     }
 
     void otherButtons()
@@ -159,8 +158,8 @@ public class SkillMenuController : MonoBehaviour
         CancelButton.gameObject.GetComponent<Button>().interactable = false;
         ApplyButton.gameObject.GetComponent<Button>().interactable = false;
         ContinueButton.gameObject.GetComponent<Button>().interactable = false;
-        
-        if(TempAgi + TempLck + TempSta + TempStr > 0)
+
+        if (TempSkills.str + TempSkills.lck + TempSkills.sta + TempSkills.str > 0)
         {
             ApplyButton.gameObject.GetComponent<Button>().interactable = true;
             CancelButton.gameObject.GetComponent<Button>().interactable = true;
@@ -176,22 +175,22 @@ public class SkillMenuController : MonoBehaviour
         StaMinus.gameObject.GetComponent<Button>().interactable = false;
         LckMinus.gameObject.GetComponent<Button>().interactable = false;
 
-        if (TempStr > 0)
+        if (TempSkills.str > 0)
         {
             StrMinus.gameObject.GetComponent<Button>().interactable = true;
         }
 
-        if (TempAgi > 0)
+        if (TempSkills.agi > 0)
         {
             AgiMinus.gameObject.GetComponent<Button>().interactable = true;
         }
 
-        if (TempSta > 0)
+        if (TempSkills.sta > 0)
         {
             StaMinus.gameObject.GetComponent<Button>().interactable = true;
         }
 
-        if (TempLck > 0)
+        if (TempSkills.lck > 0)
         {
             LckMinus.gameObject.GetComponent<Button>().interactable = true;
         }
@@ -204,24 +203,24 @@ public class SkillMenuController : MonoBehaviour
         StaPlus.gameObject.GetComponent<Button>().interactable = false;
         LckPlus.gameObject.GetComponent<Button>().interactable = false;
 
-        if (TempSkillsPoints > 0)
+        if (TempSkills.skillpoints > 0)
         {
-            if(skills.str + TempStr < 10)
+            if (skills.str + TempSkills.str < 10)
             {
                 StrPlus.gameObject.GetComponent<Button>().interactable = true;
             }
 
-            if(skills.agi + TempAgi < 10)
+            if (skills.agi + TempSkills.agi < 10)
             {
                 AgiPlus.gameObject.GetComponent<Button>().interactable = true;
             }
 
-            if (skills.sta + TempSta < 10)
+            if (skills.sta + TempSkills.sta < 10)
             {
                 StaPlus.gameObject.GetComponent<Button>().interactable = true;
             }
 
-            if (skills.lck + TempLck < 10)
+            if (skills.lck + TempSkills.lck < 10)
             {
                 LckPlus.gameObject.GetComponent<Button>().interactable = true;
             }
@@ -230,93 +229,93 @@ public class SkillMenuController : MonoBehaviour
 
     public void ChangePlusStr()
     {
-        if (TempStr<10-skills.str)
+        if (TempSkills.str < 10 - skills.str)
         {
-            TempStr += 1;
-            TempSkillsPoints -= 1;
+            TempSkills.str += 1;
+            TempSkills.skillpoints -= 1;
             skillBar();
-        }   
+        }
     }
     public void ChangeMinusStr()
     {
-        if(TempStr>0)
+        if (TempSkills.str > 0)
         {
-            TempStr -= 1;
-            TempSkillsPoints += 1;
+            TempSkills.str -= 1;
+            TempSkills.skillpoints += 1;
             skillBar();
-        }     
+        }
     }
 
     public void ChangePlusAgi()
     {
-        if (TempAgi < 10 - skills.agi)
+        if (TempSkills.agi < 10 - skills.agi)
         {
-            TempAgi += 1;
-            TempSkillsPoints -= 1;
+            TempSkills.agi += 1;
+            TempSkills.skillpoints -= 1;
             skillBar();
         }
     }
     public void ChangeMinusAgi()
     {
-        if (TempAgi > 0)
+        if (TempSkills.agi > 0)
         {
-            TempAgi -= 1;
-            TempSkillsPoints += 1;
+            TempSkills.agi -= 1;
+            TempSkills.skillpoints += 1;
             skillBar();
         }
     }
 
     public void ChangePlusSta()
     {
-        if (TempSta < 10 - skills.sta)
+        if (TempSkills.sta < 10 - skills.sta)
         {
-            TempSta += 1;
-            TempSkillsPoints -= 1;
+            TempSkills.sta += 1;
+            TempSkills.skillpoints -= 1;
             skillBar();
         }
     }
     public void ChangeMinusSta()
     {
-        if (TempSta > 0)
+        if (TempSkills.sta > 0)
         {
-            TempSta -= 1;
-            TempSkillsPoints += 1;
+            TempSkills.sta -= 1;
+            TempSkills.skillpoints += 1;
             skillBar();
         }
     }
 
     public void ChangePlusLck()
     {
-        if (TempLck < 10 - skills.lck)
+        if (TempSkills.lck < 10 - skills.lck)
         {
-            TempLck += 1;
-            TempSkillsPoints -= 1;
+            TempSkills.lck += 1;
+            TempSkills.skillpoints -= 1;
             skillBar();
         }
     }
     public void ChangeMinusLck()
     {
-        if (TempLck > 0)
+        if (TempSkills.lck > 0)
         {
-            TempLck -= 1;
-            TempSkillsPoints += 1;
+            TempSkills.lck -= 1;
+            TempSkills.skillpoints += 1;
             skillBar();
         }
     }
 
     public void ChangeSkillValue()
     {
-        skills.str += TempStr;
-        skills.agi += TempAgi;
-        skills.sta += TempSta;
-        skills.lck += TempLck;
+        skills.str += TempSkills.str;
+        skills.agi += TempSkills.agi;
+        skills.sta += TempSkills.sta;
+        skills.lck += TempSkills.lck;
 
-        TempStr = 0;
-        TempAgi = 0;
-        TempSta = 0;
-        TempLck = 0;
+        TempSkills.str = 0;
+        TempSkills.agi = 0;
+        TempSkills.sta = 0;
+        TempSkills.lck = 0;
 
-        skills.skillpoints = TempSkillsPoints;
+        skills.skillpoints = TempSkills.skillpoints;
 
         skills.Gold = saveData.Gold;
         saveData.save();
@@ -324,8 +323,8 @@ public class SkillMenuController : MonoBehaviour
     }
 
 
-    
-    
+
+
     // X butonuna basılırsa sayfa tekrardan yüklenebilir.
 
 
