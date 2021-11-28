@@ -23,7 +23,7 @@ public class Settings : MonoBehaviour
     public void SetSoundLevel(float SliderValue)
     {
         SoundsMixer.SetFloat("SoundVol", Mathf.Log10(SliderValue) * 20);
-        if(SliderValue == 0.0001f)
+        if(SliderValue <= 0.0001f)
         {
             SoundsImage.sprite = SoundsMuted;
         }

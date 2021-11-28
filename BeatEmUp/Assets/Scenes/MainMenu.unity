@@ -1512,8 +1512,8 @@ Tilemap:
       m_ColliderType: 1
   - first: {x: -11, y: -4, z: 0}
     second:
-      m_TileIndex: 1
-      m_TileSpriteIndex: 1
+      m_TileIndex: 7
+      m_TileSpriteIndex: 7
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_ObjectToInstantiate: {fileID: 0}
@@ -1521,8 +1521,8 @@ Tilemap:
       m_ColliderType: 1
   - first: {x: -10, y: -4, z: 0}
     second:
-      m_TileIndex: 1
-      m_TileSpriteIndex: 1
+      m_TileIndex: 10
+      m_TileSpriteIndex: 10
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_ObjectToInstantiate: {fileID: 0}
@@ -1530,8 +1530,8 @@ Tilemap:
       m_ColliderType: 1
   - first: {x: -9, y: -4, z: 0}
     second:
-      m_TileIndex: 1
-      m_TileSpriteIndex: 1
+      m_TileIndex: 11
+      m_TileSpriteIndex: 11
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_ObjectToInstantiate: {fileID: 0}
@@ -1539,8 +1539,8 @@ Tilemap:
       m_ColliderType: 1
   - first: {x: -8, y: -4, z: 0}
     second:
-      m_TileIndex: 1
-      m_TileSpriteIndex: 1
+      m_TileIndex: 6
+      m_TileSpriteIndex: 6
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_ObjectToInstantiate: {fileID: 0}
@@ -1719,8 +1719,8 @@ Tilemap:
       m_ColliderType: 1
   - first: {x: -10, y: -3, z: 0}
     second:
-      m_TileIndex: 0
-      m_TileSpriteIndex: 0
+      m_TileIndex: 8
+      m_TileSpriteIndex: 8
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_ObjectToInstantiate: {fileID: 0}
@@ -1728,8 +1728,8 @@ Tilemap:
       m_ColliderType: 1
   - first: {x: -9, y: -3, z: 0}
     second:
-      m_TileIndex: 0
-      m_TileSpriteIndex: 0
+      m_TileIndex: 9
+      m_TileSpriteIndex: 9
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_ObjectToInstantiate: {fileID: 0}
@@ -1737,8 +1737,8 @@ Tilemap:
       m_ColliderType: 1
   - first: {x: -8, y: -3, z: 0}
     second:
-      m_TileIndex: 0
-      m_TileSpriteIndex: 0
+      m_TileIndex: 9
+      m_TileSpriteIndex: 9
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_ObjectToInstantiate: {fileID: 0}
@@ -2700,9 +2700,9 @@ Tilemap:
       m_ColliderType: 1
   m_AnimatedTiles: {}
   m_TileAssetArray:
-  - m_RefCount: 22
+  - m_RefCount: 19
     m_Data: {fileID: 11400000, guid: fe7f3cee8edb7d44da151d950dbfc157, type: 2}
-  - m_RefCount: 48
+  - m_RefCount: 44
     m_Data: {fileID: 11400000, guid: 262b74ece26d6584b9be3ab10b0dea90, type: 2}
   - m_RefCount: 22
     m_Data: {fileID: 11400000, guid: d235358641007604bb7a36e78db1b4e8, type: 2}
@@ -2712,11 +2712,23 @@ Tilemap:
     m_Data: {fileID: 11400000, guid: 096e92a50c2055b48b9ee2d9b0a69da9, type: 2}
   - m_RefCount: 22
     m_Data: {fileID: 11400000, guid: 2370be07743346740a93daa49f2c3873, type: 2}
+  - m_RefCount: 1
+    m_Data: {fileID: 11400000, guid: bf765528ee1869343af864c854590936, type: 2}
+  - m_RefCount: 1
+    m_Data: {fileID: 11400000, guid: 0a9dafda10f4e92449362a01263ce2ee, type: 2}
+  - m_RefCount: 1
+    m_Data: {fileID: 11400000, guid: a005d8fc2bddb1a4fb9fb4d0eeeee123, type: 2}
+  - m_RefCount: 2
+    m_Data: {fileID: 11400000, guid: 8e02920ee89faff4d8dd2243541fb2eb, type: 2}
+  - m_RefCount: 1
+    m_Data: {fileID: 11400000, guid: 34053a1f888369d4987770cb76764c1a, type: 2}
+  - m_RefCount: 1
+    m_Data: {fileID: 11400000, guid: 34a5912799797c845ad851155e5de636, type: 2}
   m_TileSpriteArray:
-  - m_RefCount: 22
+  - m_RefCount: 19
     m_Data: {fileID: 7715688192099252419, guid: da1941dc879a8004ebae0eb9d1add7e1,
       type: 3}
-  - m_RefCount: 48
+  - m_RefCount: 44
     m_Data: {fileID: 5048818097244024339, guid: da1941dc879a8004ebae0eb9d1add7e1,
       type: 3}
   - m_RefCount: 22
@@ -2729,6 +2741,24 @@ Tilemap:
       type: 3}
   - m_RefCount: 22
     m_Data: {fileID: 1457964350427203999, guid: da1941dc879a8004ebae0eb9d1add7e1,
+      type: 3}
+  - m_RefCount: 1
+    m_Data: {fileID: -5735856137462731180, guid: da1941dc879a8004ebae0eb9d1add7e1,
+      type: 3}
+  - m_RefCount: 1
+    m_Data: {fileID: -6974378116397740228, guid: da1941dc879a8004ebae0eb9d1add7e1,
+      type: 3}
+  - m_RefCount: 1
+    m_Data: {fileID: 3669435661832411644, guid: da1941dc879a8004ebae0eb9d1add7e1,
+      type: 3}
+  - m_RefCount: 2
+    m_Data: {fileID: 4460935459185467869, guid: da1941dc879a8004ebae0eb9d1add7e1,
+      type: 3}
+  - m_RefCount: 1
+    m_Data: {fileID: 4909305047713206551, guid: da1941dc879a8004ebae0eb9d1add7e1,
+      type: 3}
+  - m_RefCount: 1
+    m_Data: {fileID: 8284879379719158389, guid: da1941dc879a8004ebae0eb9d1add7e1,
       type: 3}
   m_TileMatrixArray:
   - m_RefCount: 158
@@ -2808,7 +2838,7 @@ RectTransform:
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
+  m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 10, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -3246,8 +3276,8 @@ RectTransform:
   m_Father: {fileID: 370756881}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 1, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 20, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -3643,7 +3673,7 @@ RectTransform:
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
+  m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 10, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -4040,8 +4070,8 @@ RectTransform:
   m_Father: {fileID: 2133578106}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 1, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 20, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -5426,7 +5456,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &2109228130
 RectTransform:
   m_ObjectHideFlags: 0
@@ -5524,7 +5554,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   MusicMixer: {fileID: 24100000, guid: 6ee41219290dff34f9602317ac302696, type: 2}
-  SoundsMixer: {fileID: 0}
+  SoundsMixer: {fileID: 24100000, guid: 04fdfe396fdc9c141a58c08e2cb5fa74, type: 2}
   MusicButton: {fileID: 0}
   SoundButton: {fileID: 0}
   MusicImage: {fileID: 0}
