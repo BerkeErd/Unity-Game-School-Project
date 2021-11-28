@@ -8,12 +8,10 @@ using UnityEngine.Audio;
 public class Settings : MonoBehaviour
 {
     public AudioMixer MusicMixer, SoundsMixer;
-    public Button MusicButton, SoundButton, DoneButton;
+    public Button MusicButton, SoundButton;
     public Image MusicImage, SoundsImage;
     public Sprite MusicMuted, SoundsMuted, SoundunMuted, MusicunMuted;
-    public bool Sound;
     public Slider MusicSlider, SoundsSlider;
-    public float TempVolume;
 
     private void Start()
     {
