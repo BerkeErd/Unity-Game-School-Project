@@ -3,52 +3,57 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
+using UnityEngine.Audio;
 
 public class Settings : MonoBehaviour
 {
-    public Button SoundButton, MainMenuButton;
-    public GameObject MuteImage;
-    public GameObject UnMuteImage;
+    public AudioMixer MusicMixer, SoundsMixer;
+    public Button MusicButton, SoundButton, DoneButton;
+    public Image MusicImage, SoundsImage;
+    public Sprite MusicMuted, SoundsMuted, SoundunMuted, MusicunMuted;
     public bool Sound;
-    public Slider Volume;
+    public Slider MusicSlider, SoundsSlider;
     public float TempVolume;
 
-    // Start is called before the first frame update
-    void Start()
+    private void Start()
     {
-        TempVolume = 50;
-
-        Sound = true;
-        ChangeButtonImage();
-
-        SoundButton.onClick.AddListener(ChangeButtonImage);
-        Volume.onValueChanged.AddListener(delegate { SliderValue(); });    
+        MusicImage = GameObject.Find("MusicIcon").GetComponent<Image>();
+        SoundsImage = GameObject.Find("SoundsIcon").GetComponent<Image>();
+        
     }
 
-    public void SliderValue()
+    public void SetSoundLevel(float SliderValue)
     {
-        if(Volume.value != 0)
+        SoundsMixer.SetFloat("SoundVol", Mathf.Log10(SliderValue) * 20);
+        if(SliderValue == 0.0001f)
         {
-            TempVolume = Volume.value;
+            SoundsImage.sprite = SoundsMuted;
         }
-    }
-
-    public void ChangeButtonImage()
-    {
-        if(Sound == true)
-        {
-            MuteImage.gameObject.SetActive(false);
-            UnMuteImage.gameObject.SetActive(true);
-            Volume.value = TempVolume;
-            Sound = false;
-        }
-
         else
         {
-            UnMuteImage.gameObject.SetActive(false);
-            MuteImage.gameObject.SetActive(true);
-            Volume.value = 0;
-            Sound = true;
+            SoundsImage.sprite = SoundunMuted;
         }
     }
+
+    public void SetMusicLevel(float SliderValue)
+    {
+        MusicMixer.SetFloat("MusicVol", Mathf.Log10(SliderValue)*20);
+        if (SliderValue == 0.0001f)
+        {
+            MusicImage.sprite = MusicMuted;
+           
+        }
+        else
+        {
+            MusicImage.sprite = MusicunMuted;
+           
+        }
+    }
+
+    public void Done()
+    {
+        this.gameObject.SetActive(false);
+    }
+
+    
 }

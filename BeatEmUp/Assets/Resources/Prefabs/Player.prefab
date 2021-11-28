@@ -135,8 +135,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -318120807
-  m_SortingLayer: 4
+  m_SortingLayerID: 312889063
+  m_SortingLayer: 3
   m_SortingOrder: 0
   m_Sprite: {fileID: 9107336956773633914, guid: c23f10f2687c64244965e2c8fbe98061,
     type: 3}
@@ -159,7 +159,8 @@ AudioSource:
   m_GameObject: {fileID: 1783236127326492775}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
+  OutputAudioMixerGroup: {fileID: 24300002, guid: 04fdfe396fdc9c141a58c08e2cb5fa74,
+    type: 2}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 1
   m_Volume: 1
@@ -287,13 +288,19 @@ MonoBehaviour:
   kickRange: 0.5
   soundmanager: {fileID: 0}
   defaultComboTimer: 0
+  AudioSource: {fileID: 0}
+  currentAttackSound: {fileID: 0}
   isPunching: 0
   isKicking: 0
   isTakeHit: 0
-  isUsingSkill: 0
+  isUsingKickSkill: 0
+  isUsingPunchSkill: 0
+  isGoingUp: 0
+  isGoingDown: 0
   punchDamage: 0
   kickDamage: 0
   isDead: 0
+  SkillSpeed: 50
   skills: {fileID: 0}
   PlayerMovement: {fileID: 0}
   enemyLayers:
@@ -305,6 +312,7 @@ MonoBehaviour:
   saveData: {fileID: 0}
   RestartMenu: {fileID: 0}
   Joystick: {fileID: 0}
+  FirstPos: {x: 0, y: 0}
 --- !u!114 &1324386084
 MonoBehaviour:
   m_ObjectHideFlags: 0

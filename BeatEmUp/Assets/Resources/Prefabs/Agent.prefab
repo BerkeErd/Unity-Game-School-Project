@@ -209,6 +209,7 @@ MonoBehaviour:
   AttackSpeedTime: 2
   levelManager: {fileID: 0}
   levelEnemyChecker: {fileID: 0}
+  TargetAudioSource: {fileID: 0}
   EXP: 5
   EnemyCount: 0
 --- !u!61 &2692868063337269822
@@ -246,7 +247,8 @@ AudioSource:
   m_GameObject: {fileID: 2839342691115526221}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
+  OutputAudioMixerGroup: {fileID: 24300002, guid: 04fdfe396fdc9c141a58c08e2cb5fa74,
+    type: 2}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 1
   m_Volume: 1
