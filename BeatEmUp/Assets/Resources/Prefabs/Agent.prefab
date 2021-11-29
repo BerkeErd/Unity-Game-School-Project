@@ -183,6 +183,7 @@ MonoBehaviour:
   Loots:
   - {fileID: 1409954624113372475, guid: bcfad064a9742384dbdeab864bd78304, type: 3}
   - {fileID: -2740753711175139924, guid: a564d4702b77a9847881d9a09e107520, type: 3}
+  - {fileID: 4395659723385712499, guid: aa01dfa12a73c474f9fff020d0725796, type: 3}
   BaseDamage: 10
   maxHealth: 100
   currentHealth: 0

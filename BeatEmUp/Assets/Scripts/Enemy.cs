@@ -150,12 +150,13 @@ public class Enemy : MonoBehaviour
     public void LootDrop()
     {
         float playerLuck = GameObject.Find("Fighter").GetComponent<Skills>().luckRatio;
-        float dice = Random.Range(0, 100);
+      
 
 
 
         foreach (var loot in Loots)
         {
+            float dice = Random.Range(0, 100);
 
             if (dice >= 100 - (loot.DropRate + loot.DropRate * playerLuck / 10))
             {
@@ -171,7 +172,13 @@ public class Enemy : MonoBehaviour
                     Instantiate(Resources.Load("Prefabs/Loots/Gold Loot"), new Vector3(transform.position.x + 1, transform.position.y, transform.position.z), Quaternion.identity);
                 }
 
-               target.GetComponent<AudioSource>().PlayOneShot(loot.DropSound);
+                else if (loot.ID == 3)
+                {
+                    Debug.Log("Loot düştü : " + loot.name);
+                    Instantiate(Resources.Load("Prefabs/Loots/GoldPack Loot"), new Vector3(transform.position.x + 1, transform.position.y, transform.position.z), Quaternion.identity);
+                }
+
+                target.GetComponent<AudioSource>().PlayOneShot(loot.DropSound);
             }
         }
 
