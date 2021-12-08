@@ -66,8 +66,8 @@ public class Store : MonoBehaviour
     }
     public void ShowStats()
     {
-        PunchStats.text = "Punch Damage : " + (skills.punchDamage + skills.PunchUpgrade * 5);
-        KickStats.text = "Kick Damage : " + (skills.kickDamage + skills.KickUpgrade * 5);
+        PunchStats.text = "Punch Damage : " + (skills.punchDamage + skills.PunchUpgrade * 5); // Eğer burda ki 5 kat değişirse playercombat'dan da değiştirmemiz lazım
+        KickStats.text = "Kick Damage : " + (skills.kickDamage + skills.KickUpgrade * 5); // Eğer burda ki 5 kat değişirse playercombat'dan da değiştirmemiz lazım
     }
     public void skillBar()
     {

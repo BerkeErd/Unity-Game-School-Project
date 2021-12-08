@@ -64,6 +64,8 @@ public class PlayerCombat : MonoBehaviour
     public Joystick Joystick;
     public Vector2 FirstPos;
 
+    public Button PunchSkillButton, KickSkillButton;
+
     // Start is called before the first frame update
     private void Awake()
     {
@@ -79,14 +81,15 @@ public class PlayerCombat : MonoBehaviour
         levelManager = GameObject.Find("LevelManager").GetComponent<LevelManager>();
         saveData = GameObject.Find("Main Camera").GetComponent<SaveData>();
         // saveData.load();
-
+        KickSkillButton = GameObject.Find("KickSkillButton").GetComponent<Button>();
+        PunchSkillButton = GameObject.Find("PunchSkillButton").GetComponent<Button>();
     }
     void Start()
     {
         AudioSource = GetComponent<AudioSource>();
 
-        punchDamage = skills.punchDamage;
-        kickDamage = skills.kickDamage;
+        punchDamage = skills.punchDamage + saveData.PunchUpgrade * 5;
+        kickDamage = skills.kickDamage + saveData.KickUpgrade * 5;
 
         soundmanager = GameObject.Find("SoundManager").GetComponent<SoundManager>();
 
@@ -106,6 +109,15 @@ public class PlayerCombat : MonoBehaviour
 
         RestartMenu.SetActive(false);
         UpdatehealthBar();
+
+        if(saveData.KickSkill <= 0)
+        {
+            KickSkillButton.gameObject.SetActive(false);
+        }
+        if (saveData.PunchSkill <= 0)
+        {
+            PunchSkillButton.gameObject.SetActive(false);
+        }
     }
 
     // Update is called once per frame
@@ -419,10 +431,11 @@ public class PlayerCombat : MonoBehaviour
 
     IEnumerator KickSkillKicking()
     {
+        int KickSkillDamage = saveData.KickSkill * (kickDamage * 2);
         yield return new WaitUntil(() => isKicking==true);
         while (isUsingKickSkill && isKicking)
         {
-            HitEnemy(kickDamage * 2, KickPoint, kickRange * 1.2f);
+            HitEnemy(KickSkillDamage, KickPoint, kickRange * 1.2f);
             yield return new WaitForSeconds(0.1f);
         }
 
@@ -452,15 +465,16 @@ public class PlayerCombat : MonoBehaviour
 
     public void SpecialPunch(int Number)
     {
+        int PunchSkillDamage = saveData.PunchSkill * (punchDamage * 3);
         if (Number == 3)
         {
             currentAttackSound = soundmanager.Punch1;
-            HitEnemy(punchDamage * 5, PunchPoint, punchRange);
+            HitEnemy(PunchSkillDamage, PunchPoint, punchRange);
         }
         else
         {
             currentAttackSound = soundmanager.Punch2;
-            HitEnemy(punchDamage/2, PunchPoint, punchRange);
+            HitEnemy(PunchSkillDamage/6, PunchPoint, punchRange);
         }
 
     }
