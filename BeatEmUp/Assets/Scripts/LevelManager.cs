@@ -7,7 +7,6 @@ using UnityEngine.UI;
 public class LevelManager : MonoBehaviour
 {
     public int Level;
-    public string LevelName;
     public Text LevelNameText;
     public SaveData savedata;
 
@@ -15,14 +14,11 @@ public class LevelManager : MonoBehaviour
     private void Start()
     {
         savedata = GameObject.Find("Main Camera").GetComponent<SaveData>();
-        //Level = GameObject.Find("Fighter").GetComponent<Skills>().currentStageLevel; // Saçma ama öyle 
-
-        LevelName = SceneManager.GetActiveScene().name;
         if(GameObject.Find("LevelName"))
         {
 
             LevelNameText = GameObject.Find("LevelName").GetComponent<Text>();
-            LevelNameText.text = "Level " + Level;
+            LevelNameText.text = "Stage " + Level;
         }
     }
 

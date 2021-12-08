@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Spawner : MonoBehaviour
 {
@@ -12,18 +13,23 @@ public class Spawner : MonoBehaviour
     public CameraFollow camerafollow;
     public MusicSource MusicSource;
 
+    public Text CountdownText;
+
     public int FirstLevelNumber;
     public int EnemiesWillSpawn;
     public bool isSpawning = false;
 
     private void Awake()
     {
+        CountdownText = GameObject.Find("Countdown Text").GetComponent<Text>();
         MusicSource = GameObject.Find("MusicSource").GetComponent<MusicSource>();
         levelmanager = GameObject.Find("LevelManager").GetComponent<LevelManager>();
         camerafollow = GameObject.Find("Main Camera").GetComponent<CameraFollow>();
         Player = GameObject.Find("Fighter").GetComponent<Transform>();
         PlayerMovement = GameObject.Find("Fighter").GetComponent<PlayerMovement>();
 
+
+        CountdownText.gameObject.SetActive(false);
         
     }
 
@@ -106,17 +112,33 @@ public class Spawner : MonoBehaviour
             Debug.Log("Enemy Spawned");
         }
 
-        FreezeAllEnemies();
-        yield return new WaitForSeconds(5);
-        UnFreezeAllEnemies();
-
-
-        PlayerMovement.isFrozen = false;
-        camerafollow.isFrozen = false;
+        yield return StartCoroutine(CountDown());
 
         yield return new WaitForSeconds(1);
 
         Destroy(gameObject);
+    }
+
+
+    public IEnumerator CountDown()
+    {
+        FreezeAllEnemies();
+        CountdownText.gameObject.SetActive(true);
+        CountdownText.text = "Get Ready";
+        yield return new WaitForSeconds(1);
+        CountdownText.text = "3...";
+        yield return new WaitForSeconds(1);
+        CountdownText.text = "2...";
+        yield return new WaitForSeconds(1);
+        CountdownText.text = "1...";
+        yield return new WaitForSeconds(1);
+        CountdownText.text = "FIGHT";
+        yield return new WaitForSeconds(0.5f);
+        UnFreezeAllEnemies();
+        CountdownText.gameObject.SetActive(false);
+        PlayerMovement.isFrozen = false;
+        camerafollow.isFrozen = false;   
+        
     }
 
     public IEnumerator SpawnBoss()
@@ -133,14 +155,8 @@ public class Spawner : MonoBehaviour
         Instantiate(Boss, EnemyPos, Quaternion.identity);
 
         Debug.Log("Enemy Boss Spawned");
-
-        FreezeAllEnemies();
-        yield return new WaitForSeconds(5);
-        UnFreezeAllEnemies();
-
-        PlayerMovement.isFrozen = false;
-        camerafollow.isFrozen = false;
-
+;
+        yield return StartCoroutine(CountDown());
         yield return new WaitForSeconds(1);
 
         Destroy(gameObject);

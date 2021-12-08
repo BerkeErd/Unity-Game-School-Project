@@ -116,16 +116,16 @@ AnimationClip:
     floatParameter: 0
     intParameter: 3
     messageOptions: 0
-  - time: 0.68333334
+  - time: 0.7
     functionName: AlertObservers
-    data: SkillEnded
+    data: PunchEnded
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0
     messageOptions: 0
   - time: 0.7
     functionName: AlertObservers
-    data: PunchEnded
+    data: SkillEnded
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0
