@@ -64,11 +64,15 @@ public class PlayerCombat : MonoBehaviour
     public Joystick Joystick;
     public Vector2 FirstPos;
 
+    
+
     public Button PunchSkillButton, KickSkillButton;
 
     // Start is called before the first frame update
     private void Awake()
     {
+        GameObject.Find("KickSkillCooldownText").GetComponent<Text>().enabled = false;
+        GameObject.Find("PunchSkillCooldownText").GetComponent<Text>().enabled = false;
         Joystick = GetComponent<Joystick>();
         animator = GetComponent<Animator>();
         PlayerMovement = GetComponent<PlayerMovement>();
@@ -447,6 +451,8 @@ public class PlayerCombat : MonoBehaviour
             }
         }
         isKicking = false;
+
+        StartCoroutine(Cooldown(KickSkillButton));
         
         yield return null;
     }
@@ -477,6 +483,28 @@ public class PlayerCombat : MonoBehaviour
             HitEnemy(PunchSkillDamage/6, PunchPoint, punchRange);
         }
 
+        StartCoroutine(Cooldown(PunchSkillButton));
+    }
+
+    public IEnumerator Cooldown(Button button)
+    {
+        int Cooldown = 20;
+        button.GetComponentInChildren<Text>().enabled = true;
+        button.GetComponent<EventTrigger>().enabled = false;
+        button.interactable = false;
+
+        while (Cooldown > 0)
+        {
+            button.GetComponentInChildren<Text>().text = Cooldown.ToString();
+            yield return new WaitForSeconds(1);
+            Cooldown -= 1;
+        }
+
+        yield return new WaitWhile(() => Cooldown > 0);
+
+        button.GetComponentInChildren<Text>().enabled = false;
+        button.GetComponent<EventTrigger>().enabled = true;
+        button.interactable = true;
     }
 
     public void HitEnemy(int damage, Transform DamagePoint, float Range)

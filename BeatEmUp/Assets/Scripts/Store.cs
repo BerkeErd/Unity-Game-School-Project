@@ -8,13 +8,17 @@ public class Store : MonoBehaviour
 {
     public List<Image> PunchImage, KickImage, PunchSkillImage, KickSkillImage;
     public Button KickUpgradeButton, PunchUpgradeButton, PunchSkillButton, KickSkillButton, MainMenuButton, PlayButton;
-    public Text KickStats, PunchStats, PunchUpgradePriceText, KickUpgradePriceText, PunchSkillPriceText, KickSkillPriceText;
+    public Text KickStats, PunchStats, PunchUpgradePriceText, KickUpgradePriceText, PunchSkillPriceText, KickSkillPriceText, KickSkillStats,PunchSkillStats;
     public int PunchUpgradePrice, KickUpgradePrice, PunchSkillPrice, KickSkillPrice;
     public SaveData saveData;
     public Skills skills;
+    public Text GoldText;
 
     public void Awake()
     {
+        GoldText = GameObject.Find("GoldText").GetComponent<Text>();
+        KickSkillStats = GameObject.Find("KickSkillDamageText").GetComponent<Text>();
+        PunchSkillStats = GameObject.Find("PunchSkillDamageText").GetComponent<Text>();
         MainMenuButton = GameObject.Find("MainMenuButton").GetComponent<Button>();
         PlayButton = GameObject.Find("PlayButton").GetComponent<Button>();
         PunchUpgradeButton = GameObject.Find("PunchUpgradeButton").GetComponent<Button>();
@@ -63,11 +67,19 @@ public class Store : MonoBehaviour
         KickUpgradePrice = 100 + 100 * skills.KickUpgrade;
         PunchSkillPrice = 100 + 100 * skills.PunchSkill;
         KickSkillPrice = 100 + 100 * skills.KickSkill;
+
+        PunchUpgradePriceText.text = PunchUpgradePrice.ToString();
+        KickUpgradePriceText.text = KickUpgradePrice.ToString();
+        PunchSkillPriceText.text = PunchSkillPrice.ToString();
+        KickSkillPriceText.text = KickSkillPrice.ToString();
     }
     public void ShowStats()
     {
         PunchStats.text = "Punch Damage : " + (skills.punchDamage + skills.PunchUpgrade * 5); // Eğer burda ki 5 kat değişirse playercombat'dan da değiştirmemiz lazım
         KickStats.text = "Kick Damage : " + (skills.kickDamage + skills.KickUpgrade * 5); // Eğer burda ki 5 kat değişirse playercombat'dan da değiştirmemiz lazım
+        KickSkillStats.text = "Kick Skill Damage : " + (saveData.KickSkill * (skills.kickDamage  + skills.KickUpgrade * 5) * 2);
+        PunchSkillStats.text = "Punch Skill Damage : " + (saveData.PunchSkill * (skills.punchDamage  + skills.PunchUpgrade * 5) * 3);
+        GoldText.text = skills.Gold.ToString();
     }
     public void skillBar()
     {
@@ -162,6 +174,7 @@ public class Store : MonoBehaviour
             }
 
         }
+        UpdatePrice();
         DisableButton();
         skillBar();
         ShowStats();
