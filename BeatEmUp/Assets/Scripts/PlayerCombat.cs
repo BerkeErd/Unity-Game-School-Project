@@ -64,6 +64,7 @@ public class PlayerCombat : MonoBehaviour
     public Joystick Joystick;
     public Vector2 FirstPos;
 
+    public bool lastDamageIsPunch;
     
 
     public Button PunchSkillButton, KickSkillButton;
@@ -184,6 +185,7 @@ public class PlayerCombat : MonoBehaviour
                 currentComboState = ComboState.KICK_2;
                 activateTimerToReset = true;
                 currentComboTimer = defaultComboTimer;
+               
             }
 
             if (currentComboState == ComboState.NONE)
@@ -204,6 +206,7 @@ public class PlayerCombat : MonoBehaviour
                 isKicking = true;
                 animator.SetTrigger("KickLeft");
                 currentAttackSound = soundmanager.Kick;
+                lastDamageIsPunch = false;
             }
 
             if (currentComboState == ComboState.KICK_2)
@@ -211,6 +214,7 @@ public class PlayerCombat : MonoBehaviour
                 isKicking = true;
                 animator.SetTrigger("KickRight");
                 currentAttackSound = soundmanager.Kick2;
+                lastDamageIsPunch = false;
             }
 
             HitEnemy(kickDamage, KickPoint, kickRange);
@@ -235,6 +239,7 @@ public class PlayerCombat : MonoBehaviour
                 isPunching = true;
                 animator.SetTrigger("PunchLeft");
                 currentAttackSound = soundmanager.Punch1;
+                lastDamageIsPunch = true;
             }
 
             if (currentComboState == ComboState.PUNCH_2)
@@ -242,6 +247,7 @@ public class PlayerCombat : MonoBehaviour
                 isPunching = true;
                 animator.SetTrigger("PunchRight");
                 currentAttackSound = soundmanager.Punch2;
+                lastDamageIsPunch = true;
             }
 
             HitEnemy(punchDamage, PunchPoint, punchRange);
@@ -422,6 +428,7 @@ public class PlayerCombat : MonoBehaviour
             isUsingKickSkill = true;
             animator.SetTrigger("KickSkill");
             currentAttackSound = soundmanager.Kick;
+            lastDamageIsPunch = false;
             FirstPos = transform.position;
 
             StartCoroutine(KickSkillKicking()); 
@@ -475,11 +482,13 @@ public class PlayerCombat : MonoBehaviour
         if (Number == 3)
         {
             currentAttackSound = soundmanager.Punch1;
+            lastDamageIsPunch = true;
             HitEnemy(PunchSkillDamage, PunchPoint, punchRange);
         }
         else
         {
             currentAttackSound = soundmanager.Punch2;
+            lastDamageIsPunch = true;
             HitEnemy(PunchSkillDamage/6, PunchPoint, punchRange);
         }
 

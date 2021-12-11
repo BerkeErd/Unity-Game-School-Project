@@ -100,8 +100,13 @@ public class Enemy : MonoBehaviour
         currentHealth -= damage;
         tookDamage = true;
         isAttacking = false;
+        float pushPower = (float)damage / 200 * 3;
 
-        float pushPower = (float)damage / 200 *3;
+        if(target.GetComponent<PlayerCombat>().lastDamageIsPunch)
+        {
+            pushPower /= 2;
+        }
+        
 
         hits(damage);
 
