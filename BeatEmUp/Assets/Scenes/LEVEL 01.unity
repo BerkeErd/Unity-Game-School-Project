@@ -8892,6 +8892,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 947510548, guid: fab5867fd4fbc4e4e85e28b20f0ba238, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: fad19545b31c2a444adf45e2a880b5d0,
+        type: 3}
     - target: {fileID: 3261987585529601169, guid: fab5867fd4fbc4e4e85e28b20f0ba238,
         type: 3}
       propertyPath: m_AnchorMax.y
