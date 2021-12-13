@@ -126,14 +126,14 @@ public class Spawner : MonoBehaviour
         CountdownText.gameObject.SetActive(true);
         CountdownText.text = "Get Ready";
         yield return new WaitForSeconds(1);
-        CountdownText.text = "3...";
+        CountdownText.text = "3";
         yield return new WaitForSeconds(1);
-        CountdownText.text = "2...";
+        CountdownText.text = "2";
         yield return new WaitForSeconds(1);
-        CountdownText.text = "1...";
+        CountdownText.text = "1";
         yield return new WaitForSeconds(1);
         CountdownText.text = "FIGHT";
-        yield return new WaitForSeconds(0.5f);
+        yield return new WaitForSeconds(0.3f);
         UnFreezeAllEnemies();
         CountdownText.gameObject.SetActive(false);
         PlayerMovement.isFrozen = false;
