@@ -1,1 +1,1 @@
-2 kişi tez ödevimiz için geliştirdiğimiz Beat'em Up türündeki 2 boyutlu oyun.
+2 kişi geliştirdiğimiz Beat'em Up türündeki 2 boyutlu oyun.
